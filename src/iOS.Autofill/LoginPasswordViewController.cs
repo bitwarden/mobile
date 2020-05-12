@@ -1,14 +1,14 @@
-using System;
+﻿using System;
 using UIKit;
 
 namespace Bit.iOS.Autofill
 {
-    public partial class LockPasswordViewController : Core.Controllers.LockPasswordViewController
+    public partial class LoginPasswordViewController : Core.Controllers.LoginPasswordViewController
     {
-        public LockPasswordViewController(IntPtr handle)
+        public LoginPasswordViewController(IntPtr handle) 
             : base(handle)
         { }
-
+        
         public CredentialProviderViewController CPViewController { get; set; }
         public override UINavigationItem BaseNavItem => NavItem;
         public override UIBarButtonItem BaseCancelButton => CancelButton;
@@ -18,9 +18,9 @@ namespace Bit.iOS.Autofill
 
         partial void SubmitButton_Activated(UIBarButtonItem sender)
         {
-            var task = CheckPasswordAsync();
+            var task = LogInAsync();
         }
-
+        
         partial void CancelButton_Activated(UIBarButtonItem sender)
         {
             Cancel();
