@@ -20,8 +20,8 @@ namespace Bit.Core.Abstractions
         Task<byte[]> HashAsync(byte[] value, CryptoHashAlgorithm algorithm);
         Task<byte[]> HmacAsync(byte[] value, byte[] key, CryptoHashAlgorithm algorithm);
         Task<bool> CompareAsync(byte[] a, byte[] b);
-        Task<byte[]> AesEncryptAsync(byte[] data, byte[] iv, byte[] key);
-        Task<byte[]> AesDecryptAsync(byte[] data, byte[] iv, byte[] key);
+        Task<byte[]> AesEncryptAsync(byte[] data, byte[] iv, byte[] key, AesMode mode);
+        Task<byte[]> AesDecryptAsync(byte[] data, byte[] iv, byte[] key, AesMode mode);
         Task<byte[]> RsaEncryptAsync(byte[] data, byte[] publicKey, CryptoHashAlgorithm algorithm);
         Task<byte[]> RsaDecryptAsync(byte[] data, byte[] privateKey, CryptoHashAlgorithm algorithm);
         Task<byte[]> RsaExtractPublicKeyAsync(byte[] privateKey);

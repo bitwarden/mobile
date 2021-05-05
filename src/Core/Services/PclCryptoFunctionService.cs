@@ -143,16 +143,24 @@ namespace Bit.Core.Services
             return true;
         }
 
-        public Task<byte[]> AesEncryptAsync(byte[] data, byte[] iv, byte[] key)
+        public Task<byte[]> AesEncryptAsync(byte[] data, byte[] iv, byte[] key, AesMode mode)
         {
-            var provider = SymmetricKeyAlgorithmProvider.OpenAlgorithm(SymmetricAlgorithm.AesCbcPkcs7);
+            if (mode == AesMode.GCM)
+            {
+                return Task.FromResult(_cryptoPrimitiveService.AesGcmEncrypt(data, iv, key));
+            }
+            var provider = SymmetricKeyAlgorithmProvider.OpenAlgorithm(AesModeToSymmetricAlgorithm(mode));
             var cryptoKey = provider.CreateSymmetricKey(key);
             return Task.FromResult(CryptographicEngine.Encrypt(cryptoKey, data, iv));
         }
 
-        public Task<byte[]> AesDecryptAsync(byte[] data, byte[] iv, byte[] key)
+        public Task<byte[]> AesDecryptAsync(byte[] data, byte[] iv, byte[] key, AesMode mode)
         {
-            var provider = SymmetricKeyAlgorithmProvider.OpenAlgorithm(SymmetricAlgorithm.AesCbcPkcs7);
+            if (mode == AesMode.GCM)
+            {
+                return Task.FromResult(_cryptoPrimitiveService.AesGcmDecrypt(data, iv, key));
+            }
+            var provider = SymmetricKeyAlgorithmProvider.OpenAlgorithm(AesModeToSymmetricAlgorithm(mode));
             var cryptoKey = provider.CreateSymmetricKey(key);
             return Task.FromResult(CryptographicEngine.Decrypt(cryptoKey, data, iv));
         }
@@ -284,6 +292,19 @@ namespace Bit.Core.Services
                     return CryptoHashAlgorithm.Sha512;
                 default:
                     throw new ArgumentException($"Invalid hkdf algorithm type, {hkdfAlgorithm}");
+            }
+        }
+
+        private SymmetricAlgorithm AesModeToSymmetricAlgorithm(AesMode aesMode)
+        {
+            switch (aesMode)
+            {
+                case AesMode.CBC:
+                    return SymmetricAlgorithm.AesCbcPkcs7;
+                case AesMode.GCM:
+                    return SymmetricAlgorithm.AesGcm;
+                default:
+                    throw new ArgumentException($"Invalid aes mode type, {aesMode}");
             }
         }
     }

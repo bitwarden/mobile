@@ -1,5 +1,7 @@
 ﻿using Bit.Core.Abstractions;
 using Bit.Core.Enums;
+using Javax.Crypto;
+using Javax.Crypto.Spec;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Generators;
@@ -32,6 +34,26 @@ namespace Bit.Droid.Services
             var generator = new Pkcs5S2ParametersGenerator(digest);
             generator.Init(password, salt, iterations);
             return ((KeyParameter)generator.GenerateDerivedMacParameters(keySize)).GetKey();
+        }
+
+        public byte[] AesGcmEncrypt(byte[] data, byte[] iv, byte[] key)
+        {
+            var secKey = new SecretKeySpec(key, "AES");
+            var cipher = Cipher.GetInstance("AES/GCM/NoPadding");
+            var gcmSpec = new GCMParameterSpec(128, iv);
+            cipher.Init(CipherMode.EncryptMode, secKey, gcmSpec);
+            var result = cipher.DoFinal(data);
+            return result;
+        }
+
+        public byte[] AesGcmDecrypt(byte[] data, byte[] iv, byte[] key)
+        {
+            var secKey = new SecretKeySpec(key, "AES");
+            var cipher = Cipher.GetInstance("AES/GCM/NoPadding");
+            var gcmSpec = new GCMParameterSpec(128, iv);
+            cipher.Init(CipherMode.DecryptMode, secKey, gcmSpec);
+            var result = cipher.DoFinal(data);
+            return result;
         }
     }
 }

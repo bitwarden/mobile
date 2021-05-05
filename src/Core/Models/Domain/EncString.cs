@@ -73,6 +73,7 @@ namespace Bit.Core.Models.Domain
                     Mac = encPieces[2];
                     break;
                 case EncryptionType.AesCbc256_B64:
+                case EncryptionType.AesGcm256_B64:
                     if (encPieces.Length != 2)
                     {
                         return;

@@ -39,6 +39,17 @@ namespace Bit.iOS.Core.Services
             return keyBytes;
         }
 
+        public byte[] AesGcmEncrypt(byte[] data, byte[] iv, byte[] key)
+        {
+            throw new NotImplementedException();
+
+        }
+
+        public byte[] AesGcmDecrypt(byte[] data, byte[] iv, byte[] key)
+        {
+            throw new NotImplementedException();
+        }
+
         // ref: http://opensource.apple.com/source/CommonCrypto/CommonCrypto-55010/CommonCrypto/CommonKeyDerivation.h
         [DllImport(ObjCRuntime.Constants.libSystemLibrary, EntryPoint = "CCKeyDerivationPBKDF")]
         private extern static int CCKeyCerivationPBKDF(uint algorithm, IntPtr password, nuint passwordLen,

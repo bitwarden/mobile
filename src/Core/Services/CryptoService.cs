@@ -479,7 +479,7 @@ namespace Bit.Core.Services
             var iv = Convert.ToBase64String(encObj.Iv);
             var data = Convert.ToBase64String(encObj.Data);
             var mac = encObj.Mac != null ? Convert.ToBase64String(encObj.Mac) : null;
-            return new EncString(encObj.Key.EncType, data, iv, mac);
+            return new EncString(encObj.Type, data, iv, mac);
         }
 
         public async Task<EncByteArray> EncryptToBytesAsync(byte[] plainValue, SymmetricCryptoKey key = null)
@@ -491,7 +491,7 @@ namespace Bit.Core.Services
                 macLen = encValue.Mac.Length;
             }
             var encBytes = new byte[1 + encValue.Iv.Length + macLen + encValue.Data.Length];
-            Buffer.BlockCopy(new byte[] { (byte)encValue.Key.EncType }, 0, encBytes, 0, 1);
+            Buffer.BlockCopy(new byte[] { (byte)encValue.Type }, 0, encBytes, 0, 1);
             Buffer.BlockCopy(encValue.Iv, 0, encBytes, 1, encValue.Iv.Length);
             if (encValue.Mac != null)
             {
@@ -561,6 +561,14 @@ namespace Bit.Core.Services
                     ivBytes = new ArraySegment<byte>(encBytes, 1, 16).ToArray();
                     ctBytes = new ArraySegment<byte>(encBytes, 17, encBytes.Length - 17).ToArray();
                     break;
+                case EncryptionType.AesGcm256_B64:
+                    if (encBytes.Length < 13) // 1 + 12 + ctLength
+                    {
+                        return null;
+                    }
+                    ivBytes = new ArraySegment<byte>(encBytes, 1, 12).ToArray();
+                    ctBytes = new ArraySegment<byte>(encBytes, 13, encBytes.Length - 13).ToArray();
+                    break;
                 default:
                     return null;
             }
@@ -589,16 +597,27 @@ namespace Bit.Core.Services
         {
             var obj = new EncryptedObject
             {
-                Key = await GetKeyForEncryptionAsync(key),
-                Iv = await _cryptoFunctionService.RandomBytesAsync(16)
+                Key = await GetKeyForEncryptionAsync(key)
             };
-            obj.Data = await _cryptoFunctionService.AesEncryptAsync(data, obj.Iv, obj.Key.EncKey);
-            if (obj.Key.MacKey != null)
+            if (true)
             {
-                var macData = new byte[obj.Iv.Length + obj.Data.Length];
-                Buffer.BlockCopy(obj.Iv, 0, macData, 0, obj.Iv.Length);
-                Buffer.BlockCopy(obj.Data, 0, macData, obj.Iv.Length, obj.Data.Length);
-                obj.Mac = await _cryptoFunctionService.HmacAsync(macData, obj.Key.MacKey, CryptoHashAlgorithm.Sha256);
+                obj.Type = EncryptionType.AesCbc256_HmacSha256_B64;
+                obj.Iv = await _cryptoFunctionService.RandomBytesAsync(16);
+                obj.Data = await _cryptoFunctionService.AesEncryptAsync(data, obj.Iv, obj.Key.EncKey, AesMode.CBC);
+                if (obj.Key.MacKey != null)
+                {
+                    var macData = new byte[obj.Iv.Length + obj.Data.Length];
+                    Buffer.BlockCopy(obj.Iv, 0, macData, 0, obj.Iv.Length);
+                    Buffer.BlockCopy(obj.Data, 0, macData, obj.Iv.Length, obj.Data.Length);
+                    obj.Mac = await _cryptoFunctionService.HmacAsync(macData, obj.Key.MacKey, CryptoHashAlgorithm.Sha256);
+                }
+            }
+            else
+            {
+                // TODO: make this case live when we switch to GCM encryption
+                obj.Type = EncryptionType.AesGcm256_B64;
+                obj.Iv = await _cryptoFunctionService.RandomBytesAsync(12);
+                obj.Data = await _cryptoFunctionService.AesEncryptAsync(data, obj.Iv, obj.Key.EncKey, AesMode.GCM);
             }
             return obj;
         }
@@ -608,12 +627,15 @@ namespace Bit.Core.Services
         {
             var keyForEnc = await GetKeyForEncryptionAsync(key);
             var theKey = ResolveLegacyKey(encType, keyForEnc);
-            if (theKey.MacKey != null && mac == null)
+
+            var macType = encType == EncryptionType.AesCbc128_HmacSha256_B64 ||
+                encType == EncryptionType.AesCbc256_HmacSha256_B64;
+            if (macType && theKey.MacKey != null && mac == null)
             {
                 // Mac required.
                 return null;
             }
-            if (theKey.EncType != encType)
+            if (!theKey.EncTypes.Contains(encType))
             {
                 // encType unavailable.
                 return null;
@@ -652,7 +674,8 @@ namespace Bit.Core.Services
                 }
             }
 
-            var decBytes = await _cryptoFunctionService.AesDecryptAsync(dataBytes, ivBytes, encKey);
+            var decBytes = await _cryptoFunctionService.AesDecryptAsync(dataBytes, ivBytes, encKey,
+                encType == EncryptionType.AesGcm256_B64 ? AesMode.GCM : AesMode.CBC);
             return Encoding.UTF8.GetString(decBytes);
         }
 
@@ -662,12 +685,15 @@ namespace Bit.Core.Services
 
             var keyForEnc = await GetKeyForEncryptionAsync(key);
             var theKey = ResolveLegacyKey(encType, keyForEnc);
-            if (theKey.MacKey != null && mac == null)
+
+            var macType = encType == EncryptionType.AesCbc128_HmacSha256_B64 ||
+                encType == EncryptionType.AesCbc256_HmacSha256_B64;
+            if (macType && theKey.MacKey != null && mac == null)
             {
                 // Mac required.
                 return null;
             }
-            if (theKey.EncType != encType)
+            if (!theKey.EncTypes.Contains(encType))
             {
                 // encType unavailable.
                 return null;
@@ -694,7 +720,8 @@ namespace Bit.Core.Services
                 }
             }
 
-            return await _cryptoFunctionService.AesDecryptAsync(data, iv, theKey.EncKey);
+            return await _cryptoFunctionService.AesDecryptAsync(data, iv, theKey.EncKey,
+                encType == EncryptionType.AesGcm256_B64 ? AesMode.GCM : AesMode.CBC);
         }
 
         private async Task<byte[]> RsaDecryptAsync(string encValue)
@@ -763,7 +790,8 @@ namespace Bit.Core.Services
 
         private SymmetricCryptoKey ResolveLegacyKey(EncryptionType encKey, SymmetricCryptoKey key)
         {
-            if (encKey == EncryptionType.AesCbc128_HmacSha256_B64 && key.EncType == EncryptionType.AesCbc256_B64)
+            if (encKey == EncryptionType.AesCbc128_HmacSha256_B64 &&
+                key.EncTypes.Contains(EncryptionType.AesCbc256_B64))
             {
                 // Old encrypt-then-mac scheme, make a new key
                 if (_legacyEtmKey == null)
@@ -831,6 +859,7 @@ namespace Bit.Core.Services
 
         private class EncryptedObject
         {
+            public EncryptionType Type { get; set; }
             public byte[] Iv { get; set; }
             public byte[] Data { get; set; }
             public byte[] Mac { get; set; }
