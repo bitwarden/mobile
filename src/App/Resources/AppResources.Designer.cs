@@ -746,6 +746,12 @@ namespace Bit.App.Resources {
                 return ResourceManager.GetString("Length", resourceCulture);
             }
         }
+		
+		public static string MaxLength {
+            get {
+                return ResourceManager.GetString("MaxLength", resourceCulture);
+            }
+        }
         
         public static string Lock {
             get {
@@ -2444,6 +2450,12 @@ namespace Bit.App.Resources {
                 return ResourceManager.GetString("Passphrase", resourceCulture);
             }
         }
+		
+		public static string PassphraseLimited {
+            get {
+                return ResourceManager.GetString("PassphraseLimited", resourceCulture);
+            }
+        }
         
         public static string WordSeparator {
             get {
@@ -2703,6 +2715,12 @@ namespace Bit.App.Resources {
             }
         }
         
+		public static string ShortWords {
+            get {
+                return ResourceManager.GetString("ShortWords", resourceCulture);
+            }
+        }
+		
         public static string Capitalize {
             get {
                 return ResourceManager.GetString("Capitalize", resourceCulture);
