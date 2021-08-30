@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Bit.App.Utilities;
 using Newtonsoft.Json;
@@ -151,7 +153,14 @@ namespace Bit.App.Pages
             switch (SelectedProviderType.Value)
             {
                 case TwoFactorProviderType.Fido2WebAuthn:
-                    Fido2AuthenticateAsync(providerData);
+                    if (Device.RuntimePlatform == Device.Android)
+                    {
+                        _messagingService.Send("listenFido2", providerData);
+                    }
+                    else
+                    {
+                        Fido2AuthenticateAsync(providerData);
+                    }
                     break;
                 case TwoFactorProviderType.YubiKey:
                     _messagingService.Send("listenYubiKeyOTP", true);

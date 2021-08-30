@@ -778,7 +778,13 @@ namespace Bit.Droid.Services
 
         public bool SupportsFido2()
         {
-            return true;
+#if !FDROID
+            if ((int)Build.VERSION.SdkInt >= 21)
+            {
+                return true;
+            }
+#endif
+            return false;
         }
 
         private bool DeleteDir(Java.IO.File dir)

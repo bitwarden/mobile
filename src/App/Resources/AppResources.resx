@@ -2031,4 +2031,28 @@
   <data name="Fido2SomethingWentWrong" xml:space="preserve">
     <value>Something Went Wrong. Try again.</value>
   </data>
+  <data name="Fido2AbortError" xml:space="preserve">
+    <value>Aborted FIDO2 operation. Try again.</value>
+  </data>
+  <data name="Fido2NetworkFail" xml:space="preserve">
+    <value>No internet connection. Try again.</value>
+  </data>
+  <data name="Fido2NoPermission" xml:space="preserve">
+    <value>Permission was not given. Try again.</value>
+  </data>
+  <data name="Fido2NotSupportedError" xml:space="preserve">
+    <value>Unsupported device.</value>
+  </data>
+  <data name="Fido2PrivacyError" xml:space="preserve">
+    <value>Privacy issues encountered. Try again.</value>
+  </data>
+  <data name="Fido2SecurityError" xml:space="preserve">
+    <value>Security issues encountered.</value>
+  </data>
+  <data name="Fido2ServerDataFail" xml:space="preserve">
+    <value>The server returned invalid data. Try again.</value>
+  </data>
+  <data name="Fido2TimeoutError" xml:space="preserve">
+    <value>Timeout for FIDO2. Try again</value>
+  </data>
 </root>
