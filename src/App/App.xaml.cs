@@ -15,7 +15,7 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Bit.App
 {
-    public partial class App : Application
+    public partial class App : Application, IMainPage
     {
         private readonly IUserService _userService;
         private readonly IBroadcasterService _broadcasterService;
@@ -50,6 +50,8 @@ namespace Bit.App
             _storageService = ServiceContainer.Resolve<IStorageService>("storageService");
             _secureStorageService = ServiceContainer.Resolve<IStorageService>("secureStorageService");
             _deviceActionService = ServiceContainer.Resolve<IDeviceActionService>("deviceActionService");
+
+            var navigator = new NavigationService(this, new ViewLocator());
 
             Bootstrap();
             _broadcasterService.Subscribe(nameof(App), async (message) =>
