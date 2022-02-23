@@ -194,6 +194,11 @@
       <IsAppExtension>true</IsAppExtension>
       <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
+    <ProjectReference Include="..\iOS.Safari\iOS.Safari.csproj">
+      <IsAppExtension>true</IsAppExtension>
+      <Project>{7CE47211-43D4-4BBB-BB16-82A8A337ECE7}</Project>
+      <Name>iOS.Safari</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\autofill-kb.png" />

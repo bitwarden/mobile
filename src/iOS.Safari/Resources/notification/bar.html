@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bitwarden</title>
+    <meta charset="utf-8" />
+<link href="../notification/bar.css" rel="stylesheet"></head>
+
+<body>
+    <div class="outer-wrapper">
+        <div class="logo">
+            <a href="https://vault.bitwarden.com" target="_blank" id="logo-link">
+                <img id="logo" alt="Bitwarden" />
+            </a>
+        </div>
+        <div id="content"></div>
+        <div>
+            <button type="button" class="neutral" id="close-button">
+                <img id="close" alt="Close" />
+            </button>
+        </div>
+    </div>
+    <div id="templates" style="display: none;">
+        <div class="inner-wrapper" id="template-add">
+            <div class="add-text"></div>
+            <div class="add-buttons">
+                <button type="button" class="never-save link"></button>
+                <select class="select-folder" isVaultLocked="false"></select>
+                <button type="button" class="add-save"></button>
+            </div>
+        </div>
+        <div class="inner-wrapper" id="template-change">
+            <div class="change-text"></div>
+            <div class="change-buttons">
+                <button type="button" class="change-save"></button>
+            </div>
+        </div>
+    </div>
+<script src="../notification/bar.js"></script></body>
+
+</html>

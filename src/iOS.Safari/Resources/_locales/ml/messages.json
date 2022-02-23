@@ -1,0 +1,1817 @@
+{
+  "appName": {
+    "message": "Bitwarden"
+  },
+  "extName": {
+    "message": "Bitwarden - സൗജന്യ  പാസ്സ്‌വേഡ് മാനേജർ ",
+    "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
+  },
+  "extDesc": {
+    "message": "നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങൾക്കും സുരക്ഷിതവും സൗജന്യവുമായ പാസ്‌വേഡ് മാനേജർ.",
+    "description": "Extension description"
+  },
+  "loginOrCreateNewAccount": {
+    "message": "നിങ്ങളുടെ സുരക്ഷിത വാൾട്ടിലേക്കു പ്രവേശിക്കാൻ ലോഗിൻ ചെയ്യുക അല്ലെങ്കിൽ ഒരു പുതിയ അക്കൗണ്ട് സൃഷ്ടിക്കുക."
+  },
+  "createAccount": {
+    "message": "അക്കൗണ്ട് സൃഷ്ടിക്കുക"
+  },
+  "login": {
+    "message": "ലോഗിൻ"
+  },
+  "enterpriseSingleSignOn": {
+    "message": "എന്റർപ്രൈസ് സിംഗിൾ സൈൻ-ഓൺ"
+  },
+  "cancel": {
+    "message": "റദ്ദാക്കുക"
+  },
+  "close": {
+    "message": "അടയ്ക്കുക"
+  },
+  "submit": {
+    "message": "സമർപ്പിക്കുക"
+  },
+  "emailAddress": {
+    "message": "ഈ - മെയില് വിലാസം"
+  },
+  "masterPass": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ്"
+  },
+  "masterPassDesc": {
+    "message": "നിങ്ങളുടെ വാൾട്ടിലേക്ക് പ്രവേശിക്കാൻ ഉപയോഗിക്കുന്ന പാസ്‌വേഡാണ് പ്രാഥമിക പാസ്‌വേഡ്. നിങ്ങളുടെ മാസ്റ്റർ പാസ്‌വേഡ് മറക്കാതിരിക്കുക എന്നത് വളരെ പ്രധാനമാണ്. നിങ്ങൾ പാസ്‌വേഡ് മറന്ന സാഹചര്യത്തിൽ, പാസ്‌വേഡ് വീണ്ടെടുക്കാൻ ഒരു മാർഗവുമില്ല."
+  },
+  "masterPassHintDesc": {
+    "message": "നിങ്ങളുടെ പാസ്‌വേഡ് മറന്നാൽ അത് ഓർമ്മിക്കാൻ ഒരു പ്രാഥമിക പാസ്‌വേഡ് സൂചന സഹായിക്കും."
+  },
+  "reTypeMasterPass": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് വീണ്ടും ടൈപ്പ്‌ ചെയ്യുക"
+  },
+  "masterPassHint": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് സൂചന (ഇഷ്ടാനുസൃതമായ)"
+  },
+  "tab": {
+    "message": "ടാബ് "
+  },
+  "myVault": {
+    "message": "എൻ്റെ വാൾട് "
+  },
+  "tools": {
+    "message": "ഉപകരണങ്ങള്‍"
+  },
+  "settings": {
+    "message": "ക്രമീകരണങ്ങള്‍"
+  },
+  "currentTab": {
+    "message": "നിലവിലെ ടാബ്"
+  },
+  "copyPassword": {
+    "message": "പാസ്‌വേഡ് പകർത്തുക"
+  },
+  "copyNote": {
+    "message": "കുറിപ്പ് പകർത്തുക"
+  },
+  "copyUri": {
+    "message": "URI പകർത്തുക"
+  },
+  "copyUsername": {
+    "message": "ഉപയോക്തൃനാമം പകർത്തുക"
+  },
+  "copyNumber": {
+    "message": "അക്കം പകർത്തുക"
+  },
+  "copySecurityCode": {
+    "message": "സുരക്ഷാ കോഡ് പകർത്തുക"
+  },
+  "autoFill": {
+    "message": "ഓട്ടോഫിൽ"
+  },
+  "generatePasswordCopied": {
+    "message": "പാസ്‌വേഡ് സൃഷ്ടിക്കുക (പകർത്തുക )"
+  },
+  "copyElementIdentifier": {
+    "message": "Copy Custom Field Name"
+  },
+  "noMatchingLogins": {
+    "message": "പൊരുത്തപ്പെടുന്ന ലോഗിനുകളൊന്നുമില്ല."
+  },
+  "vaultLocked": {
+    "message": "വാൾട് പൂട്ടിയിരിക്കുന്നു "
+  },
+  "vaultLoggedOut": {
+    "message": "വാൾട് ലോഗ് ഔട്ട് ചെയ്തിരിക്കുന്നു "
+  },
+  "autoFillInfo": {
+    "message": "നിലവിലെ ബ്രൌസർ  ടാബിന് ഓട്ടോഫിൽ ചെയ്യാൻ പ്രവേശനങ്ങൾ ലഭ്യമല്ല."
+  },
+  "addLogin": {
+    "message": "പ്രവേശനം ചേർക്കുക"
+  },
+  "addItem": {
+    "message": " ഇനം ചേർക്കുക"
+  },
+  "passwordHint": {
+    "message": "പാസ്സ്‌വേഡ് സൂചനാ"
+  },
+  "enterEmailToGetHint": {
+    "message": "നിങ്ങളുടെ പ്രാഥമിക പാസ്‌വേഡ് സൂചന ലഭിക്കുന്നതിന് നിങ്ങളുടെ അക്കൗണ്ട് ഇമെയിൽ വിലാസം നൽകുക."
+  },
+  "getMasterPasswordHint": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് സൂചന നേടുക"
+  },
+  "continue": {
+    "message": "തുടരുക"
+  },
+  "verificationCode": {
+    "message": "പരിശോധിച്ചുറപ്പിക്കൽ കോഡ്"
+  },
+  "account": {
+    "message": "അക്കൗണ്ട്"
+  },
+  "changeMasterPassword": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് മാറ്റുക"
+  },
+  "fingerprintPhrase": {
+    "message": "ഫിംഗർപ്രിന്റ് ഫ്രേസ്‌",
+    "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing."
+  },
+  "yourAccountsFingerprint": {
+    "message": "നിങ്ങളുടെ അക്കൗണ്ടിന്റെ ഫിംഗർപ്രിന്റ് ഫ്രേസ്‌",
+    "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing."
+  },
+  "twoStepLogin": {
+    "message": "രണ്ട്-ഘട്ട ലോഗിൻ"
+  },
+  "logOut": {
+    "message": "ലോഗ് ഔട്ട്"
+  },
+  "about": {
+    "message": "ഇതിനെ കുറിച്ച്"
+  },
+  "version": {
+    "message": "വേർഷൻ "
+  },
+  "save": {
+    "message": "സംരക്ഷിക്കുക"
+  },
+  "move": {
+    "message": "Move"
+  },
+  "addFolder": {
+    "message": "ഫോൾഡർ ചേർക്കുക"
+  },
+  "name": {
+    "message": "പേര്"
+  },
+  "editFolder": {
+    "message": "ഫോൾഡർ തിരുത്തുക"
+  },
+  "deleteFolder": {
+    "message": "ഫോൾഡർ ഇല്ലാതാക്കുക"
+  },
+  "folders": {
+    "message": "ഫോൾഡറുകൾ"
+  },
+  "noFolders": {
+    "message": "പ്രദർശിപ്പിക്കാൻ ഫോൾഡറുകളൊന്നുമില്ല."
+  },
+  "helpFeedback": {
+    "message": "സഹായവും അഭിപ്രായവും"
+  },
+  "sync": {
+    "message": "സമന്വയിപ്പിക്കുക"
+  },
+  "syncVaultNow": {
+    "message": "വാൾട് ഇപ്പോൾ സമന്വയിപ്പിക്കുക"
+  },
+  "lastSync": {
+    "message": "അവസാന സമന്വയം:"
+  },
+  "passGen": {
+    "message": "പാസ്സ്‌വേഡ് സൃഷ്ടാവ്"
+  },
+  "generator": {
+    "message": "സ്രഷ്ടാവ്",
+    "description": "Short for 'Password Generator'."
+  },
+  "passGenInfo": {
+    "message": "യാന്ത്രികമായി ശക്തമായ പാസ്സ്‌വേർഡുകൾ നിങ്ങളുടെ ലോഗിന് വേണ്ടി നിർമിക്കുക "
+  },
+  "bitWebVault": {
+    "message": "Bitwarden വെബ് വാൾട് "
+  },
+  "importItems": {
+    "message": "ഇനങ്ങൾ ഇമ്പോർട് ചെയ്യുക"
+  },
+  "select": {
+    "message": "തിരഞ്ഞെടുക്കുക"
+  },
+  "generatePassword": {
+    "message": "പാസ്‌വേഡ് സൃഷ്ടിക്കുക"
+  },
+  "regeneratePassword": {
+    "message": "പാസ്സ്‌വേഡ് വീണ്ടും സൃഷ്ടിക്കുക"
+  },
+  "options": {
+    "message": "ഓപ്ഷനുകൾ"
+  },
+  "length": {
+    "message": "നീളം"
+  },
+  "numWords": {
+    "message": "വാക്കുകളുടെ എണ്ണം"
+  },
+  "wordSeparator": {
+    "message": "വേര്‍പെടുത്തുക"
+  },
+  "capitalize": {
+    "message": "വലിയഅക്ഷരമാകുക",
+    "description": "Make the first letter of a work uppercase."
+  },
+  "includeNumber": {
+    "message": "നമ്പർ ഉൾപ്പെടുത്തുക"
+  },
+  "minNumbers": {
+    "message": "കുറഞ്ഞ സംഖ്യകൾ"
+  },
+  "minSpecial": {
+    "message": "കുറഞ്ഞ പ്രത്യേക പ്രതീകങ്ങൾ"
+  },
+  "avoidAmbChar": {
+    "message": "അവ്യക്തമായ പ്രതീകങ്ങൾ ഒഴിവാക്കുക"
+  },
+  "searchVault": {
+    "message": "വാൾട് തിരയുക"
+  },
+  "edit": {
+    "message": "തിരുത്തുക"
+  },
+  "view": {
+    "message": "കാണുക"
+  },
+  "noItemsInList": {
+    "message": "പ്രദർശിപ്പിക്കാൻ ഇനങ്ങളൊന്നുമില്ല."
+  },
+  "itemInformation": {
+    "message": "വിവരം"
+  },
+  "username": {
+    "message": "ഉപയോക്തൃനാമം"
+  },
+  "password": {
+    "message": "പാസ്സ്‌വേഡ്‌"
+  },
+  "passphrase": {
+    "message": "രഹസ്യ വാചകം"
+  },
+  "favorite": {
+    "message": "പ്രിയങ്കരം"
+  },
+  "notes": {
+    "message": "കുറിപ്പുകൾ"
+  },
+  "note": {
+    "message": "കുറിപ്പ്"
+  },
+  "editItem": {
+    "message": "ഇനം തിരുത്തുക"
+  },
+  "folder": {
+    "message": "ഫോൾഡർ"
+  },
+  "deleteItem": {
+    "message": "ഇനം ഇല്ലാതാക്കുക "
+  },
+  "viewItem": {
+    "message": "ഇനം കാണുക"
+  },
+  "launch": {
+    "message": "തുറക്കുക"
+  },
+  "website": {
+    "message": "വെബ്സൈറ്റ്"
+  },
+  "toggleVisibility": {
+    "message": "ദൃശ്യപരത ടോഗിൾ ചെയ്യുക"
+  },
+  "manage": {
+    "message": "നിയന്ത്രിക്കുക"
+  },
+  "other": {
+    "message": "മറ്റുള്ളവ"
+  },
+  "rateExtension": {
+    "message": "എക്സ്റ്റൻഷൻ റേറ്റ് ചെയ്യുക "
+  },
+  "rateExtensionDesc": {
+    "message": "ഒരു നല്ല അവലോകനത്തിന് ഞങ്ങളെ സഹായിക്കുന്നത് പരിഗണിക്കുക!"
+  },
+  "browserNotSupportClipboard": {
+    "message": "നിങ്ങളുടെ ബ്രൌസർ എളുപ്പമുള്ള ക്ലിപ്പ്ബോർഡ് പകർത്തൽ പിന്തുണയ്ക്കത്തില്ല. പകരം അത് സ്വമേധയാ പകർക്കുക ."
+  },
+  "verifyMasterPassword": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക"
+  },
+  "yourVaultIsLocked": {
+    "message": "തങ്ങളുടെ വാൾട്  പൂട്ടിയിരിക്കുന്നു. തുടരുന്നതിന് നിങ്ങളുടെ പ്രാഥമിക പാസ്‌വേഡ് പരിശോധിക്കുക."
+  },
+  "unlock": {
+    "message": "അൺലോക്ക്"
+  },
+  "loggedInAsOn": {
+    "message": "$HOSTNAME$ൽ$EMAIL$ലോഗിൻ ചെയ്തിരിക്കുന്നു.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "name@example.com"
+      },
+      "hostname": {
+        "content": "$2",
+        "example": "bitwarden.com"
+      }
+    }
+  },
+  "invalidMasterPassword": {
+    "message": "അസാധുവായ പ്രാഥമിക പാസ്‌വേഡ്"
+  },
+  "vaultTimeout": {
+    "message": "വാൾട് ടൈംഔട്ട്"
+  },
+  "lockNow": {
+    "message": "ഇപ്പോൾ ലോക്കുചെയ്യുക"
+  },
+  "immediately": {
+    "message": "ഉടന്‍തന്നെ"
+  },
+  "tenSeconds": {
+    "message": "10 സെക്കൻഡ്"
+  },
+  "twentySeconds": {
+    "message": "20 സെക്കന്റുകള്‍"
+  },
+  "thirtySeconds": {
+    "message": "30 സെക്കൻഡ്"
+  },
+  "oneMinute": {
+    "message": "1 മിനിറ്റ്"
+  },
+  "twoMinutes": {
+    "message": "2 മിനിറ്റ്"
+  },
+  "fiveMinutes": {
+    "message": "5 മിനിറ്റ്"
+  },
+  "fifteenMinutes": {
+    "message": "15 മിനിറ്റ്"
+  },
+  "thirtyMinutes": {
+    "message": "30 മിനിറ്റ്"
+  },
+  "oneHour": {
+    "message": "1 മണിക്കൂർ"
+  },
+  "fourHours": {
+    "message": "4 മണിക്കൂർ"
+  },
+  "onLocked": {
+    "message": "സിസ്റ്റം ലോക്കിൽ"
+  },
+  "onRestart": {
+    "message": "ബ്രൌസർ പുനരാരംഭിക്കുമ്പോൾ"
+  },
+  "never": {
+    "message": "ഒരിക്കലും വേണ്ട"
+  },
+  "security": {
+    "message": "സുരക്ഷ"
+  },
+  "errorOccurred": {
+    "message": "ഒരു പിഴവ് സംഭവിച്ചിരിക്കുന്നു"
+  },
+  "emailRequired": {
+    "message": "ഇമെയിൽ അഡ്രസ്സ് നിരബന്ധമാണ്."
+  },
+  "invalidEmail": {
+    "message": "അസാധുവായ ഇമെയിൽ."
+  },
+  "masterPassRequired": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് നിർബന്ധമാണ്‌."
+  },
+  "masterPassLength": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡിന് കുറഞ്ഞത് 8 പ്രതീകങ്ങളെങ്കിലും ദൈർഘ്യമുണ്ടായിരിക്കണം."
+  },
+  "masterPassDoesntMatch": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് സ്ഥിരീകരണം പൊരുത്തപ്പെടുന്നില്ല."
+  },
+  "newAccountCreated": {
+    "message": "തങ്ങളുടെ അക്കൗണ്ട് സൃഷ്ടിക്കപ്പെട്ടു! ഇനി താങ്കൾക്ക് ലോഗിൻ ചെയ്യാം."
+  },
+  "masterPassSent": {
+    "message": "നിങ്ങളുടെ പ്രാഥമിക പാസ്‌വേഡ് സൂചനയുള്ള ഒരു ഇമെയിൽ ഞങ്ങൾ നിങ്ങൾക്ക് അയച്ചു."
+  },
+  "verificationCodeRequired": {
+    "message": "പരിശോധിച്ചുറപ്പിക്കൽ കോഡ് ആവശ്യമാണ്."
+  },
+  "valueCopied": {
+    "message": "$VALUE$ പകർത്തി",
+    "description": "Value has been copied to the clipboard.",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "Password"
+      }
+    }
+  },
+  "autofillError": {
+    "message": "ഈ പേജിൽ തിരഞ്ഞെടുത്ത ഇനം യാന്ത്രികമായി പൂരിപ്പിക്കാൻ കഴിയില്ല. പകരം വിവരങ്ങൾ പകർത്തി ഒട്ടിക്കുക."
+  },
+  "loggedOut": {
+    "message": "ലോഗേഡ് ഔട്ട്"
+  },
+  "loginExpired": {
+    "message": "നിങ്ങളുടെ പ്രവർത്തന സമയം കഴിഞ്ഞിരിക്കുന്നു."
+  },
+  "logOutConfirmation": {
+    "message": "നിങ്ങൾക്ക് ലോഗ് ഔട്ട് ചെയ്യണമെന്ന് ഉറപ്പാണോ?"
+  },
+  "yes": {
+    "message": "ശരി"
+  },
+  "no": {
+    "message": "തെറ്റ്"
+  },
+  "unexpectedError": {
+    "message": "ഒരു അപ്രതീക്ഷിത പിശക് സംഭവിച്ചു."
+  },
+  "nameRequired": {
+    "message": "പേര് നിർബന്ധമാണ്‌."
+  },
+  "addedFolder": {
+    "message": "ചേർക്കപ്പെട്ട ഫോൾഡർ"
+  },
+  "changeMasterPass": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് മാറ്റുക"
+  },
+  "changeMasterPasswordConfirmation": {
+    "message": "തങ്ങൾക്കു ബിറ്റ് വാർഡൻ വെബ് വാൾട്ടിൽ പ്രാഥമിക പാസ്‌വേഡ് മാറ്റാൻ സാധിക്കും.വെബ്സൈറ്റ് ഇപ്പോൾ സന്ദർശിക്കാൻ ആഗ്രഹിക്കുന്നുവോ?"
+  },
+  "twoStepLoginConfirmation": {
+    "message": "സുരക്ഷാ കീ, ഓതന്റിക്കേറ്റർ അപ്ലിക്കേഷൻ, SMS, ഫോൺ കോൾ അല്ലെങ്കിൽ ഇമെയിൽ പോലുള്ള മറ്റൊരു ഉപകരണം ഉപയോഗിച്ച് തങ്ങളുടെ ലോഗിൻ സ്ഥിരീകരിക്കാൻ ആവശ്യപ്പെടുന്നതിലൂടെ രണ്ട്-ഘട്ട ലോഗിൻ തങ്ങളുടെ അക്കൗണ്ടിനെ കൂടുതൽ സുരക്ഷിതമാക്കുന്നു. bitwarden.com വെബ് വാൾട്ടിൽ രണ്ട്-ഘട്ട ലോഗിൻ പ്രവർത്തനക്ഷമമാക്കാനാകും.തങ്ങള്ക്കു ഇപ്പോൾ വെബ്സൈറ്റ് സന്ദർശിക്കാൻ ആഗ്രഹമുണ്ടോ?"
+  },
+  "editedFolder": {
+    "message": "തിരുത്തിയ ഫോൾഡർ"
+  },
+  "deleteFolderConfirmation": {
+    "message": "ഈ ഫോൾഡർ ഇല്ലാതാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "deletedFolder": {
+    "message": "ഇല്ലാതാക്കിയ ഫോൾഡർ"
+  },
+  "gettingStartedTutorial": {
+    "message": "എക്സ്റ്റൻഷൻ ഉപയോഗിയ്ക്കാൻ പരിചയപ്പെടുക"
+  },
+  "gettingStartedTutorialVideo": {
+    "message": "ബ്രൗസർ എക്സ്റ്റൻഷൻ എങ്ങനെ പരമാവധി പ്രയോജനപ്പെടുത്താമെന്ന് മനസിലാക്കാൻ ഞങ്ങളുടെ ആരംഭ ട്യൂട്ടോറിയൽ കാണുക."
+  },
+  "syncingComplete": {
+    "message": "സിങ്ക് പൂർത്തിയായി"
+  },
+  "syncingFailed": {
+    "message": "സിങ്ക് ചെയ്യാൻ പരാജയപെട്ടു"
+  },
+  "passwordCopied": {
+    "message": "പാസ്സ്‌വേഡ്‌ പകർത്തി"
+  },
+  "uri": {
+    "message": "URI"
+  },
+  "uriPosition": {
+    "message": "URI $POSITION$",
+    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
+    "placeholders": {
+      "position": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "newUri": {
+    "message": "പുതിയ URI"
+  },
+  "addedItem": {
+    "message": "ചേർക്കപ്പെട്ട ഇനം"
+  },
+  "editedItem": {
+    "message": "തിരുത്തപ്പെട്ട ഇനം"
+  },
+  "deleteItemConfirmation": {
+    "message": "ഈ ഇനം ഇല്ലാതാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "deletedItem": {
+    "message": "ഇനം ട്രാഷിലേക്ക് അയച്ചു"
+  },
+  "overwritePassword": {
+    "message": "പാസ്‌വേഡ് പുനരാലേഖനം ചെയ്യുക"
+  },
+  "overwritePasswordConfirmation": {
+    "message": "നിലവിലെ പാസ്‌വേഡ് പുനരാലേഖനം ചെയ്യണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?"
+  },
+  "searchFolder": {
+    "message": "ഫോൾഡറുകൾ തിരയുക"
+  },
+  "searchCollection": {
+    "message": "കളക്ഷൻസ് തിരയുക "
+  },
+  "searchType": {
+    "message": "തരം തിരയുന്നു"
+  },
+  "noneFolder": {
+    "message": "ഫോൾഡറിൽ ഉൾപ്പെടാത്ത",
+    "description": "This is the folder for uncategorized items"
+  },
+  "disableAddLoginNotification": {
+    "message": "പ്രവേശനം ചേർക്കുക എന്ന അറിയിപ്പ് പ്രവർത്തനരഹിതമാക്കുക"
+  },
+  "addLoginNotificationDesc": {
+    "message": "നിങ്ങൾ ആദ്യമായി സൈറ്റിൽ പ്രവേശിക്കുമ്പോൾ നിങ്ങളുടെ വാൾട്ടിലേക്കു തനിയെ പ്രവേശനം ഉൾപെടുത്താൻ \"പ്രവേശനം ചേർക്കുക എന്ന അറിയിപ്പ്\" ആവശ്യപ്പെടും."
+  },
+  "dontShowCardsCurrentTab": {
+    "message": "ടാബ് പേജിൽ കാർഡുകൾ കാണിക്കരുത്"
+  },
+  "dontShowCardsCurrentTabDesc": {
+    "message": "സ്വപ്രേരിതമായി പൂരിപ്പിക്കുന്നതിന് നിങ്ങളുടെ നിലവറയിൽ നിന്നുള്ള കാർഡ് ഇനങ്ങൾ 'നിലവിലെ ടാബ്' പേജിൽ പട്ടികപ്പെടുത്തിയിട്ടുണ്ട്."
+  },
+  "dontShowIdentitiesCurrentTab": {
+    "message": "ടാബ് പേജിൽ ഐഡന്റിറ്റികൾ കാണിക്കരുത്"
+  },
+  "dontShowIdentitiesCurrentTabDesc": {
+    "message": "സ്വയമേവ എളുപ്പത്തിൽ പൂരിപ്പിക്കുന്നതിന് നിങ്ങളുടെ നിലവറയിൽ നിന്നുള്ള ഐഡന്റിറ്റി ഇനങ്ങൾ 'നിലവിലെ ടാബ്' പേജിൽ പട്ടികപ്പെടുത്തിയിട്ടുണ്ട്."
+  },
+  "clearClipboard": {
+    "message": "ക്ലിപ്ബോര്‍ഡ് മായ്ക്കുക",
+    "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
+  },
+  "clearClipboardDesc": {
+    "message": "നിങ്ങളുടെ ക്ലിപ്പ്ബോർഡിൽ നിന്ന് പകർത്തിയ മൂല്യങ്ങൾ യാന്ത്രികമായി മായ്‌ക്കുക.",
+    "description": "Clipboard is the operating system thing where you copy/paste data to on your device."
+  },
+  "notificationAddDesc": {
+    "message": "നിങ്ങൾ‌ക്കായി ഈ പാസ്‌വേഡ് ബിറ്റ്‌വർ‌ഡൻ‌ ഓർത്തിരിക്കണോ?"
+  },
+  "notificationAddSave": {
+    "message": "ശരി, ഇപ്പോൾ സംരക്ഷിക്കുക"
+  },
+  "notificationNeverSave": {
+    "message": "ഈ വെബ്‌സൈറ്റിനായി ഒരിക്കലും"
+  },
+  "disableChangedPasswordNotification": {
+    "message": "മാറ്റിയ പാസ്‌വേഡ് അറിയിപ്പ് പ്രവർത്തനരഹിതമാക്കുക"
+  },
+  "disableChangedPasswordNotificationDesc": {
+    "message": "ഒരു വെബ്‌സൈറ്റിൽ നിങ്ങൾ അത് മാറ്റിയതായി കണ്ടെത്തുമ്പോഴെല്ലാം നിങ്ങളുടെ നിലവറയിൽ ഒരു ലോഗിൻ പാസ്‌വേഡ് അപ്‌ഡേറ്റുചെയ്യാൻ \"മാറ്റിയ പാസ്‌വേഡ് അറിയിപ്പ്\" യാന്ത്രികമായി ആവശ്യപ്പെടുന്നു."
+  },
+  "notificationChangeDesc": {
+    "message": "ബിറ്റ്വാർഡനിൽ ഈ പാസ്‌വേഡ് അപ്‌ഡേറ്റ് ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "notificationChangeSave": {
+    "message": "ശരി, ഇപ്പോൾ അപ്ഡേറ്റ് ചെയ്യുക"
+  },
+  "disableContextMenuItem": {
+    "message": "സന്ദർഭ മെനു ഓപ്ഷനുകൾ അപ്രാപ്തമാക്കുക"
+  },
+  "disableContextMenuItemDesc": {
+    "message": "നിങ്ങളുടെ നിലവിലെ ടാബിലെ വെബ്‌സൈറ്റിനായുള്ള പാസ്‌വേഡ് ജനറേഷനിലേക്കും ലോഗിനുകളിലേക്കും സന്ദർഭ മെനു ഓപ്ഷനുകൾ ദ്രുത പ്രവേശനം നൽകുന്നു."
+  },
+  "defaultUriMatchDetection": {
+    "message": "സാധാരണ URI പൊരുത്തം കണ്ടെത്തൽ",
+    "description": "Default URI match detection for auto-fill."
+  },
+  "defaultUriMatchDetectionDesc": {
+    "message": "യാന്ത്രിക പൂരിപ്പിക്കൽ പോലുള്ള പ്രവർത്തനങ്ങൾ നടത്തുമ്പോൾ ലോഗിനുകൾക്കായി യുആർഐ മാച്ച് ഡിറ്റക്ഷൻ കൈകാര്യം ചെയ്യുന്ന സ്ഥിരസ്ഥിതി മാർഗം തിരഞ്ഞെടുക്കുക."
+  },
+  "theme": {
+    "message": "തീം"
+  },
+  "themeDesc": {
+    "message": "അപ്ലിക്കേഷന്റെ തീമും വർണ്ണങ്ങളും മാറ്റുക."
+  },
+  "dark": {
+    "message": "ഇരുണ്ടത്",
+    "description": "Dark color"
+  },
+  "light": {
+    "message": "ലൈറ്റ്",
+    "description": "Light color"
+  },
+  "solarizedDark": {
+    "message": "Solarized Dark",
+    "description": "'Solarized' is a noun and the name of a color scheme. It should not be translated."
+  },
+  "exportVault": {
+    "message": "വാൾട് എക്സ്പോർട്"
+  },
+  "fileFormat": {
+    "message": "ഫയൽ ഫോർമാറ്റ്"
+  },
+  "warning": {
+    "message": "മുന്നറിയിപ്പ്",
+    "description": "WARNING (should stay in capitalized letters if the language permits)"
+  },
+  "confirmVaultExport": {
+    "message": "Confirm Vault Export"
+  },
+  "exportWarningDesc": {
+    "message": "ഈ എക്‌സ്‌പോർട്ടിൽ എൻക്രിപ്റ്റ് ചെയ്യാത്ത ഫോർമാറ്റിൽ നിങ്ങളുടെ വാൾട് ഡാറ്റ അടങ്ങിയിരിക്കുന്നു. എക്‌സ്‌പോർട് ചെയ്ത ഫയൽ സുരക്ഷിതമല്ലാത്ത ചാനലുകളിൽ (ഇമെയിൽ പോലുള്ളവ) നിങ്ങൾ സംഭരിക്കുകയോ അയയ്ക്കുകയോ ചെയ്യരുത്. നിങ്ങൾ ഇത് ഉപയോഗിച്ചുകഴിഞ്ഞാലുടൻ അത് മായ്ച്ചുകളയണം."
+  },
+  "encExportKeyWarningDesc": {
+    "message": "This export encrypts your data using your account's encryption key. If you ever rotate your account's encryption key you should export again since you will not be able to decrypt this export file."
+  },
+  "encExportAccountWarningDesc": {
+    "message": "Account encryption keys are unique to each Bitwarden user account, so you can't import an encrypted export into a different account."
+  },
+  "exportMasterPassword": {
+    "message": "നിങ്ങളുടെ വാൾട് ഡാറ്റ എക്‌സ്‌പോർട്ടുചെയ്യാൻ പ്രാഥമിക പാസ്‌വേഡ് നൽകുക."
+  },
+  "shared": {
+    "message": "പങ്കിട്ടവ"
+  },
+  "learnOrg": {
+    "message": "Learn about Organizations"
+  },
+  "learnOrgConfirmation": {
+    "message": "Bitwarden allows you to share your vault items with others by using an organization. Would you like to visit the bitwarden.com website to learn more?"
+  },
+  "moveToOrganization": {
+    "message": "Move to Organization"
+  },
+  "share": {
+    "message": "പങ്കിടുക"
+  },
+  "movedItemToOrg": {
+    "message": "$ITEMNAME$ moved to $ORGNAME$",
+    "placeholders": {
+      "itemname": {
+        "content": "$1",
+        "example": "Secret Item"
+      },
+      "orgname": {
+        "content": "$2",
+        "example": "Company Name"
+      }
+    }
+  },
+  "moveToOrgDesc": {
+    "message": "Choose an organization that you wish to move this item to. Moving to an organization transfers ownership of the item to that organization. You will no longer be the direct owner of this item once it has been moved."
+  },
+  "learnMore": {
+    "message": "കൂടുതലറിവ് നേടുക"
+  },
+  "authenticatorKeyTotp": {
+    "message": "ഓതന്റിക്കേറ്റർ കീ  (TOTP)"
+  },
+  "verificationCodeTotp": {
+    "message": "സ്ഥിരീകരണ കോഡ് (TOTP)"
+  },
+  "copyVerificationCode": {
+    "message": "സ്ഥിരീകരണ കോഡ് പകർത്തുക "
+  },
+  "attachments": {
+    "message": "അറ്റാച്ചുമെന്റുകൾ"
+  },
+  "deleteAttachment": {
+    "message": "അറ്റാച്ചുമെന്റ് ഇല്ലാതാക്കുക"
+  },
+  "deleteAttachmentConfirmation": {
+    "message": "ഈ അറ്റാച്ചുമെന്റ് ഇല്ലാതാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "deletedAttachment": {
+    "message": "മായ്ച്ച അറ്റാച്ചുമെന്റ്"
+  },
+  "newAttachment": {
+    "message": "പുതിയ അറ്റാച്ചുമെന്റ് ചേർക്കുക"
+  },
+  "noAttachments": {
+    "message": "അറ്റാച്ചുമെന്റുകൾ ഇല്ല."
+  },
+  "attachmentSaved": {
+    "message": "അറ്റാച്ചുമെന്റ് സംരക്ഷിച്ചു."
+  },
+  "file": {
+    "message": "ഫയൽ"
+  },
+  "selectFile": {
+    "message": "ഒരു ഫയൽ തിരഞ്ഞെടുക്കുക"
+  },
+  "maxFileSize": {
+    "message": "പരമാവധി ഫയൽ വലുപ്പം 500 MB ആണ്."
+  },
+  "featureUnavailable": {
+    "message": "സവിശേഷത ലഭ്യമല്ല"
+  },
+  "updateKey": {
+    "message": "നിങ്ങളുടെ എൻ‌ക്രിപ്ഷൻ കീ അപ്‌ഡേറ്റ് ചെയ്യുന്നതുവരെ നിങ്ങൾക്ക് ഈ സവിശേഷത ഉപയോഗിക്കാൻ കഴിയില്ല."
+  },
+  "premiumMembership": {
+    "message": "പ്രീമിയം അംഗത്വം"
+  },
+  "premiumManage": {
+    "message": "അംഗത്വം നിയന്ത്രിക്കുക"
+  },
+  "premiumManageAlert": {
+    "message": "നിങ്ങളുടെ അംഗത്വം bitwarden.com വെബ് വാൾട്ടിൽ മാനേജുചെയ്യാൻ കഴിയും. തങ്ങൾക്ക് ഇപ്പോൾ വെബ്സൈറ്റ് സന്ദർശിക്കാൻ ആഗ്രഹമുണ്ടോ?"
+  },
+  "premiumRefresh": {
+    "message": "അംഗത്വം റിഫ്രഷ് ചെയ്യുക"
+  },
+  "premiumNotCurrentMember": {
+    "message": "നിങ്ങൾ നിലവിൽ ഒരു പ്രീമിയം അംഗമല്ല."
+  },
+  "premiumSignUpAndGet": {
+    "message": "ഒരു പ്രീമിയം അംഗത്വത്തിനായി സൈൻ അപ്പ് ചെയ്ത് നേടുക:"
+  },
+  "ppremiumSignUpStorage": {
+    "message": "ഫയൽ അറ്റാച്ചുമെന്റുകൾക്കായി 1 ജിബി എൻക്രിപ്റ്റുചെയ്‌ത സംഭരണം."
+  },
+  "ppremiumSignUpTwoStep": {
+    "message": "രണ്ട്-ഘട്ട പ്രവേശന ഓപ്ഷനുകളായ Yubikey, FIDO U2F, Duo."
+  },
+  "ppremiumSignUpReports": {
+    "message": "നിങ്ങളുടെ വാൾട് സൂക്ഷിക്കുന്നതിന്. പാസ്‌വേഡ് ശുചിത്വം, അക്കൗണ്ട് ആരോഗ്യം, ഡാറ്റ ലംഘന റിപ്പോർട്ടുകൾ."
+  },
+  "ppremiumSignUpTotp": {
+    "message": "നിങ്ങളുടെ വാൾട്ടിലെ പ്രവേശനങ്ങൾക്കായി TOTP പരിശോധന കോഡ് (2FA) സൃഷ്ടാവ്."
+  },
+  "ppremiumSignUpSupport": {
+    "message": "മുൻ‌ഗണന ഉപഭോക്തൃ പിന്തുണ."
+  },
+  "ppremiumSignUpFuture": {
+    "message": "ഭാവിയിലെ എല്ലാ പ്രീമിയം സവിശേഷതകളും. കൂടുതൽ ഉടനെ വരുന്നു !"
+  },
+  "premiumPurchase": {
+    "message": "പ്രീമിയം വാങ്ങുക"
+  },
+  "premiumPurchaseAlert": {
+    "message": "നിങ്ങൾക്ക് bitwarden.com വെബ് വാൾട്ടിൽ പ്രീമിയം അംഗത്വം വാങ്ങാം. നിങ്ങൾക്ക് ഇപ്പോൾ വെബ്സൈറ്റ് സന്ദർശിക്കാൻ ആഗ്രഹമുണ്ടോ?"
+  },
+  "premiumCurrentMember": {
+    "message": "തങ്ങൾ ഒരു പ്രീമിയം അംഗമാണ്!"
+  },
+  "premiumCurrentMemberThanks": {
+    "message": "Bitwardenനെ പിന്തുണച്ചതിന് നന്ദി."
+  },
+  "premiumPrice": {
+    "message": "എല്ലാം വെറും $PRICE$/ വർഷത്തേക്ക്!",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$10"
+      }
+    }
+  },
+  "refreshComplete": {
+    "message": "റിഫ്രഷ് പൂർത്തിയായി"
+  },
+  "disableAutoTotpCopy": {
+    "message": "ഓട്ടോമാറ്റിക് TOTP പകർപ്പ് പ്രവർത്തനരഹിതമാക്കുക"
+  },
+  "disableAutoTotpCopyDesc": {
+    "message": "നിങ്ങളുടെ പ്രവേശനം ഒരു ഓതന്റിക്കേറ്റർ കീയുമായി ബന്ധപെടുത്തിയട്ടുടെങ്കിൽ, പ്രവേശനം ഓട്ടോഫിൽ ചെയ്യുമ്പോഴെല്ലാം  TOTP സ്ഥിരീകരണ കോഡ് നിങ്ങളുടെ ക്ലിപ്ബോർഡിൽ ഓട്ടോമാറ്റിക്കയായി പകർത്തപ്പെടും."
+  },
+  "disableAutoBiometricsPrompt": {
+    "message": "Do not prompt for biometrics on launch"
+  },
+  "premiumRequired": {
+    "message": "പ്രീമിയം അംഗത്വം ആവശ്യമാണ്"
+  },
+  "premiumRequiredDesc": {
+    "message": "ഈ സവിശേഷത ഉപയോഗിക്കുന്നതിന് പ്രീമിയം അംഗത്വം ആവശ്യമാണ്."
+  },
+  "enterVerificationCodeApp": {
+    "message": "നിങ്ങളുടെ ഓതന്റിക്കേറ്റർ അപ്ലിക്കേഷനിൽ നിന്ന് 6 അക്ക സ്ഥിരീകരണ കോഡ് നൽകുക."
+  },
+  "enterVerificationCodeEmail": {
+    "message": "$EMAIL$ൽ ഇമെയിൽ ചെയ്ത 6 അക്ക സ്ഥിരീകരണ കോഡ് നൽകുക",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "example@gmail.com"
+      }
+    }
+  },
+  "verificationCodeEmailSent": {
+    "message": "സ്ഥിരീകരണ ഇമെയിൽ $EMAIL$ ലേക്ക് അയച്ചു.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "example@gmail.com"
+      }
+    }
+  },
+  "rememberMe": {
+    "message": "എന്നെ ഓർക്കുക"
+  },
+  "sendVerificationCodeEmailAgain": {
+    "message": "സ്ഥിരീകരണ കോഡ് ഇമെയിൽ വഴി അയയ്ക്കുക"
+  },
+  "useAnotherTwoStepMethod": {
+    "message": "മറ്റൊരു രണ്ട് ഘട്ട ലോഗിൻ രീതി ഉപയോഗിക്കുക"
+  },
+  "insertYubiKey": {
+    "message": "നിങ്ങളുടെ കമ്പ്യൂട്ടറിന്റെ യു‌എസ്‌ബി പോർട്ടിലേക്ക് യുബിക്കി ഇടുക, തുടർന്ന് അതിന്റെ ബട്ടൺ അമർത്തുക."
+  },
+  "insertU2f": {
+    "message": "നിങ്ങളുടെ കമ്പ്യൂട്ടറിന്റെ യുഎസ്ബി പോർട്ടിൽ സുരക്ഷാ കീ ഇടുക. അതിന് ഒരു ബട്ടൺ ഉണ്ടെങ്കിൽ അത് അമർത്തുക."
+  },
+  "webAuthnNewTab": {
+    "message": "To start the WebAuthn 2FA verification. Click the button below to open a new tab and follow the instructions provided in the new tab."
+  },
+  "webAuthnNewTabOpen": {
+    "message": "Open new tab"
+  },
+  "webAuthnAuthenticate": {
+    "message": "Authenticate WebAuthn"
+  },
+  "loginUnavailable": {
+    "message": "പ്രവേശനം ലഭ്യമല്ല"
+  },
+  "noTwoStepProviders": {
+    "message": "ഈ അക്കൗണ്ടിന് രണ്ട്-ഘട്ട പ്രവേശനം പ്രാപ്തമാക്കിയിട്ടുണ്ട്, എന്നിരുന്നാലും, ക്രമീകരിച്ച രണ്ട്-ഘട്ട ദാതാക്കളെയൊന്നും ഈ ഉപകരണം പിന്തുണയ്ക്കുന്നില്ല."
+  },
+  "noTwoStepProviders2": {
+    "message": "മികച്ച പിന്തുണയുള്ള, കൂടുതൽ ദാതാക്കളെ ദയവായി ചേർക്കുക (ഒരു ഓതന്റിക്കേറ്റർ അപ്ലിക്കേഷൻ പോലുള്ളവ)."
+  },
+  "twoStepOptions": {
+    "message": "രണ്ട്-ഘട്ട പ്രവേശനം ഓപ്ഷനുകൾ"
+  },
+  "recoveryCodeDesc": {
+    "message": "നിങ്ങളുടെ രണ്ട്-ഘടക ദാതാക്കളിലേക്കുള്ള ആക്‌സസ്സ് നഷ്‌ടപ്പെട്ടോ? നിങ്ങളുടെ അക്കൗണ്ടിൽ നിന്ന് രണ്ട്-ഘടക ദാതാക്കളെ പ്രവർത്തനരഹിതമാക്കാൻ നിങ്ങളുടെ റിക്കവറി കോഡ് ഉപയോഗിക്കുക."
+  },
+  "recoveryCodeTitle": {
+    "message": "റിക്കവറി കോഡ്"
+  },
+  "authenticatorAppTitle": {
+    "message": "ഓതന്റിക്കേറ്റർ ആപ്പ്"
+  },
+  "authenticatorAppDesc": {
+    "message": "സമയ-അടിസ്ഥാന പരിശോധന കോഡുകൾ സൃഷ്ടിക്കുന്നതിന് ഒരു ഓതന്റിക്കേറ്റർ അപ്ലിക്കേഷൻ (ഓത്തി അല്ലെങ്കിൽ Google ഓതന്റിക്കേറ്റർ പോലുള്ളവ) ഉപയോഗിക്കുക.",
+    "description": "'Authy' and 'Google Authenticator' are product names and should not be translated."
+  },
+  "yubiKeyTitle": {
+    "message": "YubiKey OTP സുരക്ഷാ കീ"
+  },
+  "yubiKeyDesc": {
+    "message": "നിങ്ങളുടെ അക്കൗണ്ട് ആക്സസ് ചെയ്യുന്നതിന് ഒരു യൂബിക്കി ഉപയോഗിക്കുക. YubiKey 4, 4 Nano, 4C, NEO ഉപകരണങ്ങളിൽ പ്രവർത്തിക്കുന്നു."
+  },
+  "duoDesc": {
+    "message": "Duo Mobile അപ്ലിക്കേഷൻ, എസ്എംഎസ്, ഫോൺ കോൾ അല്ലെങ്കിൽ യു 2 എഫ് സുരക്ഷാ കീ ഉപയോഗിച്ച് Duoസെക്യൂരിറ്റി ഉപയോഗിച്ച് പരിശോധിക്കുക.",
+    "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated."
+  },
+  "duoOrganizationDesc": {
+    "message": "Duo Mobile, എസ്എംഎസ്, ഫോൺ കോൾ അല്ലെങ്കിൽ യു 2 എഫ് സുരക്ഷാ കീ ഉപയോഗിച്ച് നിങ്ങളുടെ ഓർഗനൈസേഷനെ ഡ്യുവോ സെക്യൂരിറ്റി ഉപയോഗിച്ച് പരിശോധിക്കുക.",
+    "description": "'Duo Security' and 'Duo Mobile' are product names and should not be translated."
+  },
+  "webAuthnTitle": {
+    "message": "FIDO2 WebAuthn"
+  },
+  "webAuthnDesc": {
+    "message": "Use any WebAuthn enabled security key to access your account."
+  },
+  "emailTitle": {
+    "message": "ഇമെയിൽ"
+  },
+  "emailDesc": {
+    "message": "സ്ഥിരീകരണ കോഡുകൾ നിങ്ങൾക്ക് ഇമെയിൽ ചെയ്യും."
+  },
+  "selfHostedEnvironment": {
+    "message": "സ്വയം ഹോസ്റ്റുചെയ്‌ത എൻവിയോണ്മെന്റ്"
+  },
+  "selfHostedEnvironmentFooter": {
+    "message": "തങ്ങളുടെ  പരിസരത്ത് ചെയ്യുന്ന ബിറ്റ് വാർഡൻ ഇൻസ്റ്റാളേഷന്റെ അടിസ്ഥാന URL വ്യക്തമാക്കുക."
+  },
+  "customEnvironment": {
+    "message": "ഇഷ്‌ടാനുസൃത എൻവിയോണ്മെന്റ്"
+  },
+  "customEnvironmentFooter": {
+    "message": "വിപുലമായ ഉപയോക്താക്കൾക്കായി. ഓരോ സേവനത്തിന്റെയും അടിസ്ഥാന URL നിങ്ങൾക്ക് സ്വതന്ത്രമായി വ്യക്തമാക്കാൻ കഴിയും."
+  },
+  "baseUrl": {
+    "message": "സെർവർ URL"
+  },
+  "apiUrl": {
+    "message": "API സെർവർ URL"
+  },
+  "webVaultUrl": {
+    "message": "വെബ് വാൾട് സെർവർ URL"
+  },
+  "identityUrl": {
+    "message": "ഐഡന്റിറ്റി സെർവർ URL"
+  },
+  "notificationsUrl": {
+    "message": "API സെർവർ URL"
+  },
+  "iconsUrl": {
+    "message": "ഐക്കണുകളുടെ സെർവർ URL"
+  },
+  "environmentSaved": {
+    "message": "എന്വിയാണമെന്റ് URL സംരക്ഷിച്ചു."
+  },
+  "enableAutoFillOnPageLoad": {
+    "message": "പേജ് ലോഡിൽ യാന്ത്രിക-പൂരിപ്പിക്കൽ പ്രവർത്തനക്ഷമമാക്കുക"
+  },
+  "enableAutoFillOnPageLoadDesc": {
+    "message": "ഒരു ലോഗിൻ ഫോം കണ്ടെത്തിയാൽ, വെബ് പേജ് ലോഡുചെയ്യുമ്പോൾ യാന്ത്രികമായി ഒരു സ്വയം പൂരിപ്പിക്കൽ നടത്തുക."
+  },
+  "experimentalFeature": {
+    "message": "ഇത് നിലവിൽ ഒരു പരീക്ഷണാത്മക സവിശേഷതയാണ്. നിങ്ങളുടെ സ്വന്തം ഉത്തരവാദിത്വത്തിൽ ഉപയോഗിക്കുക."
+  },
+  "defaultAutoFillOnPageLoad": {
+    "message": "Default autofill setting for login items"
+  },
+  "defaultAutoFillOnPageLoadDesc": {
+    "message": "After enabling Auto-fill on Page Load, you can enable or disable the feature for individual login items. This is the default setting for login items that are not separately configured."
+  },
+  "itemAutoFillOnPageLoad": {
+    "message": "Auto-fill on Page Load (if enabled in Options)"
+  },
+  "autoFillOnPageLoadUseDefault": {
+    "message": "Use default setting"
+  },
+  "autoFillOnPageLoadYes": {
+    "message": "Auto-fill on page load"
+  },
+  "autoFillOnPageLoadNo": {
+    "message": "Do not auto-fill on page load"
+  },
+  "commandOpenPopup": {
+    "message": "വോൾട്ട് പോപ്പ്അപ്പ് തുറക്കുക"
+  },
+  "commandOpenSidebar": {
+    "message": "വാൾട് സൈഡ്ബാറിൽ തുറക്കുക"
+  },
+  "commandAutofillDesc": {
+    "message": "നിലവിലെ വെബ്‌സൈറ്റിനായി അവസാനമായി ഉപയോഗിച്ച ലോഗിൻ യാന്ത്രികമായി പൂരിപ്പിക്കുക"
+  },
+  "commandGeneratePasswordDesc": {
+    "message": "ക്ലിപ്പ്ബോർഡിലേക്ക് ഒരു പുതിയ റാൻഡം പാസ്‌വേഡ് സൃഷ്ടിച്ച് പകർത്തുക"
+  },
+  "commandLockVaultDesc": {
+    "message": "നിലവറ പൂട്ടുക"
+  },
+  "privateModeMessage": {
+    "message": "നിർഭാഗ്യവശാൽ ഈ വിൻഡോ ബ്രൗസറിന്റെ സ്വകാര്യ മോഡിൽ ലഭ്യമല്ല."
+  },
+  "customFields": {
+    "message": "ഇഷ്‌ടാനുസൃത ഫീൽഡുകൾ"
+  },
+  "copyValue": {
+    "message": "മൂല്യം പകർത്തുക"
+  },
+  "value": {
+    "message": "മൂല്യം"
+  },
+  "newCustomField": {
+    "message": "പുതിയ ഇഷ്‌ടാനുസൃത ഫീൽഡ്"
+  },
+  "dragToSort": {
+    "message": "അടുക്കാൻ വലിച്ചിടുക"
+  },
+  "cfTypeText": {
+    "message": "വാചകം"
+  },
+  "cfTypeHidden": {
+    "message": "മറച്ചത്"
+  },
+  "cfTypeBoolean": {
+    "message": "ബൂളിയൻ"
+  },
+  "popup2faCloseMessage": {
+    "message": "നിങ്ങളുടെ സ്ഥിരീകരണ കോഡിനായി നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കുന്നതിന് പോപ്പ്അപ്പ് വിൻഡോയ്ക്ക് പുറത്ത് ക്ലിക്കുചെയ്യുന്നത് ഈ പോപ്പ്അപ്പ് അടയ്‌ക്കുന്നതിന് കാരണമാകും. ഈ പോപ്പ്അപ്പ് അടയ്‌ക്കാത്തവിധം ഒരു പുതിയ വിൻ‌ഡോയിൽ‌ തുറക്കാൻ‌ നിങ്ങൾ‌ താൽ‌പ്പര്യപ്പെടുന്നോ?"
+  },
+  "popupU2fCloseMessage": {
+    "message": "ഈ ബ്ര pop സറിന് ഈ പോപ്പ്അപ്പ് വിൻഡോയിൽ U2F അഭ്യർത്ഥനകൾ പ്രോസസ്സ് ചെയ്യാൻ കഴിയില്ല. യു 2 എഫ് ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യാൻ ഈ പോപ്പ്അപ്പ് ഒരു പുതിയ വിൻഡോയിൽ തുറക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "disableFavicon": {
+    "message": "വെബ്‌സൈറ്റ് ഐക്കണുകൾ പ്രവർത്തനരഹിതമാക്കുക"
+  },
+  "disableFaviconDesc": {
+    "message": "വെബ്സൈറ്റ് ഐക്കണുകൾ തങ്ങളുടെ വാൾട്ടിലെ ലോഗിൻ ഇന്നതിന്റ്റെ അടുത്തായി തിരിച്ചറിയുന്ന ഒരു ചിത്രം ഉൾപ്പെടുത്തുന്നു."
+  },
+  "disableBadgeCounter": {
+    "message": "Disable Badge Counter"
+  },
+  "disableBadgeCounterDesc": {
+    "message": "Badge counter indicates how many logins you have for the current page in your vault."
+  },
+  "cardholderName": {
+    "message": "കാർഡ് ഉടമയുടെ പേര്"
+  },
+  "number": {
+    "message": "നമ്പർ"
+  },
+  "brand": {
+    "message": "ബ്രാൻഡ്"
+  },
+  "expirationMonth": {
+    "message": "കാലാവതി കഴിയുന്ന മാസം"
+  },
+  "expirationYear": {
+    "message": "കാലാവതി കഴിയുന്ന വർഷം"
+  },
+  "expiration": {
+    "message": "കാലഹരണപ്പെടൽ"
+  },
+  "january": {
+    "message": "ജനുവരി"
+  },
+  "february": {
+    "message": "ഫെബ്രുവരി"
+  },
+  "march": {
+    "message": "മാർച്ച്‌"
+  },
+  "april": {
+    "message": "ഏപ്രിൽ"
+  },
+  "may": {
+    "message": "മെയ്‌"
+  },
+  "june": {
+    "message": "ജൂണ്‍"
+  },
+  "july": {
+    "message": "ജൂലൈ"
+  },
+  "august": {
+    "message": "ഓഗസ്റ്റ്"
+  },
+  "september": {
+    "message": "സെപ്റ്റംബർ"
+  },
+  "october": {
+    "message": "ഒക്ടോബര്‍"
+  },
+  "november": {
+    "message": "നവംബർ"
+  },
+  "december": {
+    "message": "ഡിസംബർ"
+  },
+  "securityCode": {
+    "message": "സുരക്ഷാ കോഡ്"
+  },
+  "ex": {
+    "message": "ഉദാഹരണം."
+  },
+  "title": {
+    "message": "ശീർഷകം"
+  },
+  "mr": {
+    "message": "ശ്രീ"
+  },
+  "mrs": {
+    "message": "ശ്രിമതി"
+  },
+  "ms": {
+    "message": "കുമാരി"
+  },
+  "dr": {
+    "message": "ഡോ"
+  },
+  "firstName": {
+    "message": "പേരിന്റെ ആദ്യഭാഗം"
+  },
+  "middleName": {
+    "message": "മധ്യ നാമം"
+  },
+  "lastName": {
+    "message": "പേരിന്റെ അവസാന ഭാഗം"
+  },
+  "identityName": {
+    "message": "ഐഡന്റിറ്റിയുടെ പേര്"
+  },
+  "company": {
+    "message": "കമ്പനി"
+  },
+  "ssn": {
+    "message": "സാമൂഹിക സുരക്ഷാ നമ്പർ"
+  },
+  "passportNumber": {
+    "message": "പാസ്പോർട്ട് നമ്പർ"
+  },
+  "licenseNumber": {
+    "message": "ലൈസൻസ് നമ്പർ"
+  },
+  "email": {
+    "message": "ഇമെയിൽ"
+  },
+  "phone": {
+    "message": "ഫോൺ"
+  },
+  "address": {
+    "message": "മേൽവിലാസം"
+  },
+  "address1": {
+    "message": "മേൽവിലാസം 1"
+  },
+  "address2": {
+    "message": "മേൽവിലാസം 2"
+  },
+  "address3": {
+    "message": "മേൽവിലാസം 3"
+  },
+  "cityTown": {
+    "message": "നഗരം / പട്ടണം"
+  },
+  "stateProvince": {
+    "message": "സംസ്ഥാനം/ ദേശം"
+  },
+  "zipPostalCode": {
+    "message": "പിൻകോഡ്"
+  },
+  "country": {
+    "message": "രാജ്യം"
+  },
+  "type": {
+    "message": "തരം"
+  },
+  "typeLogin": {
+    "message": "പ്രവേശനം"
+  },
+  "typeLogins": {
+    "message": "പ്രവേശനങ്ങൾ"
+  },
+  "typeSecureNote": {
+    "message": "സുരക്ഷിത കുറിപ്പ്"
+  },
+  "typeCard": {
+    "message": "കാർഡ്"
+  },
+  "typeIdentity": {
+    "message": "ഐഡന്റിറ്റി"
+  },
+  "passwordHistory": {
+    "message": "പാസ്സ്‌വേഡ് നാൾവഴി"
+  },
+  "back": {
+    "message": "പുറകോട്ട്"
+  },
+  "collections": {
+    "message": "കളക്ഷൻസ്"
+  },
+  "favorites": {
+    "message": "പ്രിയങ്കരങ്ങള്‍"
+  },
+  "popOutNewWindow": {
+    "message": "ഒരു പുതിയ വിൻ‌ഡോയിലേക്ക് പോപ്പ് out ട്ട് ചെയ്യുക"
+  },
+  "refresh": {
+    "message": "റിഫ്രഷ് ചെയ്യുക"
+  },
+  "cards": {
+    "message": "കാർഡുകൾ"
+  },
+  "identities": {
+    "message": "തിരിച്ചറിയലുകൾ"
+  },
+  "logins": {
+    "message": "പ്രവേശനങ്ങൾ"
+  },
+  "secureNotes": {
+    "message": "സുരക്ഷാ കുറിപ്പുകൾ"
+  },
+  "clear": {
+    "message": "മായ്ക്കുക",
+    "description": "To clear something out. example: To clear browser history."
+  },
+  "checkPassword": {
+    "message": "പാസ്സ്‌വേർഡ് ചോർന്നോ എന്ന് നോക്കുക."
+  },
+  "passwordExposed": {
+    "message": "ഈ പാസ്‌വേഡ് $VALUE$ ലംഘനങ്ങളിൽ ചോർന്നു. തങ്ങൾ ഇത് മാറ്റണം.",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "passwordSafe": {
+    "message": "അറിയപ്പെടുന്ന ഡാറ്റാ ലംഘനങ്ങളിൽ ഈ പാസ്‌വേഡ് കണ്ടെത്തിയില്ല. ഇത് ഉപയോഗിക്കുന്നത് സുരക്ഷിതമായിരിക്കും."
+  },
+  "baseDomain": {
+    "message": "അടിസ്ഥാന ഡൊമെയ്ൻ"
+  },
+  "host": {
+    "message": "ഹോസ്റ്റ്",
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
+  },
+  "exact": {
+    "message": "കൃത്യമായി"
+  },
+  "startsWith": {
+    "message": "തുടങ്ങുന്നത്"
+  },
+  "regEx": {
+    "message": "പതിവ് പദപ്രയോഗം",
+    "description": "A programming term, also known as 'RegEx'."
+  },
+  "matchDetection": {
+    "message": "പൊരുത്തം കണ്ടെത്തൽ",
+    "description": "URI match detection for auto-fill."
+  },
+  "defaultMatchDetection": {
+    "message": "സ്ഥിരസ്ഥിതി പൊരുത്ത കണ്ടെത്തൽ",
+    "description": "Default URI match detection for auto-fill."
+  },
+  "toggleOptions": {
+    "message": "ഓപ്ഷനുകൾ ടോഗിൾ ചെയ്യുക"
+  },
+  "toggleCurrentUris": {
+    "message": "നിലവിലെ URIകൾ ടോഗിൾ ചെയ്യുക",
+    "description": "Toggle the display of the URIs of the currently open tabs in the browser."
+  },
+  "currentUri": {
+    "message": "നിലവിലെ URI",
+    "description": "The URI of one of the current open tabs in the browser."
+  },
+  "organization": {
+    "message": "സംഘടന",
+    "description": "An entity of multiple related people (ex. a team or business organization)."
+  },
+  "types": {
+    "message": "തരങ്ങൾ"
+  },
+  "allItems": {
+    "message": "എല്ലാ ഇനങ്ങൾ"
+  },
+  "noPasswordsInList": {
+    "message": "പ്രദർശിപ്പിക്കാൻ പാസ്സ്‌വേഡുകൾ ഒന്നും ഇല്ല."
+  },
+  "remove": {
+    "message": "നീക്കുക"
+  },
+  "default": {
+    "message": "സ്ഥിരസ്ഥിതി"
+  },
+  "dateUpdated": {
+    "message": "പുതുക്കി",
+    "description": "ex. Date this item was updated"
+  },
+  "datePasswordUpdated": {
+    "message": "പാസ്സ്‌വേഡ് പുതുക്കി",
+    "description": "ex. Date this password was updated"
+  },
+  "neverLockWarning": {
+    "message": "\"ഒരിക്കലും\" ഓപ്ഷൻ ഉപയോഗിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ? നിങ്ങളുടെ ലോക്ക് ഓപ്ഷനുകൾ \"ഒരിക്കലും\" എന്ന് സജ്ജമാക്കുന്നത് നിങ്ങളുടെ ഉപകരണത്തിൽ നിലവറയുടെ എൻക്രിപ്ഷൻ കീ സംഭരിക്കുന്നു. നിങ്ങൾ ഈ ഓപ്‌ഷൻ ഉപയോഗിക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ ഉപകരണം ശരിയായി പരിരക്ഷിച്ചിട്ടുണ്ടെന്ന് ഉറപ്പാക്കണം."
+  },
+  "noOrganizationsList": {
+    "message": "താങ്കൾ ഒരു സംഘടനയുടെയും അംഗമല്ല. മറ്റ് ഉപയോക്താക്കളുമായി ഇനങ്ങൾ സുരക്ഷിതമായി പങ്കിടാൻ ഓർഗനൈസേഷനുകൾ നിങ്ങളെ അനുവദിക്കുന്നു."
+  },
+  "noCollectionsInList": {
+    "message": "പ്രദർശിപ്പിക്കാൻ കളക്ഷൻസ് ഒന്നും ഇല്ല."
+  },
+  "ownership": {
+    "message": "ഉടമസ്ഥാവകാശം"
+  },
+  "whoOwnsThisItem": {
+    "message": "ഈ ഇനം ആരുടേതാണ്?"
+  },
+  "strong": {
+    "message": "ശക്തമാണ്",
+    "description": "ex. A strong password. Scale: Weak -> Good -> Strong"
+  },
+  "good": {
+    "message": "നല്ലതാണ്",
+    "description": "ex. A good password. Scale: Weak -> Good -> Strong"
+  },
+  "weak": {
+    "message": "ദുർബലമാണ്",
+    "description": "ex. A weak password. Scale: Weak -> Good -> Strong"
+  },
+  "weakMasterPassword": {
+    "message": "ദുർബലമായ പ്രാഥമിക പാസ്‌വേഡ്"
+  },
+  "weakMasterPasswordDesc": {
+    "message": "നിങ്ങൾ തിരഞ്ഞെടുത്ത പ്രാഥമിക പാസ്‌വേഡ് ദുർബലമാണ്. നിങ്ങളുടെ Bitwarden അക്കൗണ്ട് ശരിയായി സുരക്ഷിതമാക്കാൻ നിങ്ങൾ ഒരു ശക്തമായ മാസ്റ്റർ പാസ്‌വേഡ് (അല്ലെങ്കിൽ ഒരു പാസ്‌ഫ്രേസ്) ഉപയോഗിക്കണം. ഈ മാസ്റ്റർ പാസ്‌വേഡ് ഉപയോഗിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "pin": {
+    "message": "പിൻ",
+    "description": "PIN code. Ex. The short code (often numeric) that you use to unlock a device."
+  },
+  "unlockWithPin": {
+    "message": "പിൻ ഉപയോഗിച്ച് അൺലോക്കുചെയ്യുക"
+  },
+  "setYourPinCode": {
+    "message": "Bitwarden അൺലോക്കുചെയ്യുന്നതിന് തങ്ങളുടെ പിൻ കോഡ് സജ്ജമാക്കുക. തങ്ങൾ എപ്പോഴെങ്കിലും അപ്ലിക്കേഷനിൽ നിന്ന് പൂർണ്ണമായി ലോഗ് ഔട്ട് ചെയ്യുകയാണെങ്കിൽ, പിൻ ക്രമീകരണങ്ങൾ പുനസജ്ജമാക്കും."
+  },
+  "pinRequired": {
+    "message": "പിൻ കോഡ് നിർബന്ധമാണ്."
+  },
+  "invalidPin": {
+    "message": " പിൻ കോഡ് അസാധുവാണ്."
+  },
+  "verifyPin": {
+    "message": "പിൻ സ്ഥിരീകരിക്കുക"
+  },
+  "yourVaultIsLockedPinCode": {
+    "message": "നിങ്ങളുടെ വാൾട് പൂട്ടിയിരിക്കുന്നു. തുടരാൻ പിൻ കോഡ് സ്ഥിരീകരിക്കുക."
+  },
+  "unlockWithBiometrics": {
+    "message": "Unlock with biometrics"
+  },
+  "awaitDesktop": {
+    "message": "Awaiting confirmation from desktop"
+  },
+  "awaitDesktopDesc": {
+    "message": "Please confirm using biometrics in the Bitwarden Desktop application to enable biometrics for browser."
+  },
+  "lockWithMasterPassOnRestart": {
+    "message": "ബ്രൌസർ പുനരാരംഭത്തിൽ പ്രാഥമിക പാസ്‌വേഡ് ഉപയോഗിച്ച് ലോക്ക് ചെയ്യുക"
+  },
+  "selectOneCollection": {
+    "message": "നിങ്ങൾ ഒരു  കളക്ഷനെങ്കിലും  തിരഞ്ഞെടുക്കണം."
+  },
+  "cloneItem": {
+    "message": "ഇനം ക്ലോൺ ചെയ്യുക"
+  },
+  "clone": {
+    "message": "ക്ലോൺ"
+  },
+  "passwordGeneratorPolicyInEffect": {
+    "message": "ഒന്നോ അതിലധികമോ സംഘടന നയങ്ങൾ നിങ്ങളുടെ പാസ്സ്‌വേഡ് സൃഷ്ടാവിൻ്റെ ക്രമീകരണങ്ങളെ ബാധിക്കുന്നു"
+  },
+  "vaultTimeoutAction": {
+    "message": "വാൾട് ടൈം ഔട്ട് ആക്ഷൻ"
+  },
+  "lock": {
+    "message": "പൂട്ടുക",
+    "description": "Verb form: to make secure or inaccesible by"
+  },
+  "trash": {
+    "message": "ട്രാഷ്",
+    "description": "Noun: a special folder to hold deleted items"
+  },
+  "searchTrash": {
+    "message": "ട്രാഷ് തിരയുന്നു"
+  },
+  "permanentlyDeleteItem": {
+    "message": "ഇനം ശാശ്വതമായി ഇല്ലാതാക്കുക"
+  },
+  "permanentlyDeleteItemConfirmation": {
+    "message": "ഈ ഇനം ശാശ്വതമായി ഇല്ലാതാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "permanentlyDeletedItem": {
+    "message": "ശാശ്വതമായി ഇല്ലാതാക്കിയ ഇനം"
+  },
+  "restoreItem": {
+    "message": "ഇനം വീണ്ടെടുക്കുക "
+  },
+  "restoreItemConfirmation": {
+    "message": "ഈ ഇനം വീണ്ടെടുക്കണമെന്ന് ഉറപ്പാണോ?"
+  },
+  "restoredItem": {
+    "message": "വീണ്ടെടുത്ത ഇനം"
+  },
+  "vaultTimeoutLogOutConfirmation": {
+    "message": "ലോഗൗട്ട് ചെയ്യുകയാണെങ്കിൽ തങ്ങളുടെ വാൾട്ടിലേക്കുള്ള എല്ലാ ആക്സസും നീക്കംചെയ്യും. കാലയളവിനുശേഷം ഓൺലൈൻ ഓതന്റിക്കേറ്റർ ആവശ്യമാണ്. ഈ ക്രമീകരണം ഉപയോഗിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
+  },
+  "vaultTimeoutLogOutConfirmationTitle": {
+    "message": "ടൈംഔട് ആക്ഷൻ സ്ഥിരീകരണം"
+  },
+  "autoFillAndSave": {
+    "message": "യാന്ത്രികമായി പൂരിപ്പിച്ച് സംരക്ഷിക്കുക"
+  },
+  "autoFillSuccessAndSavedUri": {
+    "message": "യാന്ത്രികമായി പൂരിപ്പിച്ച ഇനവും സംരക്ഷിച്ച URI"
+  },
+  "autoFillSuccess": {
+    "message": "യാന്ത്രികമായി പൂരിപ്പിച്ച ഇനം"
+  },
+  "setMasterPassword": {
+    "message": "പ്രാഥമിക പാസ്‌വേഡ് സജ്ജമാക്കുക"
+  },
+  "masterPasswordPolicyInEffect": {
+    "message": "ഒന്നോ അതിലധികമോ ഓർഗനൈസേഷൻ നയങ്ങൾക്ക് ഇനിപ്പറയുന്ന ആവശ്യകതകൾ നിറവേറ്റുന്നതിന് നിങ്ങളുടെ മാസ്റ്റർ പാസ്‌വേഡ് ആവശ്യമാണ്:"
+  },
+  "policyInEffectMinComplexity": {
+    "message": "സങ്കീർണ്ണതയുടെ കുറഞ്ഞ സ്കോർ$SCORE$",
+    "placeholders": {
+      "score": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "policyInEffectMinLength": {
+    "message": "കുറഞ്ഞ ദൈർഘ്യം $LENGTH$",
+    "placeholders": {
+      "length": {
+        "content": "$1",
+        "example": "14"
+      }
+    }
+  },
+  "policyInEffectUppercase": {
+    "message": "ഒന്നോ അതിലധികമോ വലിയക്ഷരങ്ങൾ അടങ്ങിയിരിക്കുന്ന"
+  },
+  "policyInEffectLowercase": {
+    "message": "ഒന്നോ അതിലധികമോ ചെറിയക്ഷരങ്ങൾ അടങ്ങിയിരിക്കുന്ന"
+  },
+  "policyInEffectNumbers": {
+    "message": "ഒന്നോ അതിലധികമോ അക്കങ്ങൾ അടങ്ങിയിരിക്കുന്ന"
+  },
+  "policyInEffectSpecial": {
+    "message": "ഇനിപ്പറയുന്ന ഒന്നോ അതിലധികമോ പ്രത്യേക പ്രതീകങ്ങൾ അടങ്ങിയിരിക്കണം:$CHARS$",
+    "placeholders": {
+      "chars": {
+        "content": "$1",
+        "example": "!@#$%^&*"
+      }
+    }
+  },
+  "masterPasswordPolicyRequirementsNotMet": {
+    "message": "നിങ്ങളുടെ പുതിയ മാസ്റ്റർ പാസ്‌വേഡ് നയ ആവശ്യകതകൾ നിറവേറ്റുന്നില്ല."
+  },
+  "acceptPolicies": {
+    "message": "ഈ ബോക്സ് ചെക്കുചെയ്യുന്നതിലൂടെ നിങ്ങൾ ഇനിപ്പറയുന്നവ അംഗീകരിക്കുന്നു:"
+  },
+  "acceptPoliciesError": {
+    "message": "സേവന നിബന്ധനകളും സ്വകാര്യതാ നയവും അംഗീകരിച്ചിട്ടില്ല."
+  },
+  "termsOfService": {
+    "message": "സേവന നിബന്ധനകൾ"
+  },
+  "privacyPolicy": {
+    "message": "സ്വകാര്യതാനയം"
+  },
+  "hintEqualsPassword": {
+    "message": "Your password hint cannot be the same as your password."
+  },
+  "ok": {
+    "message": "Ok"
+  },
+  "desktopSyncVerificationTitle": {
+    "message": "Desktop sync verification"
+  },
+  "desktopIntegrationVerificationText": {
+    "message": "Please verify that the desktop application shows this fingerprint: "
+  },
+  "desktopIntegrationDisabledTitle": {
+    "message": "Browser integration is not enabled"
+  },
+  "desktopIntegrationDisabledDesc": {
+    "message": "Browser integration is not enabled in the Bitwarden Desktop application. Please enable it in the settings within the desktop application."
+  },
+  "startDesktopTitle": {
+    "message": "Start the Bitwarden Desktop application"
+  },
+  "startDesktopDesc": {
+    "message": "The Bitwarden Desktop application needs to be started before this function can be used."
+  },
+  "errorEnableBiometricTitle": {
+    "message": "Unable to enable biometrics"
+  },
+  "errorEnableBiometricDesc": {
+    "message": "Action was canceled by the desktop application"
+  },
+  "nativeMessagingInvalidEncryptionDesc": {
+    "message": "Desktop application invalidated the secure communication channel. Please retry this operation"
+  },
+  "nativeMessagingInvalidEncryptionTitle": {
+    "message": "Desktop communication interrupted"
+  },
+  "nativeMessagingWrongUserDesc": {
+    "message": "The desktop application is logged into a different account. Please ensure both applications are logged into the same account."
+  },
+  "nativeMessagingWrongUserTitle": {
+    "message": "Account missmatch"
+  },
+  "biometricsNotEnabledTitle": {
+    "message": "Biometrics not enabled"
+  },
+  "biometricsNotEnabledDesc": {
+    "message": "Browser biometrics requires desktop biometric to be enabled in the settings first."
+  },
+  "biometricsNotSupportedTitle": {
+    "message": "Biometrics not supported"
+  },
+  "biometricsNotSupportedDesc": {
+    "message": "Browser biometrics is not supported on this device."
+  },
+  "nativeMessaginPermissionErrorTitle": {
+    "message": "Permission not provided"
+  },
+  "nativeMessaginPermissionErrorDesc": {
+    "message": "Without permission to communicate with the Bitwarden Desktop Application we cannot provide biometrics in the browser extension. Please try again."
+  },
+  "nativeMessaginPermissionSidebarTitle": {
+    "message": "Permission request error"
+  },
+  "nativeMessaginPermissionSidebarDesc": {
+    "message": "This action cannot be done in the sidebar, please retry the action in the popup or popout."
+  },
+  "personalOwnershipSubmitError": {
+    "message": "Due to an Enterprise Policy, you are restricted from saving items to your personal vault. Change the Ownership option to an organization and choose from available Collections."
+  },
+  "personalOwnershipPolicyInEffect": {
+    "message": "An organization policy is affecting your ownership options."
+  },
+  "excludedDomains": {
+    "message": "Excluded Domains"
+  },
+  "excludedDomainsDesc": {
+    "message": "Bitwarden will not ask to save login details for these domains. You must refresh the page for changes to take effect."
+  },
+  "excludedDomainsInvalidDomain": {
+    "message": "$DOMAIN$ is not a valid domain",
+    "placeholders": {
+      "domain": {
+        "content": "$1",
+        "example": "googlecom"
+      }
+    }
+  },
+  "send": {
+    "message": "Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "searchSends": {
+    "message": "Search Sends",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "addSend": {
+    "message": "Add Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendTypeText": {
+    "message": "Text"
+  },
+  "sendTypeFile": {
+    "message": "File"
+  },
+  "allSends": {
+    "message": "All Sends",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "maxAccessCountReached": {
+    "message": "Max access count reached"
+  },
+  "expired": {
+    "message": "Expired"
+  },
+  "pendingDeletion": {
+    "message": "Pending deletion"
+  },
+  "passwordProtected": {
+    "message": "Password protected"
+  },
+  "copySendLink": {
+    "message": "Copy Send link",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "removePassword": {
+    "message": "Remove Password"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "removedPassword": {
+    "message": "Removed Password"
+  },
+  "deletedSend": {
+    "message": "Deleted Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendLink": {
+    "message": "Send link",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "disabled": {
+    "message": "Disabled"
+  },
+  "removePasswordConfirmation": {
+    "message": "Are you sure you want to remove the password?"
+  },
+  "deleteSend": {
+    "message": "Delete Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "deleteSendConfirmation": {
+    "message": "Are you sure you want to delete this Send?",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "editSend": {
+    "message": "Edit Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendTypeHeader": {
+    "message": "What type of Send is this?",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendNameDesc": {
+    "message": "A friendly name to describe this Send.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendFileDesc": {
+    "message": "The file you want to send."
+  },
+  "deletionDate": {
+    "message": "Deletion Date"
+  },
+  "deletionDateDesc": {
+    "message": "The Send will be permanently deleted on the specified date and time.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "expirationDate": {
+    "message": "Expiration Date"
+  },
+  "expirationDateDesc": {
+    "message": "If set, access to this Send will expire on the specified date and time.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "oneDay": {
+    "message": "1 day"
+  },
+  "days": {
+    "message": "$DAYS$ days",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "custom": {
+    "message": "Custom"
+  },
+  "maximumAccessCount": {
+    "message": "Maximum Access Count"
+  },
+  "maximumAccessCountDesc": {
+    "message": "If set, users will no longer be able to access this Send once the maximum access count is reached.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendPasswordDesc": {
+    "message": "Optionally require a password for users to access this Send.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendNotesDesc": {
+    "message": "Private notes about this Send.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendDisableDesc": {
+    "message": "Disable this Send so that no one can access it.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendShareDesc": {
+    "message": "Copy this Send's link to clipboard upon save.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendTextDesc": {
+    "message": "The text you want to send."
+  },
+  "sendHideText": {
+    "message": "Hide this Send's text by default.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "currentAccessCount": {
+    "message": "Current Access Count"
+  },
+  "createSend": {
+    "message": "Create New Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "newPassword": {
+    "message": "New Password"
+  },
+  "sendDisabled": {
+    "message": "Send Disabled",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendDisabledWarning": {
+    "message": "Due to an enterprise policy, you are only able to delete an existing Send.",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "createdSend": {
+    "message": "Created Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "editedSend": {
+    "message": "Edited Send",
+    "description": "'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated."
+  },
+  "sendLinuxChromiumFileWarning": {
+    "message": "In order to choose a file, open the extension in the sidebar (if possible) or pop out to a new window by clicking this banner."
+  },
+  "sendFirefoxFileWarning": {
+    "message": "In order to choose a file using Firefox, open the extension in the sidebar or pop out to a new window by clicking this banner."
+  },
+  "sendSafariFileWarning": {
+    "message": "In order to choose a file using Safari, pop out to a new window by clicking this banner."
+  },
+  "sendFileCalloutHeader": {
+    "message": "Before you start"
+  },
+  "sendFirefoxCustomDatePopoutMessage1": {
+    "message": "To use a calendar style date picker",
+    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read '**To use a calendar style date picker ** click here to pop out your window.'"
+  },
+  "sendFirefoxCustomDatePopoutMessage2": {
+    "message": "click here",
+    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'To use a calendar style date picker **click here** to pop out your window.'"
+  },
+  "sendFirefoxCustomDatePopoutMessage3": {
+    "message": "to pop out your window.",
+    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'To use a calendar style date picker click here **to pop out your window.**'"
+  },
+  "expirationDateIsInvalid": {
+    "message": "The expiration date provided is not valid."
+  },
+  "deletionDateIsInvalid": {
+    "message": "The deletion date provided is not valid."
+  },
+  "expirationDateAndTimeRequired": {
+    "message": "An expiration date and time are required."
+  },
+  "deletionDateAndTimeRequired": {
+    "message": "A deletion date and time are required."
+  },
+  "dateParsingError": {
+    "message": "There was an error saving your deletion and expiration dates."
+  },
+  "hideEmail": {
+    "message": "Hide my email address from recipients."
+  },
+  "sendOptionsPolicyInEffect": {
+    "message": "One or more organization policies are affecting your Send options."
+  },
+  "passwordPrompt": {
+    "message": "Master password re-prompt"
+  },
+  "passwordConfirmation": {
+    "message": "Master password confirmation"
+  },
+  "passwordConfirmationDesc": {
+    "message": "This action is protected. To continue, please re-enter your master password to verify your identity."
+  },
+  "emailVerificationRequired": {
+    "message": "Email Verification Required"
+  },
+  "emailVerificationRequiredDesc": {
+    "message": "You must verify your email to use this feature. You can verify your email in the web vault."
+  },
+  "updatedMasterPassword": {
+    "message": "Updated Master Password"
+  },
+  "updateMasterPassword": {
+    "message": "Update Master Password"
+  },
+  "updateMasterPasswordWarning": {
+    "message": "Your Master Password was recently changed by an administrator in your organization. In order to access the vault, you must update it now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+  },
+  "resetPasswordPolicyAutoEnroll": {
+    "message": "Automatic Enrollment"
+  },
+  "resetPasswordAutoEnrollInviteWarning": {
+    "message": "This organization has an enterprise policy that will automatically enroll you in password reset. Enrollment will allow organization administrators to change your master password."
+  },
+  "selectFolder": {
+    "message": "Select folder..."
+  },
+  "ssoCompleteRegistration": {
+    "message": "In order to complete logging in with SSO, please set a master password to access and protect your vault."
+  },
+  "hours": {
+    "message": "Hours"
+  },
+  "minutes": {
+    "message": "Minutes"
+  },
+  "vaultTimeoutPolicyInEffect": {
+    "message": "Your organization policies are affecting your vault timeout. Maximum allowed Vault Timeout is $HOURS$ hour(s) and $MINUTES$ minute(s)",
+    "placeholders": {
+      "hours": {
+        "content": "$1",
+        "example": "5"
+      },
+      "minutes": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "vaultTimeoutToLarge": {
+    "message": "Your vault timeout exceeds the restrictions set by your organization."
+  },
+  "vaultExportDisabled": {
+    "message": "Vault Export Disabled"
+  },
+  "personalVaultExportPolicyInEffect": {
+    "message": "One or more organization policies prevents you from exporting your personal vault."
+  },
+  "copyCustomFieldNameInvalidElement": {
+    "message": "Unable to identify a valid form element. Try inspecting the HTML instead."
+  },
+  "copyCustomFieldNameNotUnique": {
+    "message": "No unique identifier found."
+  }
+}
