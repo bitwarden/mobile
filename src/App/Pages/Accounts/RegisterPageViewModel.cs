@@ -74,7 +74,8 @@ namespace Bit.App.Pages
         public Command TogglePasswordCommand { get; }
         public Command ToggleConfirmPasswordCommand { get; }
         public string ShowPasswordIcon => ShowPassword ? BitwardenIcons.EyeSlash : BitwardenIcons.Eye;
-        public string PasswordVisibilityAccessibilityText => ShowPassword ? AppResources.PasswordIsVisibleTapToHide : AppResources.PasswordIsNotVisibleTapToShow;
+        public string PasswordVisibilityAccessibilityText => ShowPassword ? AppResources.VisibilityTogglePasswordIsVisibleActivateToHide :
+            AppResources.VisibilityTogglePasswordIsNotVisibleActivateToHide;
         public string Name { get; set; }
         public string Email { get; set; }
         public string MasterPassword { get; set; }

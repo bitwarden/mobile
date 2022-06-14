@@ -72,7 +72,8 @@ namespace Bit.App.Pages
         }
 
         public string ShowPasswordIcon => ShowPassword ? "" : "";
-        public string PasswordVisibilityAccessibilityText => ShowPassword ? AppResources.PasswordIsVisibleTapToHide : AppResources.PasswordIsNotVisibleTapToShow;
+        public string PasswordVisibilityAccessibilityText => ShowPassword ? AppResources.VisibilityTogglePasswordIsVisibleActivateToHide :
+            AppResources.VisibilityTogglePasswordIsNotVisibleActivateToHide;
         public string MasterPassword { get; set; }
         public string ConfirmMasterPassword { get; set; }
         public string Hint { get; set; }

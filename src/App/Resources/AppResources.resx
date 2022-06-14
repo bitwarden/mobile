@@ -2223,11 +2223,11 @@
   <data name="TapToGoBack" xml:space="preserve">
     <value>Tap to go back</value>
   </data>
-  <data name="PasswordIsVisibleTapToHide" xml:space="preserve">
-    <value>Password is visible, tap to hide.</value>
+  <data name="VisibilityTogglePasswordIsVisibleActivateToHide" xml:space="preserve">
+    <value>Visibility Toggle, Password is visible, activate to hide.</value>
   </data>
-  <data name="PasswordIsNotVisibleTapToShow" xml:space="preserve">
-    <value>Password is not visible, tap to show.</value>
+  <data name="VisibilityTogglePasswordIsNotVisibleActivateToHide" xml:space="preserve">
+    <value>Visibility Toggle, Password is not visible, activate to show.</value>
   </data>
   <data name="FilterByVault" xml:space="preserve">
     <value>Filter items by vault</value>

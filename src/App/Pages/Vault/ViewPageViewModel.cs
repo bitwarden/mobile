@@ -214,7 +214,8 @@ namespace Bit.App.Pages
         public string ShowPasswordIcon => ShowPassword ? BitwardenIcons.EyeSlash : BitwardenIcons.Eye;
         public string ShowCardNumberIcon => ShowCardNumber ? BitwardenIcons.EyeSlash : BitwardenIcons.Eye;
         public string ShowCardCodeIcon => ShowCardCode ? BitwardenIcons.EyeSlash : BitwardenIcons.Eye;
-        public string PasswordVisibilityAccessibilityText => ShowPassword ? AppResources.PasswordIsVisibleTapToHide : AppResources.PasswordIsNotVisibleTapToShow;
+        public string PasswordVisibilityAccessibilityText => ShowPassword ? AppResources.VisibilityTogglePasswordIsVisibleActivateToHide :
+            AppResources.VisibilityTogglePasswordIsNotVisibleActivateToHide;
         public string TotpCodeFormatted
         {
             get => _totpCodeFormatted;
