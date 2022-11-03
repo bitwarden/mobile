@@ -9,25 +9,34 @@ using Google.Apis.Services;
 
 namespace Bit.Publisher
 {
+
+    // static class to hold global variables, etc.
+    static class Globals
+    {
+        // global string
+        // private const string Package = "com.x8bit.bitwarden";
+        public static string Package;
+    }
+
+
     public class Program
     {
-        private const string Package = "com.x8bit.bitwarden";
-
         private static string _aabFilePath;
         private static string _credsFilePath;
         private static string _track;
 
         static void Main(string[] args)
         {
-            if (args.Length < 3)
+            if (args.Length < 4)
             {
-                throw new ArgumentException("Not enough arguments.");
+                throw new ArgumentException("Not enough arguments (needs 4), got: " + args.Length);
             }
 
             try
             {
                 _credsFilePath = args[0];
                 _aabFilePath = args[1];
+                Globals.Package = args[3];
 
                 var track = args[2].Substring(0, 1).ToLower();
                 if (track == "a")
@@ -79,7 +88,7 @@ namespace Bit.Publisher
             });
             service.HttpClient.Timeout = TimeSpan.FromMinutes(3);
 
-            var editRequest = service.Edits.Insert(null, Package);
+            var editRequest = service.Edits.Insert(null, Globals.Package);
             var edit = await editRequest.ExecuteAsync();
 
             Console.WriteLine("Created edit with id {0}.", edit.Id);
@@ -87,7 +96,7 @@ namespace Bit.Publisher
             Bundle aab = null;
             using (var stream = new FileStream(_aabFilePath, FileMode.Open))
             {
-                var uploadMedia = service.Edits.Bundles.Upload(Package, edit.Id, stream,
+                var uploadMedia = service.Edits.Bundles.Upload(Globals.Package, edit.Id, stream,
                     "application/octet-stream");
 
                 var progress = await uploadMedia.UploadAsync();
@@ -114,12 +123,12 @@ namespace Bit.Publisher
                 {
                     new TrackRelease { VersionCodes = new List<long?> { aab.VersionCode }, Status = "completed" }
                 }
-            }, Package, edit.Id, _track);
+            }, Globals.Package, edit.Id, _track);
 
             var updatedTrack = await trackRequest.ExecuteAsync();
             Console.WriteLine("Track {0} has been updated.", updatedTrack.TrackValue);
 
-            var commitRequest = service.Edits.Commit(Package, edit.Id);
+            var commitRequest = service.Edits.Commit(Globals.Package, edit.Id);
             var commitEdit = await commitRequest.ExecuteAsync();
             Console.WriteLine("App edit with id {0} has been comitted.", commitEdit.Id);
         }

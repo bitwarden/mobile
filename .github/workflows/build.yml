@@ -11,6 +11,9 @@ on:
   workflow_dispatch:
     inputs: {}
 
+  env:
+    BASE_PKG_NAME: com.x8bit.bitwarden
+
 jobs:
   cloc:
     name: CLOC
@@ -174,11 +177,11 @@ jobs:
           UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.UPLOAD_KEYSTORE_PASSWORD }}
         run: |
           $androidPath = $($env:GITHUB_WORKSPACE + "/src/Android/Android.csproj");
-          $packageName = "com.x8bit.bitwarden";
+          $packageName = "";
           
           if ("${{ matrix.variant }}" -ne "prod") 
           {
-            $packageName = "com.x8bit.bitwarden.${{ matrix.variant }}";
+            $packageName = "${{ env.BASE_PKG_NAME }}.${{ matrix.variant }}";
           }
           Write-Output "########################################"
           Write-Output "##### Sign Google Play Bundle Release Configuration"
@@ -219,24 +222,24 @@ jobs:
         if: ${{ matrix.variant == 'prod' }}
         uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
         with:
-          name: com.x8bit.bitwarden.aab
-          path: ./com.x8bit.bitwarden.aab
+          name: ${{ env.BASE_PKG_NAME }}.aab
+          path: ./${{ env.BASE_PKG_NAME }}.aab
           if-no-files-found: error
 
       - name: Upload Prod .apk artifact
         if: ${{ matrix.variant == 'prod' }}
         uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
         with:
-          name: com.x8bit.bitwarden.apk
-          path: ./com.x8bit.bitwarden.apk
+          name: ${{ env.BASE_PKG_NAME }}.apk
+          path: ./${{ env.BASE_PKG_NAME }}.apk
           if-no-files-found: error
 
       - name: Upload Other .apk artifact
         if: ${{ matrix.variant != 'prod' }}
         uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
         with:
-          name: com.x8bit.bitwarden.${{ matrix.variant }}.apk
-          path: ./com.x8bit.bitwarden.${{ matrix.variant }}.apk
+          name: ${{ env.BASE_PKG_NAME }}.${{ matrix.variant }}.apk
+          path: ./${{ env.BASE_PKG_NAME }}.${{ matrix.variant }}.apk
           if-no-files-found: error
 
       - name: Deploy to Play Store
@@ -248,10 +251,10 @@ jobs:
         run: |
           PUBLISHER_PATH="$GITHUB_WORKSPACE/store/google/Publisher/bin/Release/netcoreapp3.1/Publisher.dll"
           CREDS_PATH="$HOME/secrets/play_creds.json"
-          AAB_PATH="$GITHUB_WORKSPACE/com.x8bit.bitwarden.aab"
+          AAB_PATH="$GITHUB_WORKSPACE/${{env:BASE_PKG_NAME}}.aab"
           TRACK="internal"
 
-          dotnet $PUBLISHER_PATH $CREDS_PATH $AAB_PATH $TRACK
+          dotnet $PUBLISHER_PATH $CREDS_PATH $AAB_PATH $TRACK ${{env:BASE_PKG_NAME}}
         shell: bash
 
 
@@ -424,8 +427,8 @@ jobs:
           Write-Output "##### Copy FDroid apk to project root"
           Write-Output "########################################"
 
-          $signedApkPath = $($env:GITHUB_WORKSPACE + "/src/Android/bin/FDroid/com.x8bit.bitwarden-Signed.apk");
-          $signedApkDestPath = $($env:GITHUB_WORKSPACE + "/com.x8bit.bitwarden-fdroid.apk");
+          $signedApkPath = $($env:GITHUB_WORKSPACE + "/src/Android/bin/FDroid/$env:BASE_PKG_NAME-Signed.apk");
+          $signedApkDestPath = $($env:GITHUB_WORKSPACE + "/$env:BASE_PKG_NAME-fdroid.apk");
 
           Copy-Item $signedApkPath $signedApkDestPath
         shell: pwsh
@@ -433,8 +436,8 @@ jobs:
       - name: Upload F-Droid .apk artifact
         uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
         with:
-          name: com.x8bit.bitwarden-fdroid.apk
-          path: ./com.x8bit.bitwarden-fdroid.apk
+          name: ${{ env.BASE_PKG_NAME }}.apk
+          path: ./${{ env.BASE_PKG_NAME }}.apk
           if-no-files-found: error
 
 
