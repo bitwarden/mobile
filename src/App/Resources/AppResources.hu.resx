@@ -1761,7 +1761,7 @@
     <value>A széf szinkronizálása lehúzó művelettel.</value>
   </data>
   <data name="LogInSso" xml:space="preserve">
-    <value>Vállalati önálló bejelentkezés</value>
+    <value>Vállalati egyszeri bejelentkezés</value>
   </data>
   <data name="LogInSsoSummary" xml:space="preserve">
     <value>Gyors bejelentkezés a szervezeti önálló bejelentkező portálba. A kezdéshez meg kell adni a szervezeti azonosítót.</value>
@@ -2470,5 +2470,44 @@ TOTP hozzáadása a kulcs biztonságos tárolásához lehetőséget.</value>
     <value>Bejelentkezési kísérlet történt:
 {0}
 Szeretnénk átváltani erre a fiókra?</value>
+  </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Új felhasználó vagyunk?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Mesterjelszó emlékeztető kérése</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Bejelentkezve mint {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Ez tévedés?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Bejelentkezés mesterjelszóval</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Bejelentkezés más eszközzel</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>A bejelentkezés elindításra került.</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>A rendszer értesítést küldött az eszközre.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Ellenőrizzük, hogy a széf feloldásra került és az Ujjlenyomat kifejezés egyezik a másik eszközön levővel.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Értesítés újraküldése</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Másik opció szükséges?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Összes bejelentkezési opció megtekintése</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>A kérés már nem érvényes.</value>
   </data>
 </root>

@@ -2473,4 +2473,43 @@ select Add TOTP to store the key safely</value>
 {0}
 Искате ли да превключите към тази регистрация?</value>
   </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>За пръв път ли сте тук?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Получете подсказване за главната парола</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Вписване като {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Това не сте Вие?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Вписване с главната парола</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Вписване с друго устройство</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Вписването е стартирано</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Към устройството Ви е изпратено известие.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Уверете се, че трезорът Ви е отключен и че Уникалната фраза съвпада с другото устройство.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Повторно изпращане на известието</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Предпочитате друг вариант?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Вижте всички възможности за вписване</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>Тази зявка вече не е приложима</value>
+  </data>
 </root>

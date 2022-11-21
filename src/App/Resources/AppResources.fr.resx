@@ -2472,4 +2472,43 @@ sélectionnez Ajouter TOTP pour stocker la clé en toute sécurité</value>
 {0}
 Voulez-vous basculer vers ce compte ?</value>
   </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Vous êtes nouveau ici ?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Obtenir l'indice du mot de passe maître</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Connecté en tant que {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Ce n'est pas vous ?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Connectez-vous avec le mot de passe maître</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Connectez-vous avec un autre appareil</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Connexion initiée</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Une notification a été envoyée à votre appareil.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Veuillez vous assurer que votre coffre est déverrouillé et que l'empreinte digitale est identique sur l'autre appareil.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Renvoyer la notification</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Besoin d'une autre option ?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Voir toutes les options de connexion</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>Cette demande n'est plus valide</value>
+  </data>
 </root>

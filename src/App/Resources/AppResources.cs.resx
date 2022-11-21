@@ -1457,11 +1457,11 @@ Načtení proběhne automaticky.</value>
     <value>Nejsou k dispozici žádné složky k zobrazení.</value>
   </data>
   <data name="FingerprintPhrase" xml:space="preserve">
-    <value>Fráze otisku prstu</value>
+    <value>Fráze otisku účtu</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="YourAccountsFingerprint" xml:space="preserve">
-    <value>Fráze otisku prstu vašeho účtu</value>
+    <value>Fráze otisku vašeho účtu</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="LearnOrgConfirmation" xml:space="preserve">
@@ -2468,8 +2468,47 @@ select Add TOTP to store the key safely</value>
     <value>Požadavek na přihlášení již vypršel.</value>
   </data>
   <data name="LoginAttemptFromXDoYouWantToSwitchToThisAccount" xml:space="preserve">
-    <value>Login attempt from:
+    <value>Pokus o přihlášení z:
 {0}
-Do you want to switch to this account?</value>
+Chcete se přepnout na tento účet?</value>
+  </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Jste tu noví?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Získat nápovědu pro hlavní heslo</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Přihlášování jako {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Nejste to vy?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Přihlásit se pomocí hlavního hesla</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Přihlásit se pomocí jiného zařízení</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Přihlášení zahájeno</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Na vaše zařízení bylo odesláno oznámení.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Ujistěte se, že je váš trezor odemčen a fráze otisku prstu se shodují s druhým zařízením.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Odeslat oznámení znovu</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Potřebujete jinou možnost?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Zobrazit všechny možnosti přihlášení</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>Tento požadavek již není platný</value>
   </data>
 </root>

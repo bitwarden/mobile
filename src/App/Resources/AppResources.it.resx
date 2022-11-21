@@ -1575,7 +1575,7 @@
     <comment>'Nord' is the name of a specific color scheme. It should not be translated.</comment>
   </data>
   <data name="SolarizedDark" xml:space="preserve">
-    <value>Solarized Dark</value>
+    <value>Solarizzato scuro</value>
     <comment>'Solarized Dark' is the name of a specific color scheme. It should not be translated.</comment>
   </data>
   <data name="AutofillBlockedUris" xml:space="preserve">
@@ -2468,8 +2468,47 @@ seleziona Aggiungi TOTP per salvare la chiave in modo sicuro</value>
     <value>La richiesta di accesso è già scaduta.</value>
   </data>
   <data name="LoginAttemptFromXDoYouWantToSwitchToThisAccount" xml:space="preserve">
-    <value>Login attempt from:
+    <value>Tentativo di accesso da:
 {0}
-Do you want to switch to this account?</value>
+Vuoi passare a questo account?</value>
+  </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Nuovo da queste parti?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Ottieni l'indizio della password principale</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Accesso come {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Non sei tu?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Accedi con la password principale</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Accedi con un altro dispositivo</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Login avviato</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Una notifica è stata inviata al tuo dispositivo.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Assicurati che la tua cassaforte sia sbloccata e che la "frase impronta" corrisponda sull'altro dispositivo.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Invia nuova notifica</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Hai bisogno di un'altra opzione?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Visualizza tutte le opzioni di accesso</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>La richiesta non è più valida</value>
   </data>
 </root>

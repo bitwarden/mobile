@@ -2471,4 +2471,43 @@ Skan prosesi avtomatik baş tutacaq.</value>
 {0}
 Bu hesaba keçmək istəyirsiniz?</value>
   </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Burada yenisiniz?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Ana parol üçün məsləhət alın</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>{0} olaraq giriş edilir</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Siz deyilsiniz?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Ana parolla giriş et</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Başqa cihazla giriş et</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Giriş etmə başladıldı</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Cihazınıza bir bildiriş göndərildi.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Zəhmət olmasa anbarınızın kilidinin açıq olduğuna və Barmaq izi ifadəsinin digər cihazda uyğun gəldiyinə əmin olun.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Bildirişi təkrar göndər</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Başqa bir seçimə ehtiyacınız var?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Bütün giriş etmə seçimlərinə bax</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>Bu tələb artıq yararsızdır</value>
+  </data>
 </root>

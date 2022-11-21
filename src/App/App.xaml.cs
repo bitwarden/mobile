@@ -145,7 +145,9 @@ namespace Bit.App
                                 new NavigationPage(new RemoveMasterPasswordPage()));
                         });
                     }
-                    else if (message.Command == Constants.PasswordlessLoginRequestKey || message.Command == "unlocked" || message.Command == AccountsManagerMessageCommands.ACCOUNT_SWITCH_COMPLETED)
+                    else if (message.Command == Constants.PasswordlessLoginRequestKey
+                        || message.Command == "unlocked"
+                        || message.Command == AccountsManagerMessageCommands.ACCOUNT_SWITCH_COMPLETED)
                     {
                         lock (_processingLoginRequestLock)
                         {
@@ -202,11 +204,11 @@ namespace Bit.App
                 FingerprintPhrase = loginRequestData.RequestFingerprint,
                 RequestDate = loginRequestData.CreationDate,
                 DeviceType = loginRequestData.RequestDeviceType,
-                Origin = loginRequestData.Origin,
+                Origin = loginRequestData.Origin
             });
             await _stateService.SetPasswordlessLoginNotificationAsync(null);
             _pushNotificationService.DismissLocalNotification(Constants.PasswordlessNotificationId);
-            if (loginRequestData.CreationDate.ToUniversalTime().AddMinutes(Constants.PasswordlessNotificationTimeoutInMinutes) > DateTime.UtcNow)
+            if (!loginRequestData.IsExpired)
             {
                 await Device.InvokeOnMainThreadAsync(() => Application.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(page)));
             }
@@ -221,13 +223,20 @@ namespace Bit.App
             }
 
             var notificationUserEmail = await _stateService.GetEmailAsync(notification.UserId);
-            await Device.InvokeOnMainThreadAsync(async () =>
+            Device.BeginInvokeOnMainThread(async () =>
             {
-                var result = await _deviceActionService.DisplayAlertAsync(AppResources.LogInRequested, string.Format(AppResources.LoginAttemptFromXDoYouWantToSwitchToThisAccount, notificationUserEmail), AppResources.Cancel, AppResources.Ok);
-                if (result == AppResources.Ok)
+                try
                 {
-                    await _stateService.SetActiveUserAsync(notification.UserId);
-                    _messagingService.Send(AccountsManagerMessageCommands.SWITCHED_ACCOUNT);
+                    var result = await _deviceActionService.DisplayAlertAsync(AppResources.LogInRequested, string.Format(AppResources.LoginAttemptFromXDoYouWantToSwitchToThisAccount, notificationUserEmail), AppResources.Cancel, AppResources.Ok);
+                    if (result == AppResources.Ok)
+                    {
+                        await _stateService.SetActiveUserAsync(notification.UserId);
+                        _messagingService.Send(AccountsManagerMessageCommands.SWITCHED_ACCOUNT);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    LoggerHelper.LogEvenIfCantBeResolved(ex);
                 }
             });
             return true;
@@ -450,7 +459,14 @@ namespace Bit.App
             switch (navTarget)
             {
                 case NavigationTarget.HomeLogin:
-                    Current.MainPage = new NavigationPage(new HomePage(Options));
+                    if (navParams is HomeNavigationParams homeParams)
+                    {
+                        Current.MainPage = new NavigationPage(new HomePage(Options, homeParams.ShouldCheckRememberEmail));
+                    }
+                    else
+                    {
+                        Current.MainPage = new NavigationPage(new HomePage(Options));
+                    }
                     break;
                 case NavigationTarget.Login:
                     if (navParams is LoginNavigationParams loginParams)

@@ -2472,4 +2472,43 @@ Skaneerimine toimub automaatselt.</value>
 {0}
 Soovid selle konto peale lülituda?</value>
   </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Oled siin uus?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Tuleta ülemparooli vihjega meelde</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Sisselogimas kui {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Pole sina?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Logi sisse ülemparooliga</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Logi sisse läbi teise seadme</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Sisselogimine on käivitatud</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Sinu seadmesse saadeti teavitus.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Veendu, et hoidla on lahti lukustatud ja sõrmejälje fraasid seadmete vahel ühtivad.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Saada märguanne uuesti</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Soovid teist valikut kasutada?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Vaata kõiki valikuid</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>See päring ei ole enam kehtiv</value>
+  </data>
 </root>

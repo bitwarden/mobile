@@ -2472,4 +2472,43 @@ vælg Tilføj TOTP for at gemme nøglen sikkert</value>
 {0}
 Vil du skifte til denne konto?</value>
   </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Ny her?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Få hovedadgangskodetip</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Logger ind som {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>Ikke dig?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Log ind med hovedadgangskoden</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Log ind med en anden enhed</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Indlogning påbegyndt</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>En notifikation er sendt til din enhed.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Sørg for, at din boks er oplåst, samt at Fingeraftrykssætningen på den anden enhed matcher.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Gensend notifikation</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Behov for en anden mulighed?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Vis alle indlogningsmuligheder</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>Anmodningen er ikke længere gyldig</value>
+  </data>
 </root>

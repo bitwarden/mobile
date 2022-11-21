@@ -2472,4 +2472,43 @@ wybierz Dodaj TOTP, aby bezpiecznie przechowywać klucz</value>
 {0}
 Czy chcesz przełączyć się na to konto?</value>
   </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>Jesteś tu nowy(a)?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Uzyskaj podpowiedź hasła głównego</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Logowanie jako {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>To nie Ty?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Logowanie hasłem głównym</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Logowanie innym urządzeniem</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Logowanie rozpoczęte</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Powiadomienie zostało wysłane na urządzenie.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Upewnij się, że sejf jest odblokowany, a unikalny identyfikator konta pasuje do drugiego urządzenia.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Wyślij ponownie powiadomienie</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>Potrzebujesz innego sposobu?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Zobacz wszystkie sposoby logowania</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>Ta prośba nie jest już ważna</value>
+  </data>
 </root>

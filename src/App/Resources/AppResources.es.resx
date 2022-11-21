@@ -2473,4 +2473,43 @@ seleccione Agregar TOTP para almacenar la clave de forma segura</value>
 {0}
 ¿Desea cambiar a esta cuenta?</value>
   </data>
+  <data name="NewAroundHere" xml:space="preserve">
+    <value>¿Nuevo por aquí?</value>
+  </data>
+  <data name="GetMasterPasswordwordHint" xml:space="preserve">
+    <value>Obtener pista de contraseña maestra</value>
+  </data>
+  <data name="LoggingInAsX" xml:space="preserve">
+    <value>Iniciando sesión como {0}</value>
+  </data>
+  <data name="NotYou" xml:space="preserve">
+    <value>¿No eres tú?</value>
+  </data>
+  <data name="LogInWithMasterPassword" xml:space="preserve">
+    <value>Iniciar sesión con contraseña maestra</value>
+  </data>
+  <data name="LogInWithAnotherDevice" xml:space="preserve">
+    <value>Iniciar sesión con otro dispositivo</value>
+  </data>
+  <data name="LogInInitiated" xml:space="preserve">
+    <value>Inicio de sesión en proceso</value>
+  </data>
+  <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
+    <value>Se ha enviado una notificación a tu dispositivo.</value>
+  </data>
+  <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
+    <value>Por favor, asegúrese de que su bóveda está desbloqueada y la frase de huella dactilar coincide en el otro dispositivo.</value>
+  </data>
+  <data name="ResendNotification" xml:space="preserve">
+    <value>Enviar nueva notificación</value>
+  </data>
+  <data name="NeedAnotherOption" xml:space="preserve">
+    <value>¿Necesitas otra opción?</value>
+  </data>
+  <data name="ViewAllLoginOptions" xml:space="preserve">
+    <value>Ver todas las opciones de inicio de sesión</value>
+  </data>
+  <data name="ThisRequestIsNoLongerValid" xml:space="preserve">
+    <value>Esta solicitud ya no es válida</value>
+  </data>
 </root>

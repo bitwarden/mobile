@@ -1,5 +1,6 @@
 ---
 name: Release
+run-name: Release ${{ inputs.release_type }}
 
 on:
   workflow_dispatch:
@@ -57,6 +58,7 @@ jobs:
           echo "::set-output name=branch-name::$BRANCH_NAME"
 
       - name: Create GitHub deployment
+        if: ${{ github.event.inputs.release_type != 'Dry Run' }}
         uses: chrnorm/deployment-action@1b599fe41a0ef1f95191e7f2eec4743f2d7dfc48
         id: deployment
         with:
@@ -75,7 +77,7 @@ jobs:
           workflow_conclusion: success
           branch: ${{ steps.branch.outputs.branch-name }}
 
-      - name: Download all artifacts
+      - name: Dry Run - Download all artifacts
         if: ${{ github.event.inputs.release_type == 'Dry Run' }}
         uses: dawidd6/action-download-artifact@575b1e4167df67acf7e692af784566618b23c71e  # v2.17.10
         with:
@@ -102,7 +104,7 @@ jobs:
           draft: true
 
       - name: Update deployment status to Success
-        if: ${{ success() }}
+        if: ${{ github.event.inputs.release_type != 'Dry Run' && success() }}
         uses: chrnorm/deployment-status@07b3930847f65e71c9c6802ff5a402f6dfb46b86
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
@@ -110,7 +112,7 @@ jobs:
           deployment-id: ${{ steps.deployment.outputs.deployment_id }}
 
       - name: Update deployment status to Failure
-        if: ${{ failure() }}
+        if: ${{ github.event.inputs.release_type != 'Dry Run' && failure() }}
         uses: chrnorm/deployment-status@07b3930847f65e71c9c6802ff5a402f6dfb46b86
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
@@ -136,7 +138,7 @@ jobs:
           branch: ${{ needs.release.outputs.branch-name }}
           name: ${{ BASE_PKG_NAME }}-fdroid.apk
 
-      - name: Download F-Droid .apk artifact
+      - name: Dry Run - Download F-Droid .apk artifact
         if: ${{ github.event.inputs.release_type == 'Dry Run' }}
         uses: dawidd6/action-download-artifact@575b1e4167df67acf7e692af784566618b23c71e  # v2.17.10
         with:

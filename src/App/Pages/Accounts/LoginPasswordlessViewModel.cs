@@ -100,7 +100,7 @@ namespace Bit.App.Pages
         private async Task UpdateRequestTime()
         {
             TriggerPropertyChanged(nameof(TimeOfRequestText));
-            if (DateTime.UtcNow > LoginRequest?.RequestDate.ToUniversalTime().AddMinutes(Constants.PasswordlessNotificationTimeoutInMinutes))
+            if (LoginRequest?.IsExpired ?? false)
             {
                 StopRequestTimeUpdater();
                 await _platformUtilsService.ShowDialogAsync(AppResources.LoginRequestHasAlreadyExpired);
@@ -110,9 +110,17 @@ namespace Bit.App.Pages
 
         private async Task PasswordlessLoginAsync(bool approveRequest)
         {
-            if (LoginRequest.RequestDate.ToUniversalTime().AddMinutes(Constants.PasswordlessNotificationTimeoutInMinutes) <= DateTime.UtcNow)
+            if (LoginRequest.IsExpired)
             {
                 await _platformUtilsService.ShowDialogAsync(AppResources.LoginRequestHasAlreadyExpired);
+                await Page.Navigation.PopModalAsync();
+                return;
+            }
+
+            var loginRequestData = await _authService.GetPasswordlessLoginRequestByIdAsync(LoginRequest.Id);
+            if (loginRequestData.RequestApproved.HasValue && loginRequestData.ResponseDate.HasValue)
+            {
+                await _platformUtilsService.ShowDialogAsync(AppResources.ThisRequestIsNoLongerValid);
                 await Page.Navigation.PopModalAsync();
                 return;
             }
@@ -171,5 +179,7 @@ namespace Bit.App.Pages
         public string DeviceType { get; set; }
 
         public string IpAddress { get; set; }
+
+        public bool IsExpired => RequestDate.ToUniversalTime().AddMinutes(Constants.PasswordlessNotificationTimeoutInMinutes) < DateTime.UtcNow;
     }
 }
