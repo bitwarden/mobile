@@ -6,7 +6,9 @@ using System.Runtime.InteropServices;
 
 namespace Bit.iOS.Core.Services
 {
-    public class CryptoPrimitiveService : ICryptoPrimitiveService
+    // TODO: Once we move to MAUI and .NET 8+ (that has a native built-in PBKDF2 implementation),
+    // remove this class and fold ICryptoPrimitiveService to ICryptoFunctionService.
+    public class AppleCryptoPrimitiveService : ICryptoPrimitiveService
     {
         private const uint PBKDFAlgorithm = 2; // kCCPBKDF2
 
@@ -30,7 +32,7 @@ namespace Bit.iOS.Core.Services
             var passwordData = NSData.FromArray(password);
             var saltData = NSData.FromArray(salt);
 
-            var result = CCKeyCerivationPBKDF(PBKDFAlgorithm, passwordData.Bytes, passwordData.Length, saltData.Bytes,
+            var result = CCKeyDerivationPBKDF(PBKDFAlgorithm, passwordData.Bytes, passwordData.Length, saltData.Bytes,
                 saltData.Length, pseudoRandomAlgorithm, Convert.ToUInt32(iterations), keyData.MutableBytes,
                 keyData.Length);
 
@@ -39,9 +41,9 @@ namespace Bit.iOS.Core.Services
             return keyBytes;
         }
 
-        // ref: http://opensource.apple.com/source/CommonCrypto/CommonCrypto-55010/CommonCrypto/CommonKeyDerivation.h
+        // ref: https://github.com/apple-oss-distributions/CommonCrypto/blob/06c4e37bc508d502031035d8606ade275d6c0d82/include/CommonKeyDerivation.h#L96-L100
         [DllImport(ObjCRuntime.Constants.libSystemLibrary, EntryPoint = "CCKeyDerivationPBKDF")]
-        private extern static int CCKeyCerivationPBKDF(uint algorithm, IntPtr password, nuint passwordLen,
+        private extern static int CCKeyDerivationPBKDF(uint algorithm, IntPtr password, nuint passwordLen,
             IntPtr salt, nuint saltLen, uint prf, nuint rounds, IntPtr derivedKey, nuint derivedKeyLength);
     }
 }

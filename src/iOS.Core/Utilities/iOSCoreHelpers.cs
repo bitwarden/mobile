@@ -97,7 +97,7 @@ namespace Bit.iOS.Core.Utilities
             var i18nService = new MobileI18nService(localizeService.GetCurrentCultureInfo());
             var secureStorageService = new KeyChainStorageService(AppId, AccessGroup,
                 () => ServiceContainer.Resolve<IAppIdService>("appIdService").GetAppIdAsync());
-            var cryptoPrimitiveService = new CryptoPrimitiveService();
+            var cryptoPrimitiveService = new AppleCryptoPrimitiveService();
             var mobileStorageService = new MobileStorageService(preferencesStorage, liteDbStorage);
             var stateService = new StateService(mobileStorageService, secureStorageService, messagingService);
             var stateMigrationService =
@@ -108,7 +108,7 @@ namespace Bit.iOS.Core.Utilities
             var platformUtilsService = new MobilePlatformUtilsService(deviceActionService, clipboardService,
                 messagingService, broadcasterService);
             var biometricService = new BiometricService(mobileStorageService);
-            var cryptoFunctionService = new PclCryptoFunctionService(cryptoPrimitiveService);
+            var cryptoFunctionService = new CryptoFunctionService(cryptoPrimitiveService);
             var cryptoService = new CryptoService(stateService, cryptoFunctionService);
             var passwordRepromptService = new MobilePasswordRepromptService(platformUtilsService, cryptoService);
 
