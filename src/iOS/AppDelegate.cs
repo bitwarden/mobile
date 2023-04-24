@@ -183,6 +183,9 @@ namespace Bit.iOS
                 }
             });
 
+            var sdkClient = new BitwardenClient();
+            var test = sdkClient.Fingerprint();
+
             return base.FinishedLaunching(app, options);
         }
 
