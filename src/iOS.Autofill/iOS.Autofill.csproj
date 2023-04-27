@@ -194,6 +194,9 @@
     <InterfaceDefinition Include="MainInterface.storyboard" />
     <BundleResource Include="Resources\MaterialIcons_Regular.ttf" />
     <BundleResource Include="Resources\bwi-font.ttf" />
+    <Compile Include="BitwardenClient.cs" />
+    <Compile Include="BitwardenClientSafeHandle.cs" />
+    <Compile Include="BitwardenClientWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -277,6 +280,12 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\yubikey%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="..\..\..\sdk\libbitwarden_c.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.AppExtension.CSharp.targets" />
 </Project>

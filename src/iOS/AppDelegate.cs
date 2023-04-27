@@ -182,10 +182,15 @@ namespace Bit.iOS
                     LoggerHelper.LogEvenIfCantBeResolved(ex);
                 }
             });
+            
+            var ln = @"libbitwarden_c.framework/libbitwarden_c";
+            var documentsPath = NSBundle.MainBundle.BundlePath;
+            var filePath = System.IO.Path.Combine(documentsPath, "Frameworks", ln);
+            var ptr = ObjCRuntime.Dlfcn.dlopen(filePath, 0);
 
             var sdkClient = new BitwardenClient();
             var test = sdkClient.Fingerprint();
-
+            
             return base.FinishedLaunching(app, options);
         }
 

@@ -11,6 +11,21 @@ namespace Bit.iOS.Autofill
             get; set;
         }
 
+        public override void FinishedLaunching(UIApplication application)
+        {
+
+            var ln = @"libbitwarden_c.framework/libbitwarden_c";
+            var documentsPath = NSBundle.MainBundle.BundlePath;
+            var filePath = System.IO.Path.Combine(documentsPath, "Frameworks", ln);
+            var ptr = ObjCRuntime.Dlfcn.dlopen(filePath, 0);
+
+            var sdkClient = new BitwardenClient();
+            var test = sdkClient.Fingerprint();
+            
+            
+            base.FinishedLaunching(application);
+        }
+
         public override void OnResignActivation(UIApplication application)
         {
         }
