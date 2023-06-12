@@ -2,8 +2,19 @@
 {
     public class EnvironmentUrlData
     {
-        public static EnvironmentUrlData DefaultUS = new EnvironmentUrlData { Base = "https://vault.bitwarden.com" };
-        public static EnvironmentUrlData DefaultEU = new EnvironmentUrlData { Base = "https://vault.bitwarden.eu" };
+        public static EnvironmentUrlData DefaultUS = new EnvironmentUrlData
+        {
+            Base = "https://vault.bitwarden.com",
+            Notifications = "https://notifications.bitwarden.com",
+            Icons = "https://icons.bitwarden.com",
+
+        };
+        public static EnvironmentUrlData DefaultEU = new EnvironmentUrlData
+        {
+            Base = "https://vault.bitwarden.eu",
+            Notifications = "https://notifications.bitwarden.eu",
+            Icons = "https://icons.bitwarden.eu",
+        };
 
         public string Base { get; set; }
         public string Api { get; set; }

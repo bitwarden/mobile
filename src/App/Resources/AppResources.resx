@@ -2637,4 +2637,7 @@ Do you want to switch to this account?</value>
   <data name="UnlockingMayFailDueToInsufficientMemoryDecreaseYourKDFMemorySettingsToResolve" xml:space="preserve">
     <value>Unlocking may fail due to insufficient memory. Decrease your KDF memory settings to resolve</value>
   </data>
+  <data name="LoadFromFile" xml:space="preserve">
+    <value>Load from file</value>
+  </data>
 </root>

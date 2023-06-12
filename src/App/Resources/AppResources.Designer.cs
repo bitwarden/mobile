@@ -3542,6 +3542,15 @@ namespace Bit.App.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Load from file.
+        /// </summary>
+        public static string LoadFromFile {
+            get {
+                return ResourceManager.GetString("LoadFromFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Loading.
         /// </summary>
         public static string Loading {

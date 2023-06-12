@@ -95,6 +95,14 @@
                 <Label
                     Text="{u:I18n CustomEnvironmentFooter}"
                     StyleClass="box-footer-label" />
+                <StackLayout StyleClass="box-row">
+                    <Button Text="{u:I18n LoadFromFile}"
+                            StyleClass="btn-primary"
+                            Command="{Binding LoadFromFileCommand}" />
+                    <Button Text="{u:I18n Clear}"
+                            StyleClass="btn-secondary"
+                            Command="{Binding ClearCommand}" />
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </ScrollView>
