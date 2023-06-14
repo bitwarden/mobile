@@ -20,7 +20,7 @@
         <controls:ExtendedToolbarItem
             x:Name="_accountAvatar"
             IconImageSource="{Binding AvatarImageSource}"
-            Command="{Binding Source={x:Reference _accountListOverlay}, Path=ToggleVisibililtyCommand}"
+            Command="{Binding Source={x:Reference _accountListOverlay}, Path=ToggleVisibilityCommand}"
             Order="Primary"
             Priority="-2"
             UseOriginalImage="True"
@@ -161,7 +161,7 @@
                     Orientation="Horizontal"
                     Spacing="0"
                     AutomationProperties.IsInAccessibleTree="True"
-                    AutomationProperties.Name="{Binding OptionsAccessilibityText}">
+                    AutomationProperties.Name="{Binding OptionsAccessibilityText}">
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OptionsHeader_Tapped" />
                     </StackLayout.GestureRecognizers>
