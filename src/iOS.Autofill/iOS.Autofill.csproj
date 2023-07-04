@@ -21,9 +21,9 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>x86_64</MtouchArch>
-    <MtouchLink>None</MtouchLink>
+    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <MtouchExtraArgs>--nodevcodeshare --http-message-handler=NSUrlSessionHandler -gcc_flags "-L${ProjectDir}/../../lib/ios -largon2 -force_load ${ProjectDir}/../../lib/ios/libargon2.a"</MtouchExtraArgs>
+    <MtouchExtraArgs>--nodevcodeshare --http-message-handler=NSUrlSessionHandler -gcc_flags "-L${ProjectDir}/../../lib/ios -largon2 -force_load ${ProjectDir}/../../lib/ios/libargon2.a" --linkskip=NewsstandKit</MtouchExtraArgs>
     <OptimizePNGs>true</OptimizePNGs>
     <MtouchFastDev>false</MtouchFastDev>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
@@ -215,6 +215,10 @@
       <Name>iOS.Core</Name>
       <IsAppExtension>false</IsAppExtension>
       <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\ios\iOS17CredentialProvider\XamariniOS17CredentialProvider\XamariniOS17CredentialProviderBinding\XamariniOS17CredentialProviderBinding.csproj">
+      <Project>{63938BA1-0F72-4BFD-B7A4-823C146E43B4}</Project>
+      <Name>XamariniOS17CredentialProviderBinding</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

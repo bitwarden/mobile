@@ -19,10 +19,11 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
+using XamariniOS17CredentialProviderBinding;
 
 namespace Bit.iOS.Autofill
 {
-    public partial class CredentialProviderViewController : ASCredentialProviderViewController, IAccountsManagerHost
+    public partial class CredentialProviderViewController : BaseASCredentialProviderViewController, IAccountsManagerHost
     {
         private Context _context;
         private NFCNdefReaderSession _nfcSession = null;
@@ -162,6 +163,60 @@ namespace Bit.iOS.Autofill
                 throw;
             }
         }
+
+        #region iOS 17 Beta
+
+        public override async void PrepareInterfaceToProvideCredentialCompatFor(ASCredentialRequestCompat credentialRequest)
+        {
+            try
+            {
+                InitAppIfNeeded();
+                if (!await IsAuthed())
+                {
+                    await _accountsManager.NavigateOnAccountChangeAsync(false);
+                    return;
+                }
+                _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
+                await CheckLockAsync(async () => await ProvideCredentialAsync());
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.LogEvenIfCantBeResolved(ex);
+                throw;
+            }
+        }
+
+        public override void ProvideCredentialWithoutUserInteractionCompatFor(ASCredentialRequestCompat credentialRequest)
+        {
+            Console.WriteLine("entered");
+            //try
+            //{
+            //    InitAppIfNeeded();
+            //    await _stateService.Value.SetPasswordRepromptAutofillAsync(false);
+            //    await _stateService.Value.SetPasswordVerifiedAutofillAsync(false);
+            //    if (!await IsAuthed() || await IsLocked())
+            //    {
+            //        var err = new NSError(new NSString("ASExtensionErrorDomain"),
+            //            Convert.ToInt32(ASExtensionErrorCode.UserInteractionRequired), null);
+            //        ExtensionContext.CancelRequest(err);
+            //        return;
+            //    }
+            //    _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
+            //    await ProvideCredentialAsync(false);
+            //}
+            //catch (Exception ex)
+            //{
+            //    LoggerHelper.LogEvenIfCantBeResolved(ex);
+            //    throw;
+            //}
+        }
+
+        public override void PrepareInterfaceCompatForPasskeyRegistration(ASCredentialRequestCompat registrationRequest)
+        {
+            // DO STUFF
+        }
+
+        #endregion
 
         public void CompleteRequest(string id = null, string username = null,
             string password = null, string totp = null)
