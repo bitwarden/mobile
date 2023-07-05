@@ -115,29 +115,34 @@ open class BaseASCredentialProviderViewController : ASCredentialProviderViewCont
     // MARK: iOS 17 new methods
     
     override final public func prepareInterfaceToProvideCredential(for credentialRequest: ASCredentialRequest) {
-        prepareInterfaceToProvideCredentialCompat(for: convertRequestToCompat(from: credentialRequest))
+        guard let compatDelegate = compatDelegate else {
+            return
+        }
+        compatDelegate.prepareInterfaceToProvideCredentialCompat(for: convertRequestToCompat(from: credentialRequest))
     }
     
     override final public func provideCredentialWithoutUserInteraction(for credentialRequest: ASCredentialRequest) {
-        provideCredentialWithoutUserInteractionCompat(for: convertRequestToCompat(from: credentialRequest))
+        guard let compatDelegate = compatDelegate else {
+            return
+        }
+        compatDelegate.provideCredentialWithoutUserInteractionCompat(for: convertRequestToCompat(from: credentialRequest))
     }
     
     override final public func prepareInterface(forPasskeyRegistration registrationRequest: ASCredentialRequest) {
-        prepareInterfaceCompat(forPasskeyRegistration: convertRequestToCompat(from: registrationRequest))
+        guard let compatDelegate = compatDelegate else {
+            return
+        }
+        compatDelegate.prepareInterfaceCompat(forPasskeyRegistration: convertRequestToCompat(from: registrationRequest))
     }
     
-    // MARK: Compat methods
+    // MARK: Compat
+    
+    var compatDelegate: ASCredentialProviderCompatDelegate? = nil;
     
     @objc
-    open func prepareInterfaceToProvideCredentialCompat(for credentialRequest: ASCredentialRequestCompat){
-    }
-    
-    @objc
-    open func provideCredentialWithoutUserInteractionCompat(for credentialRequest: ASCredentialRequestCompat) {
-    }
-    
-    @objc
-    open func prepareInterfaceCompat(forPasskeyRegistration registrationRequest: ASCredentialRequestCompat) {
+    public func SetCompatDelegate(_ delegate: ASCredentialProviderCompatDelegate)
+    {
+        compatDelegate = delegate
     }
     
     func convertRequestToCompat(from credentialRequest: ASCredentialRequest) -> ASCredentialRequestCompat {
@@ -145,4 +150,17 @@ open class BaseASCredentialProviderViewController : ASCredentialProviderViewCont
             type: credentialRequest.type == .password ? .password : .passkeyAssertion,
             credentialIdentity: credentialRequest.credentialIdentity)
     }
+}
+
+@objc(ASCredentialProviderCompatDelegate)
+public protocol ASCredentialProviderCompatDelegate
+{
+    @objc
+    func prepareInterfaceToProvideCredentialCompat(for credentialRequest: ASCredentialRequestCompat)
+    
+    @objc
+    func provideCredentialWithoutUserInteractionCompat(for credentialRequest: ASCredentialRequestCompat)
+    
+    @objc
+    func prepareInterfaceCompat(forPasskeyRegistration registrationRequest: ASCredentialRequestCompat)
 }

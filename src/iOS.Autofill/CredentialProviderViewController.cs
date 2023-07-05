@@ -50,6 +50,8 @@ namespace Bit.iOS.Autofill
                 {
                     ExtContext = ExtensionContext
                 };
+                var del = new ASCredentialProviderDelegate(this);
+                SetCompatDelegate(del);
             }
             catch (Exception ex)
             {
@@ -163,60 +165,6 @@ namespace Bit.iOS.Autofill
                 throw;
             }
         }
-
-        #region iOS 17 Beta
-
-        public override async void PrepareInterfaceToProvideCredentialCompatFor(ASCredentialRequestCompat credentialRequest)
-        {
-            try
-            {
-                InitAppIfNeeded();
-                if (!await IsAuthed())
-                {
-                    await _accountsManager.NavigateOnAccountChangeAsync(false);
-                    return;
-                }
-                _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
-                await CheckLockAsync(async () => await ProvideCredentialAsync());
-            }
-            catch (Exception ex)
-            {
-                LoggerHelper.LogEvenIfCantBeResolved(ex);
-                throw;
-            }
-        }
-
-        public override void ProvideCredentialWithoutUserInteractionCompatFor(ASCredentialRequestCompat credentialRequest)
-        {
-            Console.WriteLine("entered");
-            //try
-            //{
-            //    InitAppIfNeeded();
-            //    await _stateService.Value.SetPasswordRepromptAutofillAsync(false);
-            //    await _stateService.Value.SetPasswordVerifiedAutofillAsync(false);
-            //    if (!await IsAuthed() || await IsLocked())
-            //    {
-            //        var err = new NSError(new NSString("ASExtensionErrorDomain"),
-            //            Convert.ToInt32(ASExtensionErrorCode.UserInteractionRequired), null);
-            //        ExtensionContext.CancelRequest(err);
-            //        return;
-            //    }
-            //    _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
-            //    await ProvideCredentialAsync(false);
-            //}
-            //catch (Exception ex)
-            //{
-            //    LoggerHelper.LogEvenIfCantBeResolved(ex);
-            //    throw;
-            //}
-        }
-
-        public override void PrepareInterfaceCompatForPasskeyRegistration(ASCredentialRequestCompat registrationRequest)
-        {
-            // DO STUFF
-        }
-
-        #endregion
 
         public void CompleteRequest(string id = null, string username = null,
             string password = null, string totp = null)
@@ -704,6 +652,67 @@ namespace Bit.iOS.Autofill
                     DismissViewController(false, () => PerformSegue("loginListSegue", this));
                     break;
             }
+        }
+    }
+
+    public class ASCredentialProviderDelegate : NSObject, IASCredentialProviderCompatDelegate
+    {
+        public ASCredentialProviderDelegate(CredentialProviderViewController controller)
+        {
+            CredentialProviderViewController = controller;
+        }
+
+        public CredentialProviderViewController CredentialProviderViewController { get; }
+
+        public void PrepareInterfaceToProvideCredentialCompatFor(ASCredentialRequestCompat credentialRequest)
+        {
+            CredentialProviderViewController?.CompleteRequest(null, "lala", "qerqrw");
+            //try
+            //{
+            //    InitAppIfNeeded();
+            //    if (!await IsAuthed())
+            //    {
+            //        await _accountsManager.NavigateOnAccountChangeAsync(false);
+            //        return;
+            //    }
+            //    _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
+            //    await CheckLockAsync(async () => await ProvideCredentialAsync());
+            //}
+            //catch (Exception ex)
+            //{
+            //    LoggerHelper.LogEvenIfCantBeResolved(ex);
+            //    throw;
+            //}
+        }
+
+        public void ProvideCredentialWithoutUserInteractionCompatFor(ASCredentialRequestCompat credentialRequest)
+        {
+            CredentialProviderViewController?.CompleteRequest(null, "nouserinteraction", "qerqrw");
+            //try
+            //{
+            //    InitAppIfNeeded();
+            //    await _stateService.Value.SetPasswordRepromptAutofillAsync(false);
+            //    await _stateService.Value.SetPasswordVerifiedAutofillAsync(false);
+            //    if (!await IsAuthed() || await IsLocked())
+            //    {
+            //        var err = new NSError(new NSString("ASExtensionErrorDomain"),
+            //            Convert.ToInt32(ASExtensionErrorCode.UserInteractionRequired), null);
+            //        ExtensionContext.CancelRequest(err);
+            //        return;
+            //    }
+            //    _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
+            //    await ProvideCredentialAsync(false);
+            //}
+            //catch (Exception ex)
+            //{
+            //    LoggerHelper.LogEvenIfCantBeResolved(ex);
+            //    throw;
+            //}
+        }
+
+        public void PrepareInterfaceCompatForPasskeyRegistration(ASCredentialRequestCompat registrationRequest)
+        {
+            CredentialProviderViewController?.CompleteRequest(null, "passkey", "qerqrw");
         }
     }
 }
