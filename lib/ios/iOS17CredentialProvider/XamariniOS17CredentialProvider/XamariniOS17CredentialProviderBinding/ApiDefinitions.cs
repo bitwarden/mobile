@@ -12,22 +12,26 @@ namespace XamariniOS17CredentialProviderBinding
     interface ASCredentialProviderCompatDelegate
     {
         // @required -(void)prepareInterfaceToProvideCredentialCompatFor:(ASCredentialRequestCompat * _Nonnull)credentialRequest;
+        [iOS(17, 0)]
         [Abstract]
         [Export("prepareInterfaceToProvideCredentialCompatFor:")]
         void PrepareInterfaceToProvideCredentialCompatFor(ASCredentialRequestCompat credentialRequest);
 
         // @required -(void)provideCredentialWithoutUserInteractionCompatFor:(ASCredentialRequestCompat * _Nonnull)credentialRequest;
+        [iOS(17, 0)]
         [Abstract]
         [Export("provideCredentialWithoutUserInteractionCompatFor:")]
         void ProvideCredentialWithoutUserInteractionCompatFor(ASCredentialRequestCompat credentialRequest);
 
         // @required -(void)prepareInterfaceCompatForPasskeyRegistration:(ASCredentialRequestCompat * _Nonnull)registrationRequest;
+        [iOS(17, 0)]
         [Abstract]
         [Export("prepareInterfaceCompatForPasskeyRegistration:")]
         void PrepareInterfaceCompatForPasskeyRegistration(ASCredentialRequestCompat registrationRequest);
     }
 
     // @interface ASCredentialRequestCompat : NSObject
+    [iOS(17, 0)]
     [BaseType (typeof(NSObject))]
 	[DisableDefaultCtor]
 	interface ASCredentialRequestCompat
@@ -42,10 +46,12 @@ namespace XamariniOS17CredentialProviderBinding
 
 
         // @property (readonly, nonatomic, strong) ASPasswordCredentialIdentity * _Nullable passwordCredentialIdentity;
+        [iOS(17, 0)]
         [NullAllowed, Export("passwordCredentialIdentity", ArgumentSemantic.Strong)]
         ASPasswordCredentialIdentity PasswordCredentialIdentity { get; }
 
         // @property (readonly, nonatomic, strong) ASPasskeyCredentialIdentityCompat * _Nullable passkeyCredentialIdentity;
+        [iOS(17, 0)]
         [NullAllowed, Export("passkeyCredentialIdentity", ArgumentSemantic.Strong)]
         ASPasskeyCredentialIdentityCompat PasskeyCredentialIdentity { get; }
     }
@@ -111,6 +117,7 @@ namespace XamariniOS17CredentialProviderBinding
         //      [Abstract]
         //      void PrepareInterfaceCompatForPasskeyRegistration (ASCredentialRequestCompat registrationRequest);
 
+        [iOS(17, 0)]
         [Export("SetCompatDelegate:")]
         void SetCompatDelegate(IASCredentialProviderCompatDelegate @delegate);
 
@@ -124,4 +131,11 @@ namespace XamariniOS17CredentialProviderBinding
 		//[DesignatedInitializer]
   //      IntPtr Constructor (NSCoder coder);
 	}
+
+    // @interface MyTest : NSObject
+    [BaseType(typeof(NSObject))]
+    //[DisableDefaultCtor]
+    interface MyTest
+    {
+    }
 }

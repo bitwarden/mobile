@@ -16,6 +16,7 @@ using Bit.iOS.Core.Views;
 using CoreFoundation;
 using CoreNFC;
 using Foundation;
+using NativeLibrary;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
@@ -50,8 +51,11 @@ namespace Bit.iOS.Autofill
                 {
                     ExtContext = ExtensionContext
                 };
-                var del = new ASCredentialProviderDelegate(this);
-                SetCompatDelegate(del);
+                if (UIDevice.CurrentDevice.CheckSystemVersion(17, 0))
+                {
+                    var del = new ASCredentialProviderDelegate(this);
+                    SetCompatDelegate(del);
+                }
             }
             catch (Exception ex)
             {
@@ -667,47 +671,11 @@ namespace Bit.iOS.Autofill
         public void PrepareInterfaceToProvideCredentialCompatFor(ASCredentialRequestCompat credentialRequest)
         {
             CredentialProviderViewController?.CompleteRequest(null, "lala", "qerqrw");
-            //try
-            //{
-            //    InitAppIfNeeded();
-            //    if (!await IsAuthed())
-            //    {
-            //        await _accountsManager.NavigateOnAccountChangeAsync(false);
-            //        return;
-            //    }
-            //    _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
-            //    await CheckLockAsync(async () => await ProvideCredentialAsync());
-            //}
-            //catch (Exception ex)
-            //{
-            //    LoggerHelper.LogEvenIfCantBeResolved(ex);
-            //    throw;
-            //}
         }
 
         public void ProvideCredentialWithoutUserInteractionCompatFor(ASCredentialRequestCompat credentialRequest)
         {
             CredentialProviderViewController?.CompleteRequest(null, "nouserinteraction", "qerqrw");
-            //try
-            //{
-            //    InitAppIfNeeded();
-            //    await _stateService.Value.SetPasswordRepromptAutofillAsync(false);
-            //    await _stateService.Value.SetPasswordVerifiedAutofillAsync(false);
-            //    if (!await IsAuthed() || await IsLocked())
-            //    {
-            //        var err = new NSError(new NSString("ASExtensionErrorDomain"),
-            //            Convert.ToInt32(ASExtensionErrorCode.UserInteractionRequired), null);
-            //        ExtensionContext.CancelRequest(err);
-            //        return;
-            //    }
-            //    _context.CredentialIdentity = credentialRequest.PasswordCredentialIdentity;
-            //    await ProvideCredentialAsync(false);
-            //}
-            //catch (Exception ex)
-            //{
-            //    LoggerHelper.LogEvenIfCantBeResolved(ex);
-            //    throw;
-            //}
         }
 
         public void PrepareInterfaceCompatForPasskeyRegistration(ASCredentialRequestCompat registrationRequest)

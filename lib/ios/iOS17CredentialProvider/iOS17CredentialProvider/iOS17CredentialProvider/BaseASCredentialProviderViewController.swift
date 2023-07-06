@@ -73,6 +73,7 @@ public class ASPasskeyCredentialIdentityCompat : NSObject {
     public var rank: Int
 }
 
+@available(iOS 17.0, *)
 @objc(ASCredentialRequestCompat)
 public class ASCredentialRequestCompat : NSObject {
 
@@ -84,9 +85,10 @@ public class ASCredentialRequestCompat : NSObject {
     
     /** The credential identity selected by the user to authenticate.
      */
-    @objc
-    public var credentialIdentity: ASCredentialIdentity
+    @available(iOS 17.0, *)
+    var credentialIdentity: ASCredentialIdentity
     
+    @available(iOS 17.0, *)
     @objc
     public var passwordCredentialIdentity: ASPasswordCredentialIdentity? {
         guard type == .password, let password = credentialIdentity as? ASPasswordCredentialIdentity else {
@@ -95,6 +97,7 @@ public class ASCredentialRequestCompat : NSObject {
         return password
     }
     
+    @available(iOS 17.0, *)
     @objc
     public var passkeyCredentialIdentity: ASPasskeyCredentialIdentityCompat? {
         guard type == .passkeyAssertion, let passkey = credentialIdentity as? ASPasskeyCredentialIdentity else {
@@ -103,6 +106,7 @@ public class ASCredentialRequestCompat : NSObject {
         return ASPasskeyCredentialIdentityCompat(relyingPartyIdentifier: passkey.relyingPartyIdentifier, userName: passkey.userName, credentialID: passkey.credentialID, userHandle: passkey.userHandle, recordIdentifier: passkey.recordIdentifier, rank: passkey.rank)
     }
     
+    @available(iOS 17.0, *)
     init(type: ASCredentialRequestCompatType, credentialIdentity: ASCredentialIdentity) {
         self.type = type
         self.credentialIdentity = credentialIdentity
@@ -114,6 +118,7 @@ open class BaseASCredentialProviderViewController : ASCredentialProviderViewCont
 {
     // MARK: iOS 17 new methods
     
+    @available(iOS 17.0, *)
     override final public func prepareInterfaceToProvideCredential(for credentialRequest: ASCredentialRequest) {
         guard let compatDelegate = compatDelegate else {
             return
@@ -121,6 +126,7 @@ open class BaseASCredentialProviderViewController : ASCredentialProviderViewCont
         compatDelegate.prepareInterfaceToProvideCredentialCompat(for: convertRequestToCompat(from: credentialRequest))
     }
     
+    @available(iOS 17.0, *)
     override final public func provideCredentialWithoutUserInteraction(for credentialRequest: ASCredentialRequest) {
         guard let compatDelegate = compatDelegate else {
             return
@@ -128,6 +134,7 @@ open class BaseASCredentialProviderViewController : ASCredentialProviderViewCont
         compatDelegate.provideCredentialWithoutUserInteractionCompat(for: convertRequestToCompat(from: credentialRequest))
     }
     
+    @available(iOS 17.0, *)
     override final public func prepareInterface(forPasskeyRegistration registrationRequest: ASCredentialRequest) {
         guard let compatDelegate = compatDelegate else {
             return
@@ -140,11 +147,13 @@ open class BaseASCredentialProviderViewController : ASCredentialProviderViewCont
     var compatDelegate: ASCredentialProviderCompatDelegate? = nil;
     
     @objc
+    @available(iOS 17.0, *)
     public func SetCompatDelegate(_ delegate: ASCredentialProviderCompatDelegate)
     {
         compatDelegate = delegate
     }
     
+    @available(iOS 17.0, *)
     func convertRequestToCompat(from credentialRequest: ASCredentialRequest) -> ASCredentialRequestCompat {
         return ASCredentialRequestCompat(
             type: credentialRequest.type == .password ? .password : .passkeyAssertion,
@@ -155,12 +164,25 @@ open class BaseASCredentialProviderViewController : ASCredentialProviderViewCont
 @objc(ASCredentialProviderCompatDelegate)
 public protocol ASCredentialProviderCompatDelegate
 {
+    @available(iOS 17.0, *)
     @objc
     func prepareInterfaceToProvideCredentialCompat(for credentialRequest: ASCredentialRequestCompat)
     
+    @available(iOS 17.0, *)
     @objc
     func provideCredentialWithoutUserInteractionCompat(for credentialRequest: ASCredentialRequestCompat)
     
+    @available(iOS 17.0, *)
     @objc
     func prepareInterfaceCompat(forPasskeyRegistration registrationRequest: ASCredentialRequestCompat)
+}
+
+@objc(MyTest)
+public class MyTest : NSObject
+{
+    var a: String
+    
+    init(a: String) {
+        self.a = a
+    }
 }
