@@ -1,0 +1,5 @@
+<resources>
+<declare-styleable name='SKCanvasView'>
+	<attr name='ignorePixelScaling' format='boolean'/>
+</declare-styleable>
+</resources>

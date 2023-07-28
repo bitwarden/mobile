@@ -200,9 +200,6 @@
     <ProjectReference Include="..\App\App.csproj">
       <Name>App</Name>
     </ProjectReference>
-    <ProjectReference Include="..\iOS.Core\iOS.Core.csproj">
-      <Name>iOS.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Core\Core.csproj">
       <Name>Core</Name>
     </ProjectReference>

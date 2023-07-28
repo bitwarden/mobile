@@ -22,9 +22,9 @@ using Bit.App.Pages;
 using Bit.App.Utilities.AccountManagement;
 using Bit.App.Controls;
 using Bit.Core.Enums;
-#if !FDROID
-using Android.Gms.Security;
-#endif
+//#if !FDROID
+//using Android.Gms.Security;
+//#endif
 
 namespace Bit.Droid
 {
@@ -37,7 +37,7 @@ namespace Bit.Droid
 #if FDROID
     public class MainApplication : Application
 #else
-    public class MainApplication : Application, ProviderInstaller.IProviderInstallListener
+    public class MainApplication : Application //, ProviderInstaller.IProviderInstallListener
 #endif
     {
         public MainApplication(IntPtr handle, JniHandleOwnership transer)
@@ -86,12 +86,12 @@ namespace Bit.Droid
                     ServiceContainer.Resolve<IConditionedAwaiterManager>());
                 ServiceContainer.Register<IAccountsManager>("accountsManager", accountsManager);
             }
-#if !FDROID
-            if (Build.VERSION.SdkInt <= BuildVersionCodes.Kitkat)
-            {
-                ProviderInstaller.InstallIfNeededAsync(ApplicationContext, this);
-            }
-#endif
+//#if !FDROID
+//            if (Build.VERSION.SdkInt <= BuildVersionCodes.Kitkat)
+//            {
+//                ProviderInstaller.InstallIfNeededAsync(ApplicationContext, this);
+//            }
+//#endif
         }
 
         public override void OnCreate()
