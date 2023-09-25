@@ -707,11 +707,10 @@ jobs:
 
       - name: Export .app for Automation CI
         run: |
-          ARCHIVE_PATH="./src/iOS/bin/iPhoneSimulator/Release"
+          ARCHIVE_PATH="./src/iOS/bin/iPhoneSimulator/Release/BitwardeniOS.app"
           EXPORT_PATH="./bitwarden-export"
 
-          cd $ARCHIVE_PATH
-          zip -r -q BitwardeniOS.app.zip BitwardeniOS.app
+          zip -r -q -j BitwardeniOS.app.zip $ARCHIVE_PATH
           mv BitwardeniOS.app.zip $EXPORT_PATH
         shell: bash
 
