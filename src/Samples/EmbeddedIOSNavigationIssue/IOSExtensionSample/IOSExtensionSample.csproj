@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+      <TargetFrameworks>net8.0-ios</TargetFrameworks>
+      <UseMaui>True</UseMaui>
+      <OutputType>Library</OutputType>
+      <ApplicationId>com.8bit.bitwarden.autofill</ApplicationId>
+      <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+      <ApplicationVersion>1</ApplicationVersion>
+
+      <EnableDefaultCompileItems>False</EnableDefaultCompileItems>
+      <DefineConstants>$(DefineConstants);ENABLED_TAP_GESTURE_RECOGNIZER_MAUI_EMBEDDED_WORKAROUND</DefineConstants>
+
+      <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">12.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+      <IsAppExtension>true</IsAppExtension>
+      <IsWatchExtension>false</IsWatchExtension>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'">
+    <CreatePackage>false</CreatePackage>
+	  <CodesignProvision>Automatic</CodesignProvision>
+	  <CodesignKey>iPhone Developer</CodesignKey>
+	  <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+	  <UseInterpreter>true</UseInterpreter>
+	</PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-ios|AnyCPU'">
+    <CreatePackage>false</CreatePackage>
+	  <UseInterpreter>true</UseInterpreter>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CredentialProviderViewController.cs" />
+    <Compile Include="CredentialProviderViewController.designer.cs">
+      <DependentUpon>CredentialProviderViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LockPasswordViewController.cs" />
+    <Compile Include="LockPasswordViewController.designer.cs">
+      <DependentUpon>LockPasswordViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginListViewController.cs" />
+    <Compile Include="LoginListViewController.designer.cs">
+      <DependentUpon>LoginListViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetupViewController.cs" />
+    <Compile Include="SetupViewController.designer.cs">
+      <DependentUpon>SetupViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <Compile Include="Context.cs" />
+    <Compile Include="ClipLogger.cs" />
+    <Compile Include="CustomPresentationControllerDelegate.cs" />
+    <Compile Include="MauiContextSingleton.cs" />
+    <Compile Include="CustomWindowHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <!--<ProjectReference Include="..\iOS.Core\iOS.Core.csproj" />-->
+  </ItemGroup>
+</Project>

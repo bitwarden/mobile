@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bit.Core.HomePage"
+             Title="HomePage">
+    <VerticalStackLayout>
+        <Label 
+            Text="This is the HOME"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="GO TO LOGIN"
+            FontSize="Large">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Login_Clicked" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Label
+            Text="CANCEL"
+            FontSize="Large">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Cancel_Clicked" />
+            </Label.GestureRecognizers>
+        </Label>
+    </VerticalStackLayout>
+</ContentPage>
