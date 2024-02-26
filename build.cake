@@ -43,7 +43,10 @@ int CreateBuildNumber(int previousNumber) => ++previousNumber;
 
 Task("GetGitInfo")
     .Does(()=> {
-        _gitVersion = GitVersion(new GitVersionSettings());
+        _gitVersion = GitVersion(new GitVersionSettings()
+        {
+            Verbosity = GitVersionVerbosity.Diagnostic
+        });
 
         if(debugScript)
         {
