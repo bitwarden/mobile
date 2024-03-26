@@ -1,4 +1,5 @@
 ﻿using Bit.App.Utilities;
+using Bit.Core.Services;
 using Microsoft.Maui.Platform;
 using UIKit;
 
@@ -80,6 +81,8 @@ namespace Bit.iOS.Core.Utilities
 
         private static void SetThemeVariables(string theme, bool osDarkModeEnabled)
         {
+            ClipLogger.Log($"[SetThemeVariables] {theme}, {osDarkModeEnabled}");
+
             if (string.IsNullOrWhiteSpace(theme) && osDarkModeEnabled)
             {
                 theme = ThemeManager.Dark;

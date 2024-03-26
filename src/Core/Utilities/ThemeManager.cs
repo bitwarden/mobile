@@ -154,7 +154,11 @@ namespace Bit.App.Utilities
         // Currently on iOS when resuming the app after showing a System "Share/Sheet" (or other similar UI)
         // MAUI reports the incorrect Theme. To avoid this we are fetching the current OS Theme directly on iOS from the iOS API.
         // MAUI Issue: https://github.com/dotnet/maui/issues/19614
+#if IOS
+        public static bool OsDarkModeEnabled(UITraitCollection? traitCollection = null)
+#else
         public static bool OsDarkModeEnabled()
+#endif
         {
 #if UT
             return false;
@@ -167,8 +171,19 @@ namespace Bit.App.Utilities
             if (!OperatingSystem.IsIOSVersionAtLeast(13, 0))
                 return false;
 
-            var traits = InvokeOnMainThread(() => WindowStateManager.Default.GetCurrentUIViewController()?.TraitCollection) ?? UITraitCollection.CurrentTraitCollection;
-            var uiStyle = traits.UserInterfaceStyle;
+            ClipLogger.Log($"TC, UIStyle: {traitCollection?.UserInterfaceStyle}");
+            var uiStyle = traitCollection?.UserInterfaceStyle;
+            if (traitCollection is null)
+            {
+                ClipLogger.Log($"TC null getting trait collection from wsm");
+                var traits = InvokeOnMainThread(() =>
+                {
+                    return WindowStateManager.Default.GetCurrentUIViewController()?.TraitCollection;
+                }) ?? UITraitCollection.CurrentTraitCollection;
+                uiStyle = traits.UserInterfaceStyle;
+            }
+
+            ClipLogger.Log($"UIStyle: {uiStyle}");
 
             requestedTheme = uiStyle switch
             {

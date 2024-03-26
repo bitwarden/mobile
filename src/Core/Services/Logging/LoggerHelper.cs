@@ -21,7 +21,8 @@ namespace Bit.Core.Services
 #if !FDROID
                 // just in case the caller throws the exception in a moment where the logger can't be resolved
                 // we need to track the error as well
-                Microsoft.AppCenter.Crashes.Crashes.TrackError(ex);
+                //Microsoft.AppCenter.Crashes.Crashes.TrackError(ex);
+                ClipLogger.Log(ex?.ToString());
 #endif
             }
         }

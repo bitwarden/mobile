@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using AuthenticationServices;
 using Bit.App.Abstractions;
@@ -47,6 +48,10 @@ namespace Bit.iOS.Autofill
         {
             try
             {
+                ClipLogger.Log($"[ViewDidLoad]");
+
+                ClipLogger.Log($"ViewDidLoad: {TraitCollection?.UserInterfaceStyle}");
+
                 InitAppIfNeededAsync().FireAndForget(ex => OnProvidingCredentialException(ex));
 
                 base.ViewDidLoad();
@@ -149,18 +154,6 @@ namespace Bit.iOS.Autofill
             }
         }
 
-        //public override async void ProvideCredentialWithoutUserInteraction(ASPasswordCredentialIdentity credentialIdentity)
-        //{
-        //    try
-        //    {
-        //        await ProvideCredentialWithoutUserInteractionAsync(credentialIdentity);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        OnProvidingCredentialException(ex);
-        //    }
-        //}
-
         [Export("prepareInterfaceToProvideCredentialForRequest:")]
         public override async void PrepareInterfaceToProvideCredential(IASCredentialRequest credentialRequest)
         {
@@ -193,18 +186,6 @@ namespace Bit.iOS.Autofill
                 OnProvidingCredentialException(ex);
             }
         }
-
-        //public override async void PrepareInterfaceToProvideCredential(ASPasswordCredentialIdentity credentialIdentity)
-        //{
-        //    try
-        //    {
-        //        await PrepareInterfaceToProvideCredentialAsync(c => c.PasswordCredentialIdentity = credentialIdentity);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        OnProvidingCredentialException(ex);
-        //    }
-        //}
 
         public override async void PrepareInterfaceForExtensionConfiguration()
         {
@@ -546,7 +527,45 @@ namespace Bit.iOS.Autofill
                 _nfcSession, out _nfcDelegate, out _accountsManager);
         }
 
-        private async Task InitAppIfNeededAsync()
+        public override void ViewIsAppearing(bool animated)
+        {
+            base.ViewIsAppearing(animated);
+
+            if (!UIDevice.CurrentDevice.CheckSystemVersion(17, 0))
+            {
+                return;
+            }
+
+            ClipLogger.Log($"ViewIsAppearing: {TraitCollection?.UserInterfaceStyle}");
+
+            var appOptions = new AppOptions { IosExtension = true };
+            var app = new App.App(appOptions);
+            ThemeManager.SetTheme(app.Resources);
+
+            iOSCoreHelpers.AppearanceAdjustments();
+
+            View.BackgroundColor = UIColor.SystemBackground;
+            Logo.Image = UIImage.FromFile("splash_logo");
+            View.SetNeedsLayout();
+
+            ClipLogger.Log($"Window null: {View.Window is null}");
+
+            //View.Window?.UpdateTraitsIfNeeded();
+
+            ServiceContainer.Resolve<IMessagingService>().Send("update_traits");
+
+
+            //((IUITraitChangeObservable)this).RegisterForTraitChanges<UITraitUserInterfaceStyle>((env, traits) =>
+            //{
+            //    MainThread.BeginInvokeOnMainThread(() =>
+            //    {
+            //        View.BackgroundColor = UIColor.SystemBackground;
+            //        Logo.Image = UIImage.FromFile("splash_logo");
+            //    });
+            //});
+        }
+
+        private async Task InitAppIfNeededAsync([CallerMemberName] string memberName = "")
         {
             if (ServiceContainer.RegisteredServices == null || ServiceContainer.RegisteredServices.Count == 0)
             {
@@ -554,6 +573,13 @@ namespace Bit.iOS.Autofill
             }
 
             await _stateService.Value.ReloadStateAsync();
+            ClipLogger.Log($"InitAppIfNeeded {memberName}");
+            //if (_viewIsAppeared)
+            //{
+            //    var app = new App.App(new AppOptions { IosExtension = true });
+            //    ThemeManager.SetTheme(app.Resources);
+            //    iOSCoreHelpers.AppearanceAdjustments();
+            //}
         }
 
         private void LaunchHomePage()

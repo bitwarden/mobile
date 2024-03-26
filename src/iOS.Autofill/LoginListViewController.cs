@@ -161,6 +161,18 @@ namespace Bit.iOS.Autofill
             }
         }
 
+        protected override void OnUpdateTraitAppearance()
+        {
+            base.OnUpdateTraitAppearance();
+
+            _searchBar.BackgroundColor = _searchBar.BarTintColor = ThemeHelpers.ListHeaderBackgroundColor;
+            _searchBar.UpdateThemeIfNeeded();
+
+            TableView.BackgroundColor = ThemeHelpers.BackgroundColor;
+
+            _emptyViewButton.Layer.BorderColor = UIColor.FromName(ColorConstants.LIGHT_TEXT_MUTED).CGColor;
+        }
+
         public async Task DoFido2GetAssertionAsync(IFido2GetAssertionUserInterface fido2GetAssertionUserInterface)
         {
             if (!UIDevice.CurrentDevice.CheckSystemVersion(17, 0))
@@ -436,6 +448,20 @@ namespace Bit.iOS.Autofill
                         }
                     });
                 }
+                if (message.Command == "update_traits" && UIDevice.CurrentDevice.CheckSystemVersion(17,0))
+                {
+                    MainThread.InvokeOnMainThreadAsync(() =>
+                    {
+                        ClipLogger.Log($"[{nameof(LoginListViewController)}] updating traits");
+                        ClipLogger.Log($"[{nameof(LoginListViewController)}] style: {TraitCollection?.UserInterfaceStyle}");
+
+                        UpdateTraitsIfNeeded();
+
+                        OnUpdateTraitAppearance();
+
+                        View.SetNeedsLayout();
+                    });
+                }
             });
         }
 
@@ -534,6 +560,17 @@ namespace Bit.iOS.Autofill
                 throw;
             }
         }
+
+        //public override void ViewIsAppearing(bool animated)
+        //{
+        //    base.ViewIsAppearing(animated);
+
+        //    ClipLogger.Log($"[{nameof(LoginListViewController)}] TraitCollection: {TraitCollection?.UserInterfaceStyle}");
+        //    ((IUITraitChangeObservable)this).RegisterForTraitChanges<UITraitUserInterfaceStyle>((env, traits) =>
+        //    {
+        //        ClipLogger.Log($"[LoginListViewController] changed TraitCollection: {traits.UserInterfaceStyle}");
+        //    });
+        //}
 
         public void ReloadTableViewData() => TableView.ReloadData();
 

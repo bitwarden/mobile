@@ -1,5 +1,4 @@
 using Bit.iOS.Core.Utilities;
-using System;
 using UIKit;
 
 namespace Bit.iOS.Core.Controllers
@@ -24,6 +23,35 @@ namespace Bit.iOS.Core.Controllers
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
+            if (!UIDevice.CurrentDevice.CheckSystemVersion(17, 0))
+            {
+                OnUpdateTraitAppearance();
+            }
+        }
+
+        public override void ViewIsAppearing(bool animated)
+        {
+            base.ViewIsAppearing(animated);
+
+            if (!UIDevice.CurrentDevice.CheckSystemVersion(17, 0))
+            {
+                return;
+            }
+
+            OnUpdateTraitAppearance();
+
+            ((IUITraitChangeObservable)this).RegisterForTraitChanges<UITraitUserInterfaceStyle>((env, traits) =>
+            {
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    OnUpdateTraitAppearance();
+                });
+            });
+        }
+
+        protected virtual void OnUpdateTraitAppearance()
+        {
             if (View != null)
             {
                 View.BackgroundColor = ThemeHelpers.BackgroundColor;

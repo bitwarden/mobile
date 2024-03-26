@@ -1,6 +1,7 @@
 ﻿using Bit.App.Pages;
 using Bit.App.Utilities;
 using Bit.Core.Abstractions;
+using Bit.Core.Services;
 using Bit.Core.Utilities;
 using Bit.iOS.Core.Utilities;
 using Microsoft.Maui.Controls.Handlers.Compatibility;
@@ -21,6 +22,7 @@ namespace Bit.iOS.Core.Handlers
             {
                 if (message.Command is ThemeManager.UPDATED_THEME_MESSAGE_KEY)
                 {
+                    ClipLogger.Log($"CustomTabbedHandler ThemeManager.UPDATED_THEME_MESSAGE_KEY");
                     MainThread.BeginInvokeOnMainThread(() =>
                     {
                         iOSCoreHelpers.AppearanceAdjustments();

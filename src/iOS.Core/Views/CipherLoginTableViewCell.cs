@@ -93,6 +93,21 @@ namespace Bit.iOS.Core.Views
                     _separator.TrailingAnchor.ConstraintEqualTo(ContentView.TrailingAnchor, -7),
                     _separator.BottomAnchor.ConstraintEqualTo(ContentView.BottomAnchor, 0)
                 });
+
+                ((IUITraitChangeObservable)this).RegisterForTraitChanges<UITraitUserInterfaceStyle>((env, traits) =>
+                {
+                    ClipLogger.Log($"[CipherLoginTableViewCell] TraitCollection: {traits.UserInterfaceStyle}");
+                    MainThread.BeginInvokeOnMainThread(() =>
+                    {
+                        ContentView.BackgroundColor = UIColor.SystemBackground;
+                        _title.TextColor = ThemeHelpers.TextColor;
+                        _subtitle.TextColor = ThemeHelpers.MutedColor;
+                        _mainIcon.TextColor = ThemeHelpers.PrimaryColor;
+                        _orgIcon.TextColor = ThemeHelpers.MutedColor;
+                        _separator.BackgroundColor = ThemeHelpers.SeparatorColor;
+                        _mainStackView.BackgroundColor = UIColor.SystemCyan;
+                    });
+                });
             }
             catch (System.Exception ex)
             {

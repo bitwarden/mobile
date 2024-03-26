@@ -1,6 +1,7 @@
 ﻿using Bit.Core.Services;
 using Bit.iOS.Core.Utilities;
 using Foundation;
+using Microsoft.Maui.ApplicationModel;
 using ObjCRuntime;
 using UIKit;
 
@@ -49,6 +50,22 @@ namespace Bit.iOS.Autofill.ListItems
                     _separator.LeadingAnchor.ConstraintEqualTo(ContentView.LeadingAnchor, 7),
                     _separator.TrailingAnchor.ConstraintEqualTo(ContentView.TrailingAnchor, -7),
                     _separator.BottomAnchor.ConstraintEqualTo(ContentView.LayoutMarginsGuide.BottomAnchor, 2)
+                });
+
+                if (!UIDevice.CurrentDevice.CheckSystemVersion(17, 0))
+                {
+                    return;
+                }
+
+                ((IUITraitChangeObservable)this).RegisterForTraitChanges<UITraitUserInterfaceStyle>((env, traits) =>
+                {
+                    ClipLogger.Log($"[HeaderItemView] TraitCollection: {traits.UserInterfaceStyle}");
+                    MainThread.BeginInvokeOnMainThread(() =>
+                    {
+                        ContentView.BackgroundColor = UIColor.SystemBackground;
+                        _header.TextColor = ThemeHelpers.TextColor;
+                        _separator.BackgroundColor = ThemeHelpers.SeparatorColor;
+                    });
                 });
             }
             catch (System.Exception ex)

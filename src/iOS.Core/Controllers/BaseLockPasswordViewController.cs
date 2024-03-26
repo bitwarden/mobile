@@ -221,6 +221,29 @@ namespace Bit.iOS.Core.Controllers
             }
         }
 
+        //public override void ViewIsAppearing(bool animated)
+        //{
+        //    base.ViewIsAppearing(animated);
+
+        //    if (!UIDevice.CurrentDevice.CheckSystemVersion(17, 0))
+        //    {
+        //        return;
+        //    }
+
+        //    ClipLogger.Log($"baselock ViewIsAppearing: {TraitCollection?.UserInterfaceStyle}");
+
+        //    ((IUITraitChangeObservable)this).RegisterForTraitChanges<UITraitUserInterfaceStyle>((env, traits) =>
+        //    {
+        //        ClipLogger.Log($"[BaseLockPass] TraitCollection: {traits.UserInterfaceStyle}");
+        //        MainThread.BeginInvokeOnMainThread(() =>
+        //        {
+        //            View.BackgroundColor = UIColor.SystemBackground;
+        //            TableView.BackgroundColor = ThemeHelpers.BackgroundColor;
+        //            TableView.SeparatorColor = ThemeHelpers.SeparatorColor;
+        //        });
+        //    });
+        //}
+
         public override void ViewDidAppear(bool animated)
         {
             try

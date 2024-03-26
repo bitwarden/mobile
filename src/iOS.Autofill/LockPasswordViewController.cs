@@ -3,6 +3,7 @@ using Bit.App.Controls;
 using Bit.Core.Services;
 using Bit.Core.Utilities;
 using Bit.iOS.Core.Utilities;
+using Microsoft.Maui.ApplicationModel;
 using UIKit;
 
 namespace Bit.iOS.Autofill

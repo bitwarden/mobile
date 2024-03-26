@@ -124,7 +124,7 @@ namespace Bit.iOS.Core.Utilities
             else
             { 
 #if DEBUG
-                logger = DebugLogger.Instance;
+                logger = ClipLogger.Instance;
 #else
                 logger = Logger.Instance;
 #endif
@@ -248,9 +248,9 @@ namespace Bit.iOS.Core.Utilities
             var bootstrapTask = BootstrapAsync(postBootstrapFunc);
         }
 
-        public static void AppearanceAdjustments()
+        public static void AppearanceAdjustments(UITraitCollection? traitCollection = null)
         {
-            ThemeHelpers.SetAppearance(ThemeManager.GetTheme(), ThemeManager.OsDarkModeEnabled());
+            ThemeHelpers.SetAppearance(ThemeManager.GetTheme(), ThemeManager.OsDarkModeEnabled(traitCollection));
             UIApplication.SharedApplication.StatusBarHidden = false;
             UIApplication.SharedApplication.StatusBarStyle = UIStatusBarStyle.LightContent;
         }
@@ -291,6 +291,21 @@ namespace Bit.iOS.Core.Utilities
                 else if (message.Command == "listenYubiKeyOTP" && message.Data is bool listen)
                 {
                     ListenYubiKey(listen, deviceActionService, nfcSession, nfcDelegate);
+                }
+                else if (message.Command is ThemeManager.UPDATED_THEME_MESSAGE_KEY)
+                {
+                    MainThread.BeginInvokeOnMainThread(() =>
+                    {
+                        try
+                        {
+                            ClipLogger.Log($"message updated theme message key");
+                            AppearanceAdjustments();
+                        }
+                        catch (Exception ex)
+                        {
+                            LoggerHelper.LogEvenIfCantBeResolved(ex);
+                        }
+                    });
                 }
             });
         }

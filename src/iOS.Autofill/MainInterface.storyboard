@@ -420,6 +420,8 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="FcI-Ph-m9e">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="830"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" name="LightSecondary300"/>
+                                <color key="sectionIndexBackgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="oQZ-wW-5uB">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="44"/>
@@ -650,6 +652,9 @@
         <image name="check.png" width="90" height="90"/>
         <image name="empty_items_state" width="157" height="111"/>
         <image name="splash_logo" width="282" height="44"/>
+        <namedColor name="LightSecondary300">
+            <color red="0.80800002813339233" green="0.83099997043609619" blue="0.86299997568130493" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <namedColor name="LightTextMuted">
             <color red="0.42699998617172241" green="0.45899999141693115" blue="0.49399998784065247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
