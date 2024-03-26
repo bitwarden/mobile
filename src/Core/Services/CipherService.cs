@@ -270,7 +270,7 @@ namespace Bit.Core.Services
         {
             var localData = await _stateService.GetCiphersLocalDataAsync();
             var ciphers = await _stateService.GetEncryptedCiphersAsync();
-            var response = ciphers?.Select(c => new Cipher(c.Value, false,
+            var response = ciphers?.AsParallel().Select(c => new Cipher(c.Value, false,
                 localData?.ContainsKey(c.Key) ?? false ? localData[c.Key] : null));
             return response?.ToList() ?? new List<Cipher>();
         }
@@ -302,33 +302,28 @@ namespace Bit.Core.Services
                     {
                         throw new UserKeyNullException();
                     }
-                    var decCiphers = new List<CipherView>();
-                    async Task decryptAndAddCipherAsync(Cipher cipher)
-                    {
-                        var c = await cipher.DecryptAsync();
-                        decCiphers.Add(c);
-                    }
-                    var tasks = new List<Task>();
-                    IEnumerable<Cipher> ciphers = await GetAllAsync();
+                    
+                    var parallelQuery = (await GetAllAsync()).AsParallel();
                     if (filter != null)
                     {
-                        ciphers = ciphers.Where(filter);
+                        parallelQuery = parallelQuery.Where(filter);
                     }
-
-                    foreach (var cipher in ciphers)
+    
+                     var decCiphers = (await Task.WhenAll(parallelQuery
+                         .Select(async cipher =>
+                         {
+                             return await cipher.DecryptAsync();
+                         })
+                         .ToList()))
+                         .OrderBy(c => c, new CipherLocaleComparer(_i18nService))
+                         .ToList();
+                    
+                    if (filter == null)
                     {
-                        tasks.Add(decryptAndAddCipherAsync(cipher));
+                        DecryptedCipherCache = decCiphers;
                     }
-                    await Task.WhenAll(tasks);
-                    decCiphers = decCiphers.OrderBy(c => c, new CipherLocaleComparer(_i18nService)).ToList();
-
-                    if (filter != null)
-                    {
-                        return decCiphers;
-                    }
-
-                    DecryptedCipherCache = decCiphers;
-                    return DecryptedCipherCache;
+                    
+                    return decCiphers;
                 }
                 finally { }
             }
