@@ -14,6 +14,7 @@ using Bit.Core.Models.Response;
 using Bit.Core.Pages;
 using Bit.Core.Services;
 using Bit.Core.Utilities;
+using Bit.Core.Utilities.Fido2;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Bit.App
@@ -104,6 +105,8 @@ namespace Bit.App
                 Options.MyVaultTile = appOptions.MyVaultTile;
                 Options.GeneratorTile = appOptions.GeneratorTile;
                 Options.FromAutofillFramework = appOptions.FromAutofillFramework;
+                Options.FromFido2Framework = appOptions.FromFido2Framework;
+                Options.Fido2CredentialAction = appOptions.Fido2CredentialAction;
                 Options.CreateSend = appOptions.CreateSend;
             }
         }
@@ -116,6 +119,15 @@ namespace Bit.App
                 && activationState.State.TryGetValue("autofillFramework", out string autofillFramework)
                 && autofillFramework == "true"
                 && activationState.State.ContainsKey("autofillFrameworkCipherId"))
+            {
+                return new Window(new NavigationPage()); //No actual page needed. Only used for auto-filling the fields directly (externally)
+            }
+
+            //When executing from CredentialProviderSelectionActivity we don't have "Options" so we need to filter "manually"
+            //In the CredentialProviderSelectionActivity we don't need to show any Page, so we just create a "dummy" Window with a NavigationPage to avoid crashing.
+            if (activationState != null 
+                && activationState.State.ContainsKey("CREDENTIAL_DATA") 
+                && activationState.State.ContainsKey("credentialProviderCipherId"))
             {
                 return new Window(new NavigationPage()); //No actual page needed. Only used for auto-filling the fields directly (externally)
             }
@@ -218,17 +230,17 @@ namespace Bit.App
                     await _accountsManager.NavigateOnAccountChangeAsync();
                 }
                 else if (message.Command == POP_ALL_AND_GO_TO_TAB_GENERATOR_MESSAGE ||
-                    message.Command == POP_ALL_AND_GO_TO_TAB_MYVAULT_MESSAGE ||
-                    message.Command == POP_ALL_AND_GO_TO_TAB_SEND_MESSAGE ||
-                    message.Command == POP_ALL_AND_GO_TO_AUTOFILL_CIPHERS_MESSAGE ||
-                    message.Command == DeepLinkContext.NEW_OTP_MESSAGE)
+                         message.Command == POP_ALL_AND_GO_TO_TAB_MYVAULT_MESSAGE ||
+                         message.Command == POP_ALL_AND_GO_TO_TAB_SEND_MESSAGE ||
+                         message.Command == POP_ALL_AND_GO_TO_AUTOFILL_CIPHERS_MESSAGE ||
+                         message.Command == DeepLinkContext.NEW_OTP_MESSAGE)
                 {
                     if (message.Command == DeepLinkContext.NEW_OTP_MESSAGE)
                     {
                         Options.OtpData = new OtpData((string)message.Data);
                     }
 
-                    await MainThread.InvokeOnMainThreadAsync(ExecuteNavigationAction); 
+                    await MainThread.InvokeOnMainThreadAsync(ExecuteNavigationAction);
                     async Task ExecuteNavigationAction()
                     {
                         if (MainPage is TabsPage tabsPage)
@@ -239,6 +251,7 @@ namespace Bit.App
                             {
                                 await tabsPage.Navigation.PopModalAsync(false);
                             }
+
                             if (message.Command == POP_ALL_AND_GO_TO_AUTOFILL_CIPHERS_MESSAGE)
                             {
                                 MainPage = new NavigationPage(new CipherSelectionPage(Options));
@@ -264,6 +277,19 @@ namespace Bit.App
                                 await tabsPage.Navigation.PushModalAsync(new NavigationPage(new CipherSelectionPage(Options)));
                             }
                         }
+                    }
+                }
+                else if (message.Command == "fidoNavigateToAutofillCipher" && message.Data is Fido2ConfirmNewCredentialParams createParams)
+                {
+                    ArgumentNullException.ThrowIfNull(MainPage);
+                    ArgumentNullException.ThrowIfNull(Options);
+                    await MainThread.InvokeOnMainThreadAsync(NavigateToCipherSelectionPageAction);
+                    void NavigateToCipherSelectionPageAction()
+                    {
+                        Options.Uri = createParams.RpId;
+                        Options.SaveUsername = createParams.UserName;
+                        Options.SaveName = createParams.CredentialName;
+                        MainPage = new NavigationPage(new CipherSelectionPage(Options));
                     }
                 }
                 else if (message.Command == "convertAccountToKeyConnector")
