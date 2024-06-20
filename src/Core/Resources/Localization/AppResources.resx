@@ -457,6 +457,9 @@
   <data name="Continue" xml:space="preserve">
     <value>Continue</value>
   </data>
+  <data name="ContinueText" xml:space"preserve">
+    <value>Continue</value>
+  </data>
   <data name="CreateAccount" xml:space="preserve">
     <value>Create account</value>
   </data>
@@ -1235,6 +1238,9 @@ Scanning will happen automatically.</value>
     <value>Base domain</value>
   </data>
   <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="DefaultText" xml:space="preserve">
     <value>Default</value>
   </data>
   <data name="Exact" xml:space="preserve">
