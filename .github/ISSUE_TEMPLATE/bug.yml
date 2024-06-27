@@ -17,7 +17,7 @@ body:
     attributes:
       label: Production Build
       options:
-        - label: Using the Bitwarden app pubicly available in App Store / Play Store. Bitwarden Beta bugs should be reported in [bitwarden/android](https://github.com/bitwarden/android) or [bitwarden/ios](https://github.com/bitwarden/ios)
+        - label: Using the Bitwarden app pubicly available in App Store / Play Store. Bitwarden Beta bugs should be reported in bitwarden/android or bitwarden/ios
   - type: textarea
     id: reproduce
     attributes:
