@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Native Android BETA Bug Reports
+    url: https://github.com/bitwarden/android/issues
+    about: Bugs found in the new native Android Beta app should be reported in [bitwarden/android](https://github.com/bitwarden/android)
+  - name: Native iOS BETA Bug Reports
+    url: https://github.com/bitwarden/ios/issues
+    about: Bugs found in the new native iOS Beta app should be reported in [bitwarden/ios](https://github.com/bitwarden/ios)
   - name: Customer Support
     url: https://bitwarden.com/contact/
     about: Please contact our customer support for account issues and general customer support.
