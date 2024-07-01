@@ -571,28 +571,39 @@ namespace Bit.Core.Services
             await UpsertAsync(data);
         }
 
-        public async Task ShareWithServerAsync(CipherView cipher, string organizationId, HashSet<string> collectionIds)
+        public async Task ShareWithServerAsync(CipherView cipherView, string organizationId, HashSet<string> collectionIds)
         {
             var attachmentTasks = new List<Task>();
-            if (cipher.Attachments != null)
+            Cipher cipher = null;
+            //If the cipher doesn't have a key, we update it 
+            if(cipherView.Key == null && await ShouldUseCipherKeyEncryptionAsync())
             {
-                foreach (var attachment in cipher.Attachments)
+                await UpdateAndUpsertAsync(cipherView, cipher => _apiService.PutCipherAsync(cipherView.Id, new CipherRequest(cipher)));
+                cipher = await GetAsync(cipherView.Id);
+                cipherView = await cipher.DecryptAsync();
+            }
+            if (cipherView.Attachments != null)
+            {
+                foreach (var attachment in cipherView.Attachments)
                 {
                     if (attachment.Key == null)
                     {
-                        attachmentTasks.Add(ShareAttachmentWithServerAsync(attachment, cipher.Id, organizationId));
+                        attachmentTasks.Add(ShareAttachmentWithServerAsync(attachment, cipherView.Id, organizationId));
                     }
                 }
             }
             await Task.WhenAll(attachmentTasks);
-            cipher.OrganizationId = organizationId;
-            cipher.CollectionIds = collectionIds;
-            var encCipher = await EncryptAsync(cipher);
-            var request = new CipherShareRequest(encCipher);
-            var response = await _apiService.PutShareCipherAsync(cipher.Id, request);
-            var userId = await _stateService.GetActiveUserIdAsync();
-            var data = new CipherData(response, userId, collectionIds);
-            await UpsertAsync(data);
+            cipherView.OrganizationId = organizationId;
+            cipherView.CollectionIds = collectionIds;
+            await UpdateAndUpsertAsync(cipherView, cipher => _apiService.PutShareCipherAsync(cipherView.Id, new CipherShareRequest(cipher)), collectionIds);
+
+            async Task UpdateAndUpsertAsync(CipherView cipherView, Func<Cipher,Task<CipherResponse>> callPutCipherApi, HashSet<string> collectionIds = null)
+            {
+                var cipher = await EncryptAsync(cipherView);
+                var response = await callPutCipherApi(cipher);
+                var data = new CipherData(response, await _stateService.GetActiveUserIdAsync(), collectionIds);
+                await UpsertAsync(data);
+            }
         }
 
         public async Task<Cipher> SaveAttachmentRawWithServerAsync(Cipher cipher, CipherView cipherView, string filename, byte[] data)
