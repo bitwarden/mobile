@@ -127,7 +127,7 @@
 	</ItemGroup>
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android' AND !$(DefineConstants.Contains(FDROID))">
 	  <PackageReference Include="Xamarin.GooglePlayServices.SafetyNet" Version="118.0.1.5" />
-	  <PackageReference Include="Xamarin.Firebase.Messaging" Version="123.1.2.2" />
+	  <PackageReference Include="Xamarin.Firebase.Messaging" Version="124.0.0" />
 	</ItemGroup>
 	<ItemGroup Condition="!$(DefineConstants.Contains(FDROID))">
 		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="5.0.3" />
