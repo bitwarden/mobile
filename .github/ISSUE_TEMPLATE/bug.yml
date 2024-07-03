@@ -6,8 +6,20 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
+        > [!WARNING]  
+        > Testing the new Bitwarden Beta apps? Submit your report in [bitwarden/android](https://github.com/bitwarden/android) or [bitwarden/ios](https://github.com/bitwarden/ios)
+
         
         Please do not submit feature requests. The [Community Forums](https://community.bitwarden.com) has a section for submitting, voting for, and discussing product feature requests.
+  - type: checkboxes
+    id: production
+    attributes:
+      label: Production Build
+      options:
+        - label: I'm using the legacy Bitwarden app pubicly available in App Store / Play Store and I'm aware that Bitwarden Beta bugs should be reported in [bitwarden/android](https://github.com/bitwarden/android) or [bitwarden/ios](https://github.com/bitwarden/ios)
+    validations:
+      required: true
   - type: textarea
     id: reproduce
     attributes:
@@ -73,9 +85,3 @@ body:
       description: What version of our software are you running? (go to "Settings" → "About" in the app)
     validations:
       required: true
-  - type: checkboxes
-    id: beta
-    attributes:
-      label: Beta
-      options:
-        - label: Using a pre-release version of the application.
