@@ -114,7 +114,7 @@ namespace Bit.Core.Services
         public async Task<Cipher> EncryptAsync(CipherView model, SymmetricCryptoKey key = null,
             Cipher originalCipher = null)
         {
-            // Adjust password history
+            // Adjust password history and attachments
             if (model.Id != null)
             {
                 if (originalCipher == null)
@@ -169,6 +169,9 @@ namespace Bit.Core.Services
                             }
                         }
                     }
+
+                    //adjust attachments
+                    model.Attachments = existingCipher.Attachments;
                 }
                 if (!model.PasswordHistory?.Any() ?? false)
                 {
