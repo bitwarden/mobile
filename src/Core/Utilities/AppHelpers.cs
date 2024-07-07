@@ -515,14 +515,8 @@ namespace Bit.App.Utilities
 
         public static string EncodeDataParameter(object obj)
         {
-            string EncodeMultibyte(Match match)
-            {
-                return Convert.ToChar(Convert.ToUInt32($"0x{match.Groups[1].Value}", 16)).ToString();
-            }
-
-            var escaped = Uri.EscapeDataString(JsonConvert.SerializeObject(obj));
-            var multiByteEscaped = Regex.Replace(escaped, "%([0-9A-F]{2})", EncodeMultibyte);
-            return WebUtility.UrlEncode(Convert.ToBase64String(Encoding.UTF8.GetBytes(multiByteEscaped)));
+            var json = JsonConvert.SerializeObject(obj);
+            return WebUtility.UrlEncode(Convert.ToBase64String(Encoding.UTF8.GetBytes(json)));
         }
 
         public static async Task LogOutAsync(string userId, bool userInitiated = false)
