@@ -243,11 +243,11 @@
     <comment>Hide a secret value that is currently shown (password).</comment>
   </data>
   <data name="InternetConnectionRequiredMessage" xml:space="preserve">
-    <value>Для продовження, під'єднайтесь до інтернету.</value>
+    <value>Щоб продовжити, під'єднайтеся до інтернету.</value>
     <comment>Description message for the alert when internet connection is required to continue.</comment>
   </data>
   <data name="InternetConnectionRequiredTitle" xml:space="preserve">
-    <value>Необхідно з'єднатися з інтернетом</value>
+    <value>Необхідно під'єднатися до інтернету</value>
     <comment>Title for the alert when internet connection is required to continue.</comment>
   </data>
   <data name="InvalidMasterPassword" xml:space="preserve">
@@ -434,7 +434,7 @@
     <value>Найлегшим способом додавання нових записів у сховище є використання розширення Bitwarden. Дізнайтеся більше про використання розширення Bitwarden в меню "Налаштування".</value>
   </data>
   <data name="BitwardenAppExtensionDescription" xml:space="preserve">
-    <value>Використовуйте Bitwarden в Safari та інших програмах для автоматичного заповнення паролів.</value>
+    <value>Використовуйте Bitwarden у Safari та інших програмах для автоматичного заповнення паролів.</value>
   </data>
   <data name="BitwardenAutofillService" xml:space="preserve">
     <value>Служба автозаповнення Bitwarden</value>
@@ -483,7 +483,7 @@
     <value>Увімкнути розширення</value>
   </data>
   <data name="ExtensionInSafari" xml:space="preserve">
-    <value>В Safari знайдіть Bitwarden, використовуючи піктограму Поділитися (підказка: прокрутіть вправо в нижньому рядку меню).</value>
+    <value>У Safari знайдіть Bitwarden, використовуючи піктограму Поділитися (підказка: прокрутіть вправо в нижньому рядку меню).</value>
     <comment>Safari is the name of apple's web browser</comment>
   </data>
   <data name="ExtensionInstantAccess" xml:space="preserve">
@@ -493,16 +493,16 @@
     <value>Ви готові до входу!</value>
   </data>
   <data name="ExtensionSetup" xml:space="preserve">
-    <value>Тепер ви можете легко отримувати доступ до своїх записів з Safari, Chrome та інших підтримуваних програм.</value>
+    <value>Тепер ви можете легко отримувати доступ до своїх записів у Safari, Chrome та інших підтримуваних програмах.</value>
   </data>
   <data name="ExtensionSetup2" xml:space="preserve">
-    <value>В Safari та Chrome знайдіть Bitwarden, використовуючи піктограму Поділитися (підказка: прокрутіть вправо в нижньому рядку меню Поділитися).</value>
+    <value>У Safari та Chrome знайдіть Bitwarden, використовуючи піктограму Поділитися (підказка: прокрутіть вправо в нижньому рядку меню Поділитися).</value>
   </data>
   <data name="ExtensionTapIcon" xml:space="preserve">
-    <value>Торкніться піктограми Bitwarden в меню для запуску розширення.</value>
+    <value>Торкніться піктограми Bitwarden у меню, щоб запустити розширення.</value>
   </data>
   <data name="ExtensionTurnOn" xml:space="preserve">
-    <value>Щоб увімкнути Bitwarden в Safari та інших програмах, торкніться піктограми "Ще" в нижньому рядку меню.</value>
+    <value>Щоб увімкнути Bitwarden у Safari та інших програмах, торкніться піктограми "Ще" в нижньому рядку меню.</value>
   </data>
   <data name="Favorite" xml:space="preserve">
     <value>Обране</value>
@@ -520,10 +520,10 @@
     <value>Імпортувати записи</value>
   </data>
   <data name="ImportItemsConfirmation" xml:space="preserve">
-    <value>Ви можете робити масовий імпорт записів зі сховища на bitwarden.com. Хочете перейти на вебсайт зараз?</value>
+    <value>Ви можете скористатися масовим імпортуванням записів у сховищі на bitwarden.com. Хочете перейти на вебсайт зараз?</value>
   </data>
   <data name="ImportItemsDescription" xml:space="preserve">
-    <value>Швидкий імпорт ваших записів з інших програм керування паролями.</value>
+    <value>Швидко імпортуйте свої записи з інших програм керування паролями.</value>
   </data>
   <data name="LastSync" xml:space="preserve">
     <value>Остання синхронізація:</value>
@@ -651,7 +651,7 @@
     <value>Оцініть програму</value>
   </data>
   <data name="RateTheAppDescription" xml:space="preserve">
-    <value>Будь ласка, подумайте про те, щоб допомогти нам хорошим відгуком!</value>
+    <value>Розкажіть іншим про свої враження, залишивши хороший відгук!</value>
   </data>
   <data name="RegeneratePassword" xml:space="preserve">
     <value>Генерувати новий</value>
@@ -721,7 +721,7 @@
     <value>Переглянути запис</value>
   </data>
   <data name="WebVault" xml:space="preserve">
-    <value>Веб сховище Bitwarden</value>
+    <value>Вебсховище Bitwarden</value>
   </data>
   <data name="Lost2FAApp" xml:space="preserve">
     <value>Втратили доступ до програми автентифікації?</value>
@@ -748,10 +748,10 @@
     <comment>This is used for the autofill service. ex. "There are no items in your vault for twitter.com".</comment>
   </data>
   <data name="BitwardenAutofillServiceOverlay" xml:space="preserve">
-    <value>При виборі поля введення ви побачите накладання автозаповнення Bitwarden, до якого ви можете торкнутися, щоб запустити службу автозаповнення.</value>
+    <value>Вибравши поле введення, ви побачите накладання автозаповнення Bitwarden, до якого ви можете торкнутися, щоб запустити службу автозаповнення.</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContent" xml:space="preserve">
-    <value>Торкніться цього сповіщення для автозаповнення пароля.</value>
+    <value>Торкніться цього сповіщення, щоб автоматично заповнити дані.</value>
   </data>
   <data name="BitwardenAutofillServiceOpenAccessibilitySettings" xml:space="preserve">
     <value>Відкрити налаштування спеціальних можливостей</value>
@@ -775,7 +775,7 @@
     <value>Увімк</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Статус</value>
+    <value>Стан</value>
   </data>
   <data name="BitwardenAutofillServiceAlert2" xml:space="preserve">
     <value>Найлегшим способом додавання нових записів у сховище є використання служби автозаповнення Bitwarden. Дізнайтеся більше про використання служби автозаповнення Bitwarden в меню "Налаштування".</value>
@@ -787,7 +787,7 @@
     <value>Автоматично заповнити чи переглянути запис?</value>
   </data>
   <data name="BitwardenAutofillServiceMatchConfirm" xml:space="preserve">
-    <value>Ви дійсно хочете використати цей запис для автоматичного заповнення? Він не повністю відповідає "{0}".</value>
+    <value>Ви дійсно хочете використати цей запис для автозаповнення? Він не повністю відповідає "{0}".</value>
   </data>
   <data name="MatchingItems" xml:space="preserve">
     <value>Відповідні записи</value>
@@ -943,7 +943,7 @@
     <value>Функція недоступна</value>
   </data>
   <data name="MaxFileSize" xml:space="preserve">
-    <value>Максимальний розмір файлу 100 Мб.</value>
+    <value>Максимальний розмір файлу 100 МБ.</value>
   </data>
   <data name="UpdateKey" xml:space="preserve">
     <value>Ви не можете використовувати цю функцію доки не оновите свій ключ шифрування.</value>
@@ -967,7 +967,7 @@
     <value>URL-адреси середовища збережено.</value>
   </data>
   <data name="FormattedIncorrectly" xml:space="preserve">
-    <value>{0} є неправильним форматом.</value>
+    <value>{0} має некоректне форматування.</value>
     <comment>Validation error when something is not formatted correctly, such as a URL or email address.</comment>
   </data>
   <data name="IdentityUrl" xml:space="preserve">
@@ -984,7 +984,7 @@
     <value>URL-адреса сервера</value>
   </data>
   <data name="WebVaultUrl" xml:space="preserve">
-    <value>URL-адреса сервера веб сховища</value>
+    <value>URL-адреса сервера вебсховища</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContentOld" xml:space="preserve">
     <value>Торкніться цього сповіщення для перегляду записів з вашого сховища.</value>
@@ -1158,10 +1158,10 @@
     <value>Збірки</value>
   </data>
   <data name="NoItemsCollection" xml:space="preserve">
-    <value>В цій збірці немає записів.</value>
+    <value>У цій збірці немає записів.</value>
   </data>
   <data name="NoItemsFolder" xml:space="preserve">
-    <value>В цій теці немає записів.</value>
+    <value>У цій теці немає записів.</value>
   </data>
   <data name="NoItemsTrash" xml:space="preserve">
     <value>У смітнику немає записів.</value>
@@ -1198,7 +1198,7 @@
     <value>Не вдалося автоматично відкрити меню налаштувань провайдера облікових даних Android. Ви можете власноруч відкрити меню в Налаштуваннях Android &gt; Система &gt; Паролі та облікові записи &gt; Паролі, ключі доступу і служби даних.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
-    <value>Нам не вдалося автоматично відкрити меню налаштувань автозаповнення Android. Ви можете перейти до меню налаштувань автозаповнення вручну в Налаштування &gt; Система &gt; Мова і введення &gt; Додатково &gt; Служба автозаповнення.</value>
+    <value>Не вдалося автоматично відкрити меню налаштувань автозаповнення Android. Ви можете перейти до меню налаштувань автозаповнення вручну в Налаштування &gt; Система &gt; Мова і введення &gt; Додатково &gt; Служба автозаповнення.</value>
   </data>
   <data name="CustomFieldName" xml:space="preserve">
     <value>Назва власного поля</value>
@@ -1632,7 +1632,7 @@
     <value>3. У налаштуваннях Android для Bitwarden перейдіть до "Накладання інших програм" (розділ Розширені) і змініть положення перемикача для активації накладання.</value>
   </data>
   <data name="OverlayPermission" xml:space="preserve">
-    <value>Дозволи</value>
+    <value>Дозвіл</value>
   </data>
   <data name="BitwardenAutofillServiceOpenOverlayPermissionSettings" xml:space="preserve">
     <value>Відкрити налаштування дозволів накладання</value>
@@ -1678,7 +1678,7 @@
     <value>Попередження</value>
   </data>
   <data name="ExportVaultFailure" xml:space="preserve">
-    <value>Сталася помилка під час експорту вашого сховища. Якщо проблема не зникне, вам необхідно буде експортувати з веб сховища.</value>
+    <value>Сталася помилка під час експорту вашого сховища. Якщо проблема не зникне, вам необхідно буде експортувати з вебсховища.</value>
   </data>
   <data name="ExportVaultSuccess" xml:space="preserve">
     <value>Сховище успішно експортовано</value>
@@ -1695,7 +1695,7 @@
     <comment>Button text for an open operation (verb).</comment>
   </data>
   <data name="UnableToSaveAttachment" xml:space="preserve">
-    <value>Виникла проблема зі збереженням цього вкладення. Якщо проблема не зникне, ви можете зберегти її з веб сховища.</value>
+    <value>Виникла проблема зі збереженням цього вкладення. Якщо проблема не зникне, ви можете зберегти його з вебсховища.</value>
   </data>
   <data name="SaveAttachmentSuccess" xml:space="preserve">
     <value>Вкладення успішно збережено</value>
@@ -1956,7 +1956,7 @@
     <value>Новий пароль</value>
   </data>
   <data name="PasswordInfo" xml:space="preserve">
-    <value>За бажанням вимагати пароль в користувачів для доступу до цього відправлення.</value>
+    <value>Ви можете встановити пароль для доступу до цього відправлення.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="RemovePassword" xml:space="preserve">
@@ -2067,7 +2067,7 @@
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="SendFileEmailVerificationRequired" xml:space="preserve">
-    <value>Для відправлення файлів необхідно підтвердити електронну пошту. Ви можете виконати підтвердження у веб сховищі.</value>
+    <value>Для відправлення файлів необхідно підтвердити електронну пошту. Ви можете виконати підтвердження у вебсховищі.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="PasswordPrompt" xml:space="preserve">
@@ -2239,7 +2239,7 @@
     <value>Верхній регістр (A - Z)</value>
   </data>
   <data name="LowercaseAtoZ" xml:space="preserve">
-    <value>Нижній регістр (A - Z)</value>
+    <value>Нижній регістр (a - z)</value>
   </data>
   <data name="NumbersZeroToNine" xml:space="preserve">
     <value>Числа (0 - 9)</value>
@@ -2973,18 +2973,6 @@
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Ваш ключ доступу буде збережено в сховищі Bitwarden для {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Непризначені елементи організації більше не видимі у поданні "Усі сховища" і доступні лише в консолі адміністратора. Щоб зробити їх видимими, призначте ці елементи збірці в консолі адміністратора.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>16 травня 2024 року, непризначені елементи організації більше не будуть видимі в поданні "Усі сховища", і доступні лише через консоль адміністратора. Щоб зробити їх видимими, призначте ці елементи збірці в консолі адміністратора.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Нагадати пізніше</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Сповіщення</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Ця програма не підтримує ключі доступу</value>

@@ -190,7 +190,7 @@
     <comment>Full label for a email address.</comment>
   </data>
   <data name="EmailUs" xml:space="preserve">
-    <value>Pošaljite nam E-Mail </value>
+    <value>Pošaljite nam E-Mail</value>
   </data>
   <data name="EmailUsDescription" xml:space="preserve">
     <value>Pošaljite nam E-Mail direktno da biste dobili pomoć ili ostavili povratne informacije.</value>
@@ -203,7 +203,7 @@
     <comment>Title for your favorite items in the vault.</comment>
   </data>
   <data name="FileBugReport" xml:space="preserve">
-    <value>Podnesite izvještaj o greški </value>
+    <value>Podnesite izvještaj o greški</value>
   </data>
   <data name="FileBugReportDescription" xml:space="preserve">
     <value>Prijavi problem u našem GitHub repozitoriju.</value>
@@ -394,7 +394,7 @@
     <value>Prikaz</value>
   </data>
   <data name="VisitOurWebsite" xml:space="preserve">
-    <value>Posjetite našu Web Stranicu </value>
+    <value>Posjetite našu Web Stranicu</value>
   </data>
   <data name="Website" xml:space="preserve">
     <value>Web stranica</value>
@@ -502,7 +502,7 @@
     <value>Dodirnite Bitwarden ikonu u meniju da biste pokrenuli dodatak.</value>
   </data>
   <data name="ExtensionTurnOn" xml:space="preserve">
-    <value> Da biste uključili Bitwarden u Safari-ju i drugim aplikacijama, dodirnite ikonu „više“ u donjem redu menija.</value>
+    <value>Da biste uključili Bitwarden u Safari-ju i drugim aplikacijama, dodirnite ikonu „više“ u donjem redu menija.</value>
   </data>
   <data name="Favorite" xml:space="preserve">
     <value>Omiljene</value>
@@ -1301,13 +1301,13 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Preporučeno je onemogućiti bilo koje druge aplikacije za automatsko popunjavanje lozinki u Postavkama uređaja ukoliko ih ne planirate koristiti.</value>
   </data>
   <data name="BitwardenAutofillDescription" xml:space="preserve">
-    <value>Pristupite vašem trezoru direktno putem vaše tastature da brže unesete vaše lozinke. </value>
+    <value>Pristupite vašem trezoru direktno putem vaše tastature da brže unesete vaše lozinke.</value>
   </data>
   <data name="AutofillTurnOn" xml:space="preserve">
     <value>Da bi omogućili automatsko popunjavanje lozinki na vašem uređaju, molimo vas da pratite sljedeće upute:</value>
   </data>
   <data name="AutofillTurnOn1" xml:space="preserve">
-    <value>1. Otvorite Postavke na Vašem uređaju </value>
+    <value>1. Otvorite Postavke na Vašem uređaju</value>
   </data>
   <data name="AutofillTurnOn2" xml:space="preserve">
     <value>2. Otvorite "Lozinke"</value>
@@ -1316,7 +1316,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>3. Pritisnite "Auto ispuna lozinki"</value>
   </data>
   <data name="AutofillTurnOn4" xml:space="preserve">
-    <value>4. Uključite automatsko ispunjavanje </value>
+    <value>4. Uključite automatsko ispunjavanje</value>
   </data>
   <data name="AutofillTurnOn5" xml:space="preserve">
     <value>5. Odaberite Bitwarden</value>
@@ -1340,7 +1340,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Prijave</value>
   </data>
   <data name="SecureNotes" xml:space="preserve">
-    <value>Sigurna zabilješke </value>
+    <value>Sigurna zabilješke</value>
   </data>
   <data name="AllItems" xml:space="preserve">
     <value>Sve spremljene lozinke</value>
@@ -1446,14 +1446,14 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Šifra</value>
   </data>
   <data name="WordSeparator" xml:space="preserve">
-    <value>Odvajač riječi </value>
+    <value>Odvajač riječi</value>
   </data>
   <data name="Clear" xml:space="preserve">
     <value>Obriši</value>
     <comment>To clear something out. example: To clear browser history.</comment>
   </data>
   <data name="Generator" xml:space="preserve">
-    <value>Generator </value>
+    <value>Generator</value>
     <comment>Short for "Password Generator"</comment>
   </data>
   <data name="NoFoldersToList" xml:space="preserve">
@@ -1477,7 +1477,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Zaključaj odmah</value>
   </data>
   <data name="PIN" xml:space="preserve">
-    <value>PIN </value>
+    <value>PIN</value>
   </data>
   <data name="Unlock" xml:space="preserve">
     <value>Otključaj</value>
@@ -1528,7 +1528,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>2 minute</value>
   </data>
   <data name="ClearClipboard" xml:space="preserve">
-    <value>Očisti međumemoriju </value>
+    <value>Očisti međumemoriju</value>
     <comment>Clipboard is the operating system thing where you copy/paste data to on your device.</comment>
   </data>
   <data name="ClearClipboardDescription" xml:space="preserve">
@@ -1684,7 +1684,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Trezor uspješno izvezen</value>
   </data>
   <data name="Clone" xml:space="preserve">
-    <value>Kopiraj identično </value>
+    <value>Kopiraj identično</value>
     <comment>Clone an entity (verb).</comment>
   </data>
   <data name="PasswordGeneratorPolicyInEffect" xml:space="preserve">
@@ -1727,7 +1727,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <comment>Confirmation message after successfully restoring a soft-deleted item</comment>
   </data>
   <data name="Trash" xml:space="preserve">
-    <value>Smeće </value>
+    <value>Smeće</value>
     <comment>(noun) Location of deleted items which have not yet been permanently deleted</comment>
   </data>
   <data name="SearchTrash" xml:space="preserve">
@@ -1837,7 +1837,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Koristi pristupačnost</value>
   </data>
   <data name="AccessibilityDescription" xml:space="preserve">
-    <value>Koristi uslugu Bitwarden pristupačnosti za auto-ispunu tvojih prijava u aplikacijama i na webu. Kada je uključeno, prilikom odabira polja za prijavu, prikazati će se iskočni okvir. </value>
+    <value>Koristi uslugu Bitwarden pristupačnosti za auto-ispunu tvojih prijava u aplikacijama i na webu. Kada je uključeno, prilikom odabira polja za prijavu, prikazati će se iskočni okvir.</value>
   </data>
   <data name="AccessibilityDescription2" xml:space="preserve">
     <value>Koristi uslugu Bitwarden pristupačnosti za auto-ispunu tvojih prijava u aplikacijama i na webu (Zahtijeva uključenu opciju „Koristi preklapanje”).</value>
@@ -1924,7 +1924,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="PendingDelete" xml:space="preserve">
-    <value>Brisanje na čekanju </value>
+    <value>Brisanje na čekanju</value>
   </data>
   <data name="ExpirationDate" xml:space="preserve">
     <value>Rok upotrebe</value>
@@ -1966,7 +1966,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Sigurno želiš ukloniti lozinku?</value>
   </data>
   <data name="RemovingSendPassword" xml:space="preserve">
-    <value>Uklanjanje lozinke </value>
+    <value>Uklanjanje lozinke</value>
   </data>
   <data name="SendPasswordRemoved" xml:space="preserve">
     <value>Lozinka je uklonjena.</value>
@@ -2149,13 +2149,13 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Vrijeme isteka premašuje ograničenje koju je postavila tvoja organizacija.</value>
   </data>
   <data name="DisablePersonalVaultExportPolicyInEffect" xml:space="preserve">
-    <value>Jedno ili više pravila organizacija onemogućuje izvoz osobnog trezora. </value>
+    <value>Jedno ili više pravila organizacija onemogućuje izvoz osobnog trezora.</value>
   </data>
   <data name="AddAccount" xml:space="preserve">
     <value>Dodaj račun</value>
   </data>
   <data name="AccountUnlocked" xml:space="preserve">
-    <value>Otključano </value>
+    <value>Otključano</value>
   </data>
   <data name="AccountLocked" xml:space="preserve">
     <value>Zaključano</value>
@@ -2164,13 +2164,13 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Odjavljeno</value>
   </data>
   <data name="AccountSwitchedAutomatically" xml:space="preserve">
-    <value>Prebačeni ste na sljedeći dostupan račun </value>
+    <value>Prebačeni ste na sljedeći dostupan račun</value>
   </data>
   <data name="AccountLockedSuccessfully" xml:space="preserve">
-    <value>Račun zaključan </value>
+    <value>Račun zaključan</value>
   </data>
   <data name="AccountLoggedOutSuccessfully" xml:space="preserve">
-    <value>Uspješno odjavljeni sa računa </value>
+    <value>Uspješno odjavljeni sa računa</value>
   </data>
   <data name="AccountRemovedSuccessfully" xml:space="preserve">
     <value>Račun je uspješno uklonjen</value>
@@ -2206,7 +2206,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Kopiraj link od Send-a prilikom spremanja</value>
   </data>
   <data name="SendingCode" xml:space="preserve">
-    <value>Kod se šalje </value>
+    <value>Kod se šalje</value>
   </data>
   <data name="Verifying" xml:space="preserve">
     <value>Provjera u toku</value>
@@ -2767,7 +2767,7 @@ Skeniranje će biti izvršeno automatski.</value>
     <value>Account security</value>
   </data>
   <data name="BitwardenHelpCenter" xml:space="preserve">
-    <value>Bitwarden Help Center</value>
+    <value>Bitwarden help center</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
     <value>Contact Bitwarden support</value>
@@ -2972,18 +2972,6 @@ Skeniranje će biti izvršeno automatski.</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Your passkey will be saved to your Bitwarden vault for {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Unassigned organization items are no longer visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>On May 16, 2024, unassigned organization items will no longer be visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Remind me later</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Notice</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Passkeys not supported for this app</value>

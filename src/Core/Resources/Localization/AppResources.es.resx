@@ -2239,8 +2239,7 @@ El escaneo se realizará automáticamente.</value>
     <value>Mayúsculas (A a la Z)</value>
   </data>
   <data name="LowercaseAtoZ" xml:space="preserve">
-    <value>Minúsculas (A a la Z)
-</value>
+    <value>Minúsculas (A a la Z)</value>
   </data>
   <data name="NumbersZeroToNine" xml:space="preserve">
     <value>Números (0 al 9)</value>
@@ -2975,18 +2974,6 @@ seleccione Agregar TOTP para almacenar la clave de forma segura</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Tu clave de acceso se guardará en tu caja fuerte de Bitwarden para {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Los elementos de organización sin asignar ya no están visibles en la vista Todas las cajas fuertes y solo se puede acceder a ellos a través de la consola de administrador. Asigne estos elementos a una colección desde la Consola de Administrador para hacerlos visibles.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>El 16 de mayo de 2024, los elementos de organización no asignados ya no serán visibles en la vista Todas las cajas fuertes y solo serán accesibles a través de la Consola de Administrador. Asigna estos objetos a una colección desde la Consola de Administrador para hacerlos visibles.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Recuérdamelo más tarde</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Aviso</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Claves de acceso no soportadas para esta aplicación</value>

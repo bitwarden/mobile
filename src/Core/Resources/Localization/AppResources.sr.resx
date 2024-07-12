@@ -2976,18 +2976,6 @@
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Ваш приступни кључ ће бити сачуван у вашем Bitwarden сефу за {0}</value>
   </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Недодељене ставке организације више нису видљиве у приказу Сви сефови и доступне су само преко Админ конзоле. Доделите ове ставке колекцији са Админ конзолом да бисте их учинили видљивим.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>16. маја 2024. недодељене ставке организације више неће бити видљиве у приказу Сви сефови и биће доступне само преко Админ конзоле. Доделите ове ставке колекцији са Админ конзолом да бисте их учинили видљивим.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Подсети ме касније</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Напомена</value>
-  </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Приступни кључеви нису подржани за ову апликацију</value>
   </data>
