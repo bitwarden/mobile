@@ -216,7 +216,7 @@
     <comment>Label for a folder.</comment>
   </data>
   <data name="FolderCreated" xml:space="preserve">
-    <value>Ei ny mappe vart laga. </value>
+    <value>Ei ny mappe vart laga.</value>
   </data>
   <data name="FolderDeleted" xml:space="preserve">
     <value>Mappa vart fjerna.</value>
@@ -2769,7 +2769,7 @@ Do you want to switch to this account?</value>
     <value>Account security</value>
   </data>
   <data name="BitwardenHelpCenter" xml:space="preserve">
-    <value>Bitwarden Help Center</value>
+    <value>Bitwarden help center</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
     <value>Contact Bitwarden support</value>
@@ -2974,18 +2974,6 @@ Do you want to switch to this account?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Your passkey will be saved to your Bitwarden vault for {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Unassigned organization items are no longer visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>På 16. mai 2024 vil ikkje utildelte organisasjonselement vere synlege lenger i Alle kvelv-visninga og vil berre vere tilgjengelege frå Admin-konsollen. Tildel desse elementa til ei samling frå Admin-konsollen for å gjere dei synlege.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Remind me later</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Notice</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Passkeys not supported for this app</value>

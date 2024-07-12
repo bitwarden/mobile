@@ -2974,18 +2974,6 @@ Wilt u naar dit account wisselen?</value>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Je passkey wordt bewaard in je Bitwarden-kluis voor {0}</value>
   </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Niet-toegewezen organisatie-items zijn niet meer zichtbaar in de weergave van alle kluisjes en alleen toegankelijk via de Admin Console. Je kunt deze items in het Admin Console aan een collectie toewijzen om ze zichtbaar te maken.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>Vanaf 2 mei 2024 zijn niet-toegewezen organisatie-items niet meer zichtbaar in de weergave van alle kluisjes en alleen toegankelijk via de Admin Console. Je kunt deze items in het Admin Console aan een collectie toewijzen om ze zichtbaar te maken.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Herinner me later</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Kennisgeving</value>
-  </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Passkeys zijn niet ondersteund voor deze app</value>
   </data>
@@ -2996,10 +2984,10 @@ Wilt u naar dit account wisselen?</value>
     <value>Passkey operation failed because browser signature does not match</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because of missing asset links</value>
+    <value>Passkey-bewerking mislukt omdat de asset links ontbreken</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppNotFoundInAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because app not found in asset links</value>
+    <value>Passkey-bewerking mislukt omdat de app niet is gevonden in asset links</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
     <value>Passkey operation failed because app could not be verified</value>

@@ -2738,7 +2738,7 @@ Czy chcesz przełączyć się na to konto?</value>
     <value>Usunięto URI</value>
   </data>
   <data name="ThereAreNoBlockedURIs" xml:space="preserve">
-    <value>Brak zablokowanych URI </value>
+    <value>Brak zablokowanych URI</value>
   </data>
   <data name="TheURIXIsAlreadyBlocked" xml:space="preserve">
     <value>URI {0} jest już zablokowany</value>
@@ -2973,18 +2973,6 @@ Czy chcesz przełączyć się na to konto?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Twój passkey zostanie zapisane w Twoim sejfie Bitwarden dla {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Nieprzypisane elementy w organizacji nie są już widoczne w widoku Wszystkie sejfy i są dostępne tylko przez Konsolę Administracyjną. Przypisz te elementy do kolekcji z konsoli administracyjnej, aby były one widoczne.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>16 maja 2024 r. nieprzypisane elementy w organizacji nie będą już widoczne w widoku Wszystkie sejfy i będą dostępne tylko przez Konsolę Administracyjną. Przypisz te elementy do kolekcji z konsoli administracyjnej, aby były one widoczne.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Przypomnij mi później</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Zawiadomienie</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Passkeys nie są obsługiwany dla tej aplikacji</value>

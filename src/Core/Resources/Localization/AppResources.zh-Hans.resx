@@ -952,7 +952,7 @@
     <value>需要迁移加密密钥。请登录网页版密码库来更新您的加密密钥。</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
-    <value>了解更多信息</value>
+    <value>进一步了解</value>
   </data>
   <data name="ApiUrl" xml:space="preserve">
     <value>API 服务器 URL</value>
@@ -2973,18 +2973,6 @@
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>您的通行密钥将保存在您的 {0} Bitwarden 密码库中</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>未分配的组织项目在「所有密码库」视图中不再可见，只能通过管理控制台访问。通过管理控制台将这些项目分配给集合以使其可见。</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>注意：从 2024 年 5 月 16 日起，未分配的组织项目在「所有密码库」视图中将不再可见，只能通过管理控制台访问。通过管理控制台将这些项目分配给集合以使其可见。</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>稍后提醒我</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>注意</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>此应用不支持通行密钥</value>

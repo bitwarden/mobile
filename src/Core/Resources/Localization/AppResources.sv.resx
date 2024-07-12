@@ -2900,7 +2900,7 @@ Vill du byta till detta konto?</value>
     <value>Spara passkey som ny inloggning</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Spara passkey</value>
+    <value>Spara lösennyckel</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
     <value>Passkeys för {0}</value>
@@ -2909,7 +2909,7 @@ Vill du byta till detta konto?</value>
     <value>Lösenord för {0}</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Skriv över passkey?</value>
+    <value>Skriv över lösennyckel?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
     <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
@@ -2930,10 +2930,10 @@ Vill du byta till detta konto?</value>
     <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
-    <value>Fel vid skapande av passkey</value>
+    <value>Fel vid skapande av lösennyckel</value>
   </data>
   <data name="ErrorReadingPasskey" xml:space="preserve">
-    <value>Fel vid läsning av passkey</value>
+    <value>Fel vid läsning av lösennyckel</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
     <value>There was a problem creating a passkey for {0}. Try again later.</value>
@@ -2975,18 +2975,6 @@ Vill du byta till detta konto?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Din passkey kommer att sparas i ditt Bitwarden-valv för {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Unassigned organization items are no longer visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>Den 16 maj 2024 kommer otilldelade organisationsobjekt inte längre att synas i alla valvs-vyn och endast nås via administratörskonsollen. Tilldela dessa objekt till en samling från administratörskonsollen för att göra dem synliga.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Påminn mig senare</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Notice</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Passkeys not supported for this app</value>

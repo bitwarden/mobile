@@ -901,7 +901,7 @@ Načtení proběhne automaticky.</value>
     <value>Načíst QR kód</value>
   </data>
   <data name="Camera" xml:space="preserve">
-    <value>Fotoaparát</value>
+    <value>Kamera</value>
   </data>
   <data name="Photos" xml:space="preserve">
     <value>Fotky</value>
@@ -2544,7 +2544,7 @@ Chcete se přepnout na tento účet?</value>
     <value>Žádné čekající žádosti</value>  
   </data>
   <data name="EnableCamerPermissionToUseTheScanner" xml:space="preserve">
-    <value>Pro použití skeneru musíte povolit přístup k fotoaparátu</value>
+    <value>Pro použití skeneru musíte povolit přístup ke kameře</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Jazyk</value>
@@ -2767,7 +2767,7 @@ Chcete se přepnout na tento účet?</value>
     <value>Zabezpečení účtu</value>
   </data>
   <data name="BitwardenHelpCenter" xml:space="preserve">
-    <value>Centrum nápovědy Bitwarden</value>
+    <value>Centrum nápovědy Bitwardenu</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
     <value>Kontakt na podporu Bitwarden</value>
@@ -2972,18 +2972,6 @@ Chcete se přepnout na tento účet?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Váš přístupový klíč bude pro {0} uložen do Vašeho trezoru na Bitwardenu</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Nepřiřazené položky organizace již nejsou viditelné ve Vašem zobrazení všech trezorů a jsou nyní přístupné jen v konzoli správce. Přiřaďte tyto položky do kolekce z konzole pro správce, aby byly viditelné.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>Dne 16. května 2024 již nebudou nepřiřazené položky organizace viditelné v zobrazení Všechny trezory a budou přístupné jen prostřednictvím konzoly správce. Přiřaďte tyto položky do kolekce z konzoly pro správce, aby byly viditelné.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Připomenout později</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Upozornění</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Přístupové klíče nejsou pro tuto aplikaci podporovány</value>

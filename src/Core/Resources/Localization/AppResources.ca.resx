@@ -2974,18 +2974,6 @@ Voleu canviar a aquest compte?</value>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>La clau d'accés es guardarà a la caixa forta de Bitwarden per a {0}</value>
   </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Els elements de l'organització no assignats ja no són visibles a la visualització Totes les caixes fortes i només s'hi poden accedir des de la Consola d'administració. Assigna aquests elements a una col·lecció des de la Consola d'administració per fer-los visibles.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>El 16 de maig de 2024, els elements de l'organització no assignats deixaran de ser visibles a la visualització Totes les caixes fortes i només es podran accedir des de la Consola d'administració. Assigna aquests elements a una col·lecció des de la Consola d'administració per fer-los visibles.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Recorda-m'ho més tard</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Avís</value>
-  </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Les claus de pas no són compatibles amb aquesta aplicació</value>
   </data>
