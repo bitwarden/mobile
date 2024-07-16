@@ -85,11 +85,6 @@ jobs:
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2.0.0
 
-      # This step might be obsolete at some point as .NET MAUI workloads
-      # are starting to come pre-installed on the GH Actions build agents.
-      - name: Install MAUI Workload
-        run: dotnet workload install maui --ignore-failed-sources
-
       - name: Setup Windows builder
         run: choco install checksum --no-progress
 
@@ -311,11 +306,6 @@ jobs:
 
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2.0.0
-
-      # This step might be obsolete at some point as .NET MAUI workloads
-      # are starting to come pre-installed on the GH Actions build agents.
-      - name: Install MAUI Workload
-        run: dotnet workload install maui --ignore-failed-sources
 
       - name: Setup Windows builder
         run: choco install checksum --no-progress
