@@ -371,7 +371,7 @@
     <comment>Label for a username.</comment>
   </data>
   <data name="ValidationFieldRequired" xml:space="preserve">
-    <value>O campo {0} é necessário.</value>
+    <value>O campo {0} é obrigatório.</value>
     <comment>Validation message for when a form field is left blank and is required to be entered.</comment>
   </data>
   <data name="ValueHasBeenCopied" xml:space="preserve">
@@ -2401,13 +2401,13 @@ A leitura será efetuada automaticamente.</value>
     <value>Palavra aleatória</value>
   </data>
   <data name="EmailRequiredParenthesis" xml:space="preserve">
-    <value>E-mail (necessário)</value>
+    <value>E-mail (obrigatório)</value>
   </data>
   <data name="DomainNameRequiredParenthesis" xml:space="preserve">
-    <value>Nome do domínio (necessário)</value>
+    <value>Nome do domínio (obrigatório)</value>
   </data>
   <data name="APIKeyRequiredParenthesis" xml:space="preserve">
-    <value>Chave da API (necessário)</value>
+    <value>Chave da API (obrigatório)</value>
   </data>
   <data name="Service" xml:space="preserve">
     <value>Serviço</value>
@@ -2449,7 +2449,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Tipo de e-mail</value>
   </data>
   <data name="WebsiteRequired" xml:space="preserve">
-    <value>Site (necessário)</value>
+    <value>Site (obrigatório)</value>
   </data>
   <data name="UnknownXErrorMessage" xml:space="preserve">
     <value>Ocorreu um erro desconhecido ({0}).</value>
@@ -2900,7 +2900,7 @@ Deseja mudar para esta conta?</value>
     <value>Guardar a chave de acesso</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
-    <value>Chave de acesso para {0}</value>
+    <value>Chaves de acesso para {0}</value>
   </data>
   <data name="PasswordsForX" xml:space="preserve">
     <value>Palavra-passe para {0}</value>
@@ -2933,7 +2933,7 @@ Deseja mudar para esta conta?</value>
     <value>Erro ao ler chave de acesso</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>Houve um problema ao criar uma chave de acesso para {0}. Tente novamente mais tarde.</value>
+    <value>Ocorreu um problema ao criar uma chave de acesso para {0}. Tente novamente mais tarde.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">

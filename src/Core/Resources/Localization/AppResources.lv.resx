@@ -2991,6 +2991,6 @@ Vai pārslēgties uz šo kontu?</value>
     <value>Darbība ar piekļuves atslēgu neizdevāš, jo lietotne netika atrasta līdzekļu saitēs</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>Darbība ar piekļuves atslēgu neizdevās, jo lietotni nevarēja apstiprināt</value>
+    <value>Darbība ar piekļuves atslēgu neizdevās, jo lietotni nevarēja apliecināt</value>
   </data>
 </root>

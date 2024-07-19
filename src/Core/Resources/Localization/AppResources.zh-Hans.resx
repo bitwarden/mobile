@@ -1272,7 +1272,7 @@
     <value>把你的 Yubikey 靠近设备的顶部。</value>
   </data>
   <data name="TryAgain" xml:space="preserve">
-    <value>再试一次</value>
+    <value>请重试</value>
   </data>
   <data name="YubiKeyInstructionIos" xml:space="preserve">
     <value>要继续，请将您的 YubiKey NEO 靠在设备背面。</value>
@@ -1804,7 +1804,7 @@
     <value>密码不符合组织要求。请检查策略信息然后重试。</value>
   </data>
   <data name="Loading" xml:space="preserve">
-    <value>载入中</value>
+    <value>加载中</value>
   </data>
   <data name="AcceptPolicies" xml:space="preserve">
     <value>激活此开关表示您同意：</value>

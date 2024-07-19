@@ -1453,7 +1453,7 @@ Kod otomatik olarak taranacaktır.</value>
     <comment>To clear something out. example: To clear browser history.</comment>
   </data>
   <data name="Generator" xml:space="preserve">
-    <value>Oluşturucu</value>
+    <value>Üreteç</value>
     <comment>Short for "Password Generator"</comment>
   </data>
   <data name="NoFoldersToList" xml:space="preserve">
@@ -1496,10 +1496,10 @@ Kod otomatik olarak taranacaktır.</value>
     <comment>ex: Logged in as user@example.com on bitwarden.com.</comment>
   </data>
   <data name="VaultLockedMasterPassword" xml:space="preserve">
-    <value>Kasanız kilitlendi. Devam etmek için ana parolanızı doğrulayın.</value>
+    <value>Kasanız kilitli. Devam etmek için ana parolanızı doğrulayın.</value>
   </data>
   <data name="VaultLockedPIN" xml:space="preserve">
-    <value>Kasanız kilitlendi. Devam etmek için PIN kodunuzu doğrulayın.</value>
+    <value>Kasanız kilitli. Devam etmek için PIN kodunuzu doğrulayın.</value>
   </data>
   <data name="VaultLockedIdentity" xml:space="preserve">
     <value>Kasanız kilitli. Devam etmek için kimliğinizi doğrulayın.</value>
@@ -1727,7 +1727,7 @@ Kod otomatik olarak taranacaktır.</value>
     <comment>Confirmation message after successfully restoring a soft-deleted item</comment>
   </data>
   <data name="Trash" xml:space="preserve">
-    <value>Çöp Kutusu</value>
+    <value>Çöp kutusu</value>
     <comment>(noun) Location of deleted items which have not yet been permanently deleted</comment>
   </data>
   <data name="SearchTrash" xml:space="preserve">
@@ -2956,16 +2956,16 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>Parolalarınıza ve geçiş anahtarlarınıza anında erişin!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
-    <value>Parolaları otomatik doldurmak ve anahtar yönetimi için, iOS ayarlarında Bitwarden'ı tercih edilen sağlayıcı olarak belirleyin.</value>
+    <value>Otomatik parola doldurma ve anahtar yönetimi için, iOS ayarlarında Bitwarden'ı tercih edilen sağlayıcı olarak belirleyin.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
-    <value>1. Cihazınızda Ayarlar &gt; Parolalar &gt; Parola Ayarları seçeneğine gidin</value>
+    <value>1. Cihazınızda Ayarlar &gt; Parolalar &gt; Parola Seçenekleri kısmına gidin</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>Oto-Doldurma'yı Etkinleştir</value>
+    <value>2. Otomatik doldurmayı açın</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
-    <value>Parolalarınızı ve geçiş anahtarlarını kullanmak için "Bitwarden" seçin</value>
+    <value>Parolalar ve geçiş anahtarları için kullanılmak üzere Bitwarden'ı seçin</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
     <value>Geçiş anahtarınız Bitwarden kasasına kaydedilecektir</value>
