@@ -556,7 +556,7 @@
     <value>Holvin aikakatkaisutoiminto</value>
   </data>
   <data name="VaultTimeoutLogOutConfirmation" xml:space="preserve">
-    <value>Uloskirjautuminen estää pääsyn holviisi ja vaatii ajan umpeuduttua todennuksen Internet-yhteyden välityksellä. Haluatko varmasti käyttää asetusta?</value>
+    <value>Uloskirjautuminen estää pääsyn holviisi ja vaatii ajan umpeuduttua tunnistautumisen Internet-yhteyden välityksellä. Haluatko varmasti käyttää asetusta?</value>
   </data>
   <data name="LoggingIn" xml:space="preserve">
     <value>Kirjaudutaan sisään…</value>
@@ -843,7 +843,7 @@
     <value>Kaksivaiheisen kirjautumisen asetukset</value>
   </data>
   <data name="UseAnotherTwoStepMethod" xml:space="preserve">
-    <value>Käytä eri kaksivaiheisen kirjautumisen todennusmenetelmää</value>
+    <value>Käytä vaihtoehtoista todennustapaa</value>
   </data>
   <data name="VerificationEmailNotSent" xml:space="preserve">
     <value>Todennussähköpostin lähetys ei onnistunut. Yritä uudelleen.</value>
@@ -907,13 +907,13 @@ Koodi skannataan automaattisesti.</value>
     <value>Kuvat</value>
   </data>
   <data name="CopyTotp" xml:space="preserve">
-    <value>Kopioi TOTP-todennuskoodi</value>
+    <value>Kopioi TOTP-koodi</value>
   </data>
   <data name="CopyTotpAutomaticallyDescription" xml:space="preserve">
-    <value>Jos kirjautumistieto sisältää kaksivaiheisen todennuksen avaimen, kopioidaan TOTP-todennuskoodi leikepöydälle kohteen automaattisen täytön yhteydessä.</value>
+    <value>Jos kirjautumistieto sisältää kaksivaiheisen kirjautumisen todennusavaimen, kopioidaan TOTP-koodi leikepöydälle kohteen automaattisen täytön yhteydessä.</value>
   </data>
   <data name="CopyTotpAutomatically" xml:space="preserve">
-    <value>TOTP-koodin kopiointi</value>
+    <value>Kopioi TOTP-koodi automaattisesti</value>
   </data>
   <data name="PremiumRequired" xml:space="preserve">
     <value>Käyttääksesi tätä toimintoa tarvitset Premium-jäsenyyden.</value>
@@ -2303,7 +2303,7 @@ Koodi skannataan automaattisesti.</value>
     <value>Määritä TOTP</value>
   </data>
   <data name="OnceTheKeyIsSuccessfullyEntered" xml:space="preserve">
-    <value>Kun koodi on syötetty oikein, tallenna avain
+    <value>Kun avain on syötetty oikein, tallenna se
 turvallisesti valitsemalla "Lisää TOTP"</value>
   </data>
   <data name="NeverLockWarning" xml:space="preserve">

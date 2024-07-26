@@ -422,7 +422,7 @@
     <value>Dịch vụ tự động điền</value>
   </data>
   <data name="SetBitwardenAsPasskeyManagerDescription" xml:space="preserve">
-    <value>Đặt Bitwarden làm nhà cung cấp mật mã của bạn trong cài đặt thiết bị.</value>
+    <value>Đặt Bitwarden làm nhà cung cấp mã khoá của bạn trong cài đặt thiết bị.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
     <value>Tránh các ký tự dễ gây nhầm lẫn</value>
@@ -1195,7 +1195,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>Chúng tôi không thể mở cài đặt tự động điền cho bạn. Bạn có thể đi đến cài đặt tự động điền theo cách thủ công bằng cách vào Cài đặt Android &gt; Hệ thống &gt; Mật khẩu &amp; tài khoản &gt; Mật khẩu, mật mã và dịch vụ dữ liệu.</value>
+    <value>Chúng tôi không thể mở cài đặt tự động điền cho bạn. Bạn có thể đi đến cài đặt tự động điền theo cách thủ công bằng cách vào Cài đặt Android &gt; Hệ thống &gt; Mật khẩu &amp; tài khoản &gt; Mật khẩu, mã khoá và dịch vụ dữ liệu.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Chúng tôi không thể mở cài đặt tự động điền cho bạn. Bạn có thể đi đến cài đặt tự động điền theo cách thủ công bằng cách vào Cài đặt &gt; Hệ thống &gt; Ngôn ngữ và nhập liệu &gt; Nâng cao &gt; Dịch vụ tự động điền.</value>
@@ -1363,7 +1363,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Mật khẩu này không được tìm thấy trong lần rò rỉ dữ liệu nào trước đây. Nó an toàn để sử dụng.</value>
   </data>
   <data name="IdentityName" xml:space="preserve">
-    <value>Tên danh bạ</value>
+    <value>Tên danh tính</value>
   </data>
   <data name="Value" xml:space="preserve">
     <value>Giá trị</value>
@@ -1453,7 +1453,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <comment>To clear something out. example: To clear browser history.</comment>
   </data>
   <data name="Generator" xml:space="preserve">
-    <value>Tạo</value>
+    <value>Trình tạo</value>
     <comment>Short for "Password Generator"</comment>
   </data>
   <data name="NoFoldersToList" xml:space="preserve">
@@ -1502,7 +1502,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Đã khóa kho của bạn. Nhập mã PIN để mở.</value>
   </data>
   <data name="VaultLockedIdentity" xml:space="preserve">
-    <value>Đã khóa kho của bạn. Hãy xác minh danh tính để tiếp tục.</value>
+    <value>Kho của bạn đã bị khoá. Hãy xác minh danh tính để tiếp tục.</value>
   </data>
   <data name="Dark" xml:space="preserve">
     <value>Tối</value>
@@ -1528,11 +1528,11 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>2 phút</value>
   </data>
   <data name="ClearClipboard" xml:space="preserve">
-    <value>Xóa bộ nhớ tạm</value>
+    <value>Xóa khay nhớ tạm</value>
     <comment>Clipboard is the operating system thing where you copy/paste data to on your device.</comment>
   </data>
   <data name="ClearClipboardDescription" xml:space="preserve">
-    <value>Tự động xóa mọi thứ đã sao chép khỏi bộ nhớ tạm.</value>
+    <value>Tự động xóa mọi thứ đã sao chép khỏi khay nhớ tạm.</value>
     <comment>Clipboard is the operating system thing where you copy/paste data to on your device.</comment>
   </data>
   <data name="DefaultUriMatchDetection" xml:space="preserve">
@@ -1611,7 +1611,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Đã chia sẻ</value>
   </data>
   <data name="ToggleVisibility" xml:space="preserve">
-    <value>Đổi chế độ hiển thị</value>
+    <value>Bật/tắt khả năng hiển thị</value>
   </data>
   <data name="LoginExpired" xml:space="preserve">
     <value>Phiên đăng nhập của bạn đã hết hạn.</value>
@@ -1688,7 +1688,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <comment>Clone an entity (verb).</comment>
   </data>
   <data name="PasswordGeneratorPolicyInEffect" xml:space="preserve">
-    <value>Có một hoặc vài chính sách của tổ chức đang ảnh hưởng đến cài đặt tạo mật khẩu của bạn</value>
+    <value>Các chính sách của tổ chức đang ảnh hưởng đến cài đặt tạo mật khẩu của bạn</value>
   </data>
   <data name="Open" xml:space="preserve">
     <value>Mở</value>
@@ -1777,7 +1777,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Để hoàn tất truy cập bằng phương thức SSO, vui lòng tạo mật khẩu chính để truy cập và bảo vệ kho.</value>
   </data>
   <data name="MasterPasswordPolicyInEffect" xml:space="preserve">
-    <value>Một hay nhiều chính sách của tổ chức yêu cầu mật khẩu chính của bạn phải:</value>
+    <value>Các chính sách của tổ chức yêu cầu mật khẩu chính của bạn phải:</value>
   </data>
   <data name="PolicyInEffectMinComplexity" xml:space="preserve">
     <value>Độ mạnh tối thiểu {0}</value>
@@ -1823,7 +1823,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Chú ý Bitwarden - Bật (Hiện trên ứng dụng) trong phần cài đặt "Điền tự động" của Bitwarden</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Quản lý mật mã</value>
+    <value>Quản lý mã khoá</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>Tự động điền mật khẩu</value>
@@ -1862,7 +1862,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Nếu được bật, Bitwarden sẽ hiển thị popup để tăng cường Điền tự động cho các ứng dụng cũ hơn không hỗ trợ Android Autofill Framework.</value>
   </data>
   <data name="PersonalOwnershipSubmitError" xml:space="preserve">
-    <value>Do chính sách của tổ chức, bạn không được lưu trữ mục trong kho mật khẩu cá nhân.</value>
+    <value>Do chính sách doanh nghiệp, bạn bị hạn chế lưu các mục vào kho cá nhân của mình. Thay đổi tùy chọn quyền sở hữu thành một tổ chức và chọn từ các bộ sưu tập có sẵn.</value>
   </data>
   <data name="PersonalOwnershipPolicyInEffect" xml:space="preserve">
     <value>Chính sách của tổ chức đang ảnh hưởng đến các tùy chọn quyền sở hữu của bạn.</value>
@@ -2057,7 +2057,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="HideEmail" xml:space="preserve">
-    <value>Ẩn địa chỉ email của tôi</value>
+    <value>Ẩn địa chỉ email của tôi khỏi người nhận</value>
   </data>
   <data name="SendOptionsPolicyInEffect" xml:space="preserve">
     <value>Các chính sách của tổ chức đang ảnh hưởng đến tùy chọn Gửi của bạn.</value>
@@ -2394,7 +2394,7 @@ chọn Thêm TOTP để lưu khóa an toàn</value>
     <value>Địa chỉ email có hậu tố</value>
   </data>
   <data name="CatchAllEmail" xml:space="preserve">
-    <value>Email tổng hợp</value>
+    <value>Catch-all email</value>
   </data>
   <data name="ForwardedEmailAlias" xml:space="preserve">
     <value>Đã chuyển tiếp bí danh email</value>
@@ -2460,7 +2460,7 @@ chọn Thêm TOTP để lưu khóa an toàn</value>
     <value>Sử dụng khả năng địa chỉ phụ của nhà cung cấp dịch vụ mail của bạn</value>
   </data>
   <data name="CatchAllEmailDescription" xml:space="preserve">
-    <value>Sử dụng hộp thư đến tổng hợp được định cấu hình trong tên miền của bạn.</value>
+    <value>Sử dụng hộp thư bạn đã thiết lập để nhận tất cả email gửi đến tên miền của bạn.</value>
   </data>
   <data name="ForwardedEmailDescription" xml:space="preserve">
     <value>Tạo bí danh email với dịch vụ chuyển tiếp bên ngoài.</value>
@@ -2651,22 +2651,22 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Lưu thiết bị này</value>
   </data>
   <data name="Passkey" xml:space="preserve">
-    <value>Passkey</value>
+    <value>Mã khoá</value>
   </data>
   <data name="Passkeys" xml:space="preserve">
-    <value>Passkey</value>
+    <value>Các mã khoá</value>
   </data>
   <data name="Application" xml:space="preserve">
     <value>Ứng dụng</value>
   </data>
   <data name="YouCannotEditPasskeyApplicationBecauseItWouldInvalidateThePasskey" xml:space="preserve">
-    <value>Bạn không thể chỉnh sửa ứng dụngpasskey vì nó sẽ làm mất hiệu lực passkey</value>
+    <value>Bạn không thể chỉnh sửa ứng dụng mã khoá vì điều đó sẽ làm mất hiệu lực mã khoá</value>
   </data>
   <data name="PasskeyWillNotBeCopied" xml:space="preserve">
-    <value>Không thể sao chép passkey</value>
+    <value>Không thể sao chép mã khoá</value>
   </data>
   <data name="ThePasskeyWillNotBeCopiedToTheClonedItemDoYouWantToContinueCloningThisItem" xml:space="preserve">
-    <value>Passkey sẽ không được sao chép vào mục sao chép. Bạn có muốn tiếp tục sao chép mục này?</value>
+    <value>Bản sao sẽ không bao gồm mã khoá. Bạn có muốn tiếp tục tạo bản sao mục này?</value>
   </data>
   <data name="CopyApplication" xml:space="preserve">
     <value>Sao chép ứng dụng</value>
@@ -2772,7 +2772,7 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Trung tâm hỗ trợ Bitwarden</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
-    <value>Liên hệ Bitwarden</value>
+    <value>Liên hệ với bộ phận hỗ trợ Bitwarden</value>
   </data>
   <data name="CopyAppInformation" xml:space="preserve">
     <value>Sao chép thông tin ứng dụng</value>
@@ -2790,7 +2790,7 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Hành động sau khi hết phiên</value>
   </data>
   <data name="AccountFingerprintPhrase" xml:space="preserve">
-    <value>Cụm vân tay tài khoản</value>
+    <value>Cụm từ mật khẩu tài khoản</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="OneHourAndOneMinute" xml:space="preserve">
@@ -2809,7 +2809,7 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>{0} giờ</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Sử dụng Bitwarden để lưu mật mã mới và đăng nhập bằng mật mã được lưu trong kho của bạn.</value>
+    <value>Sử dụng Bitwarden để lưu các mã khoá mới và đăng nhập bằng các mã khoá được lưu trong kho của bạn.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Dùng Android Autofill Framework để điền thông tin đăng nhập vào các ứng dụng khác trên thiết bị của bạn.</value>
@@ -2893,34 +2893,34 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Thiết lập khóa khi hết thời gian chờ kho.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
-    <value>Chọn thông tin đăng nhập để lưu mật mã này vào</value>
+    <value>Chọn thông tin đăng nhập để lưu mã khoá này vào</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Lưu mật mã như đăng nhập mới</value>
+    <value>Lưu mã khoá như đăng nhập mới</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Lưu mật mã</value>
+    <value>Lưu mã khoá</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
-    <value>Mật mã {0}</value>
+    <value>Các mã khoá cho {0}</value>
   </data>
   <data name="PasswordsForX" xml:space="preserve">
     <value>Mật khẩu {0}</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Ghi đè mật mã?</value>
+    <value>Ghi đè mã khoá?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
-    <value>Mục này đã chứa mật mã. Bạn có chắc muốn ghi đè mật mã hiện tại không?</value>
+    <value>Mục này đã chứa mã khoá. Bạn có chắc muốn ghi đè mã khoá hiện tại không?</value>
   </data>
   <data name="DuoTwoStepLoginIsRequiredForYourAccount" xml:space="preserve">
-    <value>Tài khoản của bạn bắt buộc đăng nhập 2 bước Dou. </value>
+    <value>Tài khoản của bạn yêu cầu đăng nhập hai bước với Duo.</value>
   </data>
   <data name="FollowTheStepsFromDuoToFinishLoggingIn" xml:space="preserve">
     <value>Làm theo các bước từ Dou để hoàn tất đăng nhập.</value>
   </data>
   <data name="LaunchDuo" xml:space="preserve">
-    <value>Khởi động Dou</value>
+    <value>Khởi chạy Dou</value>
   </data>
   <data name="VerificationRequiredByX" xml:space="preserve">
     <value>Yêu cầu xác minh bởi {0}</value>
@@ -2929,17 +2929,17 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Cần phải xác minh cho hành động này. Thiết lập phương thức mở khóa trong Bitwarden để tiếp tục.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
-    <value>Lỗi tạo mật mã</value>
+    <value>Lỗi tạo mã khoá</value>
   </data>
   <data name="ErrorReadingPasskey" xml:space="preserve">
-    <value>Lỗi đọc mật mã</value>
+    <value>Lỗi đọc mã khoá</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>Xảy ra lỗi khi tạo mật mã cho {0}. Thử lại sau.</value>
+    <value>Xảy ra lỗi khi tạo mã khoá cho {0}. Thử lại sau.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>Xảy ra lỗi khi đọc mật mã cho {0}. Thử lại sau.</value>
+    <value>Xảy ra lỗi khi đọc mã khoá cho {0}. Thử lại sau.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
@@ -2955,10 +2955,10 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Thiết lập điền tự động</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
-    <value>Truy cập ngay vào mật khẩu và mật mã của bạn!</value>
+    <value>Truy cập ngay vào mật khẩu và mã khoá của bạn!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
-    <value>Để thiết lập điền tự động mật khẩu và quản lý mật mã, hãy đặt Bitwarden làm nhà cung cấp ưa thích của bạn trong Cài đặt iOS.</value>
+    <value>Để thiết lập điền tự động mật khẩu và quản lý mã khoá, hãy đặt Bitwarden làm nhà cung cấp ưa thích của bạn trong Cài đặt iOS.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
     <value>1. Vào Cài đặt Thiết bị &gt; Mật khẩu &gt; Tùy chọn mật khẩu</value>
@@ -2967,16 +2967,16 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>4. Bật Tự động điền mật khẩu</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
-    <value>3. Chọn "Bitwarden" để dùng cho mật khẩu và mật mã</value>
+    <value>3. Chọn "Bitwarden" để dùng cho mật khẩu và mã khoá</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Mật mã sẽ được lưu vào kho Bitwarden của bạn</value>
+    <value>Mã khoá sẽ được lưu vào kho Bitwarden của bạn</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Mật mã sẽ được lưu vào kho Bitwarden của bạn cho {0}</value>
+    <value>Mã khoá sẽ được lưu vào kho Bitwarden của bạn cho {0}</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
-    <value>Ứng dụng này không hỗ trợ mật mã</value>
+    <value>Ứng dụng này không hỗ trợ mã khoá</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
     <value>Thao tác mã khóa không thành công vì trình duyệt không có quyền</value>
