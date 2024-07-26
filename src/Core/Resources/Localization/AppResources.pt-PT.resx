@@ -1547,7 +1547,7 @@ A leitura será efetuada automaticamente.</value>
     <comment>Color theme</comment>
   </data>
   <data name="ThemeDescription" xml:space="preserve">
-    <value>Alterar o tema de cores da aplicação.</value>
+    <value>Altere o tema de cores da aplicação.</value>
   </data>
   <data name="ThemeDefault" xml:space="preserve">
     <value>Predefinido (Sistema)</value>
