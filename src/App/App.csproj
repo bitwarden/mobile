@@ -44,7 +44,7 @@
     <AndroidEnableMultiDex>True</AndroidEnableMultiDex>
     <UseInterpreter>False</UseInterpreter>
     <DebugSymbols>False</DebugSymbols>
-    <RunAOTCompilation>False</RunAOTCompilation>
+    <RunAOTCompilation>True</RunAOTCompilation>
     <AndroidSupportedAbis>armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
