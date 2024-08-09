@@ -2810,7 +2810,7 @@ Vill du byta till detta konto?</value>
     <value>{0} timmar</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Use Bitwarden to save new passkeys and log in with passkeys stored in your vault.</value>
+    <value>Använd Bitwarden för att spara nya lösennycklar och logga in med lösennycklar sparade i ditt valv.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Androids autofyll-ramverk används för att fylla i inloggningsuppgifter i appar på din enhet.</value>
@@ -2894,7 +2894,7 @@ Vill du byta till detta konto?</value>
     <value>Ställ in ett upplåsningsalternativ för att ändra vad som händer när tidsgränsen uppnås.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
-    <value>Choose a login to save this passkey to</value>
+    <value>Välj en inloggning för att spara denna lösennyckel till</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
     <value>Spara passkey som ny inloggning</value>
@@ -2912,7 +2912,7 @@ Vill du byta till detta konto?</value>
     <value>Skriv över lösennyckel?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
-    <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
+    <value>Detta objekt innehåller redan en lösennyckel. Är du säker på att du vill skriva över nuvarande lösennyckeln?</value>
   </data>
   <data name="DuoTwoStepLoginIsRequiredForYourAccount" xml:space="preserve">
     <value>Duo tvåstegsverifiering krävs för ditt konto. </value>

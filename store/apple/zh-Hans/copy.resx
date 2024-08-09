@@ -154,7 +154,7 @@ Bitwarden 的翻译有 40 种语言，而且还在不断增加，感谢我们的
     <comment>Max 100 characters</comment>
   </data>
   <data name="Screenshot1" xml:space="preserve">
-    <value>在一个安全的密码库中管理您所有的登录信息和密码</value>
+    <value>在安全的密码库中管理您所有的登录信息和密码</value>
   </data>
   <data name="Screenshot2" xml:space="preserve">
     <value>自动生成强大、随机和安全的密码</value>
@@ -166,6 +166,6 @@ Bitwarden 的翻译有 40 种语言，而且还在不断增加，感谢我们的
     <value>在 Safari、Chrome 以及其他上百款应用中自动填充登录信息</value>
   </data>
   <data name="Screenshot5" xml:space="preserve">
-    <value>从多台设备同步和访问密码库</value>
+    <value>在多个设备间同步和访问您的密码库</value>
   </data>
 </root>

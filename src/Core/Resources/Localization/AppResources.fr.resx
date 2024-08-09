@@ -2908,7 +2908,7 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Mots de passe pour {0}</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Overwrite passkey?</value>
+    <value>Écraser la clé d'accès ?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
     <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
@@ -2949,10 +2949,10 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Mots de passe</value>
   </data>
   <data name="UnknownAccount" xml:space="preserve">
-    <value>Unknown account</value>
+    <value>Compte inconnu</value>
   </data>
   <data name="SetUpAutofill" xml:space="preserve">
-    <value>Set up auto-fill</value>
+    <value>Configurer la saisie automatique</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
     <value>Obtenez un accès instantané à vos mots de passe et vos clés d'accès !</value>
@@ -2964,7 +2964,7 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>1. Go to your device's Settings &gt; Passwords &gt; Password Options</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>2. Turn on AutoFill</value>
+    <value>2. Activer la saisie automatique</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
     <value>3. Sélectionnez "Bitwarden" pour l'utiliser pour les mots de passe et les clés d'accès</value>

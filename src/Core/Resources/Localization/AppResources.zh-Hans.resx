@@ -1119,7 +1119,7 @@
     <value>九月</value>
   </data>
   <data name="SSN" xml:space="preserve">
-    <value>社会保险号码</value>
+    <value>社会保障号码</value>
   </data>
   <data name="StateProvince" xml:space="preserve">
     <value>州 / 省</value>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Name" xml:space="preserve">
-    <value>Bitwarden - besplatni upravitelj lozinki</value>
+    <value>Bitwarden upravitelj lozinki</value>
     <comment>Max 30 characters</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -132,7 +132,7 @@ Generirajte jake, jedinstvene i nasumične lozinke bazirane na sigurnosnim zahtj
 
 Bitwarden Send omoguzćuje jednostavno i brzo slanje šifriranih podataka --- datoteka ili teksta -- direktno, bilo kome.
 
-Bitwarden nudi Teams i Enterprise planove za tvrtke kako biste sigurno mogli dijeliti lozinke s kolegama na poslu.
+Bitwarden nudi planove za Timove i Tvrtke za poduzeća kako biste sigurno mogli dijeliti lozinke s kolegama na poslu.
 
 Zašto odabrati Bitwarden?
 
