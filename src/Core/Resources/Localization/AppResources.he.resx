@@ -229,7 +229,7 @@
     <value>תיקיות</value>
   </data>
   <data name="FolderUpdated" xml:space="preserve">
-    <value>תיקיה עודכנה.</value>
+    <value>תיקיה עודכנה</value>
   </data>
   <data name="GoToWebsite" xml:space="preserve">
     <value>עבור לאתר</value>
@@ -1138,10 +1138,10 @@ Bitwarden בעזרת פתיחת חלון "הגדרות".</value>
     <value>תוקף</value>
   </data>
   <data name="ShowWebsiteIcons" xml:space="preserve">
-    <value>Show website icons</value>
+    <value>הצג סמלים של אתרי האינטרננט</value>
   </data>
   <data name="ShowWebsiteIconsDescription" xml:space="preserve">
-    <value>Show a recognizable image next to each login.</value>
+    <value>הצג תמונה מוכרת בכל נסיון התחברות.</value>
   </data>
   <data name="IconsUrl" xml:space="preserve">
     <value>כתובת השרת עבור האייקון</value>
@@ -1385,13 +1385,13 @@ Bitwarden בעזרת פתיחת חלון "הגדרות".</value>
     <value>חפש אוסף</value>
   </data>
   <data name="SearchFileSends" xml:space="preserve">
-    <value>Search file Sends</value>
+    <value>חיפוש Send קבצים</value>
   </data>
   <data name="SearchTextSends" xml:space="preserve">
-    <value>Search text Sends</value>
+    <value>חיפוש Send טקסט</value>
   </data>
   <data name="SearchGroup" xml:space="preserve">
-    <value>Search {0}</value>
+    <value>חיפוש {0}</value>
     <comment>ex: Search Logins</comment>
   </data>
   <data name="Type" xml:space="preserve">
@@ -1555,7 +1555,7 @@ Bitwarden בעזרת פתיחת חלון "הגדרות".</value>
     <value>ברירת מחדל (מערכת)</value>
   </data>
   <data name="DefaultDarkTheme" xml:space="preserve">
-    <value>Default dark theme</value>
+    <value>ערכת נושא כהה כברירת מחדל</value>
   </data>
   <data name="CopyNotes" xml:space="preserve">
     <value>העתק פתק</value>
@@ -1582,10 +1582,10 @@ Bitwarden בעזרת פתיחת חלון "הגדרות".</value>
     <comment>'Solarized Dark' is the name of a specific color scheme. It should not be translated.</comment>
   </data>
   <data name="AutofillBlockedUris" xml:space="preserve">
-    <value>Auto-fill blocked URIs</value>
+    <value>מילוי אוטומטי של כתובות חסומות</value>
   </data>
   <data name="AskToAddLogin" xml:space="preserve">
-    <value>Ask to add login</value>
+    <value>שאל אם לשמור פרטי כניסה</value>
   </data>
   <data name="AskToAddLoginDescription" xml:space="preserve">
     <value>Ask to add an item if one isn't found in your vault.</value>
@@ -1824,7 +1824,7 @@ Bitwarden בעזרת פתיחת חלון "הגדרות".</value>
     <value>אפליקציית Bitwarden צריכה הרשאות בכדי לעבוד באופן תקין. פתח את הגדרות Bitwarden, בחר את "שירותי ההשלמה-האוטומטית" ואפשר את "צייר מעל" (Draw-Over).</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey management</value>
+    <value>ניהול Passkey</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>שירותי ההשלמה האוטומטית</value>
@@ -1885,7 +1885,7 @@ Bitwarden בעזרת פתיחת חלון "הגדרות".</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>טקסט</value>
   </data>
   <data name="TypeText" xml:space="preserve">
     <value>טקסט</value>

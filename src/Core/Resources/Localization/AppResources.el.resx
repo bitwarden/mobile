@@ -296,7 +296,7 @@
     <comment>Text to define that there are more options things to see.</comment>
   </data>
   <data name="MyVault" xml:space="preserve">
-    <value>Το vault μου</value>
+    <value>Η κρύπτη μου</value>
     <comment>The title for the vault page.</comment>
   </data>
   <data name="Authenticator" xml:space="preserve">
@@ -431,7 +431,7 @@
     <value>Επέκταση εφαρμογής Bitwarden</value>
   </data>
   <data name="BitwardenAppExtensionAlert2" xml:space="preserve">
-    <value>Ο ευκολότερος τρόπος για να προσθέστε νέες συνδέσεις στο vault σας, είναι μέσω της επέκτασης εφαρμογής Bitwarden. Μάθετε περισσότερα σχετικά με τη χρήση της επέκτασης εφαρμογής Bitwarden, μεταβαίνοντας στις "Ρυθμίσεις".</value>
+    <value>Ο ευκολότερος τρόπος για να προσθέστε νέες συνδέσεις στη κρύπτη σας, είναι μέσω της επέκτασης εφαρμογής Bitwarden. Μάθετε περισσότερα σχετικά με τη χρήση της επέκτασης εφαρμογής Bitwarden, μεταβαίνοντας στις "Ρυθμίσεις".</value>
   </data>
   <data name="BitwardenAppExtensionDescription" xml:space="preserve">
     <value>Χρήση του Bitwarden στο Safari και σε άλλες εφαρμογές για αυτόματη συμπλήρωση των συνδέσεων σας.</value>
@@ -550,10 +550,10 @@
     <value>Άμεσα</value>
   </data>
   <data name="VaultTimeout" xml:space="preserve">
-    <value>Χρόνος λήξης vault</value>
+    <value>Χρόνος λήξης κρύπτης</value>
   </data>
   <data name="VaultTimeoutAction" xml:space="preserve">
-    <value>Ενέργεια χρόνου λήξης vault</value>
+    <value>Ενέργεια χρόνου λήξης κρύπτης</value>
   </data>
   <data name="VaultTimeoutLogOutConfirmation" xml:space="preserve">
     <value>Η αποσύνδεση θα καταργήσει όλη την πρόσβαση στο vault σας και απαιτεί online έλεγχο ταυτότητας μετά το χρονικό όριο λήξης. Είστε βέβαιοι ότι θέλετε να χρησιμοποιήσετε αυτήν τη ρύθμιση;</value>
@@ -644,7 +644,7 @@
     <value>Είστε βέβαιοι ότι θέλετε να αντικαταστήσετε τον τρέχον κωδικό;</value>
   </data>
   <data name="PushNotificationAlert" xml:space="preserve">
-    <value>Το Bitwarden κρατάει συγχρονισμένο το vault σας αυτόματα, με τη χρήση ειδοποιήσεων push. Για την καλύτερη δυνατή εμπειρία, επιλέξτε "Να επιτρέπεται" στην παρακάτω προτροπή όταν σας ζητηθεί να ενεργοποιήσετε τις ειδοποιήσεις push.</value>
+    <value>Το Bitwarden κρατάει συγχρονισμένο τη κρύπτη σας αυτόματα, με τη χρήση ειδοποιήσεων push. Για την καλύτερη δυνατή εμπειρία, επιλέξτε "Να επιτρέπεται" στην παρακάτω προτροπή όταν σας ζητηθεί να ενεργοποιήσετε τις ειδοποιήσεις push.</value>
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
@@ -660,7 +660,7 @@
     <value>Εισάγετε ξανά τον κύριο κωδικό</value>
   </data>
   <data name="SearchVault" xml:space="preserve">
-    <value>Αναζήτηση θησαυ/κίου</value>
+    <value>Αναζήτηση κρύπτης</value>
   </data>
   <data name="Security" xml:space="preserve">
     <value>Ασφάλεια</value>
@@ -695,7 +695,7 @@
     <value>Ο συγχρονισμός απέτυχε</value>
   </data>
   <data name="SyncVaultNow" xml:space="preserve">
-    <value>Συγχρονισμός του vault τώρα</value>
+    <value>Συγχρονισμός κρύπτης τώρα</value>
   </data>
   <data name="TouchID" xml:space="preserve">
     <value>Touch ID</value>
@@ -721,7 +721,7 @@
     <value>Προβολή στοιχείου</value>
   </data>
   <data name="WebVault" xml:space="preserve">
-    <value>Διαδικτυακό vault Bitwarden</value>
+    <value>Διαδικτυακή κρύπτη Bitwarden</value>
   </data>
   <data name="Lost2FAApp" xml:space="preserve">
     <value>Χάσατε την εφαρμογή επαλήθευσης;</value>
@@ -949,7 +949,7 @@
     <value>Δεν μπορείτε να χρησιμοποιήσετε αυτήν τη δυνατότητα μέχρι να ενημερώσετε το κλειδί κρυπτογράφησης.</value>
   </data>
   <data name="EncryptionKeyMigrationRequiredDescriptionLong" xml:space="preserve">
-    <value>Απαιτείται μεταφορά του κλειδιού κρυπτογράφησης. Παρακαλούμε συνδεθείτε μέσω του διαδικτυακού vault για να ενημερώσετε το κλειδί κρυπτογράφησης.</value>
+    <value>Απαιτείται μεταφορά του κλειδιού κρυπτογράφησης. Παρακαλούμε συνδεθείτε μέσω της διαδικτυακής κρύπτης για να ενημερώσετε το κλειδί κρυπτογράφησης.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>Μάθετε περισσότερα</value>
@@ -984,7 +984,7 @@
     <value>URL Διακομιστή</value>
   </data>
   <data name="WebVaultUrl" xml:space="preserve">
-    <value>URL διακομιστή διαδικτυακού vault</value>
+    <value>URL διακομιστή διαδικτυακής κρύπτης</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContentOld" xml:space="preserve">
     <value>Πατήστε στην ειδοποίηση για να συμπληρώσετε αυτόματα ένα στοιχείο από τη λίστα σας.</value>
@@ -1471,7 +1471,7 @@
     <value>Το Bitwarden επιτρέπει να μοιράζεστε τα στοιχεία του vault σας με άλλους χρησιμοποιώντας ένα λογαριασμό οργανισμού. Θέλετε να επισκεφθείτε την ιστοσελίδα bitwarden.com για να μάθετε περισσότερα;</value>
   </data>
   <data name="ExportVault" xml:space="preserve">
-    <value>Εξαγωγή του vault</value>
+    <value>Εξαγωγή κρύπτης</value>
   </data>
   <data name="LockNow" xml:space="preserve">
     <value>Κλείδωμα τώρα</value>
@@ -1483,7 +1483,7 @@
     <value>Ξεκλείδωμα</value>
   </data>
   <data name="UnlockVault" xml:space="preserve">
-    <value>Ξεκλείδωμα του vault</value>
+    <value>Ξεκλείδωμα κρύπτης</value>
   </data>
   <data name="ThirtyMinutes" xml:space="preserve">
     <value>30 λεπτά</value>
@@ -1586,13 +1586,13 @@
     <value>Ρώτησε για να προσθέσεις σύνδεση</value>
   </data>
   <data name="AskToAddLoginDescription" xml:space="preserve">
-    <value>Ρώτησε για να προσθέσεις κάποιο αντικείμενο αν δε βρεθεί στο θησαυ/κιό μου.</value>
+    <value>Ρώτησε για να προσθέσεις κάποιο αντικείμενο αν δε βρεθεί στη κρύπτη μου.</value>
   </data>
   <data name="OnRestart" xml:space="preserve">
     <value>Κατά την επανεκκίνηση της εφαρμογής</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>Η αυτόματη συμπλήρωση διευκολύνει την ασφαλή πρόσβαση στο θησαυ/κιο του Bitwarden από άλλες ιστοσελίδες και εφαρμογές. Φαίνεται ότι δεν έχετε ενεργοποιήσει την υπηρεσία αυτόματης συμπλήρωσης για το Bitwarden. Ενεργοποιήστε την αυτόματη συμπλήρωση από τις "Ρυθμίσεις".</value>
+    <value>Η αυτόματη συμπλήρωση διευκολύνει την ασφαλή πρόσβαση στην κρύπτη του Bitwarden από άλλες ιστοσελίδες και εφαρμογές. Φαίνεται ότι δεν έχετε ενεργοποιήσει την υπηρεσία αυτόματης συμπλήρωσης για το Bitwarden. Ενεργοποιήστε την αυτόματη συμπλήρωση από τις "Ρυθμίσεις".</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
     <value>Οι αλλαγές θεμάτων θα ισχύουν όταν γίνει επανεκκίνηση της εφαρμογής.</value>
@@ -1671,7 +1671,7 @@
     <value>Τα κλειδιά κρυπτογράφησης λογαριασμού είναι μοναδικά για κάθε λογαριασμό χρήστη Bitwarden, οπότε δεν μπορείτε να εισάγετε μια κρυπτογραφημένη εξαγωγή σε διαφορετικό λογαριασμό.</value>
   </data>
   <data name="ExportVaultConfirmationTitle" xml:space="preserve">
-    <value>Επιβεβαίωση εξαγωγής vault</value>
+    <value>Επιβεβαίωση εξαγωγής κρύπτης</value>
     <comment>Title for the alert to confirm vault exports.</comment>
   </data>
   <data name="Warning" xml:space="preserve">
@@ -1861,7 +1861,7 @@
     <value>Εάν είναι ενεργοποιημένη, η προσβασιμότητα θα εμφανίσει ένα αναδυόμενο παράθυρο για την αύξηση της υπηρεσίας αυτόματης συμπλήρωσης για παλαιότερες εφαρμογές που δεν υποστηρίζουν το Android Autofill Framework.</value>
   </data>
   <data name="PersonalOwnershipSubmitError" xml:space="preserve">
-    <value>Λόγω μιας Πολιτικής Επιχειρήσεων, δεν επιτρέπεται η αποθήκευση αντικειμένων στο προσωπικό σας vault. Αλλάξτε την επιλογή Ιδιοκτησίας σε έναν οργανισμό και επιλέξτε από τις διαθέσιμες Συλλογές.</value>
+    <value>Λόγω μιας Πολιτικής Επιχειρήσεων, δεν επιτρέπεται η αποθήκευση αντικειμένων στη προσωπικό σας κρύπτη. Αλλάξτε την επιλογή Ιδιοκτησίας σε έναν οργανισμό και επιλέξτε από τις διαθέσιμες Συλλογές.</value>
   </data>
   <data name="PersonalOwnershipPolicyInEffect" xml:space="preserve">
     <value>Μια πολιτική οργανισμού, επηρεάζει τις επιλογές ιδιοκτησίας σας.</value>
@@ -2092,7 +2092,7 @@
     <value>Ενημερώστε τον κύριο κωδικό πρόσβασης</value>
   </data>
   <data name="UpdateMasterPasswordWarning" xml:space="preserve">
-    <value>Ο Κύριος Κωδικός Πρόσβασής σας άλλαξε πρόσφατα από διαχειριστή στον οργανισμό σας. Για να αποκτήσετε πρόσβαση στο vault, πρέπει να ενημερώσετε το κύριο κωδικό τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές για μία ώρα.</value>
+    <value>Ο Κύριος Κωδικός Πρόσβασής σας άλλαξε πρόσφατα από διαχειριστή στον οργανισμό σας. Για να αποκτήσετε πρόσβαση στη κρύπτη, πρέπει να ενημερώσετε το κύριο κωδικό τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές για μία ώρα.</value>
   </data>
   <data name="UpdatingPassword" xml:space="preserve">
     <value>Ενημέρωση κωδικού πρόσβασης</value>
@@ -2137,19 +2137,19 @@
     <value>Αυτός ο οργανισμός έχει μια επιχειρηματική πολιτική που θα σας εγγράψει αυτόματα στην επαναφορά κωδικού. Η εγγραφή θα επιτρέψει στους διαχειριστές του οργανισμού να αλλάξουν τον κύριο κωδικό πρόσβασης σας.</value>
   </data>
   <data name="VaultTimeoutPolicyInEffect" xml:space="preserve">
-    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο vault σας. Το μέγιστο επιτρεπόμενο Χρονικό όριο Vault είναι {0} ώρα(ες) και {1} λεπτό(ά)</value>
+    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο της κρύπτης σας. Το μέγιστο επιτρεπόμενο Χρονικό όριο Κρύπτης είναι {0} ώρα(ες) και {1} λεπτό(ά).</value>
   </data>
   <data name="VaultTimeoutPolicyWithActionInEffect" xml:space="preserve">
-    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο του vault σας. Το μέγιστο επιτρεπόμενο χρονικό όριο vault είναι {0} ώρα(ες) και {1} λεπτό(ά). Το χρονικό όριο του vault σας έχει οριστεί σε {2}.</value>
+    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο της κρύπτης σας. Το μέγιστο επιτρεπόμενο χρονικό όριο κρύπτης είναι {0} ώρα(ες) και {1} λεπτό(ά). Το χρονικό όριο του vault σας έχει οριστεί σε {2}.</value>
   </data>
   <data name="VaultTimeoutActionPolicyInEffect" xml:space="preserve">
-    <value>Οι πολιτικές του οργανισμού σας έχουν ορίσει την ενέργεια χρονικού ορίου λήξης θησαυ/κίου σε {0}.</value>
+    <value>Οι πολιτικές του οργανισμού σας έχουν ορίσει την ενέργεια χρονικού ορίου λήξης κρύπτης σε {0}.</value>
   </data>
   <data name="VaultTimeoutToLarge" xml:space="preserve">
     <value>Το χρονικό όριο του vault σας υπερβαίνει τους περιορισμούς που έχει ορίσει ο οργανισμός σας.</value>
   </data>
   <data name="DisablePersonalVaultExportPolicyInEffect" xml:space="preserve">
-    <value>Μία ή περισσότερες οργανωτικές πολιτικές αποτρέπουν την εξαγωγή του προσωπικού vault.</value>
+    <value>Μία ή περισσότερες οργανωτικές πολιτικές αποτρέπουν την εξαγωγή της προσωπικής κρύπτης.</value>
   </data>
   <data name="AddAccount" xml:space="preserve">
     <value>Προσθήκη λογαριασμού</value>
@@ -2182,7 +2182,7 @@
     <value>Η διαγραφή του λογαριασμού σας είναι μόνιμη</value>
   </data>
   <data name="DeleteAccountExplanation" xml:space="preserve">
-    <value>Ο λογαριασμός σας και όλα τα σχετικά δεδομένα θα διαγραφούν και δεν θα ανακτηθούν. Είστε σίγουροι ότι θέλετε να συνεχίσετε?</value>
+    <value>Ο λογαριασμός σας και όλα τα σχετικά δεδομένα θα διαγραφούν και δε θα ανακτηθούν. Σίγουρα θέλετε να συνεχίσετε;</value>
   </data>
   <data name="DeletingYourAccount" xml:space="preserve">
     <value>Διαγραφή του λογαριασμού σας</value>
@@ -2260,7 +2260,7 @@
     <value>Φιλτράρισμα αντικειμένων ανά κρύπτη</value>
   </data>
   <data name="AllVaults" xml:space="preserve">
-    <value>Όλα τα θησαυ/κια</value>
+    <value>Όλες οι κρύπτες</value>
   </data>
   <data name="Vaults" xml:space="preserve">
     <value>Vaults</value>
@@ -2515,7 +2515,7 @@
     <value>Μια ειδοποίηση έχει σταλεί στη συσκευή σας.</value>
   </data>
   <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
-    <value>Βεβαιωθείτε ότι το vault σας είναι ξεκλείδωτο και ότι η Φράση δακτυλικών αποτυπωμάτων ταιριάζει στην άλλη συσκευή.</value>
+    <value>Βεβαιωθείτε ότι η κρύπτη σας είναι ξεκλείδωτη και ότι η Φράση δακτυλικών αποτυπωμάτων ταιριάζει στην άλλη συσκευή.</value>
   </data>
   <data name="ResendNotification" xml:space="preserve">
     <value>Επαναποστολή ειδοποίησης</value>
@@ -2626,7 +2626,7 @@
     <value>Περιοχή</value>
   </data>
   <data name="UpdateWeakMasterPasswordWarning" xml:space="preserve">
-    <value>Ο κύριος κωδικός πρόσβασής σας δεν πληροί μία ή περισσότερες πολιτικές του οργανισμού σας. Για να αποκτήσετε πρόσβαση στο Vault σας, πρέπει να ενημερώσετε τον κύριο κωδικό πρόσβασής σας τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές εώς και μία ώρα.</value>
+    <value>Ο κύριος κωδικός πρόσβασής σας δεν πληροί μία ή περισσότερες πολιτικές του οργανισμού σας. Για να αποκτήσετε πρόσβαση στη Κρύπτη σας, πρέπει να ενημερώσετε τον κύριο κωδικό πρόσβασής σας τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές εώς και μία ώρα.</value>
   </data>
   <data name="CurrentMasterPassword" xml:space="preserve">
     <value>Τρέχων κύριος κωδικός</value>
@@ -2701,7 +2701,7 @@
     <value>Σύνδεση ως {0}</value>
   </data>
   <data name="VaultTimeoutActionChangedToLogOut" xml:space="preserve">
-    <value>Η ενέργεια στη λήξη χρόνου του vault άλλαξε σε αποσύνδεση</value>
+    <value>Η ενέργεια στη λήξη χρόνου της κρύπτης άλλαξε σε αποσύνδεση</value>
   </data>
   <data name="BlockAutoFill" xml:space="preserve">
     <value>Αποκλείστε την αυτόματη συμπλήρωση</value>
@@ -2759,7 +2759,7 @@
     <value>Σύνδεση στο</value>
   </data>
   <data name="Vault" xml:space="preserve">
-    <value>Θησαυροφυλάκιο</value>
+    <value>Κρύπτη</value>
   </data>
   <data name="Appearance" xml:space="preserve">
     <value>Εμφάνιση</value>
@@ -2808,7 +2808,7 @@
     <value>{0} ώρες</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Χρησιμοποιήστε το Bitwarden για να αποθηκεύσετε τα νέα κλειδιά πρόσβασης και συνδεθείτε με τα κλειδιά πρόσβασης που είναι αποθηκευμένα στο θησαυροφυλάκιό σας.</value>
+    <value>Χρησιμοποιήστε το Bitwarden για να αποθηκεύσετε τα νέα κλειδιά πρόσβασης και συνδεθείτε με τα κλειδιά πρόσβασης που είναι αποθηκευμένα στη κρύπτη σας.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Το Android Autofill Framework χρησιμοποιείται για να προσφέρει αυτόματη συμπλήρωση στοιχείων σύνδεσης σε άλλες εφαρμογές στη συσκευή σας.</value>
@@ -2848,7 +2848,7 @@
     <value>Μπορείτε να αλλάξετε τον κύριο κωδικό πρόσβασης στην εφαρμογή διαδικτύου Bitwarden.</value>
   </data>
   <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
-    <value>Μπορείτε να εισαγάγετε δεδομένα στο vault σας στο {0}.</value>
+    <value>Μπορείτε να εισαγάγετε δεδομένα στη κρύπτη σας στο {0}.</value>
     <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
   </data>
   <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
@@ -2864,7 +2864,7 @@
     <value>Εξερευνήστε περισσότερες δυνατότητες του Bitwarden λογαριασμού σας, στην εφαρμογή διαδικτύου.</value>
   </data>
   <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
-    <value>Το Bitwarden σας επιτρέπει να μοιράζεστε τα στοιχεία του vault σας με άλλους, χρησιμοποιώντας έναν λογαριασμό οργανισμού. Μάθετε περισσότερα στην ιστοσελίδα bitwarden.com.</value>
+    <value>Το Bitwarden σας επιτρέπει να μοιράζεστε τα στοιχεία της κρύπτης σας με άλλους, χρησιμοποιώντας έναν λογαριασμό οργανισμού. Μάθετε περισσότερα στην ιστοσελίδα bitwarden.com.</value>
   </data>
   <data name="RateAppDescriptionLong" xml:space="preserve">
     <value>Βοηθήστε άλλους να μάθουν αν το Bitwarden είναι κατάλληλο για αυτούς. Επισκεφθείτε το κατάστημα εφαρμογών και αφήστε τώρα μια βαθμολογία.</value>
@@ -2889,7 +2889,7 @@
     <value>Ο οργανισμός σας απαιτεί να ορίσετε έναν κύριο κωδικό πρόσβασης.</value> 
   </data>
   <data name="SetUpAnUnlockOptionToChangeYourVaultTimeoutAction" xml:space="preserve">
-    <value>Ρυθμίστε μια επιλογή κλειδώματος για να αλλάξετε την ενέργεια στη λήξη χρόνου του vault σας.</value>
+    <value>Ρυθμίστε μια επιλογή κλειδώματος για να αλλάξετε την ενέργεια στη λήξη χρόνου της κρύπτης σας.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
     <value>Επιλέξτε μια σύνδεση στην οποία θα αποθηκεύσετε αυτό το κλειδί πρόσβασης</value>
@@ -2969,10 +2969,10 @@
     <value>3. Επιλέξτε "Bitwarden" για να χρησιμοποιήσετε για τους κωδικούς και τα κλειδιά πρόσβασης</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Το κλειδί πρόσβασής σας θα αποθηκευτεί στο Bitwarden θησαυ/κιό σας</value>
+    <value>Το κλειδί πρόσβασής σας θα αποθηκευτεί στη κρύπτη του Bitwarden σας</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Το κλειδί πρόσβασής σας θα αποθηκευτεί στο Bitwarden θησαυ/κιό σας για το {0}</value>
+    <value>Το κλειδί πρόσβασής σας θα αποθηκευτεί στη κρύπτη του Bitwarden σας για το {0}</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Δεν υποστηρίζονται κλειδιά πρόσβασης για αυτήν την εφαρμογή</value>

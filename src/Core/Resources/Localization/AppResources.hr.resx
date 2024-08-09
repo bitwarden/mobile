@@ -172,7 +172,7 @@
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="DoYouReallyWantToDelete" xml:space="preserve">
-    <value>Stvarno želiš izbrisati? To se ne može poništiti.</value>
+    <value>Sigurno želiš izbrisati? To se ne može poništiti.</value>
     <comment>Confirmation alert message when deleteing something.</comment>
   </data>
   <data name="Edit" xml:space="preserve">
@@ -407,7 +407,7 @@
     <value>Račun</value>
   </data>
   <data name="AccountCreated" xml:space="preserve">
-    <value>Tvoj novi račun je kreiran! Sada se možeš prijaviti.</value>
+    <value>Tvoj novi račun je stvoren! Sada se možeš prijaviti.</value>
   </data>
   <data name="AddAnItem" xml:space="preserve">
     <value>Dodaj stavku</value>
@@ -422,7 +422,7 @@
     <value>Usluga auto-ispune</value>
   </data>
   <data name="SetBitwardenAsPasskeyManagerDescription" xml:space="preserve">
-    <value>Set Bitwarden as your passkey provider in device settings.</value>
+    <value>Postavi Bitwarden kao zadanog davatelja usluga za pristupne ključeve putem postavki uređaja.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
     <value>Izbjegavaj dvosmislene znakove</value>
@@ -623,7 +623,7 @@
     <value>Zadane postavke preuzete iz generatora lozinki glavne aplikacije Bitwarden.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Opcije</value>
+    <value>Mogućnosti</value>
   </data>
   <data name="Other" xml:space="preserve">
     <value>Ostalo</value>
@@ -1100,7 +1100,7 @@
     <value>gđica.</value>
   </data>
   <data name="Mx" xml:space="preserve">
-    <value>Mx</value>
+    <value>gx.</value>
   </data>
   <data name="November" xml:space="preserve">
     <value>studeni</value>
@@ -1194,7 +1194,7 @@
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>We were unable to automatically open the Android credential provider settings menu for you. You can navigate to the credential provider settings menu manually from Android Settings &gt; System &gt; Passwords &amp; accounts &gt; Passwords, passkeys and data services.</value>
+    <value>Nismo uspjeli automatski otvoriti izbornik postavki davatelja vjerodajnica za Android. Otvorite ručno: Android Settings &gt; Sustav &gt; Lozinke i računi &gt; Lozinke, pristupni ključevi i podatkovne usluge.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Nismo mogli otvoriti Andorid postavke automatskog popunjavanja. Možeš ručno otvoriti izbornik: Sustav -> Jezici i unos -> Dodatne postavke tipkovnice -> Automatsko popunjavanje</value>
@@ -1821,7 +1821,7 @@
     <value>Bitwarden zahtijeva radnju - Bitwarden Postavke -> Usluge auto-ispune -> uključi opciju „Koristi preklapanje”</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey management</value>
+    <value>Upravljanje pristupnim ključevima</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>Usluge auto-ispune</value>
@@ -2175,19 +2175,19 @@
     <value>Račun uspješno uklonjen</value>
   </data>
   <data name="DeleteAccount" xml:space="preserve">
-    <value>Obriši račun</value>
+    <value>Izbriši račun</value>
   </data>
   <data name="DeletingYourAccountIsPermanent" xml:space="preserve">
     <value>Brisanje tvog računa je nepovratno</value>
   </data>
   <data name="DeleteAccountExplanation" xml:space="preserve">
-    <value>Tvoj račun i svi povezani podaci biti će nepovratno obrisani. Sigurno želiš nastaviti?</value>
+    <value>Tvoj račun i svi povezani podaci biti će nepovratno izbrisani. Sigurno želiš nastaviti?</value>
   </data>
   <data name="DeletingYourAccount" xml:space="preserve">
     <value>Brisanje tvog računa</value>
   </data>
   <data name="YourAccountHasBeenPermanentlyDeleted" xml:space="preserve">
-    <value>Tvoj račun je trajno obrisan.</value>
+    <value>Tvoj račun je trajno izbrisan.</value>
   </data>
   <data name="InvalidVerificationCode" xml:space="preserve">
     <value>Nevažeći kôd za provjeru</value>
@@ -2806,7 +2806,7 @@
     <value>{0} sat/i</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Use Bitwarden to save new passkeys and log in with passkeys stored in your vault.</value>
+    <value>Koristi Bitwarden za spremanje novih pristupnih ključeva i prijavu pristupnim ključevima spremljenima u tvoj trezor.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Android Autofill Framework se koristi za pomoć pri ispunjavanju prijava, platnih kartica i identifikacijskih podataka u drugim aplikacijama na tvojem uređaju.</value>
@@ -2831,13 +2831,13 @@
     <value>Kontaktiraj podršku?</value>
   </data>
   <data name="ContinueToPrivacyPolicy" xml:space="preserve">
-    <value>Continue to privacy policy?</value>
+    <value>Nastavi na politiku privatnosti?</value>
   </data>
   <data name="ContinueToAppStore" xml:space="preserve">
     <value>Nastavi u trgovinu aplikacijama?</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
-    <value>Continue to device Settings?</value>
+    <value>Nastavi na postavke uređaja?</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
     <value>Učini svoj račun sigurnijim uključivanjem prijave dvofaktorskom autentifikacijom u Bitwarden web aplikaciji.</value>
@@ -2856,7 +2856,7 @@
     <value>Ne možeš naći što te zanima? Kontaktiraj Bitwarden podršku na bitwarden.com.</value>
   </data>
   <data name="PrivacyPolicyDescriptionLong" xml:space="preserve">
-    <value>Check out our privacy policy on bitwarden.com.</value>
+    <value>Pogledaj našu politiku privatnosti na bitwarden.com.</value>
   </data>
   <data name="ExploreMoreFeaturesOfYourBitwardenAccountOnTheWebApp" xml:space="preserve">
     <value>Pronađi viđe značajki svojeg Bitwarden računa u web aplikaciji.</value>
@@ -2890,104 +2890,104 @@
     <value>Za promjenu vremena isteka trezora, odredi način otključavanja.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
-    <value>Choose a login to save this passkey to</value>
+    <value>Odaberi za koju prijavu želiš spremiti ovaj pristupni ključ</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Save passkey as new login</value>
+    <value>Spremi pristupni ključ kao novu prijavu</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Save passkey</value>
+    <value>Spremi pristupni ključ</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
-    <value>Passkeys for {0}</value>
+    <value>Pristupni ključ za {0}</value>
   </data>
   <data name="PasswordsForX" xml:space="preserve">
-    <value>Passwords for {0}</value>
+    <value>Lozinke za {0}</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Overwrite passkey?</value>
+    <value>Prebriši pristupni ključ?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
-    <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
+    <value>Ova stavka već sadrži pristupni ključ. Sigurno želiš prebrisati trenutni pristupni ključ?</value>
   </data>
   <data name="DuoTwoStepLoginIsRequiredForYourAccount" xml:space="preserve">
-    <value>Duo two-step login is required for your account. </value>
+    <value>Za tvoj račun je potrebna Duo dvostruka autentifikacija. </value>
   </data>
   <data name="FollowTheStepsFromDuoToFinishLoggingIn" xml:space="preserve">
-    <value>Follow the steps from Duo to finish logging in.</value>
+    <value>Prati Duo korake za dovršetak prijave.</value>
   </data>
   <data name="LaunchDuo" xml:space="preserve">
-    <value>Launch Duo</value>
+    <value>Pokreni Duo</value>
   </data>
   <data name="VerificationRequiredByX" xml:space="preserve">
-    <value>Verification required by {0}</value>
+    <value>Potrebna potvrda od {0}</value>
   </data>
   <data name="VerificationRequiredForThisActionSetUpAnUnlockMethodInBitwardenToContinue" xml:space="preserve">
-    <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
+    <value>Za ovu je radnju potrebna potvrda. Za nastavak, podesi način otključavanja u Bitwardenu.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
-    <value>Error creating passkey</value>
+    <value>Greška pri stvaranju pristupnog ključa</value>
   </data>
   <data name="ErrorReadingPasskey" xml:space="preserve">
-    <value>Error reading passkey</value>
+    <value>Greška pri čitanju pristupnog ključa</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem creating a passkey for {0}. Try again later.</value>
+    <value>Došlo je do greške kod stvaranja pristupnog ključa za {0}. Pokušaj ponovno kasnije.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem reading your passkey for {0}. Try again later.</value>
+    <value>Došlo je do greške kod čitanja pristupnog ključa za {0}. Pokušaj ponovno kasnije.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
-    <value>Verifying identity...</value>
+    <value>Potvrda identiteta...</value>
   </data>
   <data name="Passwords" xml:space="preserve">
-    <value>Passwords</value>
+    <value>Lozinke</value>
   </data>
   <data name="UnknownAccount" xml:space="preserve">
-    <value>Unknown account</value>
+    <value>Nepoznati račun</value>
   </data>
   <data name="SetUpAutofill" xml:space="preserve">
-    <value>Set up auto-fill</value>
+    <value>Podesi auto-ispunu</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
-    <value>Get instant access to your passwords and passkeys!</value>
+    <value>Dobivanje trenutnog pristupa tvojim lozinkama!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
-    <value>To set up password auto-fill and passkey management, set Bitwarden as your preferred provider in the iOS Settings.</value>
+    <value>Za postavljanje auto-ispune lozinki i upravljanje pristupnim ključevima, postavi Bitwarden kao svog odabranog davatelja usluga u iOS postavkama.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
-    <value>1. Go to your device's Settings &gt; Passwords &gt; Password Options</value>
+    <value>1. Postavke &gt; Lozinke &gt; Opcije lozinke</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>2. Turn on AutoFill</value>
+    <value>2. Uključi „Automatski ispuni lozinke i povezne ključeve”</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
-    <value>3. Select "Bitwarden" to use for passwords and passkeys</value>
+    <value>3. Odaberi „Bitwarden” za lozinke i pristupne ključeve</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault</value>
+    <value>Tvoj pristupni ključ će biti spremljen u trezor</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault for {0}</value>
+    <value>Tvoj pristupni ključ za {0} će biti spremljen u trezor</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
-    <value>Passkeys not supported for this app</value>
+    <value>Pristupni ključ nije podržan za ovu aplikaciju</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Passkey operation failed because browser is not privileged</value>
+    <value>Operacija pristupnog ključa nije uspjela jer preglednik nije privilegiran</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
-    <value>Passkey operation failed because browser signature does not match</value>
+    <value>Operacija pristupnog ključa nije uspjela jer se potpis preglednika ne podudara</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because of missing asset links</value>
+    <value>Operacija pristupnog ključa nije uspjela jer nedostaju veze sa sredstvima (asset links)</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppNotFoundInAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because app not found in asset links</value>
+    <value>Operacija pristupnog ključa nije uspjela jer aplikacija nije pronađena u vezama sredstva (asset links)</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>Passkey operation failed because app could not be verified</value>
+    <value>Operacija pristupnog ključa nije uspjela jer nije bilo moguće provjeriti aplikaciju</value>
   </data>
 </root>

@@ -867,17 +867,17 @@
     <value>Tệp đính kèm</value>
   </data>
   <data name="UnableToDownloadFile" xml:space="preserve">
-    <value>Không thể tải về tệp tin.</value>
+    <value>Không thể tải về tập tin.</value>
   </data>
   <data name="UnableToOpenFile" xml:space="preserve">
-    <value>Thiết bị của bạn không thể mở loại tệp này.</value>
+    <value>Thiết bị của bạn không thể mở loại tập tin này.</value>
   </data>
   <data name="Downloading" xml:space="preserve">
     <value>Đang tải xuống...</value>
     <comment>Message shown when downloading a file</comment>
   </data>
   <data name="AttachmentLargeWarning" xml:space="preserve">
-    <value>Tập tin đính kèm này có kích thước {0}. Bạn có chắc chắn muốn tải nó xuống thiết bị của mình?</value>
+    <value>Tệp đính kèm này có kích thước {0}. Bạn có chắc chắn muốn tải nó xuống thiết bị của mình?</value>
     <comment>The placeholder will show the file size of the attachment. Ex "25 MB"</comment>
   </data>
   <data name="AuthenticatorKey" xml:space="preserve">
@@ -925,7 +925,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Đã xóa tệp đính kèm</value>
   </data>
   <data name="ChooseFile" xml:space="preserve">
-    <value>Chọn tệp</value>
+    <value>Chọn tập tin</value>
   </data>
   <data name="File" xml:space="preserve">
     <value>Tập tin</value>
@@ -937,13 +937,13 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Không có tệp đính kèm.</value>
   </data>
   <data name="FileSource" xml:space="preserve">
-    <value>Tệp nguồn</value>
+    <value>Tập tin nguồn</value>
   </data>
   <data name="FeatureUnavailable" xml:space="preserve">
     <value>Tính năng không có sẵn</value>
   </data>
   <data name="MaxFileSize" xml:space="preserve">
-    <value>Kích thước tối đa của tệp tin là 100MB.</value>
+    <value>Kích thước tối đa của tập tin là 100MB.</value>
   </data>
   <data name="UpdateKey" xml:space="preserve">
     <value>Bạn không thể sử dụng tính năng này cho đến khi bạn cập nhật khoá mã hóa.</value>
@@ -1384,7 +1384,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Tìm bộ sưu tập</value>
   </data>
   <data name="SearchFileSends" xml:space="preserve">
-    <value>Tìm tệp tin trong Gửi</value>
+    <value>Tìm tập tin trong Gửi</value>
   </data>
   <data name="SearchTextSends" xml:space="preserve">
     <value>Tìm văn bản trong Gửi</value>
@@ -1502,7 +1502,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Đã khóa kho của bạn. Nhập mã PIN để mở.</value>
   </data>
   <data name="VaultLockedIdentity" xml:space="preserve">
-    <value>Kho của bạn đã bị khoá. Hãy xác minh danh tính để tiếp tục.</value>
+    <value>Kho của bạn đã bị khóa. Xác minh danh tính của bạn để mở khoá.</value>
   </data>
   <data name="Dark" xml:space="preserve">
     <value>Tối</value>
@@ -1647,7 +1647,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Đã cấp</value>
   </data>
   <data name="FileFormat" xml:space="preserve">
-    <value>Định dạng tệp tin</value>
+    <value>Định dạng tập tin</value>
   </data>
   <data name="ExportVaultMasterPasswordDescription" xml:space="preserve">
     <value>Nhập mật khẩu chính để xuất kho của bạn.</value>
@@ -1662,7 +1662,7 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Xác minh danh tính để tiếp tục.</value>
   </data>
   <data name="ExportVaultWarning" xml:space="preserve">
-    <value>Tệp trích xuất này chứa dữ liệu kho của bạn dưới một định dạng không được mã hóa. Bạn không nên lưu trữ hay gửi tệp này thông qua phương thức không an toàn (như email). Xóa nó ngay lập tức khi bạn đã dùng xong.</value>
+    <value>Tập tin xuất này chứa dữ liệu kho của bạn dưới một định dạng không được mã hóa. Bạn không nên lưu trữ hay gửi tập tin này thông qua phương thức không an toàn (như email). Xóa nó ngay lập tức khi bạn đã dùng xong.</value>
   </data>
   <data name="EncExportKeyWarning" xml:space="preserve">
     <value>Quá trình xuất này mã hóa dữ liệu của bạn bằng khóa mã hóa của tài khoản. Nếu bạn đã từng thay đổi khóa mã hóa của tài khoản, bạn cần xuất lại vì bạn sẽ không thể giải mã tệp xuất này.</value>
@@ -1903,10 +1903,10 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Tập tin bạn muốn gửi.</value>
   </data>
   <data name="FileTypeIsSelected" xml:space="preserve">
-    <value>Loại tệp được chọn.</value>
+    <value>Loại tập tin được chọn.</value>
   </data>
   <data name="FileTypeIsNotSelected" xml:space="preserve">
-    <value>Loại tệp chưa được chọn, nhấn để chọn.</value>
+    <value>Loại tập tin chưa được chọn, nhấn để chọn.</value>
   </data>
   <data name="TextTypeIsSelected" xml:space="preserve">
     <value>Loại văn bản được chọn.</value>
@@ -2585,16 +2585,16 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Kiểm tra mật khẩu có lộ trong các vụ rò rỉ dữ liệu hay không</value>
   </data>
   <data name="ExposedMasterPassword" xml:space="preserve">
-    <value>Mật khẩu chính Bị Lộ</value>
+    <value>Mật khẩu chính bị lộ</value>
   </data>
   <data name="PasswordFoundInADataBreachAlertDescription" xml:space="preserve">
-    <value>Mật khẩu này đã bị rò rỉ trong một vụ tấn công dữ liệu. Bạn có chắc muốn sử dụng mật khẩu đã bị rò rỉ?</value>
+    <value>Mật khẩu này đã bị rò rỉ trong một vụ tấn công dữ liệu. Dùng mật khẩu duy nhất để bảo vệ tài khoản bạn. Bạn có chắc muốn sử dụng mật khẩu đã bị rò rỉ?</value>
   </data>
   <data name="WeakAndExposedMasterPassword" xml:space="preserve">
-    <value>Mật khẩu chính Yếu và Bị Lộ</value>
+    <value>Mật khẩu chính yếu và bị lộ</value>
   </data>
   <data name="WeakPasswordIdentifiedAndFoundInADataBreachAlertDescription" xml:space="preserve">
-    <value>Mật khẩu này yếu và đã bị rò rỉ trong một vụ tấn công dữ liệu. Bạn có chắc muốn sử dụng mật khẩu này?</value>
+    <value>Mật khẩu yếu này đã bị rò rỉ trong một vụ tấn công dữ liệu. Dùng mật khẩu mới và an toàn để bảo vệ tài khoản bạn. Bạn có chắc muốn sử dụng mật khẩu đã bị rò rỉ?</value>
   </data>
   <data name="OrganizationSsoIdentifierRequired" xml:space="preserve">
     <value>Cần có mã định danh SSO của tổ chức.</value>
@@ -2821,14 +2821,14 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Tùy chọn bổ sung</value>
   </data>
   <data name="ContinueToWebApp" xml:space="preserve">
-    <value>Xem trong web?</value>
+    <value>Tiếp tục tới ứng dụng web?</value>
   </data>
   <data name="ContinueToX" xml:space="preserve">
     <value>Đi đến {0}?</value>
     <comment>The parameter is an URL, like bitwarden.com.</comment>
   </data>
   <data name="ContinueToHelpCenter" xml:space="preserve">
-    <value>Đi đến Trung tâm trợ giúp?</value>
+    <value>Tiếp tục tới Trung tâm trợ giúp?</value>
   </data>
   <data name="ContinueToContactSupport" xml:space="preserve">
     <value>Vẫn liên hệ hỗ trợ?</value>
@@ -2837,7 +2837,7 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Đồng ý với chính sách bảo mật?</value>
   </data>
   <data name="ContinueToAppStore" xml:space="preserve">
-    <value>Vẫn tiếp tục đến cửa hàng ứng dụng?</value>
+    <value>Tiếp tục tới cửa hàng ứng dụng?</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
     <value>Tiếp tục tới Cài đặt thiết bị?</value>

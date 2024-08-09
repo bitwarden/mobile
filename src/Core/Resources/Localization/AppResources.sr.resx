@@ -2980,7 +2980,7 @@
     <value>Приступни кључеви нису подржани за ову апликацију</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Passkey operation failed because browser is not privileged</value>
+    <value>Операција лозинке није успела јер прегледач није привилегован</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
     <value>Операција лозинке није успела јер се потпис прегледача не подудара</value>
