@@ -2893,10 +2893,10 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Configurez une méthode de déverrouillage pour modifier l'action après délai d'expiration de votre coffre.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
-    <value>Choose a login to save this passkey to</value>
+    <value>Choisissez un identifiant vers lequel enregistrer cette clé d'accès</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Save passkey as new login</value>
+    <value>Enregistrer la clé d'accès comme nouvel identifiant</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
     <value>Enregistrer la clé d'accès</value>
@@ -2943,7 +2943,7 @@ Voulez-vous basculer vers ce compte ?</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
-    <value>Verifying identity...</value>
+    <value>Vérification de l'identité...</value>
   </data>
   <data name="Passwords" xml:space="preserve">
     <value>Mots de passe</value>
@@ -2982,7 +2982,7 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Passkey operation failed because browser is not privileged</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
-    <value>Passkey operation failed because browser signature does not match</value>
+    <value>L'opération de la clé d'accès a échoué car la signature du navigateur ne correspond pas</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
     <value>Passkey operation failed because of missing asset links</value>
@@ -2991,6 +2991,6 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Passkey operation failed because app not found in asset links</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>Passkey operation failed because app could not be verified</value>
+    <value>L'opération de la clé d'accès a échoué car l'application n'a pas pu être vérifiée</value>
   </data>
 </root>

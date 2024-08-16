@@ -2964,7 +2964,7 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>1. Vào Cài đặt Thiết bị &gt; Mật khẩu &gt; Tùy chọn mật khẩu</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>4. Bật Tự động điền mật khẩu</value>
+    <value>2. Bật Tự động điền mật khẩu</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
     <value>3. Chọn "Bitwarden" để dùng cho mật khẩu và mã khoá</value>
