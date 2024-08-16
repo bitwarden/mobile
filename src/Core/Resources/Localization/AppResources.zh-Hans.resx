@@ -1269,7 +1269,7 @@
     <comment>An entity of multiple related people (ex. a team or business organization).</comment>
   </data>
   <data name="HoldYubikeyNearTop" xml:space="preserve">
-    <value>把你的 Yubikey 靠近设备的顶部。</value>
+    <value>把你的 YubiKey 靠近设备的顶部。</value>
   </data>
   <data name="TryAgain" xml:space="preserve">
     <value>请重试</value>
