@@ -2978,10 +2978,10 @@ Wilt u naar dit account wisselen?</value>
     <value>Passkeys zijn niet ondersteund voor deze app</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Passkey operation failed because browser is not privileged</value>
+    <value>Passkey-bewerking mislukt omdat de browser niet gemachtigd is</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
-    <value>Passkey operation failed because browser signature does not match</value>
+    <value>Passkey-bewerking mislukt omdat de browserhandtekening niet overeenkomt</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
     <value>Passkey-bewerking mislukt omdat de asset links ontbreken</value>
@@ -2990,6 +2990,6 @@ Wilt u naar dit account wisselen?</value>
     <value>Passkey-bewerking mislukt omdat de app niet is gevonden in asset links</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>Passkey operation failed because app could not be verified</value>
+    <value>Passkey-bewerking mislukt omdat de app niet geverifieerd kon worden</value>
   </data>
 </root>
