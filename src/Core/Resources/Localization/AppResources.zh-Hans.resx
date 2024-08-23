@@ -2402,7 +2402,7 @@
     <value>随机单词</value>
   </data>
   <data name="EmailRequiredParenthesis" xml:space="preserve">
-    <value>电子邮件地址（必填）</value>
+    <value>电子邮箱（必填）</value>
   </data>
   <data name="DomainNameRequiredParenthesis" xml:space="preserve">
     <value>域名（必填）</value>

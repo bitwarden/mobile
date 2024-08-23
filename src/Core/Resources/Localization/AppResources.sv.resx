@@ -2927,7 +2927,7 @@ Vill du byta till detta konto?</value>
     <value>Verifiering krävs av {0}</value>
   </data>
   <data name="VerificationRequiredForThisActionSetUpAnUnlockMethodInBitwardenToContinue" xml:space="preserve">
-    <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
+    <value>Verifiering krävs för denna åtgärd. Ställ in en upplåsningsmetod i Bitwarden för att fortsätta.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
     <value>Fel vid skapande av lösennyckel</value>
@@ -2936,11 +2936,11 @@ Vill du byta till detta konto?</value>
     <value>Fel vid läsning av lösennyckel</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem creating a passkey for {0}. Try again later.</value>
+    <value>Det gick inte att skapa en lösennyckel för {0}. Försök igen senare.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem reading your passkey for {0}. Try again later.</value>
+    <value>Det gick inte att läsa lösennyckeln för {0}. Försök igen senare.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
