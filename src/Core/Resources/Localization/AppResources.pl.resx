@@ -2984,10 +2984,10 @@ Czy chcesz przełączyć się na to konto?</value>
     <value>Operacja z Passkey nie powiodła się, ponieważ podpis przeglądarki się nie zgadza</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because of missing asset links</value>
+    <value>Operacja klucza dostępu nie powiodła się z powodu brakujących połączeń zasobów</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppNotFoundInAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because app not found in asset links</value>
+    <value>Operacja klucza dostępu nie powiodła się, ponieważ aplikacja nie została znaleziona w linkach zasobów</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
     <value>Operacja z Passkey nie powiodła się, ponieważ aplikacja nie mogła zostać zweryfikowana</value>

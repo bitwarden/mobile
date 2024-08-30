@@ -425,7 +425,7 @@
     <value>Nastavte Bitwarden ako poskytovateľa prístupových kľúčov v nastaveniach zariadenia.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
-    <value>Vyhnúť sa dvojvýznamovým znakom</value>
+    <value>Vyhnúť sa zameniteľným znakom</value>
   </data>
   <data name="BitwardenAppExtension" xml:space="preserve">
     <value>Bitwarden rozšírenie aplikácie</value>
@@ -604,7 +604,7 @@
     <value>Nová položka vytvorená.</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>Vo vašom trezore nie sú žiadné obľúbené.</value>
+    <value>Vo vašom trezore nie sú žiadne obľúbené položky.</value>
   </data>
   <data name="NoItems" xml:space="preserve">
     <value>V trezore sa nenachádzajú žiadne položky.</value>
@@ -651,7 +651,7 @@
     <value>Ohodnotiť aplikáciu</value>
   </data>
   <data name="RateTheAppDescription" xml:space="preserve">
-    <value>Prosíme, zvážte pomôcť nám dobrým hodnotením!</value>
+    <value>Prosíme, zvážte napísanie pozitívnej recenzie!</value>
   </data>
   <data name="RegeneratePassword" xml:space="preserve">
     <value>Vygenerovať nové heslo</value>
@@ -1635,7 +1635,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Povolenie</value>
   </data>
   <data name="BitwardenAutofillServiceOpenOverlayPermissionSettings" xml:space="preserve">
-    <value>Otvoriť nastavenie zoibrazenia v iných aplikáciách</value>
+    <value>Otvoriť nastavenie zobrazenia v iných aplikáciách</value>
   </data>
   <data name="BitwardenAutofillServiceStep3" xml:space="preserve">
     <value>3. V nastaveniach Bitwarden v Android nastaveniach aplikácii vyberte "Zobraziť v iných aplikáciach" (nájdete v rozšírených nastaveniach) a zapnite prepínač aby ste povolili zobrazenie v iných aplikáciach.</value>

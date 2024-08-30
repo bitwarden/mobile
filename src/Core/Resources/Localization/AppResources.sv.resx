@@ -193,7 +193,7 @@
     <value>Mejla oss</value>
   </data>
   <data name="EmailUsDescription" xml:space="preserve">
-    <value>Mejla oss direkt för att få hjälp eller för att lämna återkoppling.</value>
+    <value>Mejla oss direkt för att få hjälp eller lämna feedback.</value>
   </data>
   <data name="EnterPIN" xml:space="preserve">
     <value>Ange din PIN-kod.</value>
@@ -2773,7 +2773,7 @@ Vill du byta till detta konto?</value>
     <value>Bitwarden Hjälpcenter</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
-    <value>Kontakta Bitwarden support</value>
+    <value>Kontakta Bitwarden-support</value>
   </data>
   <data name="CopyAppInformation" xml:space="preserve">
     <value>Kopiera appinformation</value>
@@ -2782,7 +2782,7 @@ Vill du byta till detta konto?</value>
     <value>Synkronisera nu</value>
   </data>
   <data name="UnlockOptions" xml:space="preserve">
-    <value>Upplåsning</value>
+    <value>Upplåsningsalternativ</value>
   </data>
   <data name="SessionTimeout" xml:space="preserve">
     <value>Tidsgräns för session</value>
@@ -2835,7 +2835,7 @@ Vill du byta till detta konto?</value>
     <value>Fortsätt att kontakta supporten?</value>
   </data>
   <data name="ContinueToPrivacyPolicy" xml:space="preserve">
-    <value>Fortsätt till integritetspolicy?</value>
+    <value>Fortsätt till Integritetspolicy?</value>
   </data>
   <data name="ContinueToAppStore" xml:space="preserve">
     <value>Fortsätt till appbutiken?</value>
