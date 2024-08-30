@@ -209,7 +209,7 @@
     <value>Tạo một vấn đề tại trang GitHub của chúng tôi.</value>
   </data>
   <data name="FingerprintDirection" xml:space="preserve">
-    <value>Sử dụng dấu vân tay của bạn để tiếp tục.</value>
+    <value>Dùng vân tay của bạn để xác minh.</value>
   </data>
   <data name="Folder" xml:space="preserve">
     <value>Thư mục</value>
@@ -556,7 +556,7 @@
     <value>Khi hết thời gian mở kho</value>
   </data>
   <data name="VaultTimeoutLogOutConfirmation" xml:space="preserve">
-    <value>Tuỳ chọn đăng xuất sẽ đăng xuất khỏi kho sau khi hết thời gian mở kho và bạn sẽ cần đăng nhập lại để tiếp tục sử dụng. Bạn có chắc muốn sử dụng tuỳ chọn này không?</value>
+    <value>Đăng xuất sẽ xóa tất cả quyền truy cập vào kho của bạn và yêu cầu xác minh trực tuyến sau khi hết thời gian chờ. Bạn có chắc chắn muốn sử dụng cài đặt này không?</value>
   </data>
   <data name="LoggingIn" xml:space="preserve">
     <value>Đang đăng nhập...</value>
@@ -1460,11 +1460,11 @@ Quá trình quét sẽ diễn ra tự động.</value>
     <value>Không có thư mục nào.</value>
   </data>
   <data name="FingerprintPhrase" xml:space="preserve">
-    <value>Cụm từ mật khẩu</value>
+    <value>Cụm vân tay</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="YourAccountsFingerprint" xml:space="preserve">
-    <value>Cụm từ mật khẩu của tài khoản của bạn</value>
+    <value>Cụm vân tay của tài khoản của bạn</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="LearnOrgConfirmation" xml:space="preserve">
@@ -2516,7 +2516,7 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Một thông báo đã được gửi đến thiết bị của bạn.</value>
   </data>
   <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
-    <value>Vui lòng đảm bảo rằng bạn đã mở khoá kho và cụm từ mật khẩu khớp trên thiết bị khác.</value>
+    <value>Vui lòng đảm bảo rằng bạn đã mở khoá kho và cụm vân tay khớp trên thiết bị khác.</value>
   </data>
   <data name="ResendNotification" xml:space="preserve">
     <value>Gửi lại thông báo</value>
@@ -2790,7 +2790,7 @@ Bạn có muốn chuyển sang tài khoản này không?</value>
     <value>Hành động sau khi hết phiên</value>
   </data>
   <data name="AccountFingerprintPhrase" xml:space="preserve">
-    <value>Cụm từ mật khẩu tài khoản</value>
+    <value>Cụm vân tay tài khoản</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="OneHourAndOneMinute" xml:space="preserve">

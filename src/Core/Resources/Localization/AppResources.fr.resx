@@ -1195,7 +1195,7 @@ La numérisation se fera automatiquement.</value>
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>We were unable to automatically open the Android credential provider settings menu for you. You can navigate to the credential provider settings menu manually from Android Settings &gt; System &gt; Passwords &amp; accounts &gt; Passwords, passkeys and data services.</value>
+    <value>Nous n'avons pas pu ouvrir automatiquement le menu des paramètres du fournisseur d'identités d'Android pour vous. Vous pouvez naviguer manuellement vers ce menu depuis les paramètres Android &gt; Système &gt; Mots de passe et comptes &gt; Mots de passe, clés d'accès et services de données.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Nous n'avons pas pu ouvrir automatiquement le menu des paramètres de saisie automatique d'Android. Vous pouvez manuellement naviguer vers le menu des paramètres de saisie automatique à partir des paramètres Android &gt; Système &gt; Langues et saisie &gt; Paramètres avancés &gt; Service de saisie automatique.</value>
@@ -2840,7 +2840,7 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Continuer vers la boutique des applications ?</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
-    <value>Continue to device Settings?</value>
+    <value>Continuer vers les paramètres de l'appareil ?</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
     <value>Rendez votre compte plus sécurisé en configurant l'authentification à deux facteurs dans l'application web Bitwarden.</value>
@@ -2911,7 +2911,7 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Écraser la clé d'accès ?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
-    <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
+    <value>Cet élément contient déjà une clé d'accès. Êtes-vous sûr de vouloir écraser la clé d'accès actuelle ?</value>
   </data>
   <data name="DuoTwoStepLoginIsRequiredForYourAccount" xml:space="preserve">
     <value>L'authentification à deux facteurs Duo est requise pour votre compte. </value>
@@ -2923,10 +2923,10 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Lancer Duo</value>
   </data>
   <data name="VerificationRequiredByX" xml:space="preserve">
-    <value>Verification required by {0}</value>
+    <value>Vérification requise par {0}</value>
   </data>
   <data name="VerificationRequiredForThisActionSetUpAnUnlockMethodInBitwardenToContinue" xml:space="preserve">
-    <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
+    <value>Vérification requise pour cette action. Configurez une méthode de déverrouillage dans Bitwarden pour continuer.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
     <value>Erreur de création de la clé d'accès</value>
@@ -2961,7 +2961,7 @@ Voulez-vous basculer vers ce compte ?</value>
     <value>Pour configurer la saisie automatique du mot de passe et la gestion des clés d'accès, définissez Bitwarden comme votre fournisseur préféré dans les paramètres iOS.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
-    <value>1. Go to your device's Settings &gt; Passwords &gt; Password Options</value>
+    <value>1. Allez dans les paramètres de votre appareil &gt; Mots de passe &gt; Options des mots de passe</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
     <value>2. Activer la saisie automatique</value>

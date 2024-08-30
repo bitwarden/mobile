@@ -2750,7 +2750,7 @@
     <value>登录已批准</value>
   </data>
   <data name="LogInWithDeviceMustBeSetUpInTheSettingsOfTheBitwardenAppNeedAnotherOption" xml:space="preserve">
-    <value>设备登录必须在 Bitwarden 应用程序的设置中启用。需要其他登录选项吗？</value>
+    <value>必须在 Bitwarden App 的设置中启用设备登录。需要其他登录选项吗？</value>
   </data>
   <data name="LogInWithDevice" xml:space="preserve">
     <value>使用设备登录</value>
