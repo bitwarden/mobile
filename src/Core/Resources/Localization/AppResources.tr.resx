@@ -1195,7 +1195,7 @@ Kod otomatik olarak taranacaktır.</value>
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>Sizin için Android bilgi sağlayıcı ayarları menüsünü otomatik olarak açamadık. Kendiniz bilgi sağlayıcı ayarları menüsünü Android Ayarları &gt; Sistem &gt; Parolalar &amp; hesaplar &gt; parolalar, anahtarlar ve veri servisleri seçeneğine gidebilirsiniz.</value>
+    <value>Android bilgi sağlayıcı ayarları menüsünü otomatik olarak açamadık. Bilgi sağlayıcı ayarları menüsüne kendiniz gitmek için Android Ayarları &gt; Sistem &gt; Parolalar ve hesaplar &gt; Parolalar, geçiş anahtarları ve veri servisleri yolunu izleyebilirsiniz.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Android otomatik doldurma ayarları menüsünü otomatik olarak açamadık. Lütfen şu yolu izleyerek otomatik doldurma ayarları menüsüne gidin: Android ayarları &gt; Sistem&gt; Dil ve giriş &gt; Gelişmiş &gt; Otomatik doldurma hizmeti.</value>
@@ -2977,10 +2977,10 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>Bu uygulamada geçiş anahtarları desteklenmiyor</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Geçiş anahtarı eylemi başarısız oldu çünkü tarayıcı ayrıcalıklı değil</value>
+    <value>Tarayıcı izinli olmadığı için geçiş anahtarı işlemi başarısız oldu</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
-    <value>Geçiş anahtarı eylemi başarısız oldu çünkü tarayıcı imzası uyumsuz</value>
+    <value>Tarayıcı imzası eşleşmediği için geçiş anahtarı işlemi başarısız oldu</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
     <value>Geçiş anahtarı eylemi başarısız oldu çünkü varlık bağlantıları eksik</value>

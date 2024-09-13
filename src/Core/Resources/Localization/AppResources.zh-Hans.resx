@@ -563,7 +563,7 @@
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="LoginOrCreateNewAccount" xml:space="preserve">
-    <value>登录或者新建一个账户来访问您的安全密码库。</value>
+    <value>登录或创建一个新账户以访问您的安全密码库。</value>
   </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>

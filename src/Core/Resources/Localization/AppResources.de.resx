@@ -1292,7 +1292,7 @@ Das Scannen erfolgt automatisch.</value>
     <value>Auto-Ausfüllen aktiviert!</value>
   </data>
   <data name="MustLogInMainAppAutofill" xml:space="preserve">
-    <value>Du musst dich in der Bitwarden App anmelden, bevor du AutoFill nutzen kannst.</value>
+    <value>Du musst dich in der Bitwarden App anmelden, bevor du Auto-Ausfüllen nutzen kannst.</value>
   </data>
   <data name="AutofillSetup" xml:space="preserve">
     <value>Du kannst nun direkt von der Tastatur auf deine Zugangsdaten zugreifen, wenn du dich auf Webseiten oder in Apps anmeldest.</value>
