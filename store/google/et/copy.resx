@@ -126,31 +126,31 @@
     <comment>Max 80 characters</comment>
   </data>
   <data name="FullDesciption" xml:space="preserve">
-    <value>Bitwarden, Inc. is the parent company of 8bit Solutions LLC.
+    <value>Bitwarden, Inc. on 8bit Solutions LLC emafirma.
 
-NAMED BEST PASSWORD MANAGER BY THE VERGE, U.S. NEWS &amp; WORLD REPORT, CNET, AND MORE.
+TUNNUSTATUD KUI PARIM PAROOLIHALDUR FIRMADE THE VERGE, U.S. NEWS &amp; WORLD REPORT, CNET JA TEISTE POOLT.
 
-Manage, store, secure, and share unlimited passwords across unlimited devices from anywhere. Bitwarden delivers open source password management solutions to everyone, whether at  home, at work, or on the go.
+Halda, hoiusta, kaitse ja jaga igal pool piiramatult palju paroole mööde lõpmatult palju seadmeid. Bitwarden toob avatud tarkvaraga paroolihalduse kõigile nii kodus, tööl kui ka teel.
 
-Generate strong, unique, and random passwords based on security requirements for every website you frequent.
+Loo turvalisi, ainulaadseid ja suvalisi paroole igale sinu lemmiksaidile.
 
-Bitwarden Send quickly transmits encrypted information --- files and plaintext -- directly to anyone.
+Bitwarden Send transpordib märkamatult krüpteeritud informatsiooni -- failid ja teksti -- ükskõik kellele.
 
-Bitwarden offers Teams and Enterprise plans for companies so you can securely share passwords with colleagues.
+Bitwarden pakub Teams ja Enterprise plaane kõigile ettevõtetele, nii saad sa jagada enda paroole turvaliselt kolleegidega.
 
-Why Choose Bitwarden:
+Miks Valida Bitwarden:
 
-World-Class Encryption
-Passwords are protected with advanced end-to-end encryption (AES-256 bit, salted hashtag, and PBKDF2 SHA-256) so your data stays secure and private.
+Maailmatasemel Krüpteering
+Paroolid on kaitstud tipptehnoloogilise täieliku krüpteerimisega (AES-256 bit, salted hashtag ja PBKDF2 SHA-256), nii et sinu andmed püsivad privaatsete ja turvalistena.
 
-Built-in Password Generator
-Generate strong, unique, and random passwords based on security requirements for every website you frequent.
+Sisse Ehitatud Automaatne Paroolide Genereerimine
+Loo tugevad, ainulaadsed ja juhuslikud paroolid igale sinu veebisaidile.
 
-Global Translations
-Bitwarden translations exist in 40 languages and are growing, thanks to our global community.
+Paljudes Keeltes
+Bitwardenit on tõlgitud juba 40 erinevasse keelde ja see arv kasvab, tänu meie globaalsele kogukonnale.
 
-Cross-Platform Applications
-Secure and share sensitive data within your Bitwarden Vault from any browser, mobile device, or desktop OS, and more.
+Kõigis Sinu Seadmetes
+Kaitse ja jaga oma tundliku informatsiooni Bitwardeni Hoidlas nii brauserist, telefonist, arvutist kui ka mujaltki.
 </value>
   <comment>Max 4000 characters</comment>
   </data>

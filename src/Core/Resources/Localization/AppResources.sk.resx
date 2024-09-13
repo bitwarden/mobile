@@ -1289,7 +1289,7 @@ Skenovanie prebehne automaticky.</value>
     <comment>ex. Date this item was updated</comment>
   </data>
   <data name="AutofillActivated" xml:space="preserve">
-    <value>Automatické dopĺňanie aktivované!</value>
+    <value>Automatické vypĺňanie aktivované!</value>
   </data>
   <data name="MustLogInMainAppAutofill" xml:space="preserve">
     <value>Pred použitím automatického vypĺňania sa najskôr musíte prihlásiť v hlavnej bitwarden aplikácií.</value>
@@ -1592,7 +1592,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Po reštarte aplikácie</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>Automatické dopĺňanie umožňuje jednoducho pristupovať k vašemu trezoru z iných stránok a plaikácii. Vyzerá že ste službu automatického dopĺňania pomocou Bitwarden nezapli. Zapnúť ju môžete na obrazove "Nastavenia".</value>
+    <value>Automatické vypĺňanie umožňuje jednoducho pristupovať k vášmu trezoru z iných stránok a aplikácií. Zdá sa, že ste službu automatického vypĺňania pomocou Bitwardenu nezapli. Zapnúť ju môžete na obrazovke "Nastavenia".</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
     <value>Zmena nastavení vzhľadu sa prejaví po opätovnom štarte aplikácie.</value>
@@ -1701,7 +1701,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Príloha úspešne uložená</value>
   </data>
   <data name="AutofillTileAccessibilityRequired" xml:space="preserve">
-    <value>Zapnite službu dostupnosti pre automatické vypĺňanie v nastaveniach Bitwardenu aby ste mohli používať dlaždicu pre automatické dopĺňanie.</value>
+    <value>Zapnite službu dostupnosti pre automatické vypĺňanie v nastaveniach Bitwardenu, aby ste mohli používať dlaždicu pre automatické vypĺňanie.</value>
   </data>
   <data name="AutofillTileUriNotFound" xml:space="preserve">
     <value>Nenájdené žiadne políčka na heslo</value>
@@ -1831,7 +1831,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Použite vnorené automatické vypĺňanie</value>
   </data>
   <data name="InlineAutofillDescription" xml:space="preserve">
-    <value>Ak to podporuje váš vybratý editor IME (klávesnica), použite vnorené automatické dopĺňanie. Ak to vaša konfigurácia nepodporuje (alebo je táto voľba zakázaná), bude použité predvolené automatické vyplnenie.</value>
+    <value>Ak to podporuje váš vybratý editor IME (klávesnica), použite vnorené automatické vypĺňanie. Ak to vaša konfigurácia nepodporuje (alebo je táto voľba zakázaná), bude použité predvolené automatické vyplnenie.</value>
   </data>
   <data name="Accessibility" xml:space="preserve">
     <value>Použiť dostupnosť</value>
@@ -1846,7 +1846,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Použite službu zjednodušenia prístupu Bitwardenu pre použitie automatického vypĺňania cez dlaždicu a/alebo zobraziť vyskakovacie okno pomocou zobrazenia cez iné aplikácie (ak je povolené).</value>
   </data>
   <data name="AccessibilityDescription4" xml:space="preserve">
-    <value>Vyžaduje sa, aby ste použili dlaždicu rýchlej akcie automatického dopĺňania, alebo aby ste rozšírili službu automatického dopĺňania pomocou funkcie zobrazenia cez iné aplikácie (ak je povolená).</value>
+    <value>Vyžaduje sa, aby ste použili dlaždicu rýchlej akcie automatického vypĺňania, alebo aby ste rozšírili službu automatického vypĺňania pomocou funkcie zobrazenia cez iné aplikácie (ak je povolená).</value>
   </data>
   <data name="DrawOver" xml:space="preserve">
     <value>Použiť zobrazenie cez iné aplikácie</value>
@@ -1858,7 +1858,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Ak je táto možnosť povolená, umožňuje službe zjednodušenia prístupu Bitwardenu zobraziť vyskakovacie okno po klepnutí do prihlasovacieho poľa a pomáha automaticky vyplniť prihlasovacie polia.</value>
   </data>
   <data name="DrawOverDescription3" xml:space="preserve">
-    <value>Ak je táto možnosť povolená, dostupnosť zobrazí vyskakovacie okno na rozšírenie služby automatického dopĺňania pre staršie aplikácie, ktoré nepodporujú Android Autofill Framework pre zjednodušenie vypĺňania prihlasovacích údajov.</value>
+    <value>Ak je táto možnosť povolená, dostupnosť zobrazí vyskakovacie okno na rozšírenie služby automatického vypĺňania pre staršie aplikácie, ktoré nepodporujú Android Autofill Framework na zjednodušenie vypĺňania prihlasovacích údajov.</value>
   </data>
   <data name="PersonalOwnershipSubmitError" xml:space="preserve">
     <value>Z dôvodu podnikovej politiky máte obmedzené ukladanie položiek do osobného trezora. Zmeňte možnosť vlastníctvo na organizáciu a vyberte si z dostupných zbierok.</value>
@@ -2488,7 +2488,7 @@ Pridať TOTP, aby ste kľúč bezpečne uložili</value>
   <data name="LoginAttemptFromXDoYouWantToSwitchToThisAccount" xml:space="preserve">
     <value>Pokus o prihlásenie z:
 {0}
-Chcete prepnúť na toto konto?</value>
+Chcete prepnúť na tento účet?</value>
   </data>
   <data name="NewAroundHere" xml:space="preserve">
     <value>Ste tu nový?</value>
@@ -2842,7 +2842,7 @@ Chcete prepnúť na toto konto?</value>
     <value>Pokračovať do nastavení zariadenia?</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
-    <value>Zabezpečte svoje konto nastavením dvojstupňového prihlasovania vo webovej aplikácii Bitwarden.</value>
+    <value>Zabezpečte svoj účet nastavením dvojstupňového prihlasovania vo webovej aplikácii Bitwarden.</value>
   </data>
   <data name="ChangeMasterPasswordDescriptionLong" xml:space="preserve">
     <value>Hlavné heslo si môžete zmeniť vo webovej aplikácii Bitwarden.</value>
