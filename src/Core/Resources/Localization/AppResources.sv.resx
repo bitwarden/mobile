@@ -1824,7 +1824,7 @@ Skanningen sker automatiskt.</value>
     <value>Bitwarden behöver din uppmärksamhet - Aktivera "Överlappning" under "Tjänster för automatisk ifyllnad" i Bitwardens inställningar</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey hantering</value>
+    <value>Nyckelhantering</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>Tjänster för automatisk ifyllnad</value>
@@ -2085,7 +2085,7 @@ Skanningen sker automatiskt.</value>
     <value>Captcha krävs</value>
   </data>
   <data name="CaptchaFailed" xml:space="preserve">
-    <value>Captcha misslyckades. Vänligen försök igen.</value>
+    <value>Captcha misslyckades. Försök igen.</value>
   </data>
   <data name="UpdatedMasterPassword" xml:space="preserve">
     <value>Huvudlösenord uppdaterades</value>
@@ -2897,10 +2897,10 @@ Vill du byta till detta konto?</value>
     <value>Välj en inloggning för att spara denna lösennyckel till</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Spara passkey som ny inloggning</value>
+    <value>Spara nyckel som ny inloggning</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Spara lösennyckel</value>
+    <value>Spara nyckel</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
     <value>Passkeys för {0}</value>

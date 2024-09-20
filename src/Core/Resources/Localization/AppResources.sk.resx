@@ -182,18 +182,18 @@
     <value>Upraviť priečinok</value>
   </data>
   <data name="Email" xml:space="preserve">
-    <value>Email</value>
+    <value>E-mail</value>
     <comment>Short label for an email address.</comment>
   </data>
   <data name="EmailAddress" xml:space="preserve">
-    <value>Emailová adresa</value>
+    <value>E-mailová adresa</value>
     <comment>Full label for a email address.</comment>
   </data>
   <data name="EmailUs" xml:space="preserve">
     <value>Napíšte nám</value>
   </data>
   <data name="EmailUsDescription" xml:space="preserve">
-    <value>Získajte pomoc alebo zanechajte spätnú väzbu zaslaním emailu.</value>
+    <value>Získajte pomoc alebo zanechajte spätnú väzbu zaslaním e-mailu.</value>
   </data>
   <data name="EnterPIN" xml:space="preserve">
     <value>Zadajte PIN kód.</value>
@@ -443,10 +443,10 @@
     <value>Použite službu zjednodušenia prístupu Bitwardenu pre automatické vypĺňanie prihlasovacích údajov.</value>
   </data>
   <data name="ChangeEmail" xml:space="preserve">
-    <value>Zmeniť email</value>
+    <value>Zmeniť e-mail</value>
   </data>
   <data name="ChangeEmailConfirmation" xml:space="preserve">
-    <value>Svoju emailovú adresu môžete zmeniť na webovom trezore bitwarden.com. Chcete navštíviť túto stránku teraz?</value>
+    <value>Svoju e-mailovú adresu môžete zmeniť na webovom trezore bitwarden.com. Chcete navštíviť túto stránku teraz?</value>
   </data>
   <data name="ChangeMasterPassword" xml:space="preserve">
     <value>Zmeniť hlavné heslo</value>
@@ -471,7 +471,7 @@
     <value>Zapnúť automatickú synchronizáciu</value>
   </data>
   <data name="EnterEmailForHint" xml:space="preserve">
-    <value>Zadajte emailovú adresu na zaslanie nápovedy pre vaše hlavné heslo.</value>
+    <value>Zadajte e-mailovú adresu na zaslanie nápovede k vášmu hlavnému heslu.</value>
   </data>
   <data name="ExntesionReenable" xml:space="preserve">
     <value>Znovu zapnúť rozšírenie aplikácie</value>
@@ -483,7 +483,7 @@
     <value>Zapnúť rozšírenie aplikácie</value>
   </data>
   <data name="ExtensionInSafari" xml:space="preserve">
-    <value>V Safari nájdete bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku menu).</value>
+    <value>V Safari nájdete Bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku ponuky).</value>
     <comment>Safari is the name of apple's web browser</comment>
   </data>
   <data name="ExtensionInstantAccess" xml:space="preserve">
@@ -496,7 +496,7 @@
     <value>Vaše prihlasovacie údaje sú teraz ľahko prístupné zo Safari, Chrome a ďalších podporovaných aplikácií.</value>
   </data>
   <data name="ExtensionSetup2" xml:space="preserve">
-    <value>V Safari a Chrome nájdete bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku menu).</value>
+    <value>V Safari a Chrome nájdete Bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku ponuky).</value>
   </data>
   <data name="ExtensionTapIcon" xml:space="preserve">
     <value>Klepnite na ikonu bitwarden v menu na spustenie rozšírenia.</value>
@@ -514,7 +514,7 @@
     <value>Generovať heslo</value>
   </data>
   <data name="GetPasswordHint" xml:space="preserve">
-    <value>Získať nápovedu pre hlavné heslo</value>
+    <value>Získať nápoveď k hlavnému heslu</value>
   </data>
   <data name="ImportItems" xml:space="preserve">
     <value>Importovať položky</value>
@@ -575,10 +575,10 @@
     <value>Hlavné heslo je heslo, ktoré použijete na prístup k svojmu trezoru. Je veľmi dôležité, aby ste svoje hlavné heslo nezabudli. Neexistuje možnosť, ako heslo obnoviť v prípade, že ho zabudnete.</value>
   </data>
   <data name="MasterPasswordHint" xml:space="preserve">
-    <value>Nápoveda k hlavnému heslo (voliteľné)</value>
+    <value>Nápoveď pre hlavné heslo (voliteľné)</value>
   </data>
   <data name="MasterPasswordHintDescription" xml:space="preserve">
-    <value>Nápoveda k hlavnému heslu vám môže pomôcť spomenúť si na heslo, ak ho zabudnete.</value>
+    <value>Nápoveď k hlavnému heslu vám môže pomôcť spomenúť si na heslo, ak ho zabudnete.</value>
   </data>
   <data name="MasterPasswordLengthValMessageX" xml:space="preserve">
     <value>Hlavné heslo musí obsahovať aspoň {0} znakov.</value>
@@ -635,10 +635,10 @@
     <value>Generátor hesla</value>
   </data>
   <data name="PasswordHint" xml:space="preserve">
-    <value>Nápoveda pre heslo</value>
+    <value>Nápoveď k heslu</value>
   </data>
   <data name="PasswordHintAlert" xml:space="preserve">
-    <value>Poslali sme vám email s nápovedou k hlavnému heslu.</value>
+    <value>Poslali sme vám e-mail s nápoveďou k hlavnému heslu.</value>
   </data>
   <data name="PasswordOverrideAlert" xml:space="preserve">
     <value>Naozaj chcete prepísať aktuálne heslo?</value>
@@ -817,7 +817,7 @@
     <comment>For 2FA</comment>
   </data>
   <data name="EnterVerificationCodeEmail" xml:space="preserve">
-    <value>Zadajte 6-miestny verifikačný kód, ktorý bol zaslaný emailom na {0}.</value>
+    <value>Zadajte 6-miestny verifikačný kód, ktorý bol zaslaný e-mailom na {0}.</value>
     <comment>For 2FA</comment>
   </data>
   <data name="LoginUnavailable" xml:space="preserve">
@@ -836,7 +836,7 @@
     <comment>Remember my two-step login</comment>
   </data>
   <data name="SendVerificationCodeAgain" xml:space="preserve">
-    <value>Znovu zaslať overovací kód emailom</value>
+    <value>Znovu zaslať overovací kód e-mailom</value>
     <comment>For 2FA</comment>
   </data>
   <data name="TwoStepLoginOptions" xml:space="preserve">
@@ -846,11 +846,11 @@
     <value>Použiť inú dvojstupňovú metódu prihlásenia</value>
   </data>
   <data name="VerificationEmailNotSent" xml:space="preserve">
-    <value>Nepodarilo sa odoslať overovací email. Skúste znova.</value>
+    <value>Nepodarilo sa odoslať overovací e-mail. Skúste znova.</value>
     <comment>For 2FA</comment>
   </data>
   <data name="VerificationEmailSent" xml:space="preserve">
-    <value>Overovací email bol odoslaný.</value>
+    <value>Overovací e-mail bol odoslaný.</value>
     <comment>For 2FA</comment>
   </data>
   <data name="YubiKeyInstruction" xml:space="preserve">
@@ -1328,7 +1328,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do trezora, je z Bitwarden rozšírenia pre automatické vypĺňanie. Ďalšie informácie o používaní rozšírenia pre automatické dopĺňanie získate prechodom na obrazovku Nastavení.</value>
   </data>
   <data name="InvalidEmail" xml:space="preserve">
-    <value>Neplatná emailová adresa.</value>
+    <value>Neplatná e-mailová adresa.</value>
   </data>
   <data name="Cards" xml:space="preserve">
     <value>Karty</value>
@@ -1662,7 +1662,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Ak chcete pokračovať, potvrďte svoju identitu.</value>
   </data>
   <data name="ExportVaultWarning" xml:space="preserve">
-    <value>Tento export obsahuje vaše dáta v nešifrovanom formáte. Nemali by ste ich ukladať, ani posielať cez nezabezpečené kanály (napr. email). Okamžite ho odstráňte, keď ho prestanete používať.</value>
+    <value>Tento export obsahuje vaše dáta v nešifrovanom formáte. Nemali by ste ich ukladať, ani posielať cez nezabezpečené kanály (napr. e-mail). Okamžite ho odstráňte, keď ho prestanete používať.</value>
   </data>
   <data name="EncExportKeyWarning" xml:space="preserve">
     <value>Tento export zašifruje vaše údaje pomocou šifrovacieho kľúča vášho účtu. Ak niekedy budete rotovať šifrovací kľúč svojho účtu, mali by ste exportovať znova, pretože nebudete môcť dešifrovať tento exportovaný súbor.</value>
@@ -2056,7 +2056,7 @@ Skenovanie prebehne automaticky.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="HideEmail" xml:space="preserve">
-    <value>Skryť moju emailovú adresu pred príjemcami</value>
+    <value>Skryť moju e-mailovú adresu pred príjemcami</value>
   </data>
   <data name="SendOptionsPolicyInEffect" xml:space="preserve">
     <value>Jedno alebo viac pravidiel organizácie ovplyvňujú vaše možnosti funkcie Send.</value>
@@ -2434,7 +2434,7 @@ Pridať TOTP, aby ste kľúč bezpečne uložili</value>
     <comment>"Fastmail" is the product name and should not be translated.</comment>
   </data>
   <data name="ForwardEmail" xml:space="preserve">
-    <value>ForwardEmail</value>
+    <value>ForwardE-mail</value>
     <comment>"ForwardEmail" is the product name and should not be translated.</comment>
   </data>
   <data name="APIAccessToken" xml:space="preserve">
@@ -2494,7 +2494,7 @@ Chcete prepnúť na tento účet?</value>
     <value>Ste tu nový?</value>
   </data>
   <data name="GetMasterPasswordwordHint" xml:space="preserve">
-    <value>Získať nápoveď pre hlavné heslo</value>
+    <value>Získať nápoveď k hlavnému heslu</value>
   </data>
   <data name="LoggingInAsXOnY" xml:space="preserve">
     <value>Prihlasujete sa ako {0} na {1}</value>
