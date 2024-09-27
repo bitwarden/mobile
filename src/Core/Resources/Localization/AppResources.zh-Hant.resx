@@ -910,7 +910,7 @@
     <value>複製 TOTP</value>
   </data>
   <data name="CopyTotpAutomaticallyDescription" xml:space="preserve">
-    <value>若登入資料已包含驗證器金鑰，在自動填入此登入資料時，TOTP 驗證碼將複製至您的剪貼簿。</value>
+    <value>若登入資訊已包含驗證器金鑰，在自動填入此登入資訊時，TOTP 驗證碼將複製至您的剪貼簿。</value>
   </data>
   <data name="CopyTotpAutomatically" xml:space="preserve">
     <value>自動複製 TOTP</value>
@@ -949,7 +949,7 @@
     <value>更新加密金鑰前不能使用此功能。</value>
   </data>
   <data name="EncryptionKeyMigrationRequiredDescriptionLong" xml:space="preserve">
-    <value>需要遷移加密金鑰。請透過網頁版密碼庫登入以更新您的加密金鑰。</value>
+    <value>需要遷移加密金鑰。請透過網頁版登入密碼庫以更新您的加密金鑰。</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>深入了解</value>
@@ -1101,7 +1101,7 @@
     <value>Ms</value>
   </data>
   <data name="Mx" xml:space="preserve">
-    <value>Mx</value>
+    <value>非二元</value>
   </data>
   <data name="November" xml:space="preserve">
     <value>十一月</value>
@@ -2363,7 +2363,7 @@
     <value>批准登入要求</value>
   </data>
   <data name="UseThisDeviceToApproveLoginRequestsMadeFromOtherDevices" xml:space="preserve">
-    <value>使用此裝置批准來自其他裝置的登入要求。</value>
+    <value>使用此裝置批准來自其他裝置的登入要求</value>
   </data>
   <data name="AllowNotifications" xml:space="preserve">
     <value>允許通知</value>
@@ -2509,7 +2509,7 @@
     <value>使用其他裝置登入</value>
   </data>
   <data name="LogInInitiated" xml:space="preserve">
-    <value>登入已發起</value>
+    <value>已啟動登入</value>
   </data>
   <data name="ANotificationHasBeenSentToYourDevice" xml:space="preserve">
     <value>通知已傳送至您的裝置。</value>
@@ -2530,7 +2530,7 @@
     <value>此請求已失效</value>
   </data>
   <data name="PendingLogInRequests" xml:space="preserve">
-    <value>待處理的登入請求。</value>
+    <value>待處理的登入請求</value>
   </data>
   <data name="DeclineAllRequests" xml:space="preserve">
     <value>拒絕所有要求</value>
@@ -2599,7 +2599,7 @@
     <value>需要單一登入 (SSO) 組織識別碼。</value>
   </data>
   <data name="AddTheKeyToAnExistingOrNewItem" xml:space="preserve">
-    <value>將金輪新增到現有或新的項目</value>
+    <value>將金鑰新增到現有或新的項目</value>
   </data>
   <data name="ThereAreNoItemsInYourVaultThatMatchX" xml:space="preserve">
     <value>您的密碼庫中沒有與「{0}」一致的項目</value>
@@ -2608,7 +2608,7 @@
     <value>搜尋項目或新增項目</value>
   </data>
   <data name="ThereAreNoItemsThatMatchTheSearch" xml:space="preserve">
-    <value>您的密碼庫中沒有與搜尋一致的項目</value>
+    <value>您的密碼庫中沒有與搜尋目標一致的項目</value>
   </data>
   <data name="US" xml:space="preserve">
     <value>美國</value>
@@ -2617,7 +2617,7 @@
     <value>歐盟</value>
   </data>
   <data name="SelfHosted" xml:space="preserve">
-    <value>自我裝載</value>
+    <value>自架</value>
   </data>
   <data name="DataRegion" xml:space="preserve">
     <value>資料區域</value>
@@ -2626,7 +2626,7 @@
     <value>區域</value>
   </data>
   <data name="UpdateWeakMasterPasswordWarning" xml:space="preserve">
-    <value>您的主密碼不符合您的組織政策之一或多個要求。您必須立即更新您的主密碼以存取密碼庫。進行此操作將登出您目前的工作階段，需要您重新登入。其他裝置上的工作階段可能繼續長達一小時。</value>
+    <value>您的主密碼不符合您的組織政策之一或多個要求。您必須立即更新您的主密碼以存取密碼庫。進行此操作將登出您目前的工作階段，需要您重新登入。其他裝置上的工作階段可能持續長達一小時。</value>
   </data>
   <data name="CurrentMasterPassword" xml:space="preserve">
     <value>目前主密碼</value>
@@ -2644,7 +2644,7 @@
     <value>使用主密碼核准</value>
   </data>
   <data name="TurnOffUsingPublicDevice" xml:space="preserve">
-    <value>不允許使用公用裝置</value>
+    <value>使用公用裝置來關閉</value>
   </data>
   <data name="RememberThisDevice" xml:space="preserve">
     <value>記住這個裝置</value>
@@ -2665,7 +2665,7 @@
     <value>密碼金鑰不會被複製</value>
   </data>
   <data name="ThePasskeyWillNotBeCopiedToTheClonedItemDoYouWantToContinueCloningThisItem" xml:space="preserve">
-    <value>密碼金鑰不會被複製到克隆的項目。 您想繼續克隆該項目嗎？</value>
+    <value>不會將密碼金鑰複製到拓製的項目中。您想繼續拓製該項目嗎？</value>
   </data>
   <data name="CopyApplication" xml:space="preserve">
     <value>複製應用程式</value>
@@ -2674,13 +2674,13 @@
     <value>可用於兩步驟登入</value>
   </data>
   <data name="MasterPasswordRePromptHelp" xml:space="preserve">
-    <value>重新詢問主密碼幫助</value>
+    <value>主密碼重新詢問說明</value>
   </data>
   <data name="UnlockingMayFailDueToInsufficientMemoryDecreaseYourKDFMemorySettingsToResolve" xml:space="preserve">
     <value>由於記憶體不足，解鎖可能會失敗。請減少您的 KDF 記憶體設定或設定生物特徵識別解鎖來解決此問題。</value>
   </data>
   <data name="InvalidAPIKey" xml:space="preserve">
-    <value>無效的 API 金輪</value>
+    <value>無效的 API 金鑰</value>
   </data>
   <data name="InvalidAPIToken" xml:space="preserve">
     <value>無效的 API 權杖</value>
@@ -2689,7 +2689,7 @@
     <value>已要求管理員核准</value>
   </data>
   <data name="YourRequestHasBeenSentToYourAdmin" xml:space="preserve">
-    <value>您的要求已傳送給您的管理員</value>
+    <value>您的要求已傳送給您的管理員。</value>
   </data>
   <data name="YouWillBeNotifiedOnceApproved" xml:space="preserve">
     <value>核准後將通知您。 </value>
@@ -2707,44 +2707,44 @@
     <value>封鎖表單自動填入功能</value>
   </data>
   <data name="AutoFillWillNotBeOfferedForTheseURIs" xml:space="preserve">
-    <value>不對下列 URI 提供自動填寫功能。</value>
+    <value>不對下列網址提供自動填寫功能。</value>
   </data>
   <data name="NewBlockedURI" xml:space="preserve">
-    <value>新增要封鎖的 URI</value>
+    <value>新增要封鎖的網址</value>
   </data>
   <data name="URISaved" xml:space="preserve">
-    <value>已儲存 URI</value>
+    <value>已儲存網址</value>
   </data>
   <data name="InvalidFormatUseHttpsHttpOrAndroidApp" xml:space="preserve">
     <value>格式無效，請用 https://、http:// 或 androidapp:// 開頭</value>
     <comment>https://, http://, androidapp:// should not be translated</comment>
   </data>
   <data name="EditURI" xml:space="preserve">
-    <value>編輯 URI</value>
+    <value>編輯網址</value>
   </data>
   <data name="EnterURI" xml:space="preserve">
-    <value>輸入 URI</value>
+    <value>輸入網址</value>
   </data>
   <data name="FormatXSeparateMultipleURIsWithAComma" xml:space="preserve">
-    <value>格式：{0}，可用逗號分隔多組 URI。</value>
+    <value>格式：{0}，可用逗號分隔多組網址。</value>
   </data>
   <data name="FormatX" xml:space="preserve">
     <value>格式：{0}</value>
   </data>
   <data name="InvalidURI" xml:space="preserve">
-    <value>URI 無效</value>
+    <value>網址無效</value>
   </data>
   <data name="URIRemoved" xml:space="preserve">
-    <value>已刪除 URI</value>
+    <value>已刪除網址</value>
   </data>
   <data name="ThereAreNoBlockedURIs" xml:space="preserve">
-    <value>沒有封鎖的 URI</value>
+    <value>沒有被封鎖的統一資源標識符（URI）</value>
   </data>
   <data name="TheURIXIsAlreadyBlocked" xml:space="preserve">
-    <value>已經封鎖 URI {0}</value>
+    <value>已經封鎖網址 {0}</value>
   </data>
   <data name="CannotEditMultipleURIsAtOnce" xml:space="preserve">
-    <value>無法一次編輯多組 URI</value>
+    <value>無法一次編輯多組網址</value>
   </data>
   <data name="LoginApproved" xml:space="preserve">
     <value>登入已核准</value>
@@ -2771,7 +2771,7 @@
     <value>Bitwarden 幫助中心</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
-    <value>連絡 Bitwarden 支援</value>
+    <value>連絡 Bitwarden 客服</value>
   </data>
   <data name="CopyAppInformation" xml:space="preserve">
     <value>複製應用程式資訊</value>
@@ -2811,23 +2811,23 @@
     <value>Use Bitwarden to save new passkeys and log in with passkeys stored in your vault.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
-    <value>Android 自動填入框架用於協助將登入資訊填入裝置上的其他應用程式。</value>
+    <value>Android 自動填入框架能協助在裝置上的其他應用程式當中，填入登入資訊。</value>
   </data>
   <data name="UseInlineAutofillExplanationLong" xml:space="preserve">
-    <value>如果您選擇的鍵盤支持，請使用内嵌式自動填入。否則，使用預設覆蓋。</value>
+    <value>如果您選擇的鍵盤支持，請使用内嵌式自動填入。若不支持，請使用預設疊層。</value>
   </data>
   <data name="AdditionalOptions" xml:space="preserve">
     <value>額外選項</value>
   </data>
   <data name="ContinueToWebApp" xml:space="preserve">
-    <value>接下來造訪 Web App 嗎？</value>
+    <value>接下來前往網頁應用程式嗎？</value>
   </data>
   <data name="ContinueToX" xml:space="preserve">
-    <value>接下來造訪 {0} 嗎？</value>
+    <value>接下來前往 {0} 嗎？</value>
     <comment>The parameter is an URL, like bitwarden.com.</comment>
   </data>
   <data name="ContinueToHelpCenter" xml:space="preserve">
-    <value>接下來造訪幫助中心嗎？</value>
+    <value>接下來前往說明中心嗎？</value>
   </data>
   <data name="ContinueToContactSupport" xml:space="preserve">
     <value>接下來聯絡支援嗎？</value>
@@ -2836,7 +2836,7 @@
     <value>Continue to privacy policy?</value>
   </data>
   <data name="ContinueToAppStore" xml:space="preserve">
-    <value>接下來造訪 App Store 嗎？</value>
+    <value>接下來前往 App Store 嗎？</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
     <value>Continue to device Settings?</value>
@@ -2852,10 +2852,10 @@
     <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
   </data>
   <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
-    <value>在幫助中心了解有關如何使用 Bitwarden 的更多資訊。</value>
+    <value>在說明中心了解有關如何使用 Bitwarden 的更多資訊。</value>
   </data>
   <data name="ContactSupportDescriptionLong" xml:space="preserve">
-    <value>不能找到你想要的？請在 bitwarden.com 上聯絡 Bitwarden 支援。</value>
+    <value>找不到您想要的資訊？請在 bitwarden.com 上聯絡 Bitwarden 技術支援。</value>
   </data>
   <data name="PrivacyPolicyDescriptionLong" xml:space="preserve">
     <value>Check out our privacy policy on bitwarden.com.</value>
@@ -2883,13 +2883,13 @@
     <value>帳戶已登出。</value>
   </data>
   <data name="YourOrganizationPermissionsWereUpdatedRequeringYouToSetAMasterPassword" xml:space="preserve">
-    <value>您的組織權限已更新，需要您設定主密碼。</value>
+    <value>您的組織的權限已更新，因此您必須設定主密碼。</value>
   </data>
   <data name="YourOrganizationRequiresYouToSetAMasterPassword" xml:space="preserve">
-    <value>您的組織要求您設定主密碼。</value> 
+    <value>您的組織需要您設定主密碼。</value> 
   </data>
   <data name="SetUpAnUnlockOptionToChangeYourVaultTimeoutAction" xml:space="preserve">
-    <value>設定一個解鎖方式來變更您的密碼庫逾時動作。</value>
+    <value>設定解鎖選項，變更您密碼庫的逾時動作。</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
     <value>Choose a login to save this passkey to</value>
