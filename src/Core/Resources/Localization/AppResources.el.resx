@@ -186,11 +186,11 @@
     <comment>Short label for an email address.</comment>
   </data>
   <data name="EmailAddress" xml:space="preserve">
-    <value>Διεύθυνση ηλ. ταχυδρομείου</value>
+    <value>Διεύθυνση email</value>
     <comment>Full label for a email address.</comment>
   </data>
   <data name="EmailUs" xml:space="preserve">
-    <value>Στείλτε μας μήνυμα ηλ. ταχυδρομείου</value>
+    <value>Επικοινωνία μέσω email</value>
   </data>
   <data name="EmailUsDescription" xml:space="preserve">
     <value>Στείλτε μας email για να λάβετε βοήθεια ή να αφήσετε σχόλια.</value>

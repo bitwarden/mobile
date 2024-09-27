@@ -1592,7 +1592,7 @@ Koodi skannataan automaattisesti.</value>
     <value>Kun sovellus käynnistetään uudelleen</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>Automaattisen täytön avulla Bitwarden-holviasi on helppo käyttää sivustoilla ja muissa sovelluksissa. Näyttää siltä, ettei Bitwardenia ole määritetty automaattitäytön palveluksi. Määritys onnistuu "Asetukset"-ruudusta.</value>
+    <value>Automaattitäytön avulla Bitwarden-holviasi on helppo käyttää sivustoilla ja muissa sovelluksissa. Näyttää siltä, ettei Bitwardenia ole määritetty automaattitäytön palveluksi. Määritys onnistuu asetuksista.</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
     <value>Teema vaihtuu kun sovellus käynnistetään uudelleen.</value>
@@ -2138,10 +2138,10 @@ Koodi skannataan automaattisesti.</value>
     <value>Organisaatiolla on yrityskäytäntö, joka liittää tilisi automaattisesti salasanan palautusapuun. Liitos sallii organisaation ylläpitäjien vaihtaa pääsalasanasi.</value>
   </data>
   <data name="VaultTimeoutPolicyInEffect" xml:space="preserve">
-    <value>Organisaatiokäytännöt ovat määrittäneet holvisi aikakatkaisun enimmäisajaksi {0} tunti(a) {1} minuutti(a).</value>
+    <value>Organisaatiokäytännöt ovat määrittäneet holvisi aikakatkaisun enimmäisajaksi {0} tuntia {1} minuuttia.</value>
   </data>
   <data name="VaultTimeoutPolicyWithActionInEffect" xml:space="preserve">
-    <value>Organisaatiokäytännöt vaikuttavat holvisi aikakatkaisuun. Suurin sallittu aika on {0} tunti(a) {1} minuutti(a). Holvillesi määritetty aikakatkaisutoiminto on {2}.</value>
+    <value>Organisaatiokäytännöt vaikuttavat holvisi aikakatkaisuun. Suurin sallittu aika on {0} tuntia {1} minuuttia. Holvillesi määritetty aikakatkaisutoiminto on {2}.</value>
   </data>
   <data name="VaultTimeoutActionPolicyInEffect" xml:space="preserve">
     <value>Organisaatiokäytännöt ovat määrittäneet holville aikakatkaisutoiminnon {0}.</value>
@@ -2564,7 +2564,7 @@ Haluatko vaihtaa tähän tiliin?</value>
     <value>Tärkeää</value>
   </data>
   <data name="YourMasterPasswordCannotBeRecoveredIfYouForgetItXCharactersMinimum" xml:space="preserve">
-    <value>Pääsalasanasi palautus ei ole mahdollista, jos unohdat sen! Vähintään {0} merkkiä.</value>
+    <value>Pääsalasanaasi ei ole mahdollista palauttaa, jos unohdat sen! Vähintään {0} merkkiä.</value>
   </data>
   <data name="WeakMasterPassword" xml:space="preserve">
     <value>Heikko pääsalasana</value>
@@ -2794,13 +2794,13 @@ Haluatko vaihtaa tähän tiliin?</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="OneHourAndOneMinute" xml:space="preserve">
-    <value>1 tunti 1 minuutti</value>
+    <value>Tunti ja minuutti</value>
   </data>
   <data name="OneHourAndXMinute" xml:space="preserve">
-    <value>1 tunti {0} minuuttia</value>
+    <value>Tunti ja {0} minuuttia</value>
   </data>
   <data name="XHoursAndOneMinute" xml:space="preserve">
-    <value>{0} tuntia 1 minuutti</value>
+    <value>{0} tuntia ja minuutti</value>
   </data>
   <data name="XHoursAndYMinutes" xml:space="preserve">
     <value>{0} tuntia {1} minuuttia</value>
@@ -2964,7 +2964,7 @@ Haluatko vaihtaa tähän tiliin?</value>
     <value>1. Avaa laitteesi Asetukset &gt; Salasanat &gt; Salasanavalinnat</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>4. Kytke automaattinen täyttö käyttöön</value>
+    <value>4. Kytke automaattitäyttö käyttöön</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
     <value>3. Valitse "Bitwarden" käyttääksesi sitä salasanoille ja pääsyavaimille</value>
