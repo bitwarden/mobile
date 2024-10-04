@@ -781,7 +781,7 @@
     <value>Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do vášho trezora, je prostredníctvom služby automatického vypĺňania Bitwardenu. Ďalšie informácie o používaní automatického vypĺňania Bitwardenu získate prechodom do obrazovky Nastavení.</value>
   </data>
   <data name="Autofill" xml:space="preserve">
-    <value>Automatické dopĺňanie</value>
+    <value>Automatické vypĺňanie</value>
   </data>
   <data name="AutofillOrView" xml:space="preserve">
     <value>Chcete automaticky vyplniť alebo zobraziť toto prihlásenie?</value>
@@ -1198,7 +1198,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Nepodarilo sa automaticky otvoriť nastavenia poskytovateľa poverení pre Android. Môžete otvoriť nastavenie manuálne cez Nastavenia &gt; Systém &gt; Heslá a účty &gt; Heslá, prístupové kľúče a automatické vypĺňanie.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
-    <value>Nepodarilo sa automaticky otvoriť nastavenia automatického dopĺňania pre systém Android. Môžete otvoriť nastavenie manuálne cez Nastavenia &gt; Systém &gt; Jazyky a vstup &gt; Rozšírené &gt; Služba automatického dopĺňania.</value>
+    <value>Nepodarilo sa automaticky otvoriť nastavenia automatického vypĺňania pre systém Android. Môžete otvoriť nastavenie manuálne cez Nastavenia &gt; Systém &gt; Jazyky a vstup &gt; Rozšírené &gt; Služba automatického vypĺňania.</value>
   </data>
   <data name="CustomFieldName" xml:space="preserve">
     <value>Názov vlastného poľa</value>
@@ -1278,7 +1278,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Ak chcete pokračovať, podržte YubiKey NEO na zadnej strane prístroja.</value>
   </data>
   <data name="BitwardenAutofillAccessibilityServiceDescription2" xml:space="preserve">
-    <value>Služba dostupnosti môže byť užitočné pre aplikácie, ktoré nepodporujú štandardnú službu automatického dopĺňania.</value>
+    <value>Služba dostupnosti môže byť užitočné pre aplikácie, ktoré nepodporujú štandardnú službu automatického vypĺňania.</value>
   </data>
   <data name="DatePasswordUpdated" xml:space="preserve">
     <value>Heslo bolo aktualizované</value>
@@ -1298,7 +1298,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Pri prihlasovaní do aplikácií a westránok sú teraz vaše prihlasovacie údaje dostupné priamo z klávesnice.</value>
   </data>
   <data name="AutofillSetup2" xml:space="preserve">
-    <value>Odporúčame vám vypnúť ostatné aplikácie pre automatické dopĺňanie, ak ich neplánujete používať.</value>
+    <value>Odporúčame vám vypnúť ostatné aplikácie pre automatické vypĺňanie, ak ich neplánujete používať.</value>
   </data>
   <data name="BitwardenAutofillDescription" xml:space="preserve">
     <value>Pri zadávaní hesiel pristupujte v vášmu trezoru priamo z klávesnice.</value>
@@ -1316,7 +1316,7 @@ Skenovanie prebehne automaticky.</value>
     <value>3. Klepnite na možnosť "Automaticky vypĺňať heslá"</value>
   </data>
   <data name="AutofillTurnOn4" xml:space="preserve">
-    <value>4. Zapnite automatické dopĺňanie</value>
+    <value>4. Zapnite automatické vypĺňanie</value>
   </data>
   <data name="AutofillTurnOn5" xml:space="preserve">
     <value>5. Vyberte "Bitwarden"</value>
@@ -1325,7 +1325,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Automatické vypĺňanie hesiel</value>
   </data>
   <data name="BitwardenAutofillAlert2" xml:space="preserve">
-    <value>Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do trezora, je z Bitwarden rozšírenia pre automatické vypĺňanie. Ďalšie informácie o používaní rozšírenia pre automatické dopĺňanie získate prechodom na obrazovku Nastavení.</value>
+    <value>Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do trezora, je z Bitwarden rozšírenia pre automatické vypĺňanie. Ďalšie informácie o používaní rozšírenia pre automatické vypĺňanie získate prechodom na obrazovku Nastavení.</value>
   </data>
   <data name="InvalidEmail" xml:space="preserve">
     <value>Neplatná e-mailová adresa.</value>

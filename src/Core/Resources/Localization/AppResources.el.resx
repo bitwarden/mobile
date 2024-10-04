@@ -644,7 +644,7 @@
     <value>Είστε βέβαιοι ότι θέλετε να αντικαταστήσετε τον τρέχον κωδικό;</value>
   </data>
   <data name="PushNotificationAlert" xml:space="preserve">
-    <value>Το Bitwarden κρατάει συγχρονισμένο τη κρύπτη σας αυτόματα, με τη χρήση ειδοποιήσεων push. Για την καλύτερη δυνατή εμπειρία, επιλέξτε "Να επιτρέπεται" στην παρακάτω προτροπή όταν σας ζητηθεί να ενεργοποιήσετε τις ειδοποιήσεις push.</value>
+    <value>Το Bitwarden διατηρεί αυτόματα συγχρονισμένη την κρύπτη σας με τη χρήση ειδοποιήσεων push. Για την καλύτερη δυνατή εμπειρία, επιλέξτε «Αποδοχή» στο ακόλουθο μήνυμα ερώτησης όταν σας ζητηθεί να ενεργοποιήσετε τις ειδοποιήσεις push.</value>
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
@@ -790,7 +790,7 @@
     <value>Είστε βέβαιοι για την αυτόματη συμπλήρωση αυτού του στοιχείου; Δεν υπάρχει πλήρης αντιστοιχία για "{0}".</value>
   </data>
   <data name="MatchingItems" xml:space="preserve">
-    <value>Αντικείμενα που ταιριάζουν</value>
+    <value>Αντίστοιχα στοιχεία</value>
   </data>
   <data name="PossibleMatchingItems" xml:space="preserve">
     <value>Πιθανά αντικείμενα που ταιριάζουν</value>
@@ -1101,7 +1101,7 @@
     <value>Κα</value>
   </data>
   <data name="Mx" xml:space="preserve">
-    <value>Mx στα Ελληνικά</value>
+    <value>Ουδέτερο</value>
   </data>
   <data name="November" xml:space="preserve">
     <value>Νοέμβριος</value>
@@ -2674,7 +2674,7 @@
     <value>Διαθέσιμο για σύνδεση με δύο βήματα</value>
   </data>
   <data name="MasterPasswordRePromptHelp" xml:space="preserve">
-    <value>Βοήθεια προτροπής κύριου κωδικού πρόσβασης</value>
+    <value>Βοήθεια για την απαίτηση κύριου κωδικού πρόσβασης</value>
   </data>
   <data name="UnlockingMayFailDueToInsufficientMemoryDecreaseYourKDFMemorySettingsToResolve" xml:space="preserve">
     <value>Το ξεκλείδωμα μπορεί να αποτύχει λόγω ανεπαρκούς μνήμης. Μειώστε τις ρυθμίσεις μνήμης KDF ή ρυθμίστε το βιομετρικό ξεκλείδωμα για επίλυση.</value>

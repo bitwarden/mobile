@@ -474,13 +474,13 @@
     <value>请输入您账户的电子邮件地址来接收主密码提示。</value>
   </data>
   <data name="ExntesionReenable" xml:space="preserve">
-    <value>重新启用应用程序扩展</value>
+    <value>重新激活 App 扩展</value>
   </data>
   <data name="ExtensionAlmostDone" xml:space="preserve">
     <value>就差一步！</value>
   </data>
   <data name="ExtensionEnable" xml:space="preserve">
-    <value>启用应用程序扩展</value>
+    <value>激活 App 扩展</value>
   </data>
   <data name="ExtensionInSafari" xml:space="preserve">
     <value>在 Safari 中，使用共享图标寻找 Bitwarden （提示：在菜单最下面一行的右边）。</value>
