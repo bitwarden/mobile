@@ -371,7 +371,7 @@
     <comment>Label for a username.</comment>
   </data>
   <data name="ValidationFieldRequired" xml:space="preserve">
-    <value>O campo {0} é necessário.</value>
+    <value>O campo {0} é obrigatório.</value>
     <comment>Validation message for when a form field is left blank and is required to be entered.</comment>
   </data>
   <data name="ValueHasBeenCopied" xml:space="preserve">
@@ -413,7 +413,7 @@
     <value>Adicionar um item</value>
   </data>
   <data name="AppExtension" xml:space="preserve">
-    <value>Extensão da aplicação</value>
+    <value>Extensão da app</value>
   </data>
   <data name="AutofillAccessibilityDescription" xml:space="preserve">
     <value>Utilize o serviço de acessibilidade Bitwarden para preencher automaticamente as suas credenciais entre as aplicações e a web.</value>
@@ -428,10 +428,10 @@
     <value>Evitar caracteres ambíguos</value>
   </data>
   <data name="BitwardenAppExtension" xml:space="preserve">
-    <value>Extensão da aplicação Bitwarden</value>
+    <value>Extensão da app Bitwarden</value>
   </data>
   <data name="BitwardenAppExtensionAlert2" xml:space="preserve">
-    <value>A maneira mais fácil de adicionar novas credenciais ao seu cofre é a partir da extensão da aplicação Bitwarden. Saiba mais sobre a utilização da extensão da aplicação Bitwarden ao navegar até ao ecrã "Definições".</value>
+    <value>A maneira mais fácil de adicionar novas credenciais ao seu cofre é a partir da extensão da aplicação Bitwarden. Saiba mais sobre a utilização da extensão da app Bitwarden ao navegar até ao ecrã "Definições".</value>
   </data>
   <data name="BitwardenAppExtensionDescription" xml:space="preserve">
     <value>Utilize o Bitwarden no Safari e noutras aplicações para preencher automaticamente as suas credenciais.</value>
@@ -474,13 +474,13 @@
     <value>Introduza o endereço de e-mail da sua conta para receber a dica da sua palavra-passe mestra.</value>
   </data>
   <data name="ExntesionReenable" xml:space="preserve">
-    <value>Reativar a extensão da aplicação</value>
+    <value>Reativar a extensão da app</value>
   </data>
   <data name="ExtensionAlmostDone" xml:space="preserve">
     <value>Quase pronto!</value>
   </data>
   <data name="ExtensionEnable" xml:space="preserve">
-    <value>Ativar a extensão da aplicação</value>
+    <value>Ativar a extensão da app</value>
   </data>
   <data name="ExtensionInSafari" xml:space="preserve">
     <value>No Safari, encontre o Bitwarden utilizando o ícone de partilha (dica: deslize para a direita na linha inferior do menu).</value>
@@ -595,7 +595,7 @@
     <value>Mais definições</value>
   </data>
   <data name="MustLogInMainApp" xml:space="preserve">
-    <value>Tem de iniciar sessão na aplicação Bitwarden principal antes de poder utilizar a extensão.</value>
+    <value>Tem de iniciar sessão na app Bitwarden principal antes de poder utilizar a extensão.</value>
   </data>
   <data name="Never" xml:space="preserve">
     <value>Nunca</value>
@@ -610,7 +610,7 @@
     <value>Não existem itens no seu cofre.</value>
   </data>
   <data name="NoItemsTap" xml:space="preserve">
-    <value>Não existem itens no seu cofre para este site/aplicação. Toque para adicionar um.</value>
+    <value>Não existem itens no seu cofre para este site/app. Toque para adicionar um.</value>
   </data>
   <data name="NoUsernamePasswordConfigured" xml:space="preserve">
     <value>Esta credencial não tem um nome de utilizador ou palavra-passe configurados.</value>
@@ -620,7 +620,7 @@
     <comment>Confirmation, like "Ok, I understand it"</comment>
   </data>
   <data name="OptionDefaults" xml:space="preserve">
-    <value>As predefinições das opções são definidas a partir da ferramenta principal de geração de palavras-passe da aplicação Bitwarden.</value>
+    <value>As predefinições das opções são definidas a partir da ferramenta principal de geração de palavras-passe da app Bitwarden.</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Opções</value>
@@ -648,7 +648,7 @@
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
-    <value>Avaliar a aplicação</value>
+    <value>Avaliar a app</value>
   </data>
   <data name="RateTheAppDescription" xml:space="preserve">
     <value>Por favor, considere ajudar-nos com uma boa avaliação!</value>
@@ -949,7 +949,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Não pode utilizar esta funcionalidade até atualizar a sua chave de encriptação.</value>
   </data>
   <data name="EncryptionKeyMigrationRequiredDescriptionLong" xml:space="preserve">
-    <value>É necessária a migração da chave de encriptação. Inicie sessão através do cofre web para atualizar a sua chave de encriptação.</value>
+    <value>É necessária a migração da chave de encriptação. Inicie sessão através do cofre Web para atualizar a sua chave de encriptação.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>Saber mais</value>
@@ -961,7 +961,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Ambiente personalizado</value>
   </data>
   <data name="CustomEnvironmentFooter" xml:space="preserve">
-    <value>Para utilizadores avançados. Pode especificar o URL de base de cada serviço independentemente.</value>
+    <value>Para utilizadores avançados. Pode especificar o URL de base de cada serviço de forma independente.</value>
   </data>
   <data name="EnvironmentSaved" xml:space="preserve">
     <value>Os URLs de ambiente foram guardados.</value>
@@ -1089,7 +1089,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Maio</value>
   </data>
   <data name="MiddleName" xml:space="preserve">
-    <value>Segundo nome</value>
+    <value>Nome do meio</value>
   </data>
   <data name="Mr" xml:space="preserve">
     <value>Sr.</value>
@@ -1307,7 +1307,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Para configurar o preenchimento automático de palavras-passe no seu dispositivo, siga estas instruções:</value>
   </data>
   <data name="AutofillTurnOn1" xml:space="preserve">
-    <value>1. Vá à aplicação "Definições" do iOS</value>
+    <value>1. Vá às Definições do iOS</value>
   </data>
   <data name="AutofillTurnOn2" xml:space="preserve">
     <value>2. Toque em "Palavras-passe e contas"</value>
@@ -1319,7 +1319,7 @@ A leitura será efetuada automaticamente.</value>
     <value>4. Ative o Autopreenchimento</value>
   </data>
   <data name="AutofillTurnOn5" xml:space="preserve">
-    <value>5. Selecione "Bitwarden"</value>
+    <value>5. Selecione o Bitwarden</value>
   </data>
   <data name="PasswordAutofill" xml:space="preserve">
     <value>Preenchimento automático de palavras-passe</value>
@@ -1363,7 +1363,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Esta palavra-passe não foi encontrada em nenhuma violação de dados conhecida. A sua utilização deve ser segura.</value>
   </data>
   <data name="IdentityName" xml:space="preserve">
-    <value>Nome de identidade</value>
+    <value>Nome da identidade</value>
   </data>
   <data name="Value" xml:space="preserve">
     <value>Valor</value>
@@ -1489,7 +1489,7 @@ A leitura será efetuada automaticamente.</value>
     <value>30 minutos</value>
   </data>
   <data name="SetPINDescription" xml:space="preserve">
-    <value>Defina o seu código PIN para desbloquear o Bitwarden. As suas definições de PIN serão redifinidas se alguma vez sair completamente da aplicação.</value>
+    <value>Defina o seu código PIN para desbloquear o Bitwarden. As suas definições de PIN serão redefinidas se alguma vez terminar sessão por completo da aplicação.</value>
   </data>
   <data name="LoggedInAsOn" xml:space="preserve">
     <value>Sessão iniciada como {0} em {1}.</value>
@@ -1547,7 +1547,7 @@ A leitura será efetuada automaticamente.</value>
     <comment>Color theme</comment>
   </data>
   <data name="ThemeDescription" xml:space="preserve">
-    <value>Alterar o tema de cores da aplicação.</value>
+    <value>Altere o tema de cores da aplicação.</value>
   </data>
   <data name="ThemeDefault" xml:space="preserve">
     <value>Predefinido (Sistema)</value>
@@ -1678,7 +1678,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Aviso</value>
   </data>
   <data name="ExportVaultFailure" xml:space="preserve">
-    <value>Ocorreu um problema ao exportar o seu cofre. Se o problema persistir, terá de exportar a partir do cofre web.</value>
+    <value>Ocorreu um problema ao exportar o seu cofre. Se o problema persistir, terá de exportar a partir do cofre Web.</value>
   </data>
   <data name="ExportVaultSuccess" xml:space="preserve">
     <value>Cofre exportado com sucesso</value>
@@ -1688,14 +1688,14 @@ A leitura será efetuada automaticamente.</value>
     <comment>Clone an entity (verb).</comment>
   </data>
   <data name="PasswordGeneratorPolicyInEffect" xml:space="preserve">
-    <value>Uma ou mais políticas da organização estão a afetar as suas definições do gerador.</value>
+    <value>Uma ou mais políticas da organização estão a afetar as suas definições do gerador</value>
   </data>
   <data name="Open" xml:space="preserve">
     <value>Abrir</value>
     <comment>Button text for an open operation (verb).</comment>
   </data>
   <data name="UnableToSaveAttachment" xml:space="preserve">
-    <value>Houve um problema ao guardar este anexo. Se o problema persistir, poderá guardá-lo através do cofre Web.</value>
+    <value>Ocorreu um problema ao guardar este anexo. Se o problema persistir, poderá guardá-lo através do cofre Web.</value>
   </data>
   <data name="SaveAttachmentSuccess" xml:space="preserve">
     <value>Anexo guardado com sucesso</value>
@@ -2107,13 +2107,13 @@ A leitura será efetuada automaticamente.</value>
     <value>{0} está a utilizar SSO com encriptação gerida pelo cliente. Se continuar removerá a sua palavra-passe mestra da sua conta e será exigido SSO para iniciar sessão.</value>
   </data>
   <data name="RemoveMasterPasswordWarning2" xml:space="preserve">
-    <value>Se não pretender remover a sua palavra-passe mestra, pode deixar esta organização.</value>
+    <value>Se não pretender remover a sua palavra-passe mestra, pode sair desta organização.</value>
   </data>
   <data name="LeaveOrganization" xml:space="preserve">
-    <value>Deixar a organização</value>
+    <value>Sair da organização</value>
   </data>
   <data name="LeaveOrganizationName" xml:space="preserve">
-    <value>Deixar {0}?</value>
+    <value>Sair da {0}?</value>
   </data>
   <data name="Fido2Title" xml:space="preserve">
     <value>FIDO2 WebAuthn</value>
@@ -2125,7 +2125,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Autenticação utilizando FIDO2 WebAuthn, pode autenticar utilizando uma chave de segurança externa.</value>
   </data>
   <data name="Fido2AuthenticateWebAuthn" xml:space="preserve">
-    <value>Autenticar WebAuthn</value>
+    <value>Autenticar o WebAuthn</value>
   </data>
   <data name="Fido2ReturnToApp" xml:space="preserve">
     <value>Voltar à aplicação</value>
@@ -2293,7 +2293,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Chave de autenticação</value>
   </data>
   <data name="EnterKeyManually" xml:space="preserve">
-    <value>Introduzir chave manualmente</value>
+    <value>Introduzir a chave manualmente</value>
   </data>
   <data name="AddTotp" xml:space="preserve">
     <value>Adicionar TOTP</value>
@@ -2401,13 +2401,13 @@ A leitura será efetuada automaticamente.</value>
     <value>Palavra aleatória</value>
   </data>
   <data name="EmailRequiredParenthesis" xml:space="preserve">
-    <value>E-mail (necessário)</value>
+    <value>E-mail (obrigatório)</value>
   </data>
   <data name="DomainNameRequiredParenthesis" xml:space="preserve">
-    <value>Nome do domínio (necessário)</value>
+    <value>Nome do domínio (obrigatório)</value>
   </data>
   <data name="APIKeyRequiredParenthesis" xml:space="preserve">
-    <value>Chave da API (necessário)</value>
+    <value>Chave da API (obrigatório)</value>
   </data>
   <data name="Service" xml:space="preserve">
     <value>Serviço</value>
@@ -2449,7 +2449,7 @@ A leitura será efetuada automaticamente.</value>
     <value>Tipo de e-mail</value>
   </data>
   <data name="WebsiteRequired" xml:space="preserve">
-    <value>Site (necessário)</value>
+    <value>Site (obrigatório)</value>
   </data>
   <data name="UnknownXErrorMessage" xml:space="preserve">
     <value>Ocorreu um erro desconhecido ({0}).</value>
@@ -2900,7 +2900,7 @@ Deseja mudar para esta conta?</value>
     <value>Guardar a chave de acesso</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
-    <value>Chave de acesso para {0}</value>
+    <value>Chaves de acesso para {0}</value>
   </data>
   <data name="PasswordsForX" xml:space="preserve">
     <value>Palavra-passe para {0}</value>
@@ -2933,7 +2933,7 @@ Deseja mudar para esta conta?</value>
     <value>Erro ao ler chave de acesso</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>Houve um problema ao criar uma chave de acesso para {0}. Tente novamente mais tarde.</value>
+    <value>Ocorreu um problema ao criar uma chave de acesso para {0}. Tente novamente mais tarde.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
@@ -2972,18 +2972,6 @@ Deseja mudar para esta conta?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>A sua chave de acesso para {0} será guardada no seu cofre Bitwarden</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Os itens da organização não atribuídos já não são visíveis na vista Todos os cofres e só são acessíveis através da consola de administração. Atribua estes itens a uma coleção a partir da Consola de administração para os tornar visíveis.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>A 16 de maio de 2024, os itens da organização não atribuídos deixarão de estar visíveis na vista Todos os cofres e só estarão acessíveis através da Consola de administração. Atribua estes itens a uma coleção a partir da Consola de administração para os tornar visíveis.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Lembrar-me mais tarde</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Aviso</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Chaves de acesso não suportadas por esta app</value>

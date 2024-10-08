@@ -2137,7 +2137,7 @@ Skanning vil ske automatisk.</value>
     <value>Denne organisation har en virksomhedspolitik, der automatisk tilmelder dig til nulstilling af adgangskode. Tilmelding giver organisationsadministratorer mulighed for at skifte din hovedadgangskode.</value>
   </data>
   <data name="VaultTimeoutPolicyInEffect" xml:space="preserve">
-    <value>Organisationspolitikkerne har sat den maksimalt tilladte bokstimeout til {0} tim(er) og {1} minut(ter).</value>
+    <value>Organisationspolitikkerne har sat den maksimalt tilladte boks-timeout til {0} tim(er) og {1} minut(ter).</value>
   </data>
   <data name="VaultTimeoutPolicyWithActionInEffect" xml:space="preserve">
     <value>Organisationspolitikkerne påvirker boks-timeout. Maks. tilladt boks-timeout er {0} time(r) og {1} minut(ter). Boks-timeout er pt. sat til {2}.</value>
@@ -2146,7 +2146,7 @@ Skanning vil ske automatisk.</value>
     <value>Organisationspolitikker har sat boks-timeouthandlingen til {0}.</value>
   </data>
   <data name="VaultTimeoutToLarge" xml:space="preserve">
-    <value>Timeout for din boks overskrider de begrænsninger, der er angivet af din organisation.</value>
+    <value>Boks-timeout overskrider den af organisationen fastsatte restriktion.</value>
   </data>
   <data name="DisablePersonalVaultExportPolicyInEffect" xml:space="preserve">
     <value>En eller flere organisationspolitikker forhindrer eksport af din personlige boks.</value>
@@ -2889,7 +2889,7 @@ Vil du skifte til denne konto?</value>
     <value>Organisationen kræver, at der oprettes en hovedadgangskode.</value> 
   </data>
   <data name="SetUpAnUnlockOptionToChangeYourVaultTimeoutAction" xml:space="preserve">
-    <value>Opsæt en oplåsningsmetode for at ændre Bokstimeouthandlingen.</value>
+    <value>Opsæt en oplåsningsmetode for at ændre Boks-timeouthandlingen.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
     <value>Vælg et login at gemme denne adgangsnøgle til</value>
@@ -2973,18 +2973,6 @@ Vil du skifte til denne konto?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Adgangsnøglen gemmes i Bitwarden-boksen til {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Utildelte organisationsemner er ikke længere synlige i Alle Bokse-visningen og er kun tilgængelige via Admin-konsollen. Føj disse emner til en samling fra Admin-konsollen for at gøre dem synlige.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>Pr. 16. maj 2024 vil utildelte organisationsemner ikke længere være synlige i Alle Bokse-visningen og vil kun være tilgængelige via Admin-konsollen. Tildel disse emner til en samling via Admin-konsollen for at gøre dem synlige.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Påmind senere</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Varsling</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Adgangsnøgler ikke understøttet til denne app</value>

@@ -1195,7 +1195,7 @@ Kod otomatik olarak taranacaktır.</value>
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>We were unable to automatically open the Android credential provider settings menu for you. You can navigate to the credential provider settings menu manually from Android Settings &gt; System &gt; Passwords &amp; accounts &gt; Passwords, passkeys and data services.</value>
+    <value>Android bilgi sağlayıcı ayarları menüsünü otomatik olarak açamadık. Bilgi sağlayıcı ayarları menüsüne kendiniz gitmek için Android Ayarları &gt; Sistem &gt; Parolalar ve hesaplar &gt; Parolalar, geçiş anahtarları ve veri servisleri yolunu izleyebilirsiniz.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Android otomatik doldurma ayarları menüsünü otomatik olarak açamadık. Lütfen şu yolu izleyerek otomatik doldurma ayarları menüsüne gidin: Android ayarları &gt; Sistem&gt; Dil ve giriş &gt; Gelişmiş &gt; Otomatik doldurma hizmeti.</value>
@@ -1453,7 +1453,7 @@ Kod otomatik olarak taranacaktır.</value>
     <comment>To clear something out. example: To clear browser history.</comment>
   </data>
   <data name="Generator" xml:space="preserve">
-    <value>Oluşturucu</value>
+    <value>Üreteç</value>
     <comment>Short for "Password Generator"</comment>
   </data>
   <data name="NoFoldersToList" xml:space="preserve">
@@ -1496,10 +1496,10 @@ Kod otomatik olarak taranacaktır.</value>
     <comment>ex: Logged in as user@example.com on bitwarden.com.</comment>
   </data>
   <data name="VaultLockedMasterPassword" xml:space="preserve">
-    <value>Kasanız kilitlendi. Devam etmek için ana parolanızı doğrulayın.</value>
+    <value>Kasanız kilitli. Devam etmek için ana parolanızı doğrulayın.</value>
   </data>
   <data name="VaultLockedPIN" xml:space="preserve">
-    <value>Kasanız kilitlendi. Devam etmek için PIN kodunuzu doğrulayın.</value>
+    <value>Kasanız kilitli. Devam etmek için PIN kodunuzu doğrulayın.</value>
   </data>
   <data name="VaultLockedIdentity" xml:space="preserve">
     <value>Kasanız kilitli. Devam etmek için kimliğinizi doğrulayın.</value>
@@ -1727,7 +1727,7 @@ Kod otomatik olarak taranacaktır.</value>
     <comment>Confirmation message after successfully restoring a soft-deleted item</comment>
   </data>
   <data name="Trash" xml:space="preserve">
-    <value>Çöp Kutusu</value>
+    <value>Çöp kutusu</value>
     <comment>(noun) Location of deleted items which have not yet been permanently deleted</comment>
   </data>
   <data name="SearchTrash" xml:space="preserve">
@@ -2767,7 +2767,7 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>Hesap güvenliği</value>
   </data>
   <data name="BitwardenHelpCenter" xml:space="preserve">
-    <value>Bitwarden Yardım Merkezi</value>
+    <value>Bitwarden yardım merkezi</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
     <value>Bitwarden destek ekibiyle iletişime geç</value>
@@ -2807,7 +2807,7 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>{0} saat</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Use Bitwarden to save new passkeys and log in with passkeys stored in your vault.</value>
+    <value>Bitwarden'ı yeni anahtarlar kaydetmek ve kasadaki anahtarlar ile giriş yapmak için kullanabilirsiniz.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Cihazınızdaki diğer uygulamalarda hesap bilgilerini doldurmak için Android Otomatik Doldurma Sistemi kullanılır.</value>
@@ -2838,7 +2838,7 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>App Store'a gitmek ister misiniz?</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
-    <value>Continue to device Settings?</value>
+    <value>Cihaz ayarlarına gidilsin mi?</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
     <value>Bitwarden web uygulamasında iki aşamalı girişi ayarlayarak hesabınızın güvenliğini artırabilirsiniz.</value>
@@ -2924,7 +2924,7 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>{0} için doğrulama gerekli</value>
   </data>
   <data name="VerificationRequiredForThisActionSetUpAnUnlockMethodInBitwardenToContinue" xml:space="preserve">
-    <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
+    <value>Bu eylem için doğrulama gereklidir. Devam etmek için Bitwarden'da bir kilit açma yöntemi ayarlayın.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
     <value>Geçiş anahtarı oluşturma hatası</value>
@@ -2933,11 +2933,11 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>Geçiş anahtarı okuma hatası</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem creating a passkey for {0}. Try again later.</value>
+    <value>{0} için geçiş anahtarı oluşturulamadı. Daha sonra tekrar deneyin.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem reading your passkey for {0}. Try again later.</value>
+    <value>{0} için geçiş anahtarı okunamadı. Daha sonra tekrar deneyin.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
@@ -2956,51 +2956,39 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>Parolalarınıza ve geçiş anahtarlarınıza anında erişin!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
-    <value>To set up password auto-fill and passkey management, set Bitwarden as your preferred provider in the iOS Settings.</value>
+    <value>Otomatik parola doldurma ve anahtar yönetimi için, iOS ayarlarında Bitwarden'ı tercih edilen sağlayıcı olarak belirleyin.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
-    <value>1. Go to your device's Settings &gt; Passwords &gt; Password Options</value>
+    <value>1. Cihazınızda Ayarlar &gt; Parolalar &gt; Parola Seçenekleri kısmına gidin</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>2. Turn on AutoFill</value>
+    <value>2. Otomatik doldurmayı açın</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
-    <value>3. Select "Bitwarden" to use for passwords and passkeys</value>
+    <value>Parolalar ve geçiş anahtarları için kullanılmak üzere Bitwarden'ı seçin</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault</value>
+    <value>Geçiş anahtarınız Bitwarden kasasına kaydedilecektir</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault for {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Unassigned organization items are no longer visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>On May 16, 2024, unassigned organization items will no longer be visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Daha sonra hatırlat</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Dikkat</value>
+    <value>{0} için geçiş anahtarınız Bitwarden kasasına kaydedilecektir</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Bu uygulamada geçiş anahtarları desteklenmiyor</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Passkey operation failed because browser is not privileged</value>
+    <value>Tarayıcı izinli olmadığı için geçiş anahtarı işlemi başarısız oldu</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
-    <value>Passkey operation failed because browser signature does not match</value>
+    <value>Tarayıcı imzası eşleşmediği için geçiş anahtarı işlemi başarısız oldu</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because of missing asset links</value>
+    <value>Geçiş anahtarı eylemi başarısız oldu çünkü varlık bağlantıları eksik</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppNotFoundInAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because app not found in asset links</value>
+    <value>Geçiş anahtarı eylemi başarısız oldu çünkü uygulama varlık bağlantılarında bulunamadı</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>Passkey operation failed because app could not be verified</value>
+    <value>Geçiş anahtarı eylemi başarısız oldu çünkü uygulama doğrulanamadı</value>
   </data>
 </root>

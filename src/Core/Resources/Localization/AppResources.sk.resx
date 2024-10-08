@@ -182,18 +182,18 @@
     <value>Upraviť priečinok</value>
   </data>
   <data name="Email" xml:space="preserve">
-    <value>Email</value>
+    <value>E-mail</value>
     <comment>Short label for an email address.</comment>
   </data>
   <data name="EmailAddress" xml:space="preserve">
-    <value>Emailová adresa</value>
+    <value>E-mailová adresa</value>
     <comment>Full label for a email address.</comment>
   </data>
   <data name="EmailUs" xml:space="preserve">
     <value>Napíšte nám</value>
   </data>
   <data name="EmailUsDescription" xml:space="preserve">
-    <value>Získajte pomoc alebo zanechajte spätnú väzbu zaslaním emailu.</value>
+    <value>Získajte pomoc alebo zanechajte spätnú väzbu zaslaním e-mailu.</value>
   </data>
   <data name="EnterPIN" xml:space="preserve">
     <value>Zadajte PIN kód.</value>
@@ -425,7 +425,7 @@
     <value>Nastavte Bitwarden ako poskytovateľa prístupových kľúčov v nastaveniach zariadenia.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
-    <value>Vyhnúť sa dvojvýznamovým znakom</value>
+    <value>Vyhnúť sa zameniteľným znakom</value>
   </data>
   <data name="BitwardenAppExtension" xml:space="preserve">
     <value>Bitwarden rozšírenie aplikácie</value>
@@ -443,10 +443,10 @@
     <value>Použite službu zjednodušenia prístupu Bitwardenu pre automatické vypĺňanie prihlasovacích údajov.</value>
   </data>
   <data name="ChangeEmail" xml:space="preserve">
-    <value>Zmeniť email</value>
+    <value>Zmeniť e-mail</value>
   </data>
   <data name="ChangeEmailConfirmation" xml:space="preserve">
-    <value>Svoju emailovú adresu môžete zmeniť na webovom trezore bitwarden.com. Chcete navštíviť túto stránku teraz?</value>
+    <value>Svoju e-mailovú adresu môžete zmeniť na webovom trezore bitwarden.com. Chcete navštíviť túto stránku teraz?</value>
   </data>
   <data name="ChangeMasterPassword" xml:space="preserve">
     <value>Zmeniť hlavné heslo</value>
@@ -471,7 +471,7 @@
     <value>Zapnúť automatickú synchronizáciu</value>
   </data>
   <data name="EnterEmailForHint" xml:space="preserve">
-    <value>Zadajte emailovú adresu na zaslanie nápovedy pre vaše hlavné heslo.</value>
+    <value>Zadajte e-mailovú adresu na zaslanie nápovede k vášmu hlavnému heslu.</value>
   </data>
   <data name="ExntesionReenable" xml:space="preserve">
     <value>Znovu zapnúť rozšírenie aplikácie</value>
@@ -483,7 +483,7 @@
     <value>Zapnúť rozšírenie aplikácie</value>
   </data>
   <data name="ExtensionInSafari" xml:space="preserve">
-    <value>V Safari nájdete bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku menu).</value>
+    <value>V Safari nájdete Bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku ponuky).</value>
     <comment>Safari is the name of apple's web browser</comment>
   </data>
   <data name="ExtensionInstantAccess" xml:space="preserve">
@@ -496,7 +496,7 @@
     <value>Vaše prihlasovacie údaje sú teraz ľahko prístupné zo Safari, Chrome a ďalších podporovaných aplikácií.</value>
   </data>
   <data name="ExtensionSetup2" xml:space="preserve">
-    <value>V Safari a Chrome nájdete bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku menu).</value>
+    <value>V Safari a Chrome nájdete Bitwarden použitím ikony zdieľania (tip: posúvajte doprava v spodnom riadku ponuky).</value>
   </data>
   <data name="ExtensionTapIcon" xml:space="preserve">
     <value>Klepnite na ikonu bitwarden v menu na spustenie rozšírenia.</value>
@@ -514,7 +514,7 @@
     <value>Generovať heslo</value>
   </data>
   <data name="GetPasswordHint" xml:space="preserve">
-    <value>Získať nápovedu pre hlavné heslo</value>
+    <value>Získať nápoveď k hlavnému heslu</value>
   </data>
   <data name="ImportItems" xml:space="preserve">
     <value>Importovať položky</value>
@@ -575,10 +575,10 @@
     <value>Hlavné heslo je heslo, ktoré použijete na prístup k svojmu trezoru. Je veľmi dôležité, aby ste svoje hlavné heslo nezabudli. Neexistuje možnosť, ako heslo obnoviť v prípade, že ho zabudnete.</value>
   </data>
   <data name="MasterPasswordHint" xml:space="preserve">
-    <value>Nápoveda k hlavnému heslo (voliteľné)</value>
+    <value>Nápoveď pre hlavné heslo (voliteľné)</value>
   </data>
   <data name="MasterPasswordHintDescription" xml:space="preserve">
-    <value>Nápoveda k hlavnému heslu vám môže pomôcť spomenúť si na heslo, ak ho zabudnete.</value>
+    <value>Nápoveď k hlavnému heslu vám môže pomôcť spomenúť si na heslo, ak ho zabudnete.</value>
   </data>
   <data name="MasterPasswordLengthValMessageX" xml:space="preserve">
     <value>Hlavné heslo musí obsahovať aspoň {0} znakov.</value>
@@ -604,7 +604,7 @@
     <value>Nová položka vytvorená.</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>Vo vašom trezore nie sú žiadné obľúbené.</value>
+    <value>Vo vašom trezore nie sú žiadne obľúbené položky.</value>
   </data>
   <data name="NoItems" xml:space="preserve">
     <value>V trezore sa nenachádzajú žiadne položky.</value>
@@ -635,10 +635,10 @@
     <value>Generátor hesla</value>
   </data>
   <data name="PasswordHint" xml:space="preserve">
-    <value>Nápoveda pre heslo</value>
+    <value>Nápoveď k heslu</value>
   </data>
   <data name="PasswordHintAlert" xml:space="preserve">
-    <value>Poslali sme vám email s nápovedou k hlavnému heslu.</value>
+    <value>Poslali sme vám e-mail s nápoveďou k hlavnému heslu.</value>
   </data>
   <data name="PasswordOverrideAlert" xml:space="preserve">
     <value>Naozaj chcete prepísať aktuálne heslo?</value>
@@ -651,7 +651,7 @@
     <value>Ohodnotiť aplikáciu</value>
   </data>
   <data name="RateTheAppDescription" xml:space="preserve">
-    <value>Prosíme, zvážte pomôcť nám dobrým hodnotením!</value>
+    <value>Prosíme, zvážte napísanie pozitívnej recenzie!</value>
   </data>
   <data name="RegeneratePassword" xml:space="preserve">
     <value>Vygenerovať nové heslo</value>
@@ -781,7 +781,7 @@
     <value>Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do vášho trezora, je prostredníctvom služby automatického vypĺňania Bitwardenu. Ďalšie informácie o používaní automatického vypĺňania Bitwardenu získate prechodom do obrazovky Nastavení.</value>
   </data>
   <data name="Autofill" xml:space="preserve">
-    <value>Automatické dopĺňanie</value>
+    <value>Automatické vypĺňanie</value>
   </data>
   <data name="AutofillOrView" xml:space="preserve">
     <value>Chcete automaticky vyplniť alebo zobraziť toto prihlásenie?</value>
@@ -817,7 +817,7 @@
     <comment>For 2FA</comment>
   </data>
   <data name="EnterVerificationCodeEmail" xml:space="preserve">
-    <value>Zadajte 6-miestny verifikačný kód, ktorý bol zaslaný emailom na {0}.</value>
+    <value>Zadajte 6-miestny verifikačný kód, ktorý bol zaslaný e-mailom na {0}.</value>
     <comment>For 2FA</comment>
   </data>
   <data name="LoginUnavailable" xml:space="preserve">
@@ -836,7 +836,7 @@
     <comment>Remember my two-step login</comment>
   </data>
   <data name="SendVerificationCodeAgain" xml:space="preserve">
-    <value>Znovu zaslať overovací kód emailom</value>
+    <value>Znovu zaslať overovací kód e-mailom</value>
     <comment>For 2FA</comment>
   </data>
   <data name="TwoStepLoginOptions" xml:space="preserve">
@@ -846,11 +846,11 @@
     <value>Použiť inú dvojstupňovú metódu prihlásenia</value>
   </data>
   <data name="VerificationEmailNotSent" xml:space="preserve">
-    <value>Nepodarilo sa odoslať overovací email. Skúste znova.</value>
+    <value>Nepodarilo sa odoslať overovací e-mail. Skúste znova.</value>
     <comment>For 2FA</comment>
   </data>
   <data name="VerificationEmailSent" xml:space="preserve">
-    <value>Overovací email bol odoslaný.</value>
+    <value>Overovací e-mail bol odoslaný.</value>
     <comment>For 2FA</comment>
   </data>
   <data name="YubiKeyInstruction" xml:space="preserve">
@@ -1198,7 +1198,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Nepodarilo sa automaticky otvoriť nastavenia poskytovateľa poverení pre Android. Môžete otvoriť nastavenie manuálne cez Nastavenia &gt; Systém &gt; Heslá a účty &gt; Heslá, prístupové kľúče a automatické vypĺňanie.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
-    <value>Nepodarilo sa automaticky otvoriť nastavenia automatického dopĺňania pre systém Android. Môžete otvoriť nastavenie manuálne cez Nastavenia &gt; Systém &gt; Jazyky a vstup &gt; Rozšírené &gt; Služba automatického dopĺňania.</value>
+    <value>Nepodarilo sa automaticky otvoriť nastavenia automatického vypĺňania pre systém Android. Môžete otvoriť nastavenie manuálne cez Nastavenia &gt; Systém &gt; Jazyky a vstup &gt; Rozšírené &gt; Služba automatického vypĺňania.</value>
   </data>
   <data name="CustomFieldName" xml:space="preserve">
     <value>Názov vlastného poľa</value>
@@ -1278,7 +1278,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Ak chcete pokračovať, podržte YubiKey NEO na zadnej strane prístroja.</value>
   </data>
   <data name="BitwardenAutofillAccessibilityServiceDescription2" xml:space="preserve">
-    <value>Služba dostupnosti môže byť užitočné pre aplikácie, ktoré nepodporujú štandardnú službu automatického dopĺňania.</value>
+    <value>Služba dostupnosti môže byť užitočné pre aplikácie, ktoré nepodporujú štandardnú službu automatického vypĺňania.</value>
   </data>
   <data name="DatePasswordUpdated" xml:space="preserve">
     <value>Heslo bolo aktualizované</value>
@@ -1289,7 +1289,7 @@ Skenovanie prebehne automaticky.</value>
     <comment>ex. Date this item was updated</comment>
   </data>
   <data name="AutofillActivated" xml:space="preserve">
-    <value>Automatické dopĺňanie aktivované!</value>
+    <value>Automatické vypĺňanie aktivované!</value>
   </data>
   <data name="MustLogInMainAppAutofill" xml:space="preserve">
     <value>Pred použitím automatického vypĺňania sa najskôr musíte prihlásiť v hlavnej bitwarden aplikácií.</value>
@@ -1298,7 +1298,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Pri prihlasovaní do aplikácií a westránok sú teraz vaše prihlasovacie údaje dostupné priamo z klávesnice.</value>
   </data>
   <data name="AutofillSetup2" xml:space="preserve">
-    <value>Odporúčame vám vypnúť ostatné aplikácie pre automatické dopĺňanie, ak ich neplánujete používať.</value>
+    <value>Odporúčame vám vypnúť ostatné aplikácie pre automatické vypĺňanie, ak ich neplánujete používať.</value>
   </data>
   <data name="BitwardenAutofillDescription" xml:space="preserve">
     <value>Pri zadávaní hesiel pristupujte v vášmu trezoru priamo z klávesnice.</value>
@@ -1316,7 +1316,7 @@ Skenovanie prebehne automaticky.</value>
     <value>3. Klepnite na možnosť "Automaticky vypĺňať heslá"</value>
   </data>
   <data name="AutofillTurnOn4" xml:space="preserve">
-    <value>4. Zapnite automatické dopĺňanie</value>
+    <value>4. Zapnite automatické vypĺňanie</value>
   </data>
   <data name="AutofillTurnOn5" xml:space="preserve">
     <value>5. Vyberte "Bitwarden"</value>
@@ -1325,10 +1325,10 @@ Skenovanie prebehne automaticky.</value>
     <value>Automatické vypĺňanie hesiel</value>
   </data>
   <data name="BitwardenAutofillAlert2" xml:space="preserve">
-    <value>Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do trezora, je z Bitwarden rozšírenia pre automatické vypĺňanie. Ďalšie informácie o používaní rozšírenia pre automatické dopĺňanie získate prechodom na obrazovku Nastavení.</value>
+    <value>Najjednoduchší spôsob, ako pridať nové prihlasovacie údaje do trezora, je z Bitwarden rozšírenia pre automatické vypĺňanie. Ďalšie informácie o používaní rozšírenia pre automatické vypĺňanie získate prechodom na obrazovku Nastavení.</value>
   </data>
   <data name="InvalidEmail" xml:space="preserve">
-    <value>Neplatná emailová adresa.</value>
+    <value>Neplatná e-mailová adresa.</value>
   </data>
   <data name="Cards" xml:space="preserve">
     <value>Karty</value>
@@ -1592,7 +1592,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Po reštarte aplikácie</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>Automatické dopĺňanie umožňuje jednoducho pristupovať k vašemu trezoru z iných stránok a plaikácii. Vyzerá že ste službu automatického dopĺňania pomocou Bitwarden nezapli. Zapnúť ju môžete na obrazove "Nastavenia".</value>
+    <value>Automatické vypĺňanie umožňuje jednoducho pristupovať k vášmu trezoru z iných stránok a aplikácií. Zdá sa, že ste službu automatického vypĺňania pomocou Bitwardenu nezapli. Zapnúť ju môžete na obrazovke "Nastavenia".</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
     <value>Zmena nastavení vzhľadu sa prejaví po opätovnom štarte aplikácie.</value>
@@ -1635,7 +1635,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Povolenie</value>
   </data>
   <data name="BitwardenAutofillServiceOpenOverlayPermissionSettings" xml:space="preserve">
-    <value>Otvoriť nastavenie zoibrazenia v iných aplikáciách</value>
+    <value>Otvoriť nastavenie zobrazenia v iných aplikáciách</value>
   </data>
   <data name="BitwardenAutofillServiceStep3" xml:space="preserve">
     <value>3. V nastaveniach Bitwarden v Android nastaveniach aplikácii vyberte "Zobraziť v iných aplikáciach" (nájdete v rozšírených nastaveniach) a zapnite prepínač aby ste povolili zobrazenie v iných aplikáciach.</value>
@@ -1662,7 +1662,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Ak chcete pokračovať, potvrďte svoju identitu.</value>
   </data>
   <data name="ExportVaultWarning" xml:space="preserve">
-    <value>Tento export obsahuje vaše dáta v nešifrovanom formáte. Nemali by ste ich ukladať, ani posielať cez nezabezpečené kanály (napr. email). Okamžite ho odstráňte, keď ho prestanete používať.</value>
+    <value>Tento export obsahuje vaše dáta v nešifrovanom formáte. Nemali by ste ich ukladať, ani posielať cez nezabezpečené kanály (napr. e-mail). Okamžite ho odstráňte, keď ho prestanete používať.</value>
   </data>
   <data name="EncExportKeyWarning" xml:space="preserve">
     <value>Tento export zašifruje vaše údaje pomocou šifrovacieho kľúča vášho účtu. Ak niekedy budete rotovať šifrovací kľúč svojho účtu, mali by ste exportovať znova, pretože nebudete môcť dešifrovať tento exportovaný súbor.</value>
@@ -1701,7 +1701,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Príloha úspešne uložená</value>
   </data>
   <data name="AutofillTileAccessibilityRequired" xml:space="preserve">
-    <value>Zapnite službu dostupnosti pre automatické vypĺňanie v nastaveniach Bitwardenu aby ste mohli používať dlaždicu pre automatické dopĺňanie.</value>
+    <value>Zapnite službu dostupnosti pre automatické vypĺňanie v nastaveniach Bitwardenu, aby ste mohli používať dlaždicu pre automatické vypĺňanie.</value>
   </data>
   <data name="AutofillTileUriNotFound" xml:space="preserve">
     <value>Nenájdené žiadne políčka na heslo</value>
@@ -1831,7 +1831,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Použite vnorené automatické vypĺňanie</value>
   </data>
   <data name="InlineAutofillDescription" xml:space="preserve">
-    <value>Ak to podporuje váš vybratý editor IME (klávesnica), použite vnorené automatické dopĺňanie. Ak to vaša konfigurácia nepodporuje (alebo je táto voľba zakázaná), bude použité predvolené automatické vyplnenie.</value>
+    <value>Ak to podporuje váš vybratý editor IME (klávesnica), použite vnorené automatické vypĺňanie. Ak to vaša konfigurácia nepodporuje (alebo je táto voľba zakázaná), bude použité predvolené automatické vyplnenie.</value>
   </data>
   <data name="Accessibility" xml:space="preserve">
     <value>Použiť dostupnosť</value>
@@ -1846,7 +1846,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Použite službu zjednodušenia prístupu Bitwardenu pre použitie automatického vypĺňania cez dlaždicu a/alebo zobraziť vyskakovacie okno pomocou zobrazenia cez iné aplikácie (ak je povolené).</value>
   </data>
   <data name="AccessibilityDescription4" xml:space="preserve">
-    <value>Vyžaduje sa, aby ste použili dlaždicu rýchlej akcie automatického dopĺňania, alebo aby ste rozšírili službu automatického dopĺňania pomocou funkcie zobrazenia cez iné aplikácie (ak je povolená).</value>
+    <value>Vyžaduje sa, aby ste použili dlaždicu rýchlej akcie automatického vypĺňania, alebo aby ste rozšírili službu automatického vypĺňania pomocou funkcie zobrazenia cez iné aplikácie (ak je povolená).</value>
   </data>
   <data name="DrawOver" xml:space="preserve">
     <value>Použiť zobrazenie cez iné aplikácie</value>
@@ -1858,7 +1858,7 @@ Skenovanie prebehne automaticky.</value>
     <value>Ak je táto možnosť povolená, umožňuje službe zjednodušenia prístupu Bitwardenu zobraziť vyskakovacie okno po klepnutí do prihlasovacieho poľa a pomáha automaticky vyplniť prihlasovacie polia.</value>
   </data>
   <data name="DrawOverDescription3" xml:space="preserve">
-    <value>Ak je táto možnosť povolená, dostupnosť zobrazí vyskakovacie okno na rozšírenie služby automatického dopĺňania pre staršie aplikácie, ktoré nepodporujú Android Autofill Framework pre zjednodušenie vypĺňania prihlasovacích údajov.</value>
+    <value>Ak je táto možnosť povolená, dostupnosť zobrazí vyskakovacie okno na rozšírenie služby automatického vypĺňania pre staršie aplikácie, ktoré nepodporujú Android Autofill Framework na zjednodušenie vypĺňania prihlasovacích údajov.</value>
   </data>
   <data name="PersonalOwnershipSubmitError" xml:space="preserve">
     <value>Z dôvodu podnikovej politiky máte obmedzené ukladanie položiek do osobného trezora. Zmeňte možnosť vlastníctvo na organizáciu a vyberte si z dostupných zbierok.</value>
@@ -2056,7 +2056,7 @@ Skenovanie prebehne automaticky.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="HideEmail" xml:space="preserve">
-    <value>Skryť moju emailovú adresu pred príjemcami</value>
+    <value>Skryť moju e-mailovú adresu pred príjemcami</value>
   </data>
   <data name="SendOptionsPolicyInEffect" xml:space="preserve">
     <value>Jedno alebo viac pravidiel organizácie ovplyvňujú vaše možnosti funkcie Send.</value>
@@ -2434,7 +2434,7 @@ Pridať TOTP, aby ste kľúč bezpečne uložili</value>
     <comment>"Fastmail" is the product name and should not be translated.</comment>
   </data>
   <data name="ForwardEmail" xml:space="preserve">
-    <value>ForwardEmail</value>
+    <value>ForwardE-mail</value>
     <comment>"ForwardEmail" is the product name and should not be translated.</comment>
   </data>
   <data name="APIAccessToken" xml:space="preserve">
@@ -2488,13 +2488,13 @@ Pridať TOTP, aby ste kľúč bezpečne uložili</value>
   <data name="LoginAttemptFromXDoYouWantToSwitchToThisAccount" xml:space="preserve">
     <value>Pokus o prihlásenie z:
 {0}
-Chcete prepnúť na toto konto?</value>
+Chcete prepnúť na tento účet?</value>
   </data>
   <data name="NewAroundHere" xml:space="preserve">
     <value>Ste tu nový?</value>
   </data>
   <data name="GetMasterPasswordwordHint" xml:space="preserve">
-    <value>Získať nápoveď pre hlavné heslo</value>
+    <value>Získať nápoveď k hlavnému heslu</value>
   </data>
   <data name="LoggingInAsXOnY" xml:space="preserve">
     <value>Prihlasujete sa ako {0} na {1}</value>
@@ -2842,7 +2842,7 @@ Chcete prepnúť na toto konto?</value>
     <value>Pokračovať do nastavení zariadenia?</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
-    <value>Zabezpečte svoje konto nastavením dvojstupňového prihlasovania vo webovej aplikácii Bitwarden.</value>
+    <value>Zabezpečte svoj účet nastavením dvojstupňového prihlasovania vo webovej aplikácii Bitwarden.</value>
   </data>
   <data name="ChangeMasterPasswordDescriptionLong" xml:space="preserve">
     <value>Hlavné heslo si môžete zmeniť vo webovej aplikácii Bitwarden.</value>
@@ -2973,18 +2973,6 @@ Chcete prepnúť na toto konto?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Váš prístupový kľúč sa uloží do vášho Bitwarden trezoru pre {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Nepriradené položky organizácie už nie sú viditeľné v zobrazení Všetky Trezory a sú prístupné len cez administrátorskú konzolu. Aby boli viditeľné, priraďte tieto položky do kolekcie z konzoly administrátora.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>16. mája nepriradené položky organizácie už nebudú viditeľné v zobrazení Všetky Trezory a budú prístupné len cez administrátorskú konzolu. Aby boli viditeľné, priraďte tieto položky do kolekcie z konzoly administrátora.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Pripomenúť neskôr</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Upozornenie</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Prístupové kľúče nie sú pre túto aplikáciu podporované</value>

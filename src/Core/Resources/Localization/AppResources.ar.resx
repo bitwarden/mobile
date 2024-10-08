@@ -422,7 +422,7 @@
     <value>خدمة التعبئة التلقائية</value>
   </data>
   <data name="SetBitwardenAsPasskeyManagerDescription" xml:space="preserve">
-    <value>Set Bitwarden as your passkey provider in device settings.</value>
+    <value>تعيين Bitwarden كموفر مفتاح المرور الخاص بك في إعدادات الجهاز.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
     <value>تجنب الأحرف الغامضة</value>
@@ -2974,18 +2974,6 @@
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>سيتم حفظ مفتاح المرور الخاص بك في مخزن Bitwarden الخاص بك لـ {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>عناصر المؤسسة غير المعينة لم تعد مرئية في عرض جميع المستودعات ويمكن الوصول إليها فقط عن طريق لوحة التحكم. تعيين هذه العناصر لمجموعة من وحدة تحكم المدير لجعلها مرئية.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>في 16 مايو 2024، لن تكون عناصر المؤسسة غير المعينة مرئية في عرض جميع المستودعات ويمكن الوصول إليها فقط عن طريق مدير النظام. تعيين هذه العناصر لمجموعة من وحدة تحكم المدير لجعلها مرئية.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>ذكرني لاحقاً</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>إشعار</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>مفاتيح المرور غير مدعومة لهذا التطبيق</value>

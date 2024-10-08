@@ -114,7 +114,7 @@ namespace Bit.Core.Services
         public async Task<Cipher> EncryptAsync(CipherView model, SymmetricCryptoKey key = null,
             Cipher originalCipher = null)
         {
-            // Adjust password history
+            // Adjust password history and attachments
             if (model.Id != null)
             {
                 if (originalCipher == null)
@@ -169,6 +169,9 @@ namespace Bit.Core.Services
                             }
                         }
                     }
+
+                    //adjust attachments
+                    model.Attachments = existingCipher.Attachments;
                 }
                 if (!model.PasswordHistory?.Any() ?? false)
                 {
@@ -833,24 +836,6 @@ namespace Bit.Core.Services
             ciphers[id].RevisionDate = response.RevisionDate;
             await _stateService.SetEncryptedCiphersAsync(ciphers);
             await ClearCacheAsync();
-        }
-
-        public async Task<bool> VerifyOrganizationHasUnassignedItemsAsync()
-        {
-            var organizations = await _stateService.GetOrganizationsAsync();
-            if (organizations?.Any() != true)
-            {
-                return false;
-            }
-
-            try
-            {
-                return await _apiService.HasUnassignedCiphersAsync();
-            }
-            catch (ApiException ex) when (ex.Error?.StatusCode == System.Net.HttpStatusCode.BadRequest)
-            {
-                return false;
-            }
         }
 
         // Helpers

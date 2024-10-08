@@ -371,7 +371,7 @@
     <comment>Label for a username.</comment>
   </data>
   <data name="ValidationFieldRequired" xml:space="preserve">
-    <value>{0} sahəsi lazımlıdır.</value>
+    <value>{0} xanası tələb olunur.</value>
     <comment>Validation message for when a form field is left blank and is required to be entered.</comment>
   </data>
   <data name="ValueHasBeenCopied" xml:space="preserve">
@@ -990,7 +990,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Anbarınızdakı elementlərə baxmaq üçün bu bildirişə toxunun.</value>
   </data>
   <data name="CustomFields" xml:space="preserve">
-    <value>Özəl sahələr</value>
+    <value>Özəl xanalar</value>
   </data>
   <data name="CopyNumber" xml:space="preserve">
     <value>Nömrəni kopyala</value>
@@ -1201,7 +1201,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Android avto-doldurma ayarları menyusunu avtomatik aça bilmədik. Bu menyunu tapmaq üçün Android Ayarları &gt; Sistem &gt; Dillər və giriş &gt; Qabaqcıl &gt; "Avto-doldurma xidməti"nə gedin.</value>
   </data>
   <data name="CustomFieldName" xml:space="preserve">
-    <value>Özəl sahə adı</value>
+    <value>Özəl xana adı</value>
   </data>
   <data name="FieldTypeBoolean" xml:space="preserve">
     <value>Boolean</value>
@@ -1216,10 +1216,10 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Mətn</value>
   </data>
   <data name="NewCustomField" xml:space="preserve">
-    <value>Yeni özəl sahə</value>
+    <value>Yeni özəl xana</value>
   </data>
   <data name="SelectTypeField" xml:space="preserve">
-    <value>Necə bir özəl sahə əlavə etmək istəyirsiniz?</value>
+    <value>Necə bir özəl xana əlavə etmək istəyirsiniz?</value>
   </data>
   <data name="Remove" xml:space="preserve">
     <value>Çıxart</value>
@@ -1704,7 +1704,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Avto-doldurma qutusunu istifadə etmək üçün lütfən "Bitwarden" ayarlarında "Avto-doldurma əlçatımlılıq xidməti"ni fəallaşdırın.</value>
   </data>
   <data name="AutofillTileUriNotFound" xml:space="preserve">
-    <value>Heç bir parol sahəsi aşkarlanmadı</value>
+    <value>Parol xanası aşkarlanmadı</value>
   </data>
   <data name="SoftDeleting" xml:space="preserve">
     <value>Tullantı qutusuna göndərilir...</value>
@@ -1852,7 +1852,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>"Üzərində göstər"i istifadə edin</value>
   </data>
   <data name="DrawOverDescription" xml:space="preserve">
-    <value>Giriş xanalarını seçdikdə Bitwarden Əlçatımlılıq Xidmətinin açılan pəncərə göstərməsinə icazə verir.</value>
+    <value>Giriş xanaları seçildikdə, Bitwarden Əlçatımlılıq Xidmətinin açılan bir pəncərə göstərməsinə icazə verir.</value>
   </data>
   <data name="DrawOverDescription2" xml:space="preserve">
     <value>İşə salındıqda Bitwarden Əlçatımlılıq Xidməti, giriş məlumatlarınızın avto-doldurmasına kömək etmək üçün giriş xanaları seçildikdə açılan pəncərə göstərəcək.</value>
@@ -2473,7 +2473,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Əlçatımlılıq Xidməti açıqlaması</value>
   </data>
   <data name="AccessibilityDisclosureText" xml:space="preserve">
-    <value>Bitwarden, tətbiqlərdə və veb saytlarda giriş xanalarını axtarmaq üçün Əlçatımlılıq Xidmətini istifadə edir, daha sonra tətbiq və ya sayt üçün uyuşma tapdıqda istifadəçi adı və parolun daxil edilməsi üçün müvafiq sahə kimliklərini yaradır. Xidmət tərəfindən bizə təqdim edilən məlumatların heç birini saxlamırıq, kimlik məlumatlarının daxil edilməsindən kənar ekrandakı hər hansısa elementə nəzarət etməyə cəhd etmirik.</value>
+    <value>Bitwarden, tətbiqlərdə və veb saytlarda giriş xanalarını axtarmaq üçün Əlçatımlılıq Xidmətini istifadə edir, daha sonra tətbiq və ya sayt üçün uyuşma tapdıqda istifadəçi adı və parolun daxil edilməsi üçün müvafiq xana kimliklərini yaradır. Xidmət tərəfindən bizə təqdim edilən məlumatların heç birini saxlamırıq, kimlik məlumatlarının daxil edilməsindən kənar ekrandakı hər hansısa elementə nəzarət etməyə cəhd etmirik.</value>
   </data>
   <data name="Accept" xml:space="preserve">
     <value>Qəbul et</value>
@@ -2972,18 +2972,6 @@ Bu hesaba keçmək istəyirsiniz?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Keçid açarınız {0} üçün Bitwarden anbarınızda saxlanılacaq</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Təyin edilməmiş təşkilat elementləri artıq Bütün Anbarlar görünüşündə görünməyəndir və yalnız Admin Konsolu vasitəsilə əlçatandır. Bu elementləri görünən etmək üçün Admin Konsolundan bir kolleksiyaya təyin edin.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>16 May 2024-cü ildən etibarən təyin edilməmiş təşkilat elementləri artıq Bütün Anbarlar görünüşündə görünməyən və yalnız Admin Konsolu vasitəsilə əlçatan olacaq. Bu elementləri görünən etmək üçün Admin Konsolundan bir kolleksiyaya təyin edin.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Daha sonra xatırlat</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Xəbərdarlıq</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Keçid açarları bu tətbiq üçün dəstəklənmir</value>

@@ -2630,7 +2630,7 @@
     <value>Your master password does not meet one or more of your organization policies. In order to access the vault, you must update your master password now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour.</value>
   </data>
   <data name="CurrentMasterPassword" xml:space="preserve">
-    <value>Current master password</value>
+    <value>தற்போதைய பிரதான கடவுச்சொல்</value>
   </data>
   <data name="LoggedIn" xml:space="preserve">
     <value>Logged in!</value>
@@ -2834,13 +2834,13 @@
     <value>ஆதரவைத் தொடர்புகொள்ளத் தொடரவா?</value>
   </data>
   <data name="ContinueToPrivacyPolicy" xml:space="preserve">
-    <value>Continue to privacy policy?</value>
+    <value>தனியுரிமை கொள்கைக்குத் தொடரவா?</value>
   </data>
   <data name="ContinueToAppStore" xml:space="preserve">
     <value>Continue to app store?</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
-    <value>Continue to device Settings?</value>
+    <value>சாதன அமைவுகளுக்குத் தொடரவா?</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
     <value>Bitwarden வலைச்செயலியில் இரு-படி உள்நுழைவை அமைத்து உமது கணக்கின் பாதுகாப்பை அதிகரி.</value>
@@ -2896,19 +2896,19 @@
     <value>Choose a login to save this passkey to</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Save passkey as new login</value>
+    <value>கடவுவிசையைப் புதிய உள்நுழைவாகச் சேமி</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Save passkey</value>
+    <value>கடவுவிசையைச் சேமி</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
-    <value>Passkeys for {0}</value>
+    <value>{0}-க்கான கடவுவிசை</value>
   </data>
   <data name="PasswordsForX" xml:space="preserve">
-    <value>Passwords for {0}</value>
+    <value>{0}-க்கான கடவுச்சொற்கள்</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Overwrite passkey?</value>
+    <value>கடவுவிசையை மேலெழுதவா?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
     <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
@@ -2929,10 +2929,10 @@
     <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
-    <value>Error creating passkey</value>
+    <value>கடவுவிசை உருவாக்குவதில் பிழை</value>
   </data>
   <data name="ErrorReadingPasskey" xml:space="preserve">
-    <value>Error reading passkey</value>
+    <value>கடவுவிசையைப் படிப்பதில் பிழை</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
     <value>There was a problem creating a passkey for {0}. Try again later.</value>
@@ -2943,52 +2943,40 @@
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
-    <value>Verifying identity...</value>
+    <value>அடையாளத்தைச் சரிபார்க்கிறது...</value>
   </data>
   <data name="Passwords" xml:space="preserve">
-    <value>Passwords</value>
+    <value>கடவுச்சொற்கள்</value>
   </data>
   <data name="UnknownAccount" xml:space="preserve">
-    <value>Unknown account</value>
+    <value>அறியப்படாத கணக்கு</value>
   </data>
   <data name="SetUpAutofill" xml:space="preserve">
-    <value>Set up auto-fill</value>
+    <value>தன்னிரப்பலை அமை</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
-    <value>Get instant access to your passwords and passkeys!</value>
+    <value>உமது கடவுச்சொற்களுக்கும் கடவுவிசைகளுக்கும் உடனடி அணுகலைப் பெறுக!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
     <value>To set up password auto-fill and passkey management, set Bitwarden as your preferred provider in the iOS Settings.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
-    <value>1. Go to your device's Settings &gt; Passwords &gt; Password Options</value>
+    <value>1. உமது சாதன அமைப்புகள் &gt; கடவுச்சொற்கள் &gt; கடவுச்சொல் விருப்புங்களுக்குச் செல்</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>2. Turn on AutoFill</value>
+    <value>2. தன்னிரப்பலை இயக்கு</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
-    <value>3. Select "Bitwarden" to use for passwords and passkeys</value>
+    <value>3. கடவுச்சொற்களுக்கும் கடவுவிசைகளுக்கும் பயன்படுத்த Bitwarden-ஐத் தேர்தெடு</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault</value>
+    <value>உமது கடவுவிசை உமது Bitwarden பெட்டகத்தில் சேமிக்கப்படும்</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault for {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Unassigned organization items are no longer visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>On May 16, 2024, unassigned organization items will no longer be visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Remind me later</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Notice</value>
+    <value>உமது கடவுவிசை {0}-க்கான உமது Bitwarden பெட்டகத்தில் சேமிக்கப்படும்</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
-    <value>Passkeys not supported for this app</value>
+    <value>இச்செயலிக்கு கடவுவிசைகளுக்கான ஆதரவில்லை</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
     <value>Passkey operation failed because browser is not privileged</value>

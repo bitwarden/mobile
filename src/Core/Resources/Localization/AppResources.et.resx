@@ -282,7 +282,7 @@
     <value>Oled kindel, et soovid selle konto eemaldada?</value>
   </data>
   <data name="AccountAlreadyAdded" xml:space="preserve">
-    <value>Konto on juba lisatud </value>
+    <value>Konto on juba lisatud</value>
   </data>
   <data name="SwitchToAlreadyAddedAccountConfirmation" xml:space="preserve">
     <value>Kas soovid kohe vahetada? </value>
@@ -422,7 +422,7 @@
     <value>Automaattäite teenus</value>
   </data>
   <data name="SetBitwardenAsPasskeyManagerDescription" xml:space="preserve">
-    <value>Set Bitwarden as your passkey provider in device settings.</value>
+    <value>Määra Bitwarden enda pääsuvõtme pakkujana telefoni seadetes.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
     <value>Väldi ebamääraseid kirjamärke</value>
@@ -949,7 +949,7 @@ Skaneerimine toimub automaatselt.</value>
     <value>Seda funktsiooni ei saa enne krüpteerimise võtme uuendamist kasutada.</value>
   </data>
   <data name="EncryptionKeyMigrationRequiredDescriptionLong" xml:space="preserve">
-    <value>Encryption key migration required. Please login through the web vault to update your encryption key.</value>
+    <value>Krüpteerimisvõtme ühendamine nõutud. Palun logi sisse läbi veebibrauseri, et uuendada enda krüpteerimisvõtit.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>Rohkem teavet</value>
@@ -1195,7 +1195,7 @@ Skaneerimine toimub automaatselt.</value>
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>We were unable to automatically open the Android credential provider settings menu for you. You can navigate to the credential provider settings menu manually from Android Settings &gt; System &gt; Passwords &amp; accounts &gt; Passwords, passkeys and data services.</value>
+    <value>Meil ei õnnestunud automaatselt avada sulle Androidi paroolihalduri seadete menüü. Sa saad minna sinna manuaalselt läbi Androidi seadete &gt; Süsteem &gt; Paroolid &amp; kontod &gt; Paroolid, pääsuvõtmed ja andmeteenused.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Meil ei õnnestu Androidi sisestusabi seadeid avada. Võid selle ise avada, navigeerides Seaded &gt; Süsteem &gt; Keeled ja sisend &gt; Täpsemad &gt; Sisestusabi.</value>
@@ -1460,11 +1460,11 @@ Skaneerimine toimub automaatselt.</value>
     <value>Puuduvad kaustad, mida kuvada.</value>
   </data>
   <data name="FingerprintPhrase" xml:space="preserve">
-    <value>Sõrmejälje fraas</value>
+    <value>Unikaalne sõnajada</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="YourAccountsFingerprint" xml:space="preserve">
-    <value>Konto sõrmejälje fraas</value>
+    <value>Konto unikaalne sõnajada</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="LearnOrgConfirmation" xml:space="preserve">
@@ -1822,7 +1822,7 @@ Skaneerimine toimub automaatselt.</value>
     <value>Bitwarden vajab tähelepanu! Vaata Bitwardeni menüüd Seaded -> Automaattäite teenused ning luba valik „Kuva peal“</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey management</value>
+    <value>Pääsuvõtme haldamine</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>Automaattäite teenused</value>
@@ -2471,10 +2471,10 @@ Skaneerimine toimub automaatselt.</value>
     <value>Ühenda kellaga</value>
   </data>
   <data name="AccessibilityServiceDisclosure" xml:space="preserve">
-    <value>Accessibility Service Disclosure</value>
+    <value>Juurdepääsetavuse Teenuse Teavitus</value>
   </data>
   <data name="AccessibilityDisclosureText" xml:space="preserve">
-    <value>Bitwarden uses the Accessibility Service to search for login fields in apps and websites, then establish the appropriate field IDs for entering a username &amp; password when a match for the app or site is found. We do not store any of the information presented to us by the service, nor do we make any attempt to control any on-screen elements beyond text entry of credentials.</value>
+    <value>Bitwarden kasutab Juurdepääsetavuse Teenust, et otsida sisselogimisväljasid rakendustes ja veebilehtedel, ning määrata neile vastavad ID-d, et täita lahtrid soovi korral kasutajanime ja parooliga. Me ei hoiusta teie andmeid, ega proovi kontrollida ühtegi elementi ekraanil peale sisselogimisväljade.</value>
   </data>
   <data name="Accept" xml:space="preserve">
     <value>Nõustu</value>
@@ -2515,7 +2515,7 @@ Soovid selle konto peale lülituda?</value>
     <value>Sinu seadmesse saadeti teavitus.</value>
   </data>
   <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
-    <value>Veendu, et hoidla on lahti lukustatud ja sõrmejälje fraasid seadmete vahel ühtivad.</value>
+    <value>Veendu, et hoidla on lahti lukustatud ja unikaalne sõnajada ühtib teiste seadmetega.</value>
   </data>
   <data name="ResendNotification" xml:space="preserve">
     <value>Saada märguanne uuesti</value>
@@ -2632,22 +2632,22 @@ Soovid selle konto peale lülituda?</value>
     <value>Praegune ülemparool</value>
   </data>
   <data name="LoggedIn" xml:space="preserve">
-    <value>Logged in!</value>
+    <value>Sisse logitud!</value>
   </data>
   <data name="ApproveWithMyOtherDevice" xml:space="preserve">
-    <value>Approve with my other device</value>
+    <value>Kinnita teises seadmes</value>
   </data>
   <data name="RequestAdminApproval" xml:space="preserve">
-    <value>Request admin approval</value>
+    <value>Küsi administraatori nõusolekut</value>
   </data>
   <data name="ApproveWithMasterPassword" xml:space="preserve">
-    <value>Approve with master password</value>
+    <value>Kinnita ülemparooliga</value>
   </data>
   <data name="TurnOffUsingPublicDevice" xml:space="preserve">
-    <value>Turn off using a public device</value>
+    <value>Lülita see välja, kui oled avalikus seadmes</value>
   </data>
   <data name="RememberThisDevice" xml:space="preserve">
-    <value>Remember this device</value>
+    <value>Hoia see seade meeles</value>
   </data>
   <data name="Passkey" xml:space="preserve">
     <value>Pääsukood</value>
@@ -2674,10 +2674,10 @@ Soovid selle konto peale lülituda?</value>
     <value>Saadaval kaheastmelise kinnitamise jaoks</value>
   </data>
   <data name="MasterPasswordRePromptHelp" xml:space="preserve">
-    <value>Master password re-prompt help</value>
+    <value>Abi ülemparooli uuesti küsimisega</value>
   </data>
   <data name="UnlockingMayFailDueToInsufficientMemoryDecreaseYourKDFMemorySettingsToResolve" xml:space="preserve">
-    <value>Unlocking may fail due to insufficient memory. Decrease your KDF memory settings or set up biometric unlock to resolve.</value>
+    <value>Avamine võis ebapiisava mälu tõttu nurjuda. Probleemi lahendamiseks vähenda oma KDF mälu seadeid või seadista biomeetriaga sisse logimine.</value>
   </data>
   <data name="InvalidAPIKey" xml:space="preserve">
     <value>Vigane API võti</value>
@@ -2686,22 +2686,22 @@ Soovid selle konto peale lülituda?</value>
     <value>Vigane API token</value>
   </data>
   <data name="AdminApprovalRequested" xml:space="preserve">
-    <value>Admin approval requested</value>
+    <value>Taotlus administraatorile saadetud</value>
   </data>
   <data name="YourRequestHasBeenSentToYourAdmin" xml:space="preserve">
-    <value>Your request has been sent to your admin.</value>
+    <value>Sinu taotlus saadeti administraatorile.</value>
   </data>
   <data name="YouWillBeNotifiedOnceApproved" xml:space="preserve">
-    <value>You will be notified once approved. </value>
+    <value>Kinnitamise järel saad selle kohta teavituse. </value>
   </data>
   <data name="TroubleLoggingIn" xml:space="preserve">
-    <value>Trouble logging in?</value>
+    <value>Ei õnnestu sisse logida?</value>
   </data>
   <data name="LoggingInAsX" xml:space="preserve">
-    <value>Logging in as {0}</value>
+    <value>Login sisse kui {0}</value>
   </data>
   <data name="VaultTimeoutActionChangedToLogOut" xml:space="preserve">
-    <value>Vault timeout action changed to log out</value>
+    <value>Hoidla ajalõpu saabudes logitakse sind välja</value>
   </data>
   <data name="BlockAutoFill" xml:space="preserve">
     <value>Automaatse täitmise keelamine</value>
@@ -2747,13 +2747,13 @@ Soovid selle konto peale lülituda?</value>
     <value>Mitme URI korraga muutmine ei toiminud</value>
   </data>
   <data name="LoginApproved" xml:space="preserve">
-    <value>Login approved</value>
+    <value>Sisselogimine kinnitatud</value>
   </data>
   <data name="LogInWithDeviceMustBeSetUpInTheSettingsOfTheBitwardenAppNeedAnotherOption" xml:space="preserve">
-    <value>Log in with device must be set up in the settings of the Bitwarden app. Need another option?</value>
+    <value>Bitwardeni rakenduse seadetes peab olema konfigureeritud sisselogimine läbi seadme. Soovid muud valikut?</value>
   </data>
   <data name="LogInWithDevice" xml:space="preserve">
-    <value>Log in with device</value>
+    <value>Logi sisse teise seadmega</value>
   </data>
   <data name="LoggingInOn" xml:space="preserve">
     <value>Sisselogimas kui</value>
@@ -2780,228 +2780,216 @@ Soovid selle konto peale lülituda?</value>
     <value>Sünkroniseeri kohe</value>
   </data>
   <data name="UnlockOptions" xml:space="preserve">
-    <value>Unlock options</value>
+    <value>Avamise valikud</value>
   </data>
   <data name="SessionTimeout" xml:space="preserve">
     <value>Sessiooni ajalõpp</value>
   </data>
   <data name="SessionTimeoutAction" xml:space="preserve">
-    <value>Session timeout action</value>
+    <value>Ajalõpule järgnev tegevus</value>
   </data>
   <data name="AccountFingerprintPhrase" xml:space="preserve">
-    <value>Account fingerprint phrase</value>
+    <value>Konto unikaalne sõnajada</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="OneHourAndOneMinute" xml:space="preserve">
-    <value>One hour and one minute</value>
+    <value>Üks tund ja üks minut</value>
   </data>
   <data name="OneHourAndXMinute" xml:space="preserve">
-    <value>One hour and {0} minutes</value>
+    <value>Üks tund ja {0} minutit</value>
   </data>
   <data name="XHoursAndOneMinute" xml:space="preserve">
-    <value>{0} hours and one minute</value>
+    <value>{0} tundi ja üks minut</value>
   </data>
   <data name="XHoursAndYMinutes" xml:space="preserve">
-    <value>{0} hours and {1} minutes</value>
+    <value>{0} tundi ja {1} minutit</value>
   </data>
   <data name="XHours" xml:space="preserve">
-    <value>{0} hours</value>
+    <value>{0} tundi</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Use Bitwarden to save new passkeys and log in with passkeys stored in your vault.</value>
+    <value>Kasuta Bitwardenit uute pääsuvõtmete salvestamiseks hoidlas ja nendega sisse logimiseks.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
-    <value>The Android Autofill Framework is used to assist in filling login information into other apps on your device.</value>
+    <value>Android Autofill Raamistiku kasutatakse teistesse rakendustesse sisselogimisel andmete automaatse täitmise lihtsustamiseks.</value>
   </data>
   <data name="UseInlineAutofillExplanationLong" xml:space="preserve">
-    <value>Use inline autofill if your selected keyboard supports it. Otherwise, use the default overlay.</value>
+    <value>Kasuta automaatset täitmist hüpikuna veebisaidi sees, kui su klaviatuur lubab seda. Muidu kasuta vaikeseadet.</value>
   </data>
   <data name="AdditionalOptions" xml:space="preserve">
-    <value>Additional options</value>
+    <value>Muud valikud</value>
   </data>
   <data name="ContinueToWebApp" xml:space="preserve">
-    <value>Continue to web app?</value>
+    <value>Jätka veebibrauseris?</value>
   </data>
   <data name="ContinueToX" xml:space="preserve">
-    <value>Continue to {0}?</value>
+    <value>Ava {0}?</value>
     <comment>The parameter is an URL, like bitwarden.com.</comment>
   </data>
   <data name="ContinueToHelpCenter" xml:space="preserve">
-    <value>Continue to Help center?</value>
+    <value>Ava Abikeskus?</value>
   </data>
   <data name="ContinueToContactSupport" xml:space="preserve">
-    <value>Continue to contact support?</value>
+    <value>Kas soovid avada klienditoe vormi?</value>
   </data>
   <data name="ContinueToPrivacyPolicy" xml:space="preserve">
-    <value>Continue to privacy policy?</value>
+    <value>Ava privaatsuspoliitika?</value>
   </data>
   <data name="ContinueToAppStore" xml:space="preserve">
-    <value>Continue to app store?</value>
+    <value>Kas soovid avada enda rakenduste poe?</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
-    <value>Continue to device Settings?</value>
+    <value>Ava Seaded?</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
-    <value>Make your account more secure by setting up two-step login in the Bitwarden web app.</value>
+    <value>Muuda oma konto turvalisemaks seadistades brauseris kahe-astmeline sisselogimine.</value>
   </data>
   <data name="ChangeMasterPasswordDescriptionLong" xml:space="preserve">
-    <value>You can change your master password on the Bitwarden web app.</value>
+    <value>Ülemparooli saab muuta brauseris.</value>
   </data>
   <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
-    <value>You can import data to your vault on {0}.</value>
+    <value>Sa saad importida oma andmed hoidlasse aadressil {0}.</value>
     <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
   </data>
   <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
-    <value>Learn more about how to use Bitwarden on the Help center.</value>
+    <value>Uuri lähemalt Abikeskusest kuidas kasutada Bitwardenit.</value>
   </data>
   <data name="ContactSupportDescriptionLong" xml:space="preserve">
-    <value>Can’t find what you are looking for? Reach out to Bitwarden support on bitwarden.com.</value>
+    <value>Ei leidnud otsitavat? Kirjuta Bitwardeni toele veebilehel bitwarden.com.</value>
   </data>
   <data name="PrivacyPolicyDescriptionLong" xml:space="preserve">
-    <value>Check out our privacy policy on bitwarden.com.</value>
+    <value>Vaadake meie privaatsuspoliitikat veebilehel bitwarden.com.</value>
   </data>
   <data name="ExploreMoreFeaturesOfYourBitwardenAccountOnTheWebApp" xml:space="preserve">
-    <value>Explore more features of your Bitwarden account on the web app.</value>
+    <value>Vaata ka teisi Bitwardeni konto funktsioone veebibrauseris.</value>
   </data>
   <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
-    <value>Bitwarden allows you to share your vault items with others by using an organization. Learn more on the bitwarden.com website.</value>
+    <value>Bitwarden võimaldab sul hoidla sisu teiste kasutajatega jagada, kasutades selleks organisatsiooni kontot. Uuri lähemalt www.bitwarden.com.</value>
   </data>
   <data name="RateAppDescriptionLong" xml:space="preserve">
-    <value>Help others find out if Bitwarden is right for them. Visit the app store and leave a rating now.</value>
+    <value>Aita meil jõuda rohkemate inimesteni. Külasta enda rakenduste poodi ja jäta sinna positiivne hinnang.</value>
   </data>
   <data name="DefaultDarkThemeDescriptionLong" xml:space="preserve">
-    <value>Choose the dark theme to use when your device’s dark mode is in use</value>
+    <value>Kasuta tumedat teemat, kui sa kasutad seda ka enda telefoni seadetes</value>
   </data>
   <data name="CreatedXY" xml:space="preserve">
-    <value>Created {0}, {1}</value>
+    <value>Loodud {0}, {1}</value>
     <comment>To state the date/time in which the cipher was created: Created 03/21/2023, 09:25 AM. First parameter is the date and the second parameter is the time.</comment>
   </data>
   <data name="TooManyAttempts" xml:space="preserve">
-    <value>Too many attempts</value>
+    <value>Liiga palju katseid</value>
   </data>
   <data name="AccountLoggedOutBiometricExceeded" xml:space="preserve">
-    <value>Account logged out.</value>
+    <value>Edukalt välja logitud.</value>
   </data>
   <data name="YourOrganizationPermissionsWereUpdatedRequeringYouToSetAMasterPassword" xml:space="preserve">
-    <value>Your organization permissions were updated, requiring you to set a master password.</value>
+    <value>Teie organisatsiooni seadeid värskendati, mistõttu peate määrama ülemparooli.</value>
   </data>
   <data name="YourOrganizationRequiresYouToSetAMasterPassword" xml:space="preserve">
-    <value>Your organization requires you to set a master password.</value> 
+    <value>Sinu organisatsioon nõuab sult ülemparooli seadistamist.</value> 
   </data>
   <data name="SetUpAnUnlockOptionToChangeYourVaultTimeoutAction" xml:space="preserve">
-    <value>Set up an unlock option to change your vault timeout action.</value>
+    <value>Hoidla ajalõpu muutmiseks vali esmalt lahtilukustamise meetod.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
-    <value>Choose a login to save this passkey to</value>
+    <value>Val millisesse kirjesse soovid selle pääsuvõtme salvestada</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Save passkey as new login</value>
+    <value>Salvesta pääsuvõti uude kirjesse</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Save passkey</value>
+    <value>Salvesta pääsuvõti</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
-    <value>Passkeys for {0}</value>
+    <value>Kasutaja {0} pääsuvõtmed</value>
   </data>
   <data name="PasswordsForX" xml:space="preserve">
-    <value>Passwords for {0}</value>
+    <value>Kasutaja {0} paroolid</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Overwrite passkey?</value>
+    <value>Kas soovid pääsuvõtme üle kirjutada?</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
-    <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
+    <value>See kirje sisaldab juba pääsuvõtit. Kas oled kindel, et soovid selle üle kirjutada?</value>
   </data>
   <data name="DuoTwoStepLoginIsRequiredForYourAccount" xml:space="preserve">
-    <value>Duo two-step login is required for your account. </value>
+    <value>Duo kahe-astmeline sisselogimine on nõutud sinu kontol. </value>
   </data>
   <data name="FollowTheStepsFromDuoToFinishLoggingIn" xml:space="preserve">
-    <value>Follow the steps from Duo to finish logging in.</value>
+    <value>Sisselogimise lõpetamiseks järgige Duo juhiseid.</value>
   </data>
   <data name="LaunchDuo" xml:space="preserve">
-    <value>Launch Duo</value>
+    <value>Käivita Duo</value>
   </data>
   <data name="VerificationRequiredByX" xml:space="preserve">
-    <value>Verification required by {0}</value>
+    <value>{0} nõuab kinnitamist</value>
   </data>
   <data name="VerificationRequiredForThisActionSetUpAnUnlockMethodInBitwardenToContinue" xml:space="preserve">
-    <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
+    <value>Kinnitamine on nõutud selle tegevuse jaoks. Seadista jätkamiseks lahtilukustamise meetod Bitwardenis.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
-    <value>Error creating passkey</value>
+    <value>Pääsuvõtme loomine ebaõnnestus</value>
   </data>
   <data name="ErrorReadingPasskey" xml:space="preserve">
-    <value>Error reading passkey</value>
+    <value>Pääsuvõtme lugemine ebaõnnestus</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem creating a passkey for {0}. Try again later.</value>
+    <value>Ei õnnestunud luua pääsuvõtit {0}. Proovi hiljem uuesti.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem reading your passkey for {0}. Try again later.</value>
+    <value>Ei õnnestunud lugeda pääsuvõtit {0}. Proovi hiljem uuesti.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
-    <value>Verifying identity...</value>
+    <value>Kinnitan sinu isikut...</value>
   </data>
   <data name="Passwords" xml:space="preserve">
-    <value>Passwords</value>
+    <value>Paroolid</value>
   </data>
   <data name="UnknownAccount" xml:space="preserve">
-    <value>Unknown account</value>
+    <value>Tundmatu konto</value>
   </data>
   <data name="SetUpAutofill" xml:space="preserve">
-    <value>Set up auto-fill</value>
+    <value>Seadista automaatne täitmine</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
-    <value>Get instant access to your passwords and passkeys!</value>
+    <value>Hangi kohene juurdepääs enda paroolidele ja pääsuvõtmetele!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
-    <value>To set up password auto-fill and passkey management, set Bitwarden as your preferred provider in the iOS Settings.</value>
+    <value>Paroolide automaatse täitmise ja pääsuvõtmete haldamise seadistamiseks, määra Bitwarden enda eelistatud pakkujana iOS-i seadetes.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
-    <value>1. Go to your device's Settings &gt; Passwords &gt; Password Options</value>
+    <value>1. Ava Seaded &gt; Paroolid &gt; Paroolide Valikud</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>2. Turn on AutoFill</value>
+    <value>2. Lülita AutoFill sisse</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
-    <value>3. Select "Bitwarden" to use for passwords and passkeys</value>
+    <value>3. Vali "Bitwarden", keda kasutada paroolide ja pääsuvõtmete jaoks</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault</value>
+    <value>Sinu pääsuvõti salvestatakse sinu Bitwardeni hoidlasse</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault for {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Unassigned organization items are no longer visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>On May 16, 2024, unassigned organization items will no longer be visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Remind me later</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Notice</value>
+    <value>Sinu pääsuvõti salvestatakse sinu Bitwardeni hoidlasse kirjesse {0}</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
-    <value>Passkeys not supported for this app</value>
+    <value>See rakendus ei toeta pääsuvõtmeid</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Passkey operation failed because browser is not privileged</value>
+    <value>Pääsuvõtme funktsiooni kasutamine ebaõnnestus, sest see brauser ei ole toetatud</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
-    <value>Passkey operation failed because browser signature does not match</value>
+    <value>Pääsuvõtme funktsiooni kasutamine ebaõnnestus, sest brauseri sõrmejälg ei ühti</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because of missing asset links</value>
+    <value>Pääsuvõtme funktsiooni kasutamine ebaõnnestus, sest puuduvad vajalikud lingid (missing asset links)</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppNotFoundInAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because app not found in asset links</value>
+    <value>Pääsuvõtme funktsiooni kasutamine ebaõnnestus, sest rakendust ei leitud linkidest (app not found in asset links)</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>Passkey operation failed because app could not be verified</value>
+    <value>Pääsuvõtme funktsiooni kasutamine ebaõnnestus, sest rakenduse tuvastamine ebaõnnestus</value>
   </data>
 </root>

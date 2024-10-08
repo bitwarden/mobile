@@ -474,13 +474,13 @@
     <value>请输入您账户的电子邮件地址来接收主密码提示。</value>
   </data>
   <data name="ExntesionReenable" xml:space="preserve">
-    <value>重新启用应用程序扩展</value>
+    <value>重新激活 App 扩展</value>
   </data>
   <data name="ExtensionAlmostDone" xml:space="preserve">
     <value>就差一步！</value>
   </data>
   <data name="ExtensionEnable" xml:space="preserve">
-    <value>启用应用程序扩展</value>
+    <value>激活 App 扩展</value>
   </data>
   <data name="ExtensionInSafari" xml:space="preserve">
     <value>在 Safari 中，使用共享图标寻找 Bitwarden （提示：在菜单最下面一行的右边）。</value>
@@ -563,7 +563,7 @@
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="LoginOrCreateNewAccount" xml:space="preserve">
-    <value>登录或者新建一个账户来访问您的安全密码库。</value>
+    <value>登录或创建一个新账户以访问您的安全密码库。</value>
   </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
@@ -952,7 +952,7 @@
     <value>需要迁移加密密钥。请登录网页版密码库来更新您的加密密钥。</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
-    <value>了解更多信息</value>
+    <value>进一步了解</value>
   </data>
   <data name="ApiUrl" xml:space="preserve">
     <value>API 服务器 URL</value>
@@ -1119,7 +1119,7 @@
     <value>九月</value>
   </data>
   <data name="SSN" xml:space="preserve">
-    <value>社会保险号码</value>
+    <value>社会保障号码</value>
   </data>
   <data name="StateProvince" xml:space="preserve">
     <value>州 / 省</value>
@@ -1269,10 +1269,10 @@
     <comment>An entity of multiple related people (ex. a team or business organization).</comment>
   </data>
   <data name="HoldYubikeyNearTop" xml:space="preserve">
-    <value>把你的 Yubikey 靠近设备的顶部。</value>
+    <value>把你的 YubiKey 靠近设备的顶部。</value>
   </data>
   <data name="TryAgain" xml:space="preserve">
-    <value>再试一次</value>
+    <value>请重试</value>
   </data>
   <data name="YubiKeyInstructionIos" xml:space="preserve">
     <value>要继续，请将您的 YubiKey NEO 靠在设备背面。</value>
@@ -1804,7 +1804,7 @@
     <value>密码不符合组织要求。请检查策略信息然后重试。</value>
   </data>
   <data name="Loading" xml:space="preserve">
-    <value>载入中</value>
+    <value>加载中</value>
   </data>
   <data name="AcceptPolicies" xml:space="preserve">
     <value>激活此开关表示您同意：</value>
@@ -2402,7 +2402,7 @@
     <value>随机单词</value>
   </data>
   <data name="EmailRequiredParenthesis" xml:space="preserve">
-    <value>电子邮件地址（必填）</value>
+    <value>电子邮箱（必填）</value>
   </data>
   <data name="DomainNameRequiredParenthesis" xml:space="preserve">
     <value>域名（必填）</value>
@@ -2500,7 +2500,7 @@
     <value>在 {1} 上以 {0} 身份登录</value>
   </data>
   <data name="NotYou" xml:space="preserve">
-    <value>不是你？</value>
+    <value>不是您吗？</value>
   </data>
   <data name="LogInWithMasterPassword" xml:space="preserve">
     <value>使用主密码登录</value>
@@ -2695,7 +2695,7 @@
     <value>批准后，您将收到通知。 </value>
   </data>
   <data name="TroubleLoggingIn" xml:space="preserve">
-    <value>登录遇到问题？</value>
+    <value>登录遇到问题吗？</value>
   </data>
   <data name="LoggingInAsX" xml:space="preserve">
     <value>正登录为 {0}</value>
@@ -2750,7 +2750,7 @@
     <value>登录已批准</value>
   </data>
   <data name="LogInWithDeviceMustBeSetUpInTheSettingsOfTheBitwardenAppNeedAnotherOption" xml:space="preserve">
-    <value>设备登录必须在 Bitwarden 应用程序的设置中启用。需要其他登录选项吗？</value>
+    <value>必须在 Bitwarden App 的设置中启用设备登录。需要其他登录选项吗？</value>
   </data>
   <data name="LogInWithDevice" xml:space="preserve">
     <value>使用设备登录</value>
@@ -2973,18 +2973,6 @@
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>您的通行密钥将保存在您的 {0} Bitwarden 密码库中</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>未分配的组织项目在「所有密码库」视图中不再可见，只能通过管理控制台访问。通过管理控制台将这些项目分配给集合以使其可见。</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>注意：从 2024 年 5 月 16 日起，未分配的组织项目在「所有密码库」视图中将不再可见，只能通过管理控制台访问。通过管理控制台将这些项目分配给集合以使其可见。</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>稍后提醒我</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>注意</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>此应用不支持通行密钥</value>

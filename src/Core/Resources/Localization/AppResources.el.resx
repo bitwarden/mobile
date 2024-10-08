@@ -190,7 +190,7 @@
     <comment>Full label for a email address.</comment>
   </data>
   <data name="EmailUs" xml:space="preserve">
-    <value>Στείλτε μας email</value>
+    <value>Επικοινωνία μέσω email</value>
   </data>
   <data name="EmailUsDescription" xml:space="preserve">
     <value>Στείλτε μας email για να λάβετε βοήθεια ή να αφήσετε σχόλια.</value>
@@ -296,11 +296,11 @@
     <comment>Text to define that there are more options things to see.</comment>
   </data>
   <data name="MyVault" xml:space="preserve">
-    <value>Το vault μου</value>
+    <value>Η κρύπτη μου</value>
     <comment>The title for the vault page.</comment>
   </data>
   <data name="Authenticator" xml:space="preserve">
-    <value>Αυθεντικοποιητής</value>
+    <value>Εφαρμογή Επαλήθευσης</value>
     <comment>Authenticator TOTP feature</comment>
   </data>
   <data name="Name" xml:space="preserve">
@@ -422,7 +422,7 @@
     <value>Υπηρεσία αυτόματης συμπλήρωσης</value>
   </data>
   <data name="SetBitwardenAsPasskeyManagerDescription" xml:space="preserve">
-    <value>Set Bitwarden as your passkey provider in device settings.</value>
+    <value>Ορίστε το Bitwarden ως πάροχο κλειδιού πρόσβασης στις ρυθμίσεις της συσκευής.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
     <value>Αποφυγή αμφιλεγόμενων χαρακτήρων</value>
@@ -431,7 +431,7 @@
     <value>Επέκταση εφαρμογής Bitwarden</value>
   </data>
   <data name="BitwardenAppExtensionAlert2" xml:space="preserve">
-    <value>Ο ευκολότερος τρόπος για να προσθέστε νέες συνδέσεις στο vault σας, είναι μέσω της επέκτασης εφαρμογής Bitwarden. Μάθετε περισσότερα σχετικά με τη χρήση της επέκτασης εφαρμογής Bitwarden, μεταβαίνοντας στις "Ρυθμίσεις".</value>
+    <value>Ο ευκολότερος τρόπος για να προσθέστε νέες συνδέσεις στη κρύπτη σας, είναι μέσω της επέκτασης εφαρμογής Bitwarden. Μάθετε περισσότερα σχετικά με τη χρήση της επέκτασης εφαρμογής Bitwarden, μεταβαίνοντας στις "Ρυθμίσεις".</value>
   </data>
   <data name="BitwardenAppExtensionDescription" xml:space="preserve">
     <value>Χρήση του Bitwarden στο Safari και σε άλλες εφαρμογές για αυτόματη συμπλήρωση των συνδέσεων σας.</value>
@@ -443,7 +443,7 @@
     <value>Χρησιμοποιείστε την υπηρεσία προσβασιμότητας Bitwarden, για την αυτόματη συμπλήρωση συνδέσεων.</value>
   </data>
   <data name="ChangeEmail" xml:space="preserve">
-    <value>Αλλαγή email</value>
+    <value>Αλλαγή διεύθυνσης ηλ. ταχυδρομείου</value>
   </data>
   <data name="ChangeEmailConfirmation" xml:space="preserve">
     <value>Μπορείτε να αλλάξετε τη διεύθυνση του email σας στο bitwarden.com. Θέλετε να επισκεφθείτε την ιστοσελίδα τώρα;</value>
@@ -550,10 +550,10 @@
     <value>Άμεσα</value>
   </data>
   <data name="VaultTimeout" xml:space="preserve">
-    <value>Χρόνος λήξης vault</value>
+    <value>Χρόνος λήξης κρύπτης</value>
   </data>
   <data name="VaultTimeoutAction" xml:space="preserve">
-    <value>Ενέργεια χρόνου λήξης vault</value>
+    <value>Ενέργεια χρόνου λήξης κρύπτης</value>
   </data>
   <data name="VaultTimeoutLogOutConfirmation" xml:space="preserve">
     <value>Η αποσύνδεση θα καταργήσει όλη την πρόσβαση στο vault σας και απαιτεί online έλεγχο ταυτότητας μετά το χρονικό όριο λήξης. Είστε βέβαιοι ότι θέλετε να χρησιμοποιήσετε αυτήν τη ρύθμιση;</value>
@@ -644,7 +644,7 @@
     <value>Είστε βέβαιοι ότι θέλετε να αντικαταστήσετε τον τρέχον κωδικό;</value>
   </data>
   <data name="PushNotificationAlert" xml:space="preserve">
-    <value>Το Bitwarden κρατάει συγχρονισμένο το vault σας αυτόματα, με τη χρήση ειδοποιήσεων push. Για την καλύτερη δυνατή εμπειρία, επιλέξτε "Να επιτρέπεται" στην παρακάτω προτροπή όταν σας ζητηθεί να ενεργοποιήσετε τις ειδοποιήσεις push.</value>
+    <value>Το Bitwarden διατηρεί αυτόματα συγχρονισμένη την κρύπτη σας με τη χρήση ειδοποιήσεων push. Για την καλύτερη δυνατή εμπειρία, επιλέξτε «Αποδοχή» στο ακόλουθο μήνυμα ερώτησης όταν σας ζητηθεί να ενεργοποιήσετε τις ειδοποιήσεις push.</value>
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
@@ -660,7 +660,7 @@
     <value>Εισάγετε ξανά τον κύριο κωδικό</value>
   </data>
   <data name="SearchVault" xml:space="preserve">
-    <value>Αναζήτηση στο vault</value>
+    <value>Αναζήτηση κρύπτης</value>
   </data>
   <data name="Security" xml:space="preserve">
     <value>Ασφάλεια</value>
@@ -695,7 +695,7 @@
     <value>Ο συγχρονισμός απέτυχε</value>
   </data>
   <data name="SyncVaultNow" xml:space="preserve">
-    <value>Συγχρονισμός του vault τώρα</value>
+    <value>Συγχρονισμός κρύπτης τώρα</value>
   </data>
   <data name="TouchID" xml:space="preserve">
     <value>Touch ID</value>
@@ -721,7 +721,7 @@
     <value>Προβολή στοιχείου</value>
   </data>
   <data name="WebVault" xml:space="preserve">
-    <value>Διαδικτυακό vault Bitwarden</value>
+    <value>Διαδικτυακή κρύπτη Bitwarden</value>
   </data>
   <data name="Lost2FAApp" xml:space="preserve">
     <value>Χάσατε την εφαρμογή επαλήθευσης;</value>
@@ -790,10 +790,10 @@
     <value>Είστε βέβαιοι για την αυτόματη συμπλήρωση αυτού του στοιχείου; Δεν υπάρχει πλήρης αντιστοιχία για "{0}".</value>
   </data>
   <data name="MatchingItems" xml:space="preserve">
-    <value>Αντιστοίχιση Στοιχείων</value>
+    <value>Αντίστοιχα στοιχεία</value>
   </data>
   <data name="PossibleMatchingItems" xml:space="preserve">
-    <value>Πιθανά Στοιχεία Αντιστοίχισης</value>
+    <value>Πιθανά αντικείμενα που ταιριάζουν</value>
   </data>
   <data name="Search" xml:space="preserve">
     <value>Αναζήτηση</value>
@@ -809,7 +809,7 @@
     <comment>Message shown when trying to launch an app that does not exist on the user's device.</comment>
   </data>
   <data name="AuthenticatorAppTitle" xml:space="preserve">
-    <value>Εφαρμογή αυθεντικοποίησης</value>
+    <value>Εφαρμογή Επαλήθευσης</value>
     <comment>For 2FA</comment>
   </data>
   <data name="EnterVerificationCodeApp" xml:space="preserve">
@@ -850,7 +850,7 @@
     <comment>For 2FA</comment>
   </data>
   <data name="VerificationEmailSent" xml:space="preserve">
-    <value>Το email επιβεβαίωσης στάλθηκε</value>
+    <value>Το μήνυμα επιβεβαίωσης ηλ. ταχυδρομείου στάλθηκε</value>
     <comment>For 2FA</comment>
   </data>
   <data name="YubiKeyInstruction" xml:space="preserve">
@@ -949,7 +949,7 @@
     <value>Δεν μπορείτε να χρησιμοποιήσετε αυτήν τη δυνατότητα μέχρι να ενημερώσετε το κλειδί κρυπτογράφησης.</value>
   </data>
   <data name="EncryptionKeyMigrationRequiredDescriptionLong" xml:space="preserve">
-    <value>Απαιτείται μεταφορά του κλειδιού κρυπτογράφησης. Παρακαλούμε συνδεθείτε μέσω του διαδικτυακού vault για να ενημερώσετε το κλειδί κρυπτογράφησης.</value>
+    <value>Απαιτείται μεταφορά του κλειδιού κρυπτογράφησης. Παρακαλούμε συνδεθείτε μέσω της διαδικτυακής κρύπτης για να ενημερώσετε το κλειδί κρυπτογράφησης.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>Μάθετε περισσότερα</value>
@@ -984,7 +984,7 @@
     <value>URL Διακομιστή</value>
   </data>
   <data name="WebVaultUrl" xml:space="preserve">
-    <value>URL διακομιστή διαδικτυακού vault</value>
+    <value>URL διακομιστή διαδικτυακής κρύπτης</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContentOld" xml:space="preserve">
     <value>Πατήστε στην ειδοποίηση για να συμπληρώσετε αυτόματα ένα στοιχείο από τη λίστα σας.</value>
@@ -1101,7 +1101,7 @@
     <value>Κα</value>
   </data>
   <data name="Mx" xml:space="preserve">
-    <value>Mx στα Ελληνικά</value>
+    <value>Ουδέτερο</value>
   </data>
   <data name="November" xml:space="preserve">
     <value>Νοέμβριος</value>
@@ -1195,7 +1195,7 @@
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>We were unable to automatically open the Android credential provider settings menu for you. You can navigate to the credential provider settings menu manually from Android Settings &gt; System &gt; Passwords &amp; accounts &gt; Passwords, passkeys and data services.</value>
+    <value>Δεν μπορέσαμε να ανοίξουμε αυτόματα το μενού ρυθμίσεων παρόχου διαπιστευτηρίων Android για εσάς. Μπορείτε να μεταβείτε στο μενού ρυθμίσεων του παρόχου διαπιστευτηρίων χειροκίνητα από τις ρυθμίσεις Android &gt; Σύστημα &gt; Κωδικοί πρόσβασης &amp; λογαριασμοί &gt; Κωδικοί πρόσβασης, συνθηματικά και υπηρεσίες δεδομένων.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Δεν ήταν δυνατό να ανοίξουμε αυτόματα το μενού ρυθμίσεων αυτόματης συμπλήρωσης Android για εσάς. Μπορείτε να πλοηγηθείτε στο μενού ρυθμίσεων αυτόματης συμπλήρωσης με μη αυτόματο τρόπο από τις Ρυθμίσεις Android &gt; Σύστημα &gt; Γλώσσες και εισαγωγή &gt; Σύνθετες &gt; Υπηρεσία αυτόματης συμπλήρωσης.</value>
@@ -1252,7 +1252,7 @@
     <value>Έναρξη με</value>
   </data>
   <data name="URIMatchDetection" xml:space="preserve">
-    <value>Εντοπισμός Αντιστοίχισης URI</value>
+    <value>Εντοπισμός αντιστοίχισης URI</value>
   </data>
   <data name="MatchDetection" xml:space="preserve">
     <value>Εντοπισμός αντιστοίχισης</value>
@@ -1384,10 +1384,10 @@
     <value>Αναζήτηση στη συλλογή</value>
   </data>
   <data name="SearchFileSends" xml:space="preserve">
-    <value>Αναζήτηση αρχείων Sends</value>
+    <value>Αναζήτηση αρχείων Send</value>
   </data>
   <data name="SearchTextSends" xml:space="preserve">
-    <value>Αναζήτηση Κειμένου Sends</value>
+    <value>Αναζήτηση κειμένων Send</value>
   </data>
   <data name="SearchGroup" xml:space="preserve">
     <value>Αναζήτηση {0}</value>
@@ -1471,7 +1471,7 @@
     <value>Το Bitwarden επιτρέπει να μοιράζεστε τα στοιχεία του vault σας με άλλους χρησιμοποιώντας ένα λογαριασμό οργανισμού. Θέλετε να επισκεφθείτε την ιστοσελίδα bitwarden.com για να μάθετε περισσότερα;</value>
   </data>
   <data name="ExportVault" xml:space="preserve">
-    <value>Εξαγωγή του vault</value>
+    <value>Εξαγωγή κρύπτης</value>
   </data>
   <data name="LockNow" xml:space="preserve">
     <value>Κλείδωμα τώρα</value>
@@ -1483,7 +1483,7 @@
     <value>Ξεκλείδωμα</value>
   </data>
   <data name="UnlockVault" xml:space="preserve">
-    <value>Ξεκλείδωμα του vault</value>
+    <value>Ξεκλείδωμα κρύπτης</value>
   </data>
   <data name="ThirtyMinutes" xml:space="preserve">
     <value>30 λεπτά</value>
@@ -1536,7 +1536,7 @@
     <comment>Clipboard is the operating system thing where you copy/paste data to on your device.</comment>
   </data>
   <data name="DefaultUriMatchDetection" xml:space="preserve">
-    <value>Προεπιλεγμένη Ανίχνευση Αντιστοιχίας URI</value>
+    <value>Προεπιλεγμένη ανίχνευση αντιστοιχίας URI</value>
     <comment>Default URI match detection for auto-fill.</comment>
   </data>
   <data name="DefaultUriMatchDetectionDescription" xml:space="preserve">
@@ -1583,16 +1583,16 @@
     <value>Αυτόματη συμπλήρωση μπλοκαρισμένων URI</value>
   </data>
   <data name="AskToAddLogin" xml:space="preserve">
-    <value>Ρωτήστε για να προσθέστε σύνδεση</value>
+    <value>Ρώτησε για να προσθέσεις σύνδεση</value>
   </data>
   <data name="AskToAddLoginDescription" xml:space="preserve">
-    <value>Ρωτήστε για να προσθέσετε ένα αντικείμενο αν δε βρεθεί στο vault σας.</value>
+    <value>Ρώτησε για να προσθέσεις κάποιο αντικείμενο αν δε βρεθεί στη κρύπτη μου.</value>
   </data>
   <data name="OnRestart" xml:space="preserve">
     <value>Κατά την επανεκκίνηση της εφαρμογής</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>Η αυτόματη συμπλήρωση διευκολύνει την ασφαλή πρόσβαση στο vault του Bitwarden από άλλες ιστοσελίδες και εφαρμογές. Φαίνεται ότι δεν έχετε ενεργοποιήσει την υπηρεσία αυτόματης συμπλήρωσης για το Bitwarden. Ενεργοποιήστε την αυτόματη συμπλήρωση από τις "Ρυθμίσεις".</value>
+    <value>Η αυτόματη συμπλήρωση διευκολύνει την ασφαλή πρόσβαση στην κρύπτη του Bitwarden από άλλες ιστοσελίδες και εφαρμογές. Φαίνεται ότι δεν έχετε ενεργοποιήσει την υπηρεσία αυτόματης συμπλήρωσης για το Bitwarden. Ενεργοποιήστε την αυτόματη συμπλήρωση από τις "Ρυθμίσεις".</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
     <value>Οι αλλαγές θεμάτων θα ισχύουν όταν γίνει επανεκκίνηση της εφαρμογής.</value>
@@ -1629,7 +1629,7 @@
     <value>Το Bitwarden χρειάζεται προσοχή - Ανατρέξτε στην ενότητα "Υπηρεσία προσβασιμότητας αυτόματης συμπλήρωσης" από τις ρυθμίσεις Bitwarden</value>
   </data>
   <data name="BitwardenAutofillServiceOverlayPermission" xml:space="preserve">
-    <value>3. Στις Ρυθμίσεις του Bitwarden για Android , μεταβείτε στην ενότητα "Εμφάνιση από άλλες εφαρμογές" (Για προχωρημένους) και πατήστε το διακόπτη για να ενεργοποιήσετε την υποστήριξη επικάλυψης.</value>
+    <value>3. Στην οθόνη Ρυθμίσεων της Εφαρμογής Android του Bitwarden, μεταβείτε στην ενότητα "Εμφάνιση πάνω από άλλες εφαρμογές" επιλογές (για προχωρημένους) και πατήστε το κουμπί για να ενεργοποιήσετε την υποστήριξη επικάλυψης.</value>
   </data>
   <data name="OverlayPermission" xml:space="preserve">
     <value>Άδειες</value>
@@ -1671,7 +1671,7 @@
     <value>Τα κλειδιά κρυπτογράφησης λογαριασμού είναι μοναδικά για κάθε λογαριασμό χρήστη Bitwarden, οπότε δεν μπορείτε να εισάγετε μια κρυπτογραφημένη εξαγωγή σε διαφορετικό λογαριασμό.</value>
   </data>
   <data name="ExportVaultConfirmationTitle" xml:space="preserve">
-    <value>Επιβεβαίωση εξαγωγής vault</value>
+    <value>Επιβεβαίωση εξαγωγής κρύπτης</value>
     <comment>Title for the alert to confirm vault exports.</comment>
   </data>
   <data name="Warning" xml:space="preserve">
@@ -1723,7 +1723,7 @@
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="ItemRestored" xml:space="preserve">
-    <value>Το στοιχείο έχει ανακτηθεί.</value>
+    <value>Το αντικείμενο επαναφέρθηκε</value>
     <comment>Confirmation message after successfully restoring a soft-deleted item</comment>
   </data>
   <data name="Trash" xml:space="preserve">
@@ -1771,7 +1771,7 @@
     <value>Δεν είναι δυνατή η σύνδεση με SSO</value>
   </data>
   <data name="SetMasterPassword" xml:space="preserve">
-    <value>Ορισμός Κύριου Κωδικού</value>
+    <value>Ορισμός κύριου κωδικού πρόσβασης</value>
   </data>
   <data name="SetMasterPasswordSummary" xml:space="preserve">
     <value>Για να ολοκληρώσετε τη σύνδεση με SSO, ορίστε έναν κύριο κωδικό πρόσβασης για πρόσβαση και προστασία του vault σας.</value>
@@ -1798,7 +1798,7 @@
     <value>Να περιέχει έναν ή περισσότερους από τους ακόλουθους ειδικούς χαρακτήρες {0}</value>
   </data>
   <data name="MasterPasswordPolicyValidationTitle" xml:space="preserve">
-    <value>Λανθασμένος Κωδικός</value>
+    <value>Μη έγκυρος κωδικός πρόσβασης</value>
   </data>
   <data name="MasterPasswordPolicyValidationMessage" xml:space="preserve">
     <value>Ο κωδικός πρόσβασης δεν πληροί τις απαιτήσεις του οργανισμού. Ελέγξτε τις πληροφορίες πολιτικής και δοκιμάστε ξανά.</value>
@@ -1822,10 +1822,10 @@
     <value>Το Bitwarden χρειάζεται προσοχή - Ενεργοποιήστε το "Draw-Over" στις "Υπηρεσίες αυτόματης συμπλήρωσης" από το Bitwarden Settings</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey management</value>
+    <value>Διαχείριση κλειδιού πρόσβασης</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
-    <value>Υπηρεσία Αυτόματης Συμπλήρωσης</value>
+    <value>Υπηρεσία αυτόματης συμπλήρωσης</value>
   </data>
   <data name="InlineAutofill" xml:space="preserve">
     <value>Χρησιμοποιήστε Inline Αυτόματη συμπλήρωση</value>
@@ -1834,7 +1834,7 @@
     <value>Χρησιμοποιήστε ενσωματωμένη αυτόματη συμπλήρωση εάν το επιλεγμένο IME (πληκτρολόγιο) το υποστηρίζει. Εάν η διαμόρφωση δεν υποστηρίζεται (ή αυτή η επιλογή είναι απενεργοποιημένη), θα χρησιμοποιηθεί η προεπιλεγμένη επικάλυψη αυτόματης συμπλήρωσης.</value>
   </data>
   <data name="Accessibility" xml:space="preserve">
-    <value>Χρησιμοποιήστε την Προσβασιμότητα</value>
+    <value>Χρήση προσβασιμότητας</value>
   </data>
   <data name="AccessibilityDescription" xml:space="preserve">
     <value>Χρησιμοποιήστε την υπηρεσία προσβασιμότητας Bitwarden για να συμπληρώσετε αυτόματα τις συνδέσεις σας σε εφαρμογές και στον ιστό. Όταν είναι ενεργοποιημένο, θα εμφανιστεί ένα αναδυόμενο παράθυρο όταν επιλέγονται πεδία σύνδεσης</value>
@@ -1861,7 +1861,7 @@
     <value>Εάν είναι ενεργοποιημένη, η προσβασιμότητα θα εμφανίσει ένα αναδυόμενο παράθυρο για την αύξηση της υπηρεσίας αυτόματης συμπλήρωσης για παλαιότερες εφαρμογές που δεν υποστηρίζουν το Android Autofill Framework.</value>
   </data>
   <data name="PersonalOwnershipSubmitError" xml:space="preserve">
-    <value>Λόγω μιας Πολιτικής Επιχειρήσεων, δεν επιτρέπεται η αποθήκευση αντικειμένων στο προσωπικό σας vault. Αλλάξτε την επιλογή Ιδιοκτησίας σε έναν οργανισμό και επιλέξτε από τις διαθέσιμες Συλλογές.</value>
+    <value>Λόγω μιας Πολιτικής Επιχειρήσεων, δεν επιτρέπεται η αποθήκευση αντικειμένων στη προσωπικό σας κρύπτη. Αλλάξτε την επιλογή Ιδιοκτησίας σε έναν οργανισμό και επιλέξτε από τις διαθέσιμες Συλλογές.</value>
   </data>
   <data name="PersonalOwnershipPolicyInEffect" xml:space="preserve">
     <value>Μια πολιτική οργανισμού, επηρεάζει τις επιλογές ιδιοκτησίας σας.</value>
@@ -1976,7 +1976,7 @@
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="DisableSend" xml:space="preserve">
-    <value>Απενεργοποιήστε αυτό το Send έτσι ώστε κανείς να μην μπορεί να έχει πρόσβαση σε αυτό.</value>
+    <value>Απενεργοποιήστε αυτό το Send έτσι ώστε κανείς να μην έχει πρόσβαση σε αυτό</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="NoSends" xml:space="preserve">
@@ -2006,7 +2006,7 @@
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="AddSend" xml:space="preserve">
-    <value>Προσθήκη Send</value>
+    <value>Νέο Send</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="AreYouSureDeleteSend" xml:space="preserve">
@@ -2014,15 +2014,15 @@
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="SendDeleted" xml:space="preserve">
-    <value>Το send έχει διαγραφεί.</value>
+    <value>Το Send διαγράφηκε</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="SendUpdated" xml:space="preserve">
-    <value>Το send ενημερώθηκε.</value>
+    <value>Το Send αποθηκεύτηκε</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="NewSendCreated" xml:space="preserve">
-    <value>Δημιουργήθηκε νέο send.</value>
+    <value>Το Send δημιουργήθηκε</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="OneDay" xml:space="preserve">
@@ -2092,10 +2092,10 @@
     <value>Ενημερώστε τον κύριο κωδικό πρόσβασης</value>
   </data>
   <data name="UpdateMasterPasswordWarning" xml:space="preserve">
-    <value>Ο Κύριος Κωδικός Πρόσβασής σας άλλαξε πρόσφατα από διαχειριστή στον οργανισμό σας. Για να αποκτήσετε πρόσβαση στο vault, πρέπει να ενημερώσετε το κύριο κωδικό τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές για μία ώρα.</value>
+    <value>Ο Κύριος Κωδικός Πρόσβασής σας άλλαξε πρόσφατα από διαχειριστή στον οργανισμό σας. Για να αποκτήσετε πρόσβαση στη κρύπτη, πρέπει να ενημερώσετε το κύριο κωδικό τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές για μία ώρα.</value>
   </data>
   <data name="UpdatingPassword" xml:space="preserve">
-    <value>Ενημέρωση Κωδικού Πρόσβασης</value>
+    <value>Ενημέρωση κωδικού πρόσβασης</value>
   </data>
   <data name="UpdatePasswordError" xml:space="preserve">
     <value>Δεν είναι δυνατή η ενημέρωση του κωδικού πρόσβασης</value>
@@ -2107,7 +2107,7 @@
     <value>{0} χρησιμοποιεί SSO με κρυπτογράφηση διαχείρισης πελατών. Συνεχίζοντας θα καταργήσετε τον Κύριο Κωδικό από το λογαριασμό σας και θα απαιτήσετε SSO για να συνδεθείτε.</value>
   </data>
   <data name="RemoveMasterPasswordWarning2" xml:space="preserve">
-    <value>Αν δεν θέλετε να αφαιρέσετε τον Κύριο Κωδικό Πρόσβασης, μπορείτε να φύγετε από αυτόν τον οργανισμό.</value>
+    <value>Αν δε θέλετε να αφαιρέσετε τον κύριο κωδικό πρόσβασής σας, μπορείτε να φύγετε από αυτόν τον οργανισμό.</value>
   </data>
   <data name="LeaveOrganization" xml:space="preserve">
     <value>Αποχώρηση από τον οργανισμό</value>
@@ -2137,22 +2137,22 @@
     <value>Αυτός ο οργανισμός έχει μια επιχειρηματική πολιτική που θα σας εγγράψει αυτόματα στην επαναφορά κωδικού. Η εγγραφή θα επιτρέψει στους διαχειριστές του οργανισμού να αλλάξουν τον κύριο κωδικό πρόσβασης σας.</value>
   </data>
   <data name="VaultTimeoutPolicyInEffect" xml:space="preserve">
-    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο vault σας. Το μέγιστο επιτρεπόμενο Χρονικό όριο Vault είναι {0} ώρα(ες) και {1} λεπτό(ά)</value>
+    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο της κρύπτης σας. Το μέγιστο επιτρεπόμενο Χρονικό όριο Κρύπτης είναι {0} ώρα(ες) και {1} λεπτό(ά).</value>
   </data>
   <data name="VaultTimeoutPolicyWithActionInEffect" xml:space="preserve">
-    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο του vault σας. Το μέγιστο επιτρεπόμενο χρονικό όριο vault είναι {0} ώρα(ες) και {1} λεπτό(ά). Το χρονικό όριο του vault σας έχει οριστεί σε {2}.</value>
+    <value>Οι πολιτικές του οργανισμού σας επηρεάζουν το χρονικό όριο της κρύπτης σας. Το μέγιστο επιτρεπόμενο χρονικό όριο κρύπτης είναι {0} ώρα(ες) και {1} λεπτό(ά). Το χρονικό όριο του vault σας έχει οριστεί σε {2}.</value>
   </data>
   <data name="VaultTimeoutActionPolicyInEffect" xml:space="preserve">
-    <value>Οι πολιτικές του οργανισμού σας έχουν ορίσει την ενέργεια χρονικού ορίου vault σε {0}.</value>
+    <value>Οι πολιτικές του οργανισμού σας έχουν ορίσει την ενέργεια χρονικού ορίου λήξης κρύπτης σε {0}.</value>
   </data>
   <data name="VaultTimeoutToLarge" xml:space="preserve">
     <value>Το χρονικό όριο του vault σας υπερβαίνει τους περιορισμούς που έχει ορίσει ο οργανισμός σας.</value>
   </data>
   <data name="DisablePersonalVaultExportPolicyInEffect" xml:space="preserve">
-    <value>Μία ή περισσότερες οργανωτικές πολιτικές αποτρέπουν την εξαγωγή του προσωπικού vault.</value>
+    <value>Μία ή περισσότερες οργανωτικές πολιτικές αποτρέπουν την εξαγωγή της προσωπικής κρύπτης.</value>
   </data>
   <data name="AddAccount" xml:space="preserve">
-    <value>Προσθήκη Λογαριασμού</value>
+    <value>Προσθήκη λογαριασμού</value>
   </data>
   <data name="AccountUnlocked" xml:space="preserve">
     <value>Ξεκλειδώθηκε</value>
@@ -2167,7 +2167,7 @@
     <value>Μετάβαση στον επόμενο διαθέσιμο λογαριασμό</value>
   </data>
   <data name="AccountLockedSuccessfully" xml:space="preserve">
-    <value>Κλειδωμένος Λογαριασμός</value>
+    <value>Ο λογαριασμός κλειδώθηκε</value>
   </data>
   <data name="AccountLoggedOutSuccessfully" xml:space="preserve">
     <value>Ο λογαριασμός αποσυνδέθηκε επιτυχώς</value>
@@ -2176,13 +2176,13 @@
     <value>Ο λογαριασμός αφαιρέθηκε επιτυχώς</value>
   </data>
   <data name="DeleteAccount" xml:space="preserve">
-    <value>Διαγραφή Λογαριασμού</value>
+    <value>Διαγραφή λογαριασμού</value>
   </data>
   <data name="DeletingYourAccountIsPermanent" xml:space="preserve">
     <value>Η διαγραφή του λογαριασμού σας είναι μόνιμη</value>
   </data>
   <data name="DeleteAccountExplanation" xml:space="preserve">
-    <value>Ο λογαριασμός σας και όλα τα σχετικά δεδομένα θα διαγραφούν και δεν θα ανακτηθούν. Είστε σίγουροι ότι θέλετε να συνεχίσετε?</value>
+    <value>Ο λογαριασμός σας και όλα τα σχετικά δεδομένα θα διαγραφούν και δε θα ανακτηθούν. Σίγουρα θέλετε να συνεχίσετε;</value>
   </data>
   <data name="DeletingYourAccount" xml:space="preserve">
     <value>Διαγραφή του λογαριασμού σας</value>
@@ -2191,7 +2191,7 @@
     <value>Ο λογαριασμός σας έχει διαγραφεί οριστικά</value>
   </data>
   <data name="InvalidVerificationCode" xml:space="preserve">
-    <value>Μη Έγκυρος Κωδικός Επαλήθευσης.</value>
+    <value>Μη έγκυρος κωδικός επαλήθευσης</value>
   </data>
   <data name="RequestOTP" xml:space="preserve">
     <value>Αιτηθείτε τον κωδικό πρόσβασης μιας χρήσης</value>
@@ -2260,7 +2260,7 @@
     <value>Φιλτράρισμα αντικειμένων ανά κρύπτη</value>
   </data>
   <data name="AllVaults" xml:space="preserve">
-    <value>Όλα τα Vaults</value>
+    <value>Όλες οι κρύπτες</value>
   </data>
   <data name="Vaults" xml:space="preserve">
     <value>Vaults</value>
@@ -2390,19 +2390,19 @@
     <value>Τύπος Ονόματος Χρήστη</value>
   </data>
   <data name="PlusAddressedEmail" xml:space="preserve">
-    <value>Συν Διεύθυνση Email</value>
+    <value>Συν διεύθυνση ηλ. ταχυδρομείου</value>
   </data>
   <data name="CatchAllEmail" xml:space="preserve">
-    <value>Catch-all Email</value>
+    <value>Διεύθυνση ηλ. ταχυδρομείου κάθε σκοπού</value>
   </data>
   <data name="ForwardedEmailAlias" xml:space="preserve">
-    <value>Προωθημένο Ψευδώνυμο Email</value>
+    <value>Προωθημένο ψευδώνυμο διεύθυνσης ηλ. ταχυδρομείου</value>
   </data>
   <data name="RandomWord" xml:space="preserve">
     <value>Τυχαία Λέξη</value>
   </data>
   <data name="EmailRequiredParenthesis" xml:space="preserve">
-    <value>Email (απαιτείται)</value>
+    <value>Διεύθυνση ηλ. ταχυδρομείου (απαιτείται)</value>
   </data>
   <data name="DomainNameRequiredParenthesis" xml:space="preserve">
     <value>Όνομα Τομέα (απαιτείται)</value>
@@ -2456,13 +2456,13 @@
     <value>Παρουσιάστηκε άγνωστο {0} σφάλμα.</value>
   </data>
   <data name="PlusAddressedEmailDescription" xml:space="preserve">
-    <value>Χρησιμοποιήστε τις δυνατότητες δευτερεύουσας διεύθυνσης του παρόχου email σας</value>
+    <value>Χρησιμοποιήστε τις δυνατότητες δευτερεύουσας διεύθυνσης του παρόχου του ηλ. ταχυδρομείου σας</value>
   </data>
   <data name="CatchAllEmailDescription" xml:space="preserve">
-    <value>Χρησιμοποιήστε τα διαμορφωμένα εισερχόμενα catch-all του domain σας.</value>
+    <value>Χρησιμοποιήστε τα διαμορφωμένα εισερχόμενα κάθε σκοπού του τομέα σας.</value>
   </data>
   <data name="ForwardedEmailDescription" xml:space="preserve">
-    <value>Δημιουργήστε ένα ψευδώνυμο email με μια εξωτερική υπηρεσία προώθησης.</value>
+    <value>Δημιουργήστε ένα ψευδώνυμο διεύθυνσης ηλ. ταχυδρομείου με μια εξωτερική υπηρεσία προώθησης.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Τυχαίο</value>
@@ -2515,7 +2515,7 @@
     <value>Μια ειδοποίηση έχει σταλεί στη συσκευή σας.</value>
   </data>
   <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
-    <value>Βεβαιωθείτε ότι το vault σας είναι ξεκλείδωτο και ότι η Φράση δακτυλικών αποτυπωμάτων ταιριάζει στην άλλη συσκευή.</value>
+    <value>Βεβαιωθείτε ότι η κρύπτη σας είναι ξεκλείδωτη και ότι η Φράση δακτυλικών αποτυπωμάτων ταιριάζει στην άλλη συσκευή.</value>
   </data>
   <data name="ResendNotification" xml:space="preserve">
     <value>Επαναποστολή ειδοποίησης</value>
@@ -2626,7 +2626,7 @@
     <value>Περιοχή</value>
   </data>
   <data name="UpdateWeakMasterPasswordWarning" xml:space="preserve">
-    <value>Ο κύριος κωδικός πρόσβασής σας δεν πληροί μία ή περισσότερες πολιτικές του οργανισμού σας. Για να αποκτήσετε πρόσβαση στο Vault σας, πρέπει να ενημερώσετε τον κύριο κωδικό πρόσβασής σας τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές εώς και μία ώρα.</value>
+    <value>Ο κύριος κωδικός πρόσβασής σας δεν πληροί μία ή περισσότερες πολιτικές του οργανισμού σας. Για να αποκτήσετε πρόσβαση στη Κρύπτη σας, πρέπει να ενημερώσετε τον κύριο κωδικό πρόσβασής σας τώρα. Η διαδικασία θα σας αποσυνδέσει από την τρέχουσα συνεδρία σας, απαιτώντας από εσάς να συνδεθείτε ξανά. Οι ενεργές συνεδρίες σε άλλες συσκευές ενδέχεται να συνεχίσουν να είναι ενεργές εώς και μία ώρα.</value>
   </data>
   <data name="CurrentMasterPassword" xml:space="preserve">
     <value>Τρέχων κύριος κωδικός</value>
@@ -2674,7 +2674,7 @@
     <value>Διαθέσιμο για σύνδεση με δύο βήματα</value>
   </data>
   <data name="MasterPasswordRePromptHelp" xml:space="preserve">
-    <value>Βοήθεια προτροπής κύριου κωδικού πρόσβασης</value>
+    <value>Βοήθεια για την απαίτηση κύριου κωδικού πρόσβασης</value>
   </data>
   <data name="UnlockingMayFailDueToInsufficientMemoryDecreaseYourKDFMemorySettingsToResolve" xml:space="preserve">
     <value>Το ξεκλείδωμα μπορεί να αποτύχει λόγω ανεπαρκούς μνήμης. Μειώστε τις ρυθμίσεις μνήμης KDF ή ρυθμίστε το βιομετρικό ξεκλείδωμα για επίλυση.</value>
@@ -2701,7 +2701,7 @@
     <value>Σύνδεση ως {0}</value>
   </data>
   <data name="VaultTimeoutActionChangedToLogOut" xml:space="preserve">
-    <value>Η ενέργεια στη λήξη χρόνου του vault άλλαξε σε αποσύνδεση</value>
+    <value>Η ενέργεια στη λήξη χρόνου της κρύπτης άλλαξε σε αποσύνδεση</value>
   </data>
   <data name="BlockAutoFill" xml:space="preserve">
     <value>Αποκλείστε την αυτόματη συμπλήρωση</value>
@@ -2759,7 +2759,7 @@
     <value>Σύνδεση στο</value>
   </data>
   <data name="Vault" xml:space="preserve">
-    <value>Vault</value>
+    <value>Κρύπτη</value>
   </data>
   <data name="Appearance" xml:space="preserve">
     <value>Εμφάνιση</value>
@@ -2808,7 +2808,7 @@
     <value>{0} ώρες</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Use Bitwarden to save new passkeys and log in with passkeys stored in your vault.</value>
+    <value>Χρησιμοποιήστε το Bitwarden για να αποθηκεύσετε τα νέα κλειδιά πρόσβασης και συνδεθείτε με τα κλειδιά πρόσβασης που είναι αποθηκευμένα στη κρύπτη σας.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Το Android Autofill Framework χρησιμοποιείται για να προσφέρει αυτόματη συμπλήρωση στοιχείων σύνδεσης σε άλλες εφαρμογές στη συσκευή σας.</value>
@@ -2839,7 +2839,7 @@
     <value>Συνέχεια στο κατάστημα εφαρμογών;</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
-    <value>Continue to device Settings?</value>
+    <value>Συνέχεια στις Ρυθμίσεις συσκευής;</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
     <value>Κάντε τον λογαριασμό σας πιο ασφαλή με τη ρύθμιση δύο βημάτων σύνδεσης στην εφαρμογή διαδικτύου Bitwarden.</value>
@@ -2848,7 +2848,7 @@
     <value>Μπορείτε να αλλάξετε τον κύριο κωδικό πρόσβασης στην εφαρμογή διαδικτύου Bitwarden.</value>
   </data>
   <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
-    <value>Μπορείτε να εισαγάγετε δεδομένα στο vault σας στο {0}.</value>
+    <value>Μπορείτε να εισαγάγετε δεδομένα στη κρύπτη σας στο {0}.</value>
     <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
   </data>
   <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
@@ -2864,7 +2864,7 @@
     <value>Εξερευνήστε περισσότερες δυνατότητες του Bitwarden λογαριασμού σας, στην εφαρμογή διαδικτύου.</value>
   </data>
   <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
-    <value>Το Bitwarden σας επιτρέπει να μοιράζεστε τα στοιχεία του vault σας με άλλους, χρησιμοποιώντας έναν λογαριασμό οργανισμού. Μάθετε περισσότερα στην ιστοσελίδα bitwarden.com.</value>
+    <value>Το Bitwarden σας επιτρέπει να μοιράζεστε τα στοιχεία της κρύπτης σας με άλλους, χρησιμοποιώντας έναν λογαριασμό οργανισμού. Μάθετε περισσότερα στην ιστοσελίδα bitwarden.com.</value>
   </data>
   <data name="RateAppDescriptionLong" xml:space="preserve">
     <value>Βοηθήστε άλλους να μάθουν αν το Bitwarden είναι κατάλληλο για αυτούς. Επισκεφθείτε το κατάστημα εφαρμογών και αφήστε τώρα μια βαθμολογία.</value>
@@ -2889,28 +2889,28 @@
     <value>Ο οργανισμός σας απαιτεί να ορίσετε έναν κύριο κωδικό πρόσβασης.</value> 
   </data>
   <data name="SetUpAnUnlockOptionToChangeYourVaultTimeoutAction" xml:space="preserve">
-    <value>Ρυθμίστε μια επιλογή κλειδώματος για να αλλάξετε την ενέργεια στη λήξη χρόνου του vault σας.</value>
+    <value>Ρυθμίστε μια επιλογή κλειδώματος για να αλλάξετε την ενέργεια στη λήξη χρόνου της κρύπτης σας.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
-    <value>Choose a login to save this passkey to</value>
+    <value>Επιλέξτε μια σύνδεση στην οποία θα αποθηκεύσετε αυτό το κλειδί πρόσβασης</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Save passkey as new login</value>
+    <value>Αποθήκευση κλειδιού πρόσβασης ως νέα σύνδεση</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Save passkey</value>
+    <value>Αποθήκευση κλειδιού πρόσβασης</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
-    <value>Passkeys for {0}</value>
+    <value>Κλεισιά πρόσβασης για {0}</value>
   </data>
   <data name="PasswordsForX" xml:space="preserve">
-    <value>Passwords for {0}</value>
+    <value>Κωδικοί πρόσβασης για {0}</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Overwrite passkey?</value>
+    <value>Αντικατάσταση κλειδιού πρόσβασης;</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
-    <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
+    <value>Αυτό το στοιχείο περιέχει ήδη ένα κλειδί πρόσβασης. Είστε σίγουροι ότι θέλετε να αντικαταστήσετε το τρέχον κλειδί πρόσβασης;</value>
   </data>
   <data name="DuoTwoStepLoginIsRequiredForYourAccount" xml:space="preserve">
     <value>Duo σύνδεση δύο βημάτων απαιτείται για το λογαριασμό σας. </value>
@@ -2922,86 +2922,74 @@
     <value>Εκκίνηση Duo</value>
   </data>
   <data name="VerificationRequiredByX" xml:space="preserve">
-    <value>Verification required by {0}</value>
+    <value>Απαιτείται επαλήθευση από {0}</value>
   </data>
   <data name="VerificationRequiredForThisActionSetUpAnUnlockMethodInBitwardenToContinue" xml:space="preserve">
-    <value>Verification required for this action. Set up an unlock method in Bitwarden to continue.</value>
+    <value>Απαιτείται επαλήθευση για αυτήν την ενέργεια. Δημιουργήστε μια μέθοδο ξεκλειδώματος στο Bitwarden για να συνεχίσετε.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
-    <value>Error creating passkey</value>
+    <value>Σφάλμα δημιουργίας κλειδιού πρόσβασης</value>
   </data>
   <data name="ErrorReadingPasskey" xml:space="preserve">
-    <value>Error reading passkey</value>
+    <value>Σφάλμα ανάγνωσης κλειδιού πρόσβασης</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem creating a passkey for {0}. Try again later.</value>
+    <value>Υπήρξε ένα πρόβλημα κατά τη δημιουργία ενός κλειδιού πρόσβασης για το {0}. Δοκιμάστε ξανά αργότερα.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>There was a problem reading your passkey for {0}. Try again later.</value>
+    <value>Υπήρξε ένα πρόβλημα κατά την ανάγνωση ενός κλειδιού πρόσβασης για {0}. Δοκιμάστε ξανά αργότερα.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">
-    <value>Verifying identity...</value>
+    <value>Επαλήθευση ταυτότητας...</value>
   </data>
   <data name="Passwords" xml:space="preserve">
-    <value>Passwords</value>
+    <value>Κωδικοί</value>
   </data>
   <data name="UnknownAccount" xml:space="preserve">
-    <value>Unknown account</value>
+    <value>Άγνωστος λογαριασμός</value>
   </data>
   <data name="SetUpAutofill" xml:space="preserve">
-    <value>Set up auto-fill</value>
+    <value>Ρύθμιση αυτόματης συμπλήρωσης</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
-    <value>Get instant access to your passwords and passkeys!</value>
+    <value>Αποκτήστε άμεση πρόσβαση στους κωδικούς και κλειδιά πρόσβασής σας!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
-    <value>To set up password auto-fill and passkey management, set Bitwarden as your preferred provider in the iOS Settings.</value>
+    <value>Για να ρυθμίσετε την αυτόματη συμπλήρωση και τη διαχείριση κλειδιού πρόσβασης, ορίστε το Bitwarden ως τον προτιμώμενο πάροχο σας στις Ρυθμίσεις του iOS.</value>
   </data>
   <data name="FirstDotGoToYourDeviceSettingsPasswordsPasswordOptions" xml:space="preserve">
-    <value>1. Go to your device's Settings &gt; Passwords &gt; Password Options</value>
+    <value>1. Πηγαίνετε στις Ρυθμίσεις συσκευής &gt; Κωδικοί Πρόσβασης &gt; Επιλογές Κωδικού Πρόσβασης</value>
   </data>
   <data name="SecondDotTurnOnAutoFill" xml:space="preserve">
-    <value>2. Turn on AutoFill</value>
+    <value>2. Ενεργοποιήστε την Αυτόματη Συμπλήρωση</value>
   </data>
   <data name="ThirdDotSelectBitwardenToUseForPasswordsAndPasskeys" xml:space="preserve">
-    <value>3. Select "Bitwarden" to use for passwords and passkeys</value>
+    <value>3. Επιλέξτε "Bitwarden" για να χρησιμοποιήσετε για τους κωδικούς και τα κλειδιά πρόσβασης</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault</value>
+    <value>Το κλειδί πρόσβασής σας θα αποθηκευτεί στη κρύπτη του Bitwarden σας</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Your passkey will be saved to your Bitwarden vault for {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Unassigned organization items are no longer visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>On May 16, 2024, unassigned organization items will no longer be visible in the All Vaults view and only accessible via the Admin Console. Assign these items to a collection from the Admin Console to make them visible.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Remind me later</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Notice</value>
+    <value>Το κλειδί πρόσβασής σας θα αποθηκευτεί στη κρύπτη του Bitwarden σας για το {0}</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
-    <value>Passkeys not supported for this app</value>
+    <value>Δεν υποστηρίζονται κλειδιά πρόσβασης για αυτήν την εφαρμογή</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Passkey operation failed because browser is not privileged</value>
+    <value>Αποτυχία λειτουργίας κλειδιού πρόσβασης επειδή ο περιηγητής δεν είναι προνομιούχος</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
-    <value>Passkey operation failed because browser signature does not match</value>
+    <value>Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή η υπογραφή του περιηγητή δεν ταιριάζει</value>
   </data>
   <data name="PasskeyOperationFailedBecauseOfMissingAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because of missing asset links</value>
+    <value>Η λειτουργία κλειδιού πρόσβασης απέτυχε λόγω των ελλείποντων συνδέσμων στοιχείων</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppNotFoundInAssetLinks" xml:space="preserve">
-    <value>Passkey operation failed because app not found in asset links</value>
+    <value>Αποτυχία λειτουργίας κλειδιού πρόσβασης επειδή η εφαρμογή δεν βρέθηκε στους συνδέσμους στοιχείων</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>Passkey operation failed because app could not be verified</value>
+    <value>Αποτυχία λειτουργίας κλειδιού πρόσβασης επειδή δεν ήταν δυνατή η επαλήθευση της εφαρμογής</value>
   </data>
 </root>

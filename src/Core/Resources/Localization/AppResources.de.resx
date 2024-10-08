@@ -1292,7 +1292,7 @@ Das Scannen erfolgt automatisch.</value>
     <value>Auto-Ausfüllen aktiviert!</value>
   </data>
   <data name="MustLogInMainAppAutofill" xml:space="preserve">
-    <value>Du musst dich in der Bitwarden App anmelden, bevor du AutoFill nutzen kannst.</value>
+    <value>Du musst dich in der Bitwarden App anmelden, bevor du Auto-Ausfüllen nutzen kannst.</value>
   </data>
   <data name="AutofillSetup" xml:space="preserve">
     <value>Du kannst nun direkt von der Tastatur auf deine Zugangsdaten zugreifen, wenn du dich auf Webseiten oder in Apps anmeldest.</value>
@@ -2972,18 +2972,6 @@ Möchtest du zu diesem Konto wechseln?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Dein Passkey wird in deinem Bitwarden-Tresor für {0} gespeichert</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Hinweis: Nicht zugeordnete Organisationseinträge sind nicht mehr in der Ansicht aller Tresore sichtbar und nur über die Administrator-Konsole zugänglich. Weise diese Einträge einer Sammlung aus der Administrator-Konsole zu, um sie sichtbar zu machen.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>Ab dem 16. Mai 2024 werden nicht zugeordnete Organisationseinträge nicht mehr in der Ansicht aller Tresore sichtbar und nur über die Administrator-Konsole zugänglich sein. Weise diese Einträge einer Sammlung aus der Administrator-Konsole zu, um sie sichtbar zu machen.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Später erinnern</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Hinweis</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Passkeys werden für diese App nicht unterstützt</value>

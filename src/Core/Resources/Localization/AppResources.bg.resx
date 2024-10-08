@@ -1101,7 +1101,7 @@
     <value>Г-ца</value>
   </data>
   <data name="Mx" xml:space="preserve">
-    <value>Mx</value>
+    <value>Предпочитам да не посочвам</value>
   </data>
   <data name="November" xml:space="preserve">
     <value>ноември</value>
@@ -2584,16 +2584,16 @@
     <value>Проверяване в известните случаи на изтекли данни за тази парола</value>
   </data>
   <data name="ExposedMasterPassword" xml:space="preserve">
-    <value>Exposed Master Password</value>
+    <value>Разобличена главна парола</value>
   </data>
   <data name="PasswordFoundInADataBreachAlertDescription" xml:space="preserve">
-    <value>Password found in a data breach. Use a unique password to protect your account. Are you sure you want to use an exposed password?</value>
+    <value>Паролата е намерена в пробив на данни. Използвайте уникална парола, за да защитите Вашия акаунт. Наистина ли искате да използвате слаба парола?</value>
   </data>
   <data name="WeakAndExposedMasterPassword" xml:space="preserve">
-    <value>Weak and Exposed Master Password</value>
+    <value>Слаба и разобличена главна парола</value>
   </data>
   <data name="WeakPasswordIdentifiedAndFoundInADataBreachAlertDescription" xml:space="preserve">
-    <value>Weak password identified and found in a data breach. Use a strong and unique password to protect your account. Are you sure you want to use this password?</value>
+    <value>Разпозната е слаба парола, която присъства в известен случай на изтекли данни. Използвайте сложна и уникална парола, за да защитите Вашия акаунт. Наистина ли искате да използвате тази парола?</value>
   </data>
   <data name="OrganizationSsoIdentifierRequired" xml:space="preserve">
     <value>Идентификаторът за еднократн идентификация на организация е задължителен.</value>
@@ -2974,23 +2974,11 @@
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>Секретният ключ ще бъде запазен в трезора на Битуорден за {0}</value>
   </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Неразпределените елементи на организацията вече не се виждат в изгледа с „Всички трезори“, а са достъпни само през Административната конзола. Добавете тези елементи към някоя колекция в Административната конзола, за да станат видими.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>От 16 май 2024г. неразпределените елементи на организациите вече няма се виждат в изгледа с „Всички трезори“, а ще бъдат достъпни само през Административната конзола. Добавете тези елементи към някоя колекция в Административната конзола, за да станат видими.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Напомнете ми по-късно</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Известие</value>
-  </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>За това приложение не се поддържат секретни ключове</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
-    <value>Passkey operation failed because browser is not privileged</value>
+    <value>Операцията със секретния ключ беше неуспешна, тъй като потребителят не може да бъде потвърден.</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserSignatureDoesNotMatch" xml:space="preserve">
     <value>Операцията със секретния ключ беше неуспешна, тъй като подписът в браузъра не съвпада</value>

@@ -239,7 +239,7 @@
     <value>Súgó és visszajelzés</value>
   </data>
   <data name="Hide" xml:space="preserve">
-    <value>Elrejt</value>
+    <value>Elrejtés</value>
     <comment>Hide a secret value that is currently shown (password).</comment>
   </data>
   <data name="InternetConnectionRequiredMessage" xml:space="preserve">
@@ -2972,18 +2972,6 @@ Szeretnénk átváltani erre a fiókra?</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
     <value>A belépőkulcs mentésre kerül a Bitwarden széfbe: {0}</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageUSEUDescriptionLong" xml:space="preserve">
-    <value>Megjegyzés: A nem hozzá nem rendelt szervezeti elemek már nem láthatók az Összes széf nézetben és csak az Adminisztrátori konzolon keresztül érhetők el. Rendeljük ezeket az elemeket egy gyűjteményhez az Adminisztrátor konzolból, hogy láthatóvá tegyük azokat.</value>
-  </data>
-  <data name="OrganizationUnassignedItemsMessageSelfHost041624DescriptionLong" xml:space="preserve">
-    <value>2024. május 16-tól a nem hozzá rendelt szervezeti elemek többé nem lesznek láthatók az Összes széf nézetben és csak az Adminisztrátori konzolon keresztül érhetők el. Rendeljük ezeket az elemeket egy gyűjteményhez az Adminisztrátori konzolból, hogy láthatóvá tegyük azokat.</value>
-  </data>
-  <data name="RemindMeLater" xml:space="preserve">
-    <value>Emlékeztetés később</value>
-  </data>
-  <data name="Notice" xml:space="preserve">
-    <value>Megjegyzés</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Ennél az alkalmazásnál a belépőkulcsok nem támogatottak.</value>
