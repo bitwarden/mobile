@@ -23,8 +23,8 @@
     <None Remove="**" />
   </ItemGroup>
   <ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.7" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.7" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
   <ItemGroup>
