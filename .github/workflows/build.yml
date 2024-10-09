@@ -456,7 +456,7 @@ jobs:
       # are starting to come pre-installed on the GH Actions build agents.
       - name: Install MAUI Workload
         run: |
-          dotnet workload install maui --version 8.0.402
+          dotnet workload install maui --version 8.0.300
 
       - name: Print environment
         run: |
