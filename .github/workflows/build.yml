@@ -585,7 +585,7 @@ jobs:
       - name: Archive Build for App Store
         run: |
           echo "##### Archive for Release ios-arm64"
-          dotnet publish ${{ env.main_app_project_path }} -c Release -f ${{ env.target-net-version }}-ios -v diag /p:RuntimeIdentifier=ios-arm64 /p:ArchiveOnBuild=true /p:MtouchUseLlvm=false
+          dotnet publish ${{ env.main_app_project_path }} -c Release -f ${{ env.target-net-version }}-ios /p:RuntimeIdentifier=ios-arm64 /p:ArchiveOnBuild=true /p:MtouchUseLlvm=false
 
       - name: Archive Build for Mobile Automation
         run: |
