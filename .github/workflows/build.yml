@@ -457,6 +457,7 @@ jobs:
       - name: Install MAUI Workload
         run: |
           dotnet workload install maui maui-ios --version 8.0.7
+          dotnet workload restore
 
       - name: Print environment
         run: |
