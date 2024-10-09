@@ -455,7 +455,8 @@ jobs:
       # This step might be obsolete at some point as .NET MAUI workloads
       # are starting to come pre-installed on the GH Actions build agents.
       - name: Install MAUI Workload
-        run: dotnet workload install maui --ignore-failed-sources --version 8.0.7
+        run: |
+          dotnet workload install maui maui-ios --version 8.0.7
 
       - name: Print environment
         run: |
