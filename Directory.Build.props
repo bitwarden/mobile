@@ -6,7 +6,10 @@
    <IncludeBitwardeniOSExtensions>True</IncludeBitwardeniOSExtensions>
    <IncludeBitwardenWatchOSApp>True</IncludeBitwardenWatchOSApp>
    <Argon2IdLoadMtouchExtraArgs>-gcc_flags "-L$(ProjectDir)../../lib/ios -largon2 -force_load $(ProjectDir)../../lib/ios/libargon2.a"</Argon2IdLoadMtouchExtraArgs>
-   
+    
+   <TargetPlatformVersion Condition="'$(TargetPlatformIdentifier)' == 'iOS'">17.5</TargetPlatformVersion>
+   <!-- <TargetPlatformVersion Condition="'$(TargetPlatformIdentifier)' == 'Android'">34</TargetPlatformVersion> -->
+
    <!-- Uncomment this when Unit Testing-->
    <!-- <CustomConstants>UT</CustomConstants> -->
 
