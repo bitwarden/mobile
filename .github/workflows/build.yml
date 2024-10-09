@@ -432,6 +432,10 @@ jobs:
       app_output_name: App
       app_ci_output_filename: App_x64_Debug
     steps:
+      - name: Remove dotnet
+        run: |
+          cd /usr/local/share/dotnet && ls
+          rm -rf dotnet
       - name: Checkout repo
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
         with:
@@ -464,6 +468,7 @@ jobs:
           dotnet --info
           echo "GitHub ref: $GITHUB_REF"
           echo "GitHub event: $GITHUB_EVENT"
+          exit 1
 
       - name: Login to Azure - CI Subscription
         uses: Azure/login@e15b166166a8746d1a47596803bd8c1b595455cf # v1.6.0
