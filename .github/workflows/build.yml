@@ -465,8 +465,7 @@ jobs:
           dotnet-version: ${{ env.dotnet-version }}
 
       - name: Install MAUI Workload
-        run: |
-          dotnet workload install maui --version ${{ env.maui-workload-version }}
+        run: dotnet workload install maui --version ${{ env.maui-workload-version }}
 
       - name: Print environment
         run: |
