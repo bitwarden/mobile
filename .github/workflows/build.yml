@@ -14,6 +14,8 @@ env:
   main_app_folder_path: src/App
   main_app_project_path: src/App/App.csproj
   target-net-version: net8.0
+  dotnet-version: '8.0.402'
+  maui-workload-version: '8.0.402'
 
 jobs:
   cloc:
@@ -72,6 +74,11 @@ jobs:
       android_folder_path: src\App\Platforms\Android
       android_folder_path_bash: src/App/Platforms/Android
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+        with:
+          fetch-depth: 0
+
       - name: Setup NuGet
         uses: nuget/setup-nuget@a21f25cd3998bf370fde17e3f1b4c12c175172f9 # v2.0.0
         with:
@@ -80,7 +87,11 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@6bd8b7f7774af54e05809fcc5431931b3eb1ddee # v4.0.1
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: ${{ env.dotnet-version }}
+
+      - name: Install MAUI Workload
+        run: |
+          dotnet workload install maui --version ${{ env.maui-workload-version }}
 
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2.0.0
@@ -102,11 +113,6 @@ jobs:
           dotnet --info
           echo "GitHub ref: $GITHUB_REF"
           echo "GitHub event: $GITHUB_EVENT"
-
-      - name: Checkout repo
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
-        with:
-          fetch-depth: 0
 
       - name: Login to Azure - CI Subscription
         uses: Azure/login@e15b166166a8746d1a47596803bd8c1b595455cf # v1.6.0
@@ -294,6 +300,11 @@ jobs:
       android_folder_path_bash: src/App/Platforms/Android
       android_manifest_path: src/App/Platforms/Android/AndroidManifest.xml
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+        with:
+          fetch-depth: 0
+
       - name: Setup NuGet
         uses: nuget/setup-nuget@a21f25cd3998bf370fde17e3f1b4c12c175172f9 # v2.0.0
         with:
@@ -302,7 +313,11 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@6bd8b7f7774af54e05809fcc5431931b3eb1ddee # v4.0.1
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: ${{ env.dotnet-version }}
+
+      - name: Install MAUI Workload
+        run: |
+          dotnet workload install maui --version ${{ env.maui-workload-version }}
 
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2.0.0
@@ -323,9 +338,6 @@ jobs:
           dotnet --info
           echo "GitHub ref: $GITHUB_REF"
           echo "GitHub event: $GITHUB_EVENT"
-
-      - name: Checkout repo
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
       - name: Login to Azure - CI Subscription
         uses: Azure/login@e15b166166a8746d1a47596803bd8c1b595455cf # v1.6.0
@@ -432,10 +444,15 @@ jobs:
       app_output_name: App
       app_ci_output_filename: App_x64_Debug
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+        with:
+          submodules: 'true'
+
       - name: Set XCode version
         uses: maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd # v1.6.0
         with:
-          xcode-version: 15.1
+          xcode-version: 15.4
 
       - name: Setup NuGet
         uses: nuget/setup-nuget@a21f25cd3998bf370fde17e3f1b4c12c175172f9 # v2.0.0
@@ -445,12 +462,10 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@6bd8b7f7774af54e05809fcc5431931b3eb1ddee # v4.0.1
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: ${{ env.dotnet-version }}
 
-      # This step might be obsolete at some point as .NET MAUI workloads
-      # are starting to come pre-installed on the GH Actions build agents.
       - name: Install MAUI Workload
-        run: dotnet workload install maui --ignore-failed-sources
+        run: dotnet workload install maui --version ${{ env.maui-workload-version }}
 
       - name: Print environment
         run: |
@@ -458,11 +473,6 @@ jobs:
           dotnet --info
           echo "GitHub ref: $GITHUB_REF"
           echo "GitHub event: $GITHUB_EVENT"
-
-      - name: Checkout repo
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
-        with:
-          submodules: 'true'
 
       - name: Login to Azure - CI Subscription
         uses: Azure/login@e15b166166a8746d1a47596803bd8c1b595455cf # v1.6.0
