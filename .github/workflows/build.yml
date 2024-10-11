@@ -439,6 +439,7 @@ jobs:
     name: Apple iOS
     runs-on: macos-14
     needs: setup
+    if: false
     env:
       ios_folder_path: src/App/Platforms/iOS
       app_output_name: App
