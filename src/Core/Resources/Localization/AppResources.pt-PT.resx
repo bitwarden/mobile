@@ -2604,7 +2604,7 @@ Deseja mudar para esta conta?</value>
     <value>Não existem itens no seu cofre que correspondam a "{0}"</value>
   </data>
   <data name="SearchForAnItemOrAddANewItem" xml:space="preserve">
-    <value>Procurar um item ou adicionar um novo</value>
+    <value>Procure um item ou adicione um novo</value>
   </data>
   <data name="ThereAreNoItemsThatMatchTheSearch" xml:space="preserve">
     <value>Não existem itens que correspondam à pesquisa</value>
@@ -2894,7 +2894,7 @@ Deseja mudar para esta conta?</value>
     <value>Escolha uma credencial para guardar esta chave de acesso</value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
-    <value>Guardar a chave de acesso como uma nova credencial</value>
+    <value>Guarde a chave de acesso como uma nova credencial</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
     <value>Guardar a chave de acesso</value>
