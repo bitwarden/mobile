@@ -422,7 +422,7 @@
     <value>自動填入服務</value>
   </data>
   <data name="SetBitwardenAsPasskeyManagerDescription" xml:space="preserve">
-    <value>Set Bitwarden as your passkey provider in device settings.</value>
+    <value>於裝置設定中將 Bitwarden 設為您的密鑰提供者。</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
     <value>避免易混淆的字元</value>
@@ -1195,7 +1195,7 @@
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>We were unable to automatically open the Android credential provider settings menu for you. You can navigate to the credential provider settings menu manually from Android Settings &gt; System &gt; Passwords &amp; accounts &gt; Passwords, passkeys and data services.</value>
+    <value>我們無法為您自動開啟 Android 密鑰提供者設定選單。您可以從 Android 設定 &gt; 系統 &gt; 語言與輸入設定 &gt; 進階 &gt; 自動填入服務，手動設定。</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>我們無法為您自動開啟 Android 自動填入設定選單。您可以從 Android 設定 &gt; 系統 &gt; 語言與輸入設定 &gt; 進階 &gt; 自動填入服務，手動到達自動填入設定選單。</value>
@@ -1822,7 +1822,7 @@
     <value>Bitwarden 需要注意 - 請到 Bitwarden 設定的「自動填入服務」中啟用「Draw-Over」</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey management</value>
+    <value>金鑰管理</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>自動填入服務</value>
