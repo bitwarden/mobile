@@ -682,7 +682,7 @@ jobs:
       - name: Set up private auth key
         run: |
           mkdir ~/private_keys
-          cat << EOF > ~/private_keys/AuthKey_J46C83CB96.p8
+          cat << EOF > ~/private_keys/AuthKey_U362LJ87AA.p8
           ${{ secrets.APP_STORE_CONNECT_AUTH_KEY }}
           EOF
 
@@ -698,7 +698,7 @@ jobs:
             --validate-app \
             --type ios \
             --file "./bitwarden-export/Bitwarden.ipa" \
-            --apiKey "J46C83CB96" \
+            --apiKey "U362LJ87AA" \
             --apiIssuer ${{ secrets.APP_STORE_CONNECT_TEAM_ISSUER }}
 
       - name: Deploy to App Store
@@ -707,13 +707,13 @@ jobs:
             && needs.setup.outputs.rc_branch_exists == 0
             && needs.setup.outputs.hotfix_branch_exists == 0)
           || (github.ref == 'refs/heads/rc' && needs.setup.outputs.hotfix_branch_exists == 0)
-          || github.ref == 'refs/heads/hotfix-rc' 
+          || github.ref == 'refs/heads/hotfix-rc'
         run: |
           xcrun altool \
             --upload-app \
             --type ios \
             --file "./bitwarden-export/Bitwarden.ipa" \
-            --apiKey "J46C83CB96" \
+            --apiKey "U362LJ87AA" \
             --apiIssuer ${{ secrets.APP_STORE_CONNECT_TEAM_ISSUER }}
 
   crowdin-push:
