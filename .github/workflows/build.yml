@@ -679,19 +679,27 @@ jobs:
           echo "##### Uploading Watch dSYMs to Firebase"
           find "$HOME/Library/Developer/XCode/DerivedData" -name "upload-symbols" -exec chmod +x {} \; -exec {} -gsp "./src/watchOS/bitwarden/GoogleService-Info.plist" -p ios "./bitwarden-export/Watch_dSYMs" \;
 
+      - name: Set up private auth key
+        run: |
+          mkdir ~/private_keys
+          cat << EOF > ~/private_keys/AuthKey_J46C83CB96.p8
+          ${{ secrets.APP_STORE_CONNECT_AUTH_KEY }}
+          EOF
+
       - name: Validate app in App Store
         if: |
-          (github.ref == 'refs/heads/master'
+          (github.ref == 'refs/heads/main'
             && needs.setup.outputs.rc_branch_exists == 0
             && needs.setup.outputs.hotfix_branch_exists == 0)
           || (github.ref == 'refs/heads/rc' && needs.setup.outputs.hotfix_branch_exists == 0)
           || github.ref == 'refs/heads/hotfix-rc'
-        env:
-          APPLE_ID_USERNAME: ${{ secrets.APPLE_ID_USERNAME }}
-          APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
         run: |
-          xcrun altool --validate-app --type ios --file "./bitwarden-export/Bitwarden.ipa" \
-              --username "$APPLE_ID_USERNAME" --password "$APPLE_ID_PASSWORD"
+          xcrun altool \
+            --validate-app \
+            --type ios \
+            --file "./bitwarden-export/Bitwarden.ipa" \
+            --apiKey "J46C83CB96" \
+            --apiIssuer ${{ secrets.APP_STORE_CONNECT_TEAM_ISSUER }}
 
       - name: Deploy to App Store
         if: |
@@ -699,17 +707,14 @@ jobs:
             && needs.setup.outputs.rc_branch_exists == 0
             && needs.setup.outputs.hotfix_branch_exists == 0)
           || (github.ref == 'refs/heads/rc' && needs.setup.outputs.hotfix_branch_exists == 0)
-          || github.ref == 'refs/heads/hotfix-rc'
-        env:
-          APP_STORE_CONNECT_TEAM_ISSUER: ${{ secrets.APP_STORE_CONNECT_TEAM_ISSUER }}
-          APP_STORE_CONNECT_AUTH_KEY: 6TV9MKN3GP
+          || github.ref == 'refs/heads/hotfix-rc' 
         run: |
           xcrun altool \
             --upload-app \
-            --type ios 
+            --type ios \
             --file "./bitwarden-export/Bitwarden.ipa" \
-            --apiKey $APP_STORE_CONNECT_AUTH_KEY \
-            --apiIssuer $APP_STORE_CONNECT_TEAM_ISSUER
+            --apiKey "J46C83CB96" \
+            --apiIssuer ${{ secrets.APP_STORE_CONNECT_TEAM_ISSUER }}
 
   crowdin-push:
     name: Crowdin Push
