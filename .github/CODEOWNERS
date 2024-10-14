@@ -35,5 +35,8 @@ store/google/en
 ## Utils ##
 store/google/Publisher
 
-# BRE for release workflow changes
-.github/workflows/release.yml @bitwarden/dept-bre
+## These are shared workflows ##
+.github/workflows/cleanup-rc-branch.yml
+.github/workflows/release.yml
+.github/workflows/version-auto-bump.yml
+.github/workflows/version-bump.yml
