@@ -701,12 +701,15 @@ jobs:
           || (github.ref == 'refs/heads/rc' && needs.setup.outputs.hotfix_branch_exists == 0)
           || github.ref == 'refs/heads/hotfix-rc'
         env:
-          APPLE_ID_USERNAME: ${{ secrets.APPLE_ID_USERNAME }}
-          APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
+          APP_STORE_CONNECT_TEAM_ISSUER: ${{ secrets.APP_STORE_CONNECT_TEAM_ISSUER }}
+          APP_STORE_CONNECT_AUTH_KEY: 6TV9MKN3GP
         run: |
-          xcrun altool --upload-app --type ios --file "./bitwarden-export/Bitwarden.ipa" \
-              --username "$APPLE_ID_USERNAME" --password "$APPLE_ID_PASSWORD"
-
+          xcrun altool \
+            --upload-app \
+            --type ios 
+            --file "./bitwarden-export/Bitwarden.ipa" \
+            --apiKey $APP_STORE_CONNECT_AUTH_KEY \
+            --apiIssuer $APP_STORE_CONNECT_TEAM_ISSUER
 
   crowdin-push:
     name: Crowdin Push
