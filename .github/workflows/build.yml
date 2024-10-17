@@ -687,12 +687,6 @@ jobs:
           EOF
 
       - name: Validate app in App Store
-        if: |
-          (github.ref == 'refs/heads/main'
-            && needs.setup.outputs.rc_branch_exists == 0
-            && needs.setup.outputs.hotfix_branch_exists == 0)
-          || (github.ref == 'refs/heads/rc' && needs.setup.outputs.hotfix_branch_exists == 0)
-          || github.ref == 'refs/heads/hotfix-rc'
         run: |
           xcrun altool \
             --validate-app \
