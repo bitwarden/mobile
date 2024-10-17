@@ -35,8 +35,10 @@ store/google/en
 ## Utils ##
 store/google/Publisher
 
-## These are shared workflows ##
-.github/workflows/cleanup-rc-branch.yml
-.github/workflows/release.yml
-.github/workflows/version-auto-bump.yml
-.github/workflows/version-bump.yml
+## These workflows have joint ownership ##
+.github/workflows/build.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/build-beta.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/cleanup-rc-branch.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/release.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/version-auto-bump.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/version-bump.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
