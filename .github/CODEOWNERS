@@ -7,15 +7,6 @@
 # Default file owners
 * @bitwarden/dept-development-mobile
 
-# DevOps for Actions and other workflow changes
-.github/workflows @bitwarden/dept-devops
-
-# DevOps for Version Bumping
-src/App/Platforms/Android/AndroidManifest.xml
-src/iOS.Autofill/Info.plist
-src/iOS.Extension/Info.plist
-src/iOS.ShareExtension/Info.plist
-src/App/Platforms/iOS/Info.plist
 
 ## Auth team files ##
 
@@ -43,3 +34,18 @@ store/google/en
 
 ## Utils ##
 store/google/Publisher
+
+## These workflows have joint ownership ##
+.github/workflows/build.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/build-beta.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/cleanup-rc-branch.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/release.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/version-auto-bump.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+.github/workflows/version-bump.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+
+# Shared ownership for version bump automation
+src/App/Platforms/Android/AndroidManifest.xml
+src/iOS.Autofill/Info.plist
+src/iOS.Extension/Info.plist
+src/iOS.ShareExtension/Info.plist
+src/App/Platforms/iOS/Info.plist
