@@ -42,3 +42,10 @@ store/google/Publisher
 .github/workflows/release.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
 .github/workflows/version-auto-bump.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
 .github/workflows/version-bump.yml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+
+# Shared ownership for version bump automation
+src/App/Platforms/Android/AndroidManifest.xml @bitwarden/dept-bre @bitwarden/dept-development-mobile
+src/iOS.Autofill/Info.plist @bitwarden/dept-bre @bitwarden/dept-development-mobile
+src/iOS.Extension/Info.plist @bitwarden/dept-bre @bitwarden/dept-development-mobile
+src/iOS.ShareExtension/Info.plist @bitwarden/dept-bre @bitwarden/dept-development-mobile
+src/App/Platforms/iOS/Info.plist @bitwarden/dept-bre @bitwarden/dept-development-mobile
