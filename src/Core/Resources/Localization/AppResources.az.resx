@@ -296,7 +296,7 @@
     <comment>Text to define that there are more options things to see.</comment>
   </data>
   <data name="MyVault" xml:space="preserve">
-    <value>Anbarım</value>
+    <value>Seyfim</value>
     <comment>The title for the vault page.</comment>
   </data>
   <data name="Authenticator" xml:space="preserve">
@@ -431,7 +431,7 @@
     <value>Bitwarden tətbiq uzantısı</value>
   </data>
   <data name="BitwardenAppExtensionAlert2" xml:space="preserve">
-    <value>Anbarınıza yeni hesab əlavə etməyin ən asan yolu, Bitwarden tətbiq uzantısıdır. Bu uzantı haqqında daha ətraflı məlumat üçün "Ayarlar" ekranına gedin.</value>
+    <value>Seyfinizə yeni bir giriş əlavə etməyin ən asan yolu, Bitwarden tətbiq uzantısıdır. Bu uzantı haqqında daha ətraflı məlumat üçün "Ayarlar" ekranına gedin.</value>
   </data>
   <data name="BitwardenAppExtensionDescription" xml:space="preserve">
     <value>Giriş məlumatlarının avto-doldurulması üçün Safari-də və digər tətbiqlərdə Bitwarden-i istifadə edin.</value>
@@ -446,7 +446,7 @@
     <value>E-poçtu dəyişdir</value>
   </data>
   <data name="ChangeEmailConfirmation" xml:space="preserve">
-    <value>E-poçt ünvanınızı bitwarden.com veb anbarında dəyişdirə bilərsiniz. İndi saytı ziyarət etmək istəyirsiniz?</value>
+    <value>E-poçt ünvanınızı bitwarden.com veb seyfində dəyişdirə bilərsiniz. İndi saytı ziyarət etmək istəyirsiniz?</value>
   </data>
   <data name="ChangeMasterPassword" xml:space="preserve">
     <value>Ana parolu dəyişdir</value>
@@ -520,7 +520,7 @@
     <value>Elementləri daxilə köçür</value>
   </data>
   <data name="ImportItemsConfirmation" xml:space="preserve">
-    <value>bitwarden.com veb anbarından elementləri toplu formada daxilə köçürə bilərsiniz. Veb saytı indi ziyarət etmək istəyirsiniz?</value>
+    <value>bitwarden.com veb seyfindən elementləri toplu formada daxilə köçürə bilərsiniz. Veb saytı indi ziyarət etmək istəyirsiniz?</value>
   </data>
   <data name="ImportItemsDescription" xml:space="preserve">
     <value>Digər parol idarəetmə tətbiqlərindəki elementləri cəld və toplu formada daxilə köçürün.</value>
@@ -550,20 +550,20 @@
     <value>Dərhal</value>
   </data>
   <data name="VaultTimeout" xml:space="preserve">
-    <value>Anbara müraciət bitəcək</value>
+    <value>Seyf vaxtının bitməsi</value>
   </data>
   <data name="VaultTimeoutAction" xml:space="preserve">
-    <value>Anbara müraciət vaxtının bitmə əməliyyatı</value>
+    <value>Seyf vaxtının bitmə əməliyyatı</value>
   </data>
   <data name="VaultTimeoutLogOutConfirmation" xml:space="preserve">
-    <value>Çıxış edəndə, anbarınıza bütün müraciətiniz dayanacaq və vaxt bitməsindən sonra onlayn kimlik doğrulaması tələb olunacaq. Bu ayarı istifadə etmək istədiyinizə əminsiniz?</value>
+    <value>Çıxış etdikdə, seyfinizə bütün müraciətiniz dayanacaq və vaxt bitməsindən sonra onlayn kimlik doğrulaması tələb olunacaq. Bu ayarı istifadə etmək istədiyinizə əminsiniz?</value>
   </data>
   <data name="LoggingIn" xml:space="preserve">
     <value>Giriş edilir...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="LoginOrCreateNewAccount" xml:space="preserve">
-    <value>Güvənli anbarınıza müraciət etmək üçün giriş edin və ya yeni bir hesab yaradın.</value>
+    <value>Güvənli seyfinizə müraciət etmək üçün giriş edin və ya yeni bir hesab yaradın.</value>
   </data>
   <data name="Manage" xml:space="preserve">
     <value>İdarə et</value>
@@ -572,7 +572,7 @@
     <value>Parol təsdiqləmə doğru deyil.</value>
   </data>
   <data name="MasterPasswordDescription" xml:space="preserve">
-    <value>Ana parol, anbarınıza müraciət etmək üçün istifadə edəcəyiniz şifrədir. Ana parolu yadda saxlamaq çox vacibdir. Unutsanız, parolu bərpa etməyin heç bir yolu yoxdur.</value>
+    <value>Ana parol, seyfinizə müraciət etmək üçün istifadə edəcəyiniz paroldur. Ana parolu yadda saxlamaq çox vacibdir. Unutsanız, parolu bərpa etməyin heç bir yolu yoxdur.</value>
   </data>
   <data name="MasterPasswordHint" xml:space="preserve">
     <value>Ana parol məsləhəti (ixtiyari)</value>
@@ -604,13 +604,13 @@
     <value>Yeni element yaradıldı.</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>Anbarınızda heç bir sevimli yoxdur.</value>
+    <value>Seyfinizdə heç bir sevimli yoxdur.</value>
   </data>
   <data name="NoItems" xml:space="preserve">
-    <value>Anbarınızda heç bir element yoxdur.</value>
+    <value>Seyfinizdə heç bir element yoxdur.</value>
   </data>
   <data name="NoItemsTap" xml:space="preserve">
-    <value>Anbarınızda bu veb sayt/tətbiq üçün heç bir element yoxdur. Əlavə etmək üçün toxunun.</value>
+    <value>Seyfinizdə bu veb sayt/tətbiq üçün heç bir element yoxdur. Əlavə etmək üçün toxunun.</value>
   </data>
   <data name="NoUsernamePasswordConfigured" xml:space="preserve">
     <value>Bu hesaba aid istifadəçi adı və ya parol yoxdur.</value>
@@ -644,7 +644,7 @@
     <value>Hazırkı parolun üzərinə yazmaq istədiyinizə əminsiniz?</value>
   </data>
   <data name="PushNotificationAlert" xml:space="preserve">
-    <value>Bitwarden, ani bildirişləri istifadə edərək anbarınızın avtomatik sinxronlaşdırılmasını təmin edir. Mümkün olan ən yaxşı təcrübəni təqdim etmək üçün, sizdən ani bildirişləri fəallaşdırmağı soruşduqda növbəti ekranda "İcazə ver"i seçin.</value>
+    <value>Bitwarden, ani bildirişləri istifadə edərək seyfinizi avtomatik olaraq sinxron tutur. Mümkün olan ən yaxşı təcrübə üçün, sizdən ani bildirişlərə icazə vermək istənildikdə lütfən istək pəncərəsində "İcazə ver"i seçin.</value>
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
@@ -660,7 +660,7 @@
     <value>Ana parolu yenidən yaz</value>
   </data>
   <data name="SearchVault" xml:space="preserve">
-    <value>Anbarda axtar</value>
+    <value>Seyfdə axtar</value>
   </data>
   <data name="Security" xml:space="preserve">
     <value>Güvənlik</value>
@@ -695,7 +695,7 @@
     <value>Sinxr uğursuz oldu</value>
   </data>
   <data name="SyncVaultNow" xml:space="preserve">
-    <value>Anbarı indi sinxronlaşdır</value>
+    <value>Seyfi indi sinxronlaşdır</value>
   </data>
   <data name="TouchID" xml:space="preserve">
     <value>Touch ID</value>
@@ -721,7 +721,7 @@
     <value>Elementə bax</value>
   </data>
   <data name="WebVault" xml:space="preserve">
-    <value>Bitwarden veb anbarı</value>
+    <value>Bitwarden veb seyfi</value>
   </data>
   <data name="Lost2FAApp" xml:space="preserve">
     <value>Kimlik doğrulayıcı tətbiqini itirmisiniz?</value>
@@ -744,14 +744,14 @@
     <comment>This is used for the autofill service. ex. "Logins for twitter.com"</comment>
   </data>
   <data name="NoItemsForUri" xml:space="preserve">
-    <value>Anbarınızda {0} üçün heç bir element yoxdur.</value>
+    <value>Seyfinizdə {0} üçün heç bir element yoxdur.</value>
     <comment>This is used for the autofill service. ex. "There are no items in your vault for twitter.com".</comment>
   </data>
   <data name="BitwardenAutofillServiceOverlay" xml:space="preserve">
     <value>Bir giriş xanası seçdikdə və Bitwarden avto-doldurma örtüyünü gördükdə, avto-doldurma xidmətini başlatmaq üçün buna toxuna bilərsiniz.</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContent" xml:space="preserve">
-    <value>Anbarınızdakı bir elementi avto-doldurmaq üçün bu bildirişə toxunun.</value>
+    <value>Bir elementi seyfinizdən avto-doldurmaq üçün bu bildirişə toxunun.</value>
   </data>
   <data name="BitwardenAutofillServiceOpenAccessibilitySettings" xml:space="preserve">
     <value>Əlçatımlılıq Ayarlarını aç</value>
@@ -778,7 +778,7 @@
     <value>Vəziyyət</value>
   </data>
   <data name="BitwardenAutofillServiceAlert2" xml:space="preserve">
-    <value>Anbarınıza yeni hesab əlavə etməyin ən asan yolu, Bitwarden avto-doldurma xidmətidir. Bu xidmət haqqında daha ətraflı məlumat üçün "Ayarlar" ekranına gedin.</value>
+    <value>Seyfinizə yeni bir giriş əlavə etməyin ən asan yolu, Bitwarden Avto-doldurma Xidmətidir. Bitwarden Avto-doldurma Xidmətini istifadə etməklə bağlı daha ətraflı məlumat üçün "Ayarlar" ekranına gedin.</value>
   </data>
   <data name="Autofill" xml:space="preserve">
     <value>Avto-doldurma</value>
@@ -949,7 +949,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Şifrələmə açarınızı güncəlləyənə qədər bu özəlliyi istifadə edə bilməzsiniz.</value>
   </data>
   <data name="EncryptionKeyMigrationRequiredDescriptionLong" xml:space="preserve">
-    <value>Şifrələmə açarının daşınması tələb olunur. Şifrələmə açarınızı güncəlləmək üçün lütfən veb anbar üzərindən giriş edin.</value>
+    <value>Şifrələmə açarının daşınması tələb olunur. Şifrələmə açarınızı güncəlləmək üçün lütfən veb seyfinizə giriş edin.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>Daha ətraflı</value>
@@ -984,10 +984,10 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Server URL-si</value>
   </data>
   <data name="WebVaultUrl" xml:space="preserve">
-    <value>Veb anbar server URL-si</value>
+    <value>Veb seyf server URL-si</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContentOld" xml:space="preserve">
-    <value>Anbarınızdakı elementlərə baxmaq üçün bu bildirişə toxunun.</value>
+    <value>Seyfinizdəki elementlərə baxmaq üçün bu bildirişə toxunun.</value>
   </data>
   <data name="CustomFields" xml:space="preserve">
     <value>Özəl xanalar</value>
@@ -1149,10 +1149,10 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Bitwarden ilə avto-doldurma</value>
   </data>
   <data name="VaultIsLocked" xml:space="preserve">
-    <value>Anbar kilidlənib</value>
+    <value>Seyf kilidlənib</value>
   </data>
   <data name="GoToMyVault" xml:space="preserve">
-    <value>Anbarıma get</value>
+    <value>Seyfimə get</value>
   </data>
   <data name="Collections" xml:space="preserve">
     <value>Kolleksiyalar</value>
@@ -1301,7 +1301,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>İstifadə etməyi düşünmürsünüzsə, digər Avto-doldurma tətbiqlərini Ayarlarda sıradan çıxartmağı tövsiyə edirik.</value>
   </data>
   <data name="BitwardenAutofillDescription" xml:space="preserve">
-    <value>Parollarınızın cəld avto-doldurulması üçün anbarınıza birbaşa klaviaturanızdan müraciət edin.</value>
+    <value>Parolları cəld avto-doldurmaq üçün seyfinizə birbaşa klaviaturanızdan müraciət edin.</value>
   </data>
   <data name="AutofillTurnOn" xml:space="preserve">
     <value>Cihazınızda parolun avto-doldurulması üçün aşağıdakı təlimatları izləyin:</value>
@@ -1325,7 +1325,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Parolun avto-doldurulması</value>
   </data>
   <data name="BitwardenAutofillAlert2" xml:space="preserve">
-    <value>Anbarınıza yeni giriş məlumatlarını əlavə etməyin ən asan yolu, Bitwarden parol avto-doldurma uzantısıdır. Bu uzantı haqqında daha ətraflı məlumat almaq üçün "Ayarlar" ekranına gedin.</value>
+    <value>Seyfinizə yeni bir giriş əlavə etməyin ən asan yolu, Bitwarden Parol Avto-doldurma uzantısıdır. Bitwarden Parol Avto-doldurma uzantısı haqqında daha ətraflı məlumat üçün "Ayarlar" ekranına gedin.</value>
   </data>
   <data name="InvalidEmail" xml:space="preserve">
     <value>Yararsız e-poçt ünvanı.</value>
@@ -1468,10 +1468,10 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="LearnOrgConfirmation" xml:space="preserve">
-    <value>Bitwarden, bir təşkilat hesabı istifadə edərək anbar elementlərinizi başqaları ilə paylaşmağınıza icazə verər. Daha ətraflı məlumat üçün bitwarden.com saytını ziyarət etmək istəyirsiniz?</value>
+    <value>Bitwarden, bir təşkilat hesabı istifadə edərək seyf elementlərinizi başqaları ilə paylaşmağınıza icazə verir. Daha ətraflı məlumat üçün bitwarden.com saytını ziyarət etmək istəyirsiniz?</value>
   </data>
   <data name="ExportVault" xml:space="preserve">
-    <value>Anbarı xaricə köçür</value>
+    <value>Seyfi xaricə köçür</value>
   </data>
   <data name="LockNow" xml:space="preserve">
     <value>İndi kilidlə</value>
@@ -1483,7 +1483,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Kilidi aç</value>
   </data>
   <data name="UnlockVault" xml:space="preserve">
-    <value>Anbar kilidini aç</value>
+    <value>Seyfin kilidini aç</value>
   </data>
   <data name="ThirtyMinutes" xml:space="preserve">
     <value>30 dəqiqə</value>
@@ -1496,13 +1496,13 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <comment>ex: Logged in as user@example.com on bitwarden.com.</comment>
   </data>
   <data name="VaultLockedMasterPassword" xml:space="preserve">
-    <value>Anbarınız kilidlənib. Davam etmək üçün ana parolunuzu doğrulayın.</value>
+    <value>Seyfiniz kilidlənib. Davam etmək üçün ana parolunuzu doğrulayın.</value>
   </data>
   <data name="VaultLockedPIN" xml:space="preserve">
-    <value>Anbarınız kilidlənib. Davam etmək üçün PIN kodunuzu doğrulayın.</value>
+    <value>Seyfiniz kilidlənib. Davam etmək üçün PIN kodunuzu doğrulayın.</value>
   </data>
   <data name="VaultLockedIdentity" xml:space="preserve">
-    <value>Anbarınız kilidlənib. Davam etmək üçün kimliyinizi doğrulayın.</value>
+    <value>Seyfiniz kilidlənib. Davam etmək üçün kimliyinizi doğrulayın.</value>
   </data>
   <data name="Dark" xml:space="preserve">
     <value>Tünd</value>
@@ -1540,7 +1540,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <comment>Default URI match detection for auto-fill.</comment>
   </data>
   <data name="DefaultUriMatchDetectionDescription" xml:space="preserve">
-    <value>Avto-doldurma kimi əməliyyatları icra edərkən giriş etmə prosesi üçün URI uyuşma aşkarlamasının idarə edliəcəyi ilkin yolu seçin.</value>
+    <value>Avto-doldurma kimi əməliyyatları icra edərkən giriş etmə prosesi üçün URI uyuşma aşkarlamasının idarə ediləcəyi ilkin yolu seçin.</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>
@@ -1586,13 +1586,13 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Giriş əlavə etmək üçün soruş</value>
   </data>
   <data name="AskToAddLoginDescription" xml:space="preserve">
-    <value>Anbarınızda yoxdursa, bir element əlavə etməyi soruşun.</value>
+    <value>Seyfinizdə tapılmayan elementin əlavə edilməsi soruşulsun.</value>
   </data>
   <data name="OnRestart" xml:space="preserve">
     <value>Tətbiq yenidən başladılanda</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>Avto-doldurma, veb sayt və tətbiqlərdən Bitwarden anbarınıza güvənli şəkildə müraciət etməyinizi asanlaşdırır. Deyəsən, Bitwarden üçün avto-doldurma xidmətini qurmamısınız. "Ayarlar" ekranında Bitwarden üçün avto-doldurma xidmətini qurun.</value>
+    <value>Avto-doldurma, digər veb sayt və tətbiqlərdən Bitwarden seyfinizə güvənli şəkildə müraciət etməyinizi asanlaşdırır. Deyəsən, Bitwarden üçün avto-doldurma xidmətini qurmamısınız. "Ayarlar" ekranında Bitwarden üçün avto-doldurma xidmətini qurun.</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
     <value>Tema dəyişiklikləriniz tətbiq yenidən başladılanda tətbiq ediləcək.</value>
@@ -1650,7 +1650,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Fayl formatı</value>
   </data>
   <data name="ExportVaultMasterPasswordDescription" xml:space="preserve">
-    <value>Anbar datanızı xaricə köçürmək üçün ana parolunuzu daxil edin.</value>
+    <value>Seyf datanızı xaricə köçürmək üçün ana parolunuzu daxil edin.</value>
   </data>
   <data name="SendVerificationCodeToEmail" xml:space="preserve">
     <value>Doğrulama kodunu e-poçtunuza göndərin</value>
@@ -1671,17 +1671,17 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Hesab şifrələmə açarları, hər Bitwarden istifadəçi hesabı üçün unikaldır, buna görə də şifrələnmiş bir xaricə köçürməni, fərqli bir hesaba köçürə bilməzsiniz.</value>
   </data>
   <data name="ExportVaultConfirmationTitle" xml:space="preserve">
-    <value>Anbarın xaricə köçürülməsini təsdiqlə</value>
+    <value>Seyfi xaricə köçürməyi təsdiqlə</value>
     <comment>Title for the alert to confirm vault exports.</comment>
   </data>
   <data name="Warning" xml:space="preserve">
     <value>Xəbərdarlıq</value>
   </data>
   <data name="ExportVaultFailure" xml:space="preserve">
-    <value>Anbarınızın xaricə köçürülməsi zamanı problem yarandı. Əgər problem davam edərsə, veb anbarından xaricə köçürməli olacaqsınız.</value>
+    <value>Seyfin xaricə köçürülməsi zamanı problem yarandı. Əgər problem davam edərsə, veb seyfinizdən xaricə köçürməli olacaqsınız.</value>
   </data>
   <data name="ExportVaultSuccess" xml:space="preserve">
-    <value>Anbar uğurla xaricə köçürüldü</value>
+    <value>Seyf uğurla xaricə köçürüldü</value>
   </data>
   <data name="Clone" xml:space="preserve">
     <value>Klonla</value>
@@ -1695,7 +1695,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <comment>Button text for an open operation (verb).</comment>
   </data>
   <data name="UnableToSaveAttachment" xml:space="preserve">
-    <value>Bu qoşmanı saxlayarkən problem yarandı. Əgər problem davam edərsə, veb anbarından saxlaya bilərsiniz.</value>
+    <value>Bu qoşmanı saxlayarkən problem yarandı. Əgər problem davam edərsə, veb seyfdən saxlaya bilərsiniz.</value>
   </data>
   <data name="SaveAttachmentSuccess" xml:space="preserve">
     <value>Qoşma uğurla saxlanıldı</value>
@@ -1756,7 +1756,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Təzələmə zamanı sinxr icazə ver</value>
   </data>
   <data name="EnableSyncOnRefreshDescription" xml:space="preserve">
-    <value>Barmağınızla aşağı çəkdikdə anbarı sinxronlaşdır.</value>
+    <value>Barmağınızla aşağı çəkdikdə seyfi sinxronlaşdır.</value>
   </data>
   <data name="LogInSso" xml:space="preserve">
     <value>Müəssisə üçün tək daxil olma</value>
@@ -1774,7 +1774,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Ana parolu ayarla</value>
   </data>
   <data name="SetMasterPasswordSummary" xml:space="preserve">
-    <value>SSO ilə giriş prosesini tamamlamaq üçün lütfən anbarınıza müraciət etmək və onu qorumaq üçün bir ana parol ayarlayın.</value>
+    <value>SSO ilə giriş prosesini tamamlamaq üçün lütfən seyfinizə müraciət edəcək və onu qoruyacaq bir ana parol təyin edin.</value>
   </data>
   <data name="MasterPasswordPolicyInEffect" xml:space="preserve">
     <value>Bir və ya daha çox təşkilat siyasəti, aşağıdakı tələbləri qarşılamaq üçün ana parolunuzu tələb edir:</value>
@@ -1861,7 +1861,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Fəal olsa, əlçatımlılıq, Android Avto-doldurma Çərçivəsini dəstəkləməyən köhnə tətbiqlərdə Avto-doldurma Xidmətini təqlid etməsi üçün açılan bir pəncərə göstərəcək.</value>
   </data>
   <data name="PersonalOwnershipSubmitError" xml:space="preserve">
-    <value>Müəssisə Siyasətinə görə, elementləri şəxsi anbarınızda saxlamağınız məhdudlaşdırılıb. Sahiblik seçimini təşkilat olaraq dəyişdirin və mövcud kolleksiyalar arasından seçim edin.</value>
+    <value>Müəssisə siyasətinə görə, elementləri şəxsi seyfinizdə saxlamağınız məhdudlaşdırılıb. Sahiblik seçimini təşkilat olaraq dəyişdirin və mövcud kolleksiyalar arasından seçim edin.</value>
   </data>
   <data name="PersonalOwnershipPolicyInEffect" xml:space="preserve">
     <value>Bir təşkilat siyasəti, sahiblik seçimlərinizə təsir edir.</value>
@@ -2067,7 +2067,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="SendFileEmailVerificationRequired" xml:space="preserve">
-    <value>Faylları "Send" ilə istifadə etmək üçün e-poçtunuzu doğrulamalısınız. E-poçtunuzu veb anbarında doğrulaya bilərsiniz.</value>
+    <value>Faylları "Send" ilə istifadə etmək üçün e-poçtunuzu doğrulamalısınız. E-poçtunuzu veb seyfdə doğrulaya bilərsiniz.</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="PasswordPrompt" xml:space="preserve">
@@ -2092,7 +2092,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Ana parolu güncəllə</value>
   </data>
   <data name="UpdateMasterPasswordWarning" xml:space="preserve">
-    <value>Ana parolunuz təzəlikcə təşkilatınızdakı bir administrator tərəfindən dəyişdirildi. Anbara müraciət üçün Ana parolunuzu indi güncəlləməlisiniz. Davam etsəniz, hazırkı seansdan çıxış etmiş və təkrar giriş etməli olacaqsınız. Digər cihazlardakı aktiv seanslar bir saata qədər aktiv qalmağa davam edə bilər.</value>
+    <value>Ana parolunuz təzəlikcə təşkilatınızdakı bir administrator tərəfindən dəyişdirildi. Seyfə müraciət üçün Ana parolunuzu indi güncəlləməlisiniz. Davam etsəniz, hazırkı seansdan çıxış etmiş və təkrar giriş etməli olacaqsınız. Digər cihazlardakı aktiv seanslar bir saata qədər aktiv qalmağa davam edə bilər.</value>
   </data>
   <data name="UpdatingPassword" xml:space="preserve">
     <value>Parol yenilənir</value>
@@ -2137,19 +2137,19 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Bu təşkilat, sizi "parol sıfırlama"da avtomatik olaraq qeydiyyata alan müəssisə siyasətinə sahibdir. Qeydiyyat, təşkilat administratorlarına ana parolunuzu dəyişdirmə icazəsi verəcək.</value>
   </data>
   <data name="VaultTimeoutPolicyInEffect" xml:space="preserve">
-    <value>Təşkilatınızın siyasətləri, anbarınızın vaxt bitişinə təsir edir. Anbar vaxt bitişi üçün icazə verilən maksimum vaxt {0} saat {1} dəqiqədir</value>
+    <value>Təşkilatınızın siyasətləri, icazə verilən maksimum seyf bitmə vaxtını {0} saat {1} dəqiqə olaraq ayarladı.</value>
   </data>
   <data name="VaultTimeoutPolicyWithActionInEffect" xml:space="preserve">
-    <value>Təşkilatınızın siyasətləri, anbarınızın vaxt bitişinə təsir edir. Anbar vaxt bitişi üçün icazə verilən maksimum vaxt {0} saat {1} dəqiqədir. Anbar vaxt bitişi əməliyyatı {2} olaraq ayarlandı.</value>
+    <value>Təşkilatınızın siyasətləri, seyfinizin bitmə vaxtına təsir edir. İcazə verilən maksimum seyf bitmə vaxtı {0} saat {1} dəqiqədir. Seyf vaxt bitmə əməliyyatı {2} olaraq ayarlandı.</value>
   </data>
   <data name="VaultTimeoutActionPolicyInEffect" xml:space="preserve">
-    <value>Təşkilatınızın siyasətləri, anbar vaxt bitişi əməliyyatınızı {0} olaraq ayarladı.</value>
+    <value>Təşkilatınızın siyasətləri, seyfinizin vaxt bitmə əməliyyatını {0} olaraq ayarladı.</value>
   </data>
   <data name="VaultTimeoutToLarge" xml:space="preserve">
-    <value>Anbar vaxt bitişi, təşkilatınız tərəfindən ayarlanan məhdudiyyətləri aşır.</value>
+    <value>Seyfin bitmə vaxtı, təşkilatınız tərəfindən ayarlanan məhdudiyyətləri aşır.</value>
   </data>
   <data name="DisablePersonalVaultExportPolicyInEffect" xml:space="preserve">
-    <value>Bir və ya daha çox təşkilat siyasəti, fərdi anbarınızı xaricə köçürməyinizi əngəlləyir.</value>
+    <value>Bir və ya daha çox təşkilat siyasəti, fərdi seyfinizi xaricə köçürməyinizi əngəlləyir.</value>
   </data>
   <data name="AddAccount" xml:space="preserve">
     <value>Hesab əlavə et</value>
@@ -2257,16 +2257,16 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Parol görünmür, göstərmək üçün toxunun.</value>
   </data>
   <data name="FilterByVault" xml:space="preserve">
-    <value>Elementləri anbara görə filtrlə</value>
+    <value>Elementləri seyfə görə filtrlə</value>
   </data>
   <data name="AllVaults" xml:space="preserve">
-    <value>Bütün anbarlar</value>
+    <value>Bütün seyflər</value>
   </data>
   <data name="Vaults" xml:space="preserve">
-    <value>Anbarlar</value>
+    <value>Seyflər</value>
   </data>
   <data name="VaultFilterDescription" xml:space="preserve">
-    <value>Anbar: {0}</value>
+    <value>Seyf: {0}</value>
   </data>
   <data name="All" xml:space="preserve">
     <value>Hamısı</value>
@@ -2305,7 +2305,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Açar uğurla daxil edildikdən sonra, açarı güvənli şəkildə saxlamaq üçün "TOTP əlavə et"i seçin</value>
   </data>
   <data name="NeverLockWarning" xml:space="preserve">
-    <value>Kilid seçimlərini "Heç vaxt" olaraq ayarlamaq, anbarınızı cihazınıza müraciəti olan hər kəsə əlçatan edir. Bu seçimi istifadə etsəniz, cihazınızı düzgün qoruduğunuza əmin olmalısınız.</value>
+    <value>Kilid seçimlərini "Heç vaxt" olaraq ayarlamaq, seyfinizi cihazınıza müraciəti olan hər kəsə əlçatan edir. Bu seçimi istifadə etsəniz, cihazınızı düzgün qoruduğunuza əmin olmalısınız.</value>
   </data>
   <data name="EnvironmentPageUrlsError" xml:space="preserve">
     <value>Daxil edilən bir və ya daha çox URL yararsızdır. Lütfən nəzər salın və yenidən saxlamağa çalışın.</value>
@@ -2514,7 +2514,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Cihazınıza bir bildiriş göndərildi.</value>
   </data>
   <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
-    <value>Lütfən anbarınızın kilidinin açıq olduğuna və Barmaq izi ifadəsinin digər cihazla uyuşduğuna əmin olun.</value>
+    <value>Lütfən seyfinizin kilidinin açıq olduğuna və Barmaq izi ifadəsinin digər cihazla uyuşduğuna əmin olun.</value>
   </data>
   <data name="ResendNotification" xml:space="preserve">
     <value>Bildirişi təkrar göndər</value>
@@ -2601,7 +2601,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Açarı, mövcud və ya yeni bir elementə əlavə edin</value>
   </data>
   <data name="ThereAreNoItemsInYourVaultThatMatchX" xml:space="preserve">
-    <value>Anbarınızda {0} ilə uyuşan heç bir element yoxdur</value>
+    <value>Seyfinizdə "{0}" ilə uyuşan heç bir element yoxdur</value>
   </data>
   <data name="SearchForAnItemOrAddANewItem" xml:space="preserve">
     <value>Bir element axtarın və ya yenisini əlavə edin</value>
@@ -2625,7 +2625,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Bölgə</value>
   </data>
   <data name="UpdateWeakMasterPasswordWarning" xml:space="preserve">
-    <value>Ana parolunuz təşkilatınızdakı siyasətlərdən birinə və ya bir neçəsinə uyğun gəlmir. Anbara müraciət üçün ana parolunuzu indi güncəlləməlisiniz. Davam etsəniz, hazırkı seansdan çıxış etmiş və təkrar giriş etməli olacaqsınız. Digər cihazlardakı aktiv seanslar bir saata qədər aktiv qalmağa davam edə bilər.</value>
+    <value>Ana parolunuz təşkilatınızdakı siyasətlərdən birinə və ya bir neçəsinə uyğun gəlmir. Seyfə müraciət üçün ana parolunuzu indi güncəlləməlisiniz. Davam etsəniz, hazırkı seansdan çıxış etmiş və təkrar giriş etməli olacaqsınız. Digər cihazlardakı aktiv seanslar bir saata qədər aktiv qalmağa davam edə bilər.</value>
   </data>
   <data name="CurrentMasterPassword" xml:space="preserve">
     <value>Hazırkı ana parol</value>
@@ -2700,7 +2700,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>{0} olaraq giriş edilir</value>
   </data>
   <data name="VaultTimeoutActionChangedToLogOut" xml:space="preserve">
-    <value>Anbar vaxt bitməsi əməliyyatı "çıxış et" olaraq dəyişdirildi</value>
+    <value>Seyfin vaxt bitmə əməliyyatı "çıxış et" olaraq dəyişdirildi</value>
   </data>
   <data name="BlockAutoFill" xml:space="preserve">
     <value>Avto-doldurmanı əngəllə</value>
@@ -2758,7 +2758,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Giriş edilir</value>
   </data>
   <data name="Vault" xml:space="preserve">
-    <value>Anbar</value>
+    <value>Seyf</value>
   </data>
   <data name="Appearance" xml:space="preserve">
     <value>Görünüş</value>
@@ -2807,7 +2807,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>{0} saat</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Yeni keçid açarlarını saxlamaq və anbarınızda saxlanılan keçid açarları ilə giriş etmək üçün Bitwarden-i istifadə edin.</value>
+    <value>Yeni keçid açarlarını saxlamaq və seyfinizdəki keçid açarları ilə giriş etmək üçün Bitwarden-i istifadə edin.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Android Avto-doldurma Çərçivəsi, giriş məlumatlarını cihazınızdakı digər tətbiqlərə doldurmağa kömək etmək üçün istifadə olunur.</value>
@@ -2847,7 +2847,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Ana parolunuzu Bitwarden veb tətbiqində dəyişdirə bilərsiniz.</value>
   </data>
   <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
-    <value>Datanı {0} üzərindən anbarınıza köçürə bilərsiniz.</value>
+    <value>Datanı {0} üzərindən seyfinizə köçürə bilərsiniz.</value>
     <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
   </data>
   <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
@@ -2863,7 +2863,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Veb tətbiqində Bitwarden hesabınızın daha çox özəlliyini kəşf edin.</value>
   </data>
   <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
-    <value>Bitwarden, bir təşkilat hesabı istifadə edərək anbar elementlərinizi başqaları ilə paylaşmağınıza icazə verər. bitwarden.com veb saytında ətraflı öyrənin.</value>
+    <value>Bitwarden, bir təşkilatı istifadə edərək seyf elementlərinizi başqaları ilə paylaşmağınıza imkan verir. Daha ətraflı məlumat üçün bitwarden.com saytını ziyarət edin.</value>
   </data>
   <data name="RateAppDescriptionLong" xml:space="preserve">
     <value>Başqalarının Bitwarden-in onlar üçün uyğun olub-olmadığını öyrənməkdə kömək edin. Tətbiq mağazasını ziyarət edin və tətbiqimizi qiymətləndirin.</value>
@@ -2888,7 +2888,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Təşkilatınız bir ana parol ayarlamağı tələb edir.</value> 
   </data>
   <data name="SetUpAnUnlockOptionToChangeYourVaultTimeoutAction" xml:space="preserve">
-    <value>Anbar vaxt bitməsi əməliyyatınızı dəyişdirmək üçün bir kilid açma seçimi qurun.</value>
+    <value>Seyf vaxt bitmə əməliyyatınızı dəyişdirmək üçün bir kilid açma seçimi qurun.</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
     <value>Bu keçid açarını saxlayacaq bir giriş seçin</value>
@@ -2968,10 +2968,10 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>3. Parollar və keçid açarları üçün istifadə etmək məqsədilə "Bitwarden"i seçin</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVault" xml:space="preserve">
-    <value>Keçid açarınız Bitwarden anbarınızda saxlanılacaq</value>
+    <value>Keçid açarınız Bitwarden seyfinizdə saxlanılacaq</value>
   </data>
   <data name="YourPasskeyWillBeSavedToYourBitwardenVaultForX" xml:space="preserve">
-    <value>Keçid açarınız {0} üçün Bitwarden anbarınızda saxlanılacaq</value>
+    <value>Keçid açarınız {0} üçün Bitwarden seyfinizdə saxlanılacaq</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
     <value>Keçid açarları bu tətbiq üçün dəstəklənmir</value>

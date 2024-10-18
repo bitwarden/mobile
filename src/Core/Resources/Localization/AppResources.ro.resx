@@ -1822,7 +1822,7 @@ Scanarea se va face automat.</value>
     <value>Bitwarden are nevoie de atenție - Activați "Afișare peste" în "Serviciul de auto-completare" din Setările Bitwarden</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey management</value>
+    <value>Gestionare chei de acces</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>Servicii de autocompletare</value>
@@ -2623,7 +2623,7 @@ Doriți să comutați la acest cont?</value>
     <value>Data region</value>
   </data>
   <data name="Region" xml:space="preserve">
-    <value>Region</value>
+    <value>Regiune</value>
   </data>
   <data name="UpdateWeakMasterPasswordWarning" xml:space="preserve">
     <value>Parola principală nu îndeplinește una sau mai multe politici ale organizației. Pentru a accesa seiful trebuie să actualizați acum parola principală. Continuarea te va deconecta din sesiunea curentă, necesitând să te autentifici din nou. Sesiunile active pe alte dispozitive pot continua să rămână active timp de maxim o oră.</value>
@@ -2650,13 +2650,13 @@ Doriți să comutați la acest cont?</value>
     <value>Remember this device</value>
   </data>
   <data name="Passkey" xml:space="preserve">
-    <value>Passkey</value>
+    <value>Cheie de acces</value>
   </data>
   <data name="Passkeys" xml:space="preserve">
-    <value>Passkeys</value>
+    <value>Chei de acces</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>Application</value>
+    <value>Aplicație</value>
   </data>
   <data name="YouCannotEditPasskeyApplicationBecauseItWouldInvalidateThePasskey" xml:space="preserve">
     <value>You cannot edit passkey application because it would invalidate the passkey</value>
@@ -2762,13 +2762,13 @@ Doriți să comutați la acest cont?</value>
     <value>Vault</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>Appearance</value>
+    <value>Aspect</value>
   </data>
   <data name="AccountSecurity" xml:space="preserve">
-    <value>Account security</value>
+    <value>Securitate cont</value>
   </data>
   <data name="BitwardenHelpCenter" xml:space="preserve">
-    <value>Bitwarden help center</value>
+    <value>Centrul de Ajutor Bitwarden</value>
   </data>
   <data name="ContactBitwardenSupport" xml:space="preserve">
     <value>Contact Bitwarden support</value>
@@ -2777,13 +2777,13 @@ Doriți să comutați la acest cont?</value>
     <value>Copy app information</value>
   </data>
   <data name="SyncNow" xml:space="preserve">
-    <value>Sync now</value>
+    <value>Sincronizează acum</value>
   </data>
   <data name="UnlockOptions" xml:space="preserve">
-    <value>Unlock options</value>
+    <value>Opțiuni de deblocare</value>
   </data>
   <data name="SessionTimeout" xml:space="preserve">
-    <value>Session timeout</value>
+    <value>Expirarea sesiunii</value>
   </data>
   <data name="SessionTimeoutAction" xml:space="preserve">
     <value>Session timeout action</value>
@@ -2817,7 +2817,7 @@ Doriți să comutați la acest cont?</value>
     <value>Use inline autofill if your selected keyboard supports it. Otherwise, use the default overlay.</value>
   </data>
   <data name="AdditionalOptions" xml:space="preserve">
-    <value>Additional options</value>
+    <value>Opțiuni adiționale</value>
   </data>
   <data name="ContinueToWebApp" xml:space="preserve">
     <value>Continue to web app?</value>
@@ -2877,7 +2877,7 @@ Doriți să comutați la acest cont?</value>
     <comment>To state the date/time in which the cipher was created: Created 03/21/2023, 09:25 AM. First parameter is the date and the second parameter is the time.</comment>
   </data>
   <data name="TooManyAttempts" xml:space="preserve">
-    <value>Too many attempts</value>
+    <value>Prea multe încercări</value>
   </data>
   <data name="AccountLoggedOutBiometricExceeded" xml:space="preserve">
     <value>Account logged out.</value>
@@ -2945,13 +2945,13 @@ Doriți să comutați la acest cont?</value>
     <value>Verifying identity...</value>
   </data>
   <data name="Passwords" xml:space="preserve">
-    <value>Passwords</value>
+    <value>Parole</value>
   </data>
   <data name="UnknownAccount" xml:space="preserve">
-    <value>Unknown account</value>
+    <value>Cont necunoscut</value>
   </data>
   <data name="SetUpAutofill" xml:space="preserve">
-    <value>Set up auto-fill</value>
+    <value>Configurare completare automată</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
     <value>Get instant access to your passwords and passkeys!</value>
