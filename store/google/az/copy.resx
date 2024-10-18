@@ -141,7 +141,7 @@ Bitwarden, parolları iş yoldaşlarınızla təhlükəsiz paylaşa bilməyiniz 
 Nəyə görə Bitwarden-i seçməliyik:
 
 Yüksək səviyyə şifrələmə
-Şifrələriniz qabaqcıl bir ucdan digərinə kimi şifrələmə (AES-256 bit, salted hashtag və PBKDF2 SHA-256) ilə qorunur, beləcə verilənlərinizin təhlükəsiz və gizli qalmasını təmin edir.
+Parollarınız qabaqcıl ucdan-uca şifrələmə (AES-256 bit, salted hashtag və PBKDF2 SHA-256) ilə qorunur, beləcə datanızın güvənli və gizli qalmasını təmin edir.
 
 Daxili parol yaradıcı
 Çox istifadə etdiyiniz hər veb sayt üçün güvənlik tələblərinə görə güclü, unikal və təsadüfi parollar yaradın.
@@ -150,7 +150,7 @@ Qlobal tərcümələr
 Bitwarden tərcümələri 40 dildə mövcuddur və qlobal cəmiyyətimiz sayəsində böyüməyə davam edir.
 
 Çarpaz platform tətbiqləri
-Bitwarden anbarındakı həssas verilənləri, istənilən brauzerdən, mobil cihazdan və ya masaüstü əməliyyat sistemindən və daha çoxundan qoruyub paylaşın.
+Bitwarden seyfindəki həssas dataları istənilən brauzerdən, mobil cihazdan və ya masaüstü əməliyyat sistemindən və daha çoxundan qoruyub paylaşın.
 </value>
   <comment>Max 4000 characters</comment>
   </data>
@@ -164,13 +164,13 @@ Bitwarden anbarındakı həssas verilənləri, istənilən brauzerdən, mobil ci
     <value>Güclü, təsadüfi və güvənli parolların avtomatik yaradılması</value>
   </data>
   <data name="Screenshot3" xml:space="preserve">
-    <value>Anbarınızı barmaq izi, PIN kod və ana parol ilə qoruyun</value>
+    <value>Seyfinizi barmaq izi, PIN kod və ana parolla qoruyun</value>
   </data>
   <data name="Screenshot4" xml:space="preserve">
     <value>Brauzerinizdə və digər tətbiqlərdəki giriş xanalarının cəld avto-doldurulması</value>
   </data>
   <data name="Screenshot5" xml:space="preserve">
-    <value>Anbarınıza bir neçə cihazdan sinxronlaşdırıb müraciət edin
+    <value>Bir neçə cihaz arasında sinxronlaşdıraraq seyfinizə müraciəti genişləndirin
 
 -Telefon
 -Planşet
