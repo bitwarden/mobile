@@ -65,7 +65,6 @@ jobs:
     name: Android
     runs-on: windows-2022
     needs: setup
-    if: false
     strategy:
       fail-fast: false
       matrix:
@@ -295,7 +294,6 @@ jobs:
   f-droid:
     name: F-Droid Build
     runs-on: windows-2022
-    if: false
     env:
       android_folder_path: src\App\Platforms\Android
       android_folder_path_bash: src/App/Platforms/Android
