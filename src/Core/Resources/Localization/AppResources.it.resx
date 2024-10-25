@@ -416,7 +416,7 @@
     <value>Estensione app</value>
   </data>
   <data name="AutofillAccessibilityDescription" xml:space="preserve">
-    <value>Usa il servizio di accessibilità di Bitwarden per il riempimento automatico dei tuoi login su app e web.</value>
+    <value>Usa il servizio di accessibilità Bitwarden per riempire automaticamente i tuoi login nelle app e nei siti.</value>
   </data>
   <data name="AutofillService" xml:space="preserve">
     <value>Servizio di riempimento automatico</value>
