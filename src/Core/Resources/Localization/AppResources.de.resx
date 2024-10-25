@@ -1195,7 +1195,7 @@ Das Scannen erfolgt automatisch.</value>
     <value>Windows Hello</value>
   </data>
   <data name="BitwardenCredentialProviderGoToSettings" xml:space="preserve">
-    <value>We were unable to automatically open the Android credential provider settings menu for you. You can navigate to the credential provider settings menu manually from Android Settings &gt; System &gt; Passwords &amp; accounts &gt; Passwords, passkeys and data services.</value>
+    <value>Wir waren nicht in der Lage, das Android Credential Provider Menü für dich automatisch zu öffnen. Du kannst in den Android Einstellungen &gt; System &gt; Passwörter &amp; Konten &gt; Passwörter, Passkeys und Datendienste zum Credential Provider Einstellungs-Menü gelangen.</value>
   </data>
   <data name="BitwardenAutofillGoToSettings" xml:space="preserve">
     <value>Die Android Auto-Fill Einstellungen konnten nicht automatisch geöffnet werden. Über Android Einstellungen &gt; Sprachen &amp; Eingabe &gt; AutoFill-Dienst kannst du manuell zu den Auto-Fill Einstellungen navigieren.</value>

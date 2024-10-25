@@ -1759,10 +1759,10 @@ Kod otomatik olarak taranacaktır.</value>
     <value>Parmağımla aşağı çektiğimde kasayı eşitle.</value>
   </data>
   <data name="LogInSso" xml:space="preserve">
-    <value>Kurumsal tek oturum açma</value>
+    <value>Kurumsal çoklu oturum açma</value>
   </data>
   <data name="LogInSsoSummary" xml:space="preserve">
-    <value>Kuruluşunuzun tek oturum açma portalını kullanarak hızlıca giriş yapabilirsiniz.  Başlamak için lütfen kuruluşunuzun tanımlayıcısını girin.</value>
+    <value>Kuruluşunuzun çoklu oturum açma portalını kullanarak hızlıca giriş yapabilirsiniz. Başlamak için lütfen kuruluşunuzun tanımlayıcısını girin.</value>
   </data>
   <data name="OrgIdentifier" xml:space="preserve">
     <value>Kuruluş tanımlayıcı</value>
