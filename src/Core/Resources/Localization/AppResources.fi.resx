@@ -1134,7 +1134,7 @@ Koodi skannataan automaattisesti.</value>
     <value>Osoite</value>
   </data>
   <data name="Expiration" xml:space="preserve">
-    <value>Erääntymisaika</value>
+    <value>Voimassaolo päättyy</value>
   </data>
   <data name="ShowWebsiteIcons" xml:space="preserve">
     <value>Näytä sivustokuvakkeet</value>
@@ -1931,7 +1931,7 @@ Koodi skannataan automaattisesti.</value>
     <value>Erääntymispäivä</value>
   </data>
   <data name="ExpirationTime" xml:space="preserve">
-    <value>Erääntymisaika</value>
+    <value>Voimassaolo päättyy</value>
   </data>
   <data name="ExpirationDateInfo" xml:space="preserve">
     <value>Send erääntyy määritettynä ajankohtana.</value>

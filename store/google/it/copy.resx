@@ -122,7 +122,7 @@
     <comment>Max 30 characters</comment>
   </data>
   <data name="ShortDescription" xml:space="preserve">
-    <value>Bitwarden è un gestore di login e password che ti aiuta a restare al sicuro online.</value>
+    <value>Bitwarden è un gestore di password che ti aiuta a rimanere al sicuro online.</value>
     <comment>Max 80 characters</comment>
   </data>
   <data name="FullDesciption" xml:space="preserve">

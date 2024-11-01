@@ -422,7 +422,7 @@
     <value>தன்னிரப்பி சேவை</value>
   </data>
   <data name="SetBitwardenAsPasskeyManagerDescription" xml:space="preserve">
-    <value>Set Bitwarden as your passkey provider in device settings.</value>
+    <value>Bitwarden-ஐ உமது கடவுவிசை வழங்குநராகச் சாதன அமைவுகளில் அமை.</value>
   </data>
   <data name="AvoidAmbiguousCharacters" xml:space="preserve">
     <value>தெளிவற்ற எழுத்துக்களைத் தவிர்</value>
@@ -1823,7 +1823,7 @@
     <value>Bitwardenக்கு கவனம் தேவை - Bitwarden அமைப்புகளிலிருந்து "தன்னிரப்பி சேவைகள்"-இல் "மேலே-வரைதல்"-ஐ இயக்குக</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Passkey management</value>
+    <value>கடவுவிசை நிர்வகிப்பு</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>தன்னிரப்பி சேவைகள்</value>
