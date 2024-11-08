@@ -1823,7 +1823,7 @@
     <value>Bitwarden треба пажњу - Омогућите „Преко“ у „Сервиси Ауто-пуњења“ из подешавања Bitwarden-а</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Управљање приступачног кључа</value>
+    <value>Управљање приступног кључа</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>Сервиси Ауто-пуњења</value>
@@ -2652,22 +2652,22 @@
     <value>Запамти овај уређај</value>
   </data>
   <data name="Passkey" xml:space="preserve">
-    <value>Приступачни кључ</value>
+    <value>Приступни кључ</value>
   </data>
   <data name="Passkeys" xml:space="preserve">
-    <value>Приступачни кључеви</value>
+    <value>Приступни кључеви</value>
   </data>
   <data name="Application" xml:space="preserve">
     <value>Апликација</value>
   </data>
   <data name="YouCannotEditPasskeyApplicationBecauseItWouldInvalidateThePasskey" xml:space="preserve">
-    <value>Не може да се уреди апликација кључева јер би то поништило приступачни кључ</value>
+    <value>Не може да се уреди апликација кључева јер би то поништило приступни кључ</value>
   </data>
   <data name="PasskeyWillNotBeCopied" xml:space="preserve">
-    <value>Приступачни кључ неће бити копиран</value>
+    <value>Приступни кључ неће бити копиран</value>
   </data>
   <data name="ThePasskeyWillNotBeCopiedToTheClonedItemDoYouWantToContinueCloningThisItem" xml:space="preserve">
-    <value>Приступачни кључ неће бити копиран на клонирану ставку. Да ли желите да наставите са клонирањем ставке?</value>
+    <value>Приступни кључ неће бити копиран на клонирану ставку. Да ли желите да наставите са клонирањем ставке?</value>
   </data>
   <data name="CopyApplication" xml:space="preserve">
     <value>Копирај апликацију</value>
@@ -2930,10 +2930,10 @@
     <value>За ову радњу је потребна верификација. Подесите метод откључавања у Bitwarden да би наставили.</value>
   </data>
   <data name="ErrorCreatingPasskey" xml:space="preserve">
-    <value>Грешка у креацији приступачног кључа</value>
+    <value>Грешка у креацији приступног кључа</value>
   </data>
   <data name="ErrorReadingPasskey" xml:space="preserve">
-    <value>Грешка у читању приступачног кључа</value>
+    <value>Грешка у читању приступног кључа</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
     <value>Дошло је до проблема при креирању приступачког кључа за {0}. Покушајте поново касније.</value>
@@ -2956,7 +2956,7 @@
     <value>Подесити ауто-пуњење</value>
   </data>
   <data name="GetInstantAccessToYourPasswordsAndPasskeys" xml:space="preserve">
-    <value>Имајте инстантни приступ Вашим лозинкама и приступачним кључевима!</value>
+    <value>Имајте инстантни приступ Вашим лозинкама и приступним кључевима!</value>
   </data>
   <data name="SetUpAutoFillDescriptionLong" xml:space="preserve">
     <value>Да бисте подесили ауто-пуњење лозинки и управљање приступним кључевима, подесите Bitwarden као ваш омиљени провајдер у подешавањима iOS-а.</value>
