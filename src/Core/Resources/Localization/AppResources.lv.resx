@@ -2463,7 +2463,7 @@ jāizvēlas "Pievienot TOTP", lai droši glabātu atslēgu.</value>
     <value>Izmantot uzstādīto domēna visu tverošo iesūtni.</value>
   </data>
   <data name="ForwardedEmailDescription" xml:space="preserve">
-    <value>Izveidot e-pastu aizstājvārdu ar ārēju pārvirzīšanas pakalpojumu.</value>
+    <value>Izveidot e-pasta aizstājadresi ar ārēju pārvirzīšanas pakalpojumu.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Nejauši</value>

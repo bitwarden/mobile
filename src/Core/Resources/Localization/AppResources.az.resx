@@ -364,7 +364,7 @@
     <comment>Label for a uri/url.</comment>
   </data>
   <data name="UseFingerprintToUnlock" xml:space="preserve">
-    <value>Kilidi barmaq izi ilə açın</value>
+    <value>Kilidi açmaq üçün barmaq izi istifadə et</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>İstifadəçi adı</value>
@@ -468,7 +468,7 @@
     <value>Elementə düzəliş et</value>
   </data>
   <data name="EnableAutomaticSyncing" xml:space="preserve">
-    <value>Avto-sinxr icazə ver</value>
+    <value>Avto-sinxrn icazə ver</value>
   </data>
   <data name="EnterEmailForHint" xml:space="preserve">
     <value>Ana parol məsləhətini alacağınız hesabınızın e-poçt ünvanını daxil edin.</value>
@@ -705,10 +705,10 @@
     <value>İki mərhələli giriş</value>
   </data>
   <data name="UnlockWith" xml:space="preserve">
-    <value>{0} ilə kilidi açın</value>
+    <value>Kilidi {0} ilə aç</value>
   </data>
   <data name="UnlockWithPIN" xml:space="preserve">
-    <value>PIN kod ilə kilidi açın</value>
+    <value>Kilidi PIN kodla aç</value>
   </data>
   <data name="Validating" xml:space="preserve">
     <value>Doğrulanır</value>
@@ -1170,7 +1170,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Avto-doldurma əlçatımlılıq xidməti</value>
   </data>
   <data name="AutofillServiceDescription" xml:space="preserve">
-    <value>Bitwarden avto-doldurma xidməti, giriş məlumatlarının cihazınızdakı digər tətbiqlərdə doldurmasına kömək etməsi üçün Android Avto-doldurma Çərçivəsini istifadə edir.</value>
+    <value>Bitwarden avto-doldurma xidməti, cihazınızdakı digər tətbiqlərə giriş məlumatlarını doldurmağa kömək edən Android Avto-doldurma Çərçivəsini istifadə edir.</value>
   </data>
   <data name="BitwardenAutofillServiceDescription" xml:space="preserve">
     <value>Giriş məlumatlarını digər tətbiqlərdə doldurmaq üçün Bitwarden avto-doldurma xidmətini istifadə edin.</value>
@@ -1623,7 +1623,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Biometrik</value>
   </data>
   <data name="UseBiometricsToUnlock" xml:space="preserve">
-    <value>Kilidi biometriklə aç</value>
+    <value>Kilidi açmaq üçün biometrik istifadə et</value>
   </data>
   <data name="AccessibilityOverlayPermissionAlert" xml:space="preserve">
     <value>Bitwarden diqqətinizi tələb edir - Bitwarden ayarlarında "Avto-doldurma əlçatımlılıq xidməti"nə baxın</value>
@@ -1753,7 +1753,7 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Ana parolun doğrulanması gözlənildiyi üçün bu hesab üzrə avto-doldurma biometrik kilid açma sıradan çıxarıldı.</value>
   </data>
   <data name="EnableSyncOnRefresh" xml:space="preserve">
-    <value>Təzələmə zamanı sinxr icazə ver</value>
+    <value>Təzələmə zamanı sinxrn icazə ver</value>
   </data>
   <data name="EnableSyncOnRefreshDescription" xml:space="preserve">
     <value>Barmağınızla aşağı çəkdikdə seyfi sinxronlaşdır.</value>
@@ -1822,16 +1822,16 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Bitwarden diqqətinizi tələb edir - Bitwarden Ayarlarında "Avto-doldurma xidməti"ndə "Üzərindən göstər"i işə salın</value>
   </data>
   <data name="PasskeyManagement" xml:space="preserve">
-    <value>Keçid açarının idarə edilməsi</value>
+    <value>Keçid açarını idarəetmə</value>
   </data>
   <data name="AutofillServices" xml:space="preserve">
     <value>Avto-doldurma xidmətləri</value>
   </data>
   <data name="InlineAutofill" xml:space="preserve">
-    <value>Sətir daxili avto-doldurmanı istifadə edin</value>
+    <value>Sətirdaxili avto-doldurmanı istifadə et</value>
   </data>
   <data name="InlineAutofillDescription" xml:space="preserve">
-    <value>Seçdiyiniz IME (klaviatura) dəstəkləyirsə sətir daxili avto-doldurmanı istifadə edə bilərsiniz. Əgər konfiqurasiyanız dəstəkləmirsə (və ya bu seçim sıradan çıxarılıbsa) ilkin Avto-doldurma qutusu istifadə ediləcəkdir.</value>
+    <value>Seçdiyiniz IME (klaviatura) dəstəkləyirsə sətirdaxili avto-doldurmanı istifadə edin. Əgər konfiqurasiyanız dəstəkləmirsə (və ya bu seçim söndürülübsə) ilkin Avto-doldurma örtüyü istifadə ediləcəkdir.</value>
   </data>
   <data name="Accessibility" xml:space="preserve">
     <value>Əlçatımlılığı istifadə et</value>
@@ -1843,10 +1843,10 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Saytda və vebdə giriş məlumatlarınızı avto-doldurmaq üçün Bitwarden Əlçatımlılıq Xidmətini istifadə edin. ("Üzərində göstər" seçimi açıq olmalıdır)</value>
   </data>
   <data name="AccessibilityDescription3" xml:space="preserve">
-    <value>Avto-doldurma cəld əməliyyat qutusunu istifadə etmək üçün Bitwarden əlçatımlılıq xidmətini istifadə edin və/və ya "Üzərində göstər"i (əgər fəaldırsa) istifadə edərək açılan bir pəncərə göstərə bilərsiniz.</value>
+    <value>Avto-doldurma Cəld Əməliyyat Xanasını istifadə etmək üçün Bitwarden Əlçatımlılıq Xidmətini istifadə edin və/və ya "Üzərində göstər"i (əgər açıqdırsa) istifadə edərək açılan bir pəncərədə göstərin.</value>
   </data>
   <data name="AccessibilityDescription4" xml:space="preserve">
-    <value>Avto-doldurma cəld əməliyyat qutusunu istifadə etmək və ya "Üzərində göstər"i (əgər fəaldırsa) istifadə edərək Avto-doldurma xidmətini təqlid etmək tələb olunur.</value>
+    <value>Avto-doldurma Cəld Əməliyyat Xanasını istifadə etmək və ya "Üzərində göstər"i (əgər açıqdırsa) istifadə edərək Avto-doldurma xidmətini təqlid etmək üçün tələb olunur.</value>
   </data>
   <data name="DrawOver" xml:space="preserve">
     <value>"Üzərində göstər"i istifadə edin</value>
@@ -2529,7 +2529,7 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Bu tələb artıq yararsızdır</value>
   </data>
   <data name="PendingLogInRequests" xml:space="preserve">
-    <value>Giriş tələbləri gözlənilir</value>
+    <value>Gözlənilən giriş tələbləri</value>
   </data>
   <data name="DeclineAllRequests" xml:space="preserve">
     <value>Bütün tələbləri rədd et</value>
@@ -2810,10 +2810,10 @@ Bu hesaba keçmək istəyirsiniz?</value>
     <value>Yeni keçid açarlarını saxlamaq və seyfinizdəki keçid açarları ilə giriş etmək üçün Bitwarden-i istifadə edin.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
-    <value>Android Avto-doldurma Çərçivəsi, giriş məlumatlarını cihazınızdakı digər tətbiqlərə doldurmağa kömək etmək üçün istifadə olunur.</value>
+    <value>Android Avto-doldurma Çərçivəsi, cihazınızdakı digər tətbiqlərə giriş məlumatlarının doldurulmasına kömək etmək üçün istifadə olunur.</value>
   </data>
   <data name="UseInlineAutofillExplanationLong" xml:space="preserve">
-    <value>Seçdiyiniz klaviatura dəstəkləyirsə sətir daxili avto-doldurmanı istifadə edin. Əks halda, ilkin örtük istifadə edin.</value>
+    <value>Seçdiyiniz klaviatura dəstəkləyirsə sətirdaxili avto-doldurmanı istifadə edin. Əks halda, ilkin örtük istifadə edin.</value>
   </data>
   <data name="AdditionalOptions" xml:space="preserve">
     <value>Əlavə seçimlər</value>
