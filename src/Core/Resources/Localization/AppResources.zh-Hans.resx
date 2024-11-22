@@ -2257,7 +2257,7 @@
     <value>密码不可见，点击以显示。</value>
   </data>
   <data name="FilterByVault" xml:space="preserve">
-    <value>按密码库过滤项目</value>
+    <value>按密码库筛选项目</value>
   </data>
   <data name="AllVaults" xml:space="preserve">
     <value>所有密码库</value>

@@ -910,7 +910,7 @@ Das Scannen erfolgt automatisch.</value>
     <value>TOTP kopieren</value>
   </data>
   <data name="CopyTotpAutomaticallyDescription" xml:space="preserve">
-    <value>Ist ein Authentifizierungsschlüssel mit deinen Zugangsdaten verknüpft, wird der TOTP Verifizierungscode in die Zwischenablage kopiert, wenn du die Zugangsdaten automatisch einfügen lässt.</value>
+    <value>Ist ein Authentifizierungsschlüssel mit deinen Zugangsdaten verknüpft, wird der TOTP-Verifizierungscode in deine Zwischenablage kopiert, wenn du die Zugangsdaten automatisch ausfüllen lässt.</value>
   </data>
   <data name="CopyTotpAutomatically" xml:space="preserve">
     <value>TOTP automatisch kopieren</value>
