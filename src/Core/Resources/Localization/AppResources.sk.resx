@@ -229,7 +229,7 @@
     <value>Priečinky</value>
   </data>
   <data name="FolderUpdated" xml:space="preserve">
-    <value>Priečinok aktualizovaný.</value>
+    <value>Priečinok bol uložený</value>
   </data>
   <data name="GoToWebsite" xml:space="preserve">
     <value>Prejsť na stránku</value>
