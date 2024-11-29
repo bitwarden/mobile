@@ -2935,11 +2935,11 @@ Haluatko vaihtaa tähän tiliin?</value>
     <value>Virhe luettaessa pääsyavainta</value>
   </data>
   <data name="ThereWasAProblemCreatingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>Virhe luotaessa pääsyavainta osoitteelle {0}. Yritä myöhemmin uudelleen.</value>
+    <value>Virhe luotaessa pääsyavainta kohteeseen {0}. Yritä myöhemmin uudelleen.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="ThereWasAProblemReadingAPasskeyForXTryAgainLater" xml:space="preserve">
-    <value>Virhe luettaessa osoitteen {0} pääsyavainta. Yritä myöhemmin uudelleen.</value>
+    <value>Virhe luettaessa kohteen {0} pääsyavainta. Yritä myöhemmin uudelleen.</value>
     <comment>The parameter is the RpId</comment>
   </data>
   <data name="VerifyingIdentityEllipsis" xml:space="preserve">

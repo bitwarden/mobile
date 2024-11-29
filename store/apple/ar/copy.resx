@@ -147,7 +147,7 @@
 يتوفر Bitwarden بأكثر من 40 لغة، وتتنامى الترجمات بفضل مجتمعنا العالمي.
 
 تطبيقات متعددة المنصات
-قم بحماية ومشاركة بياناتك الحساسة عبر خزنة Bitwarden من أي متصفح ويب، أو هاتف ذكي، أو جهاز كمبيوتر، وغيرها.
+قم بحماية ومشاركة بياناتك الحساسة عبر خزانة Bitwarden من أي متصفح ويب، أو هاتف ذكي، أو جهاز كمبيوتر، وغيرها.
 </value>
   <comment>Max 4000 characters</comment>
   </data>
@@ -156,18 +156,18 @@
     <comment>Max 100 characters</comment>
   </data>
   <data name="Screenshot1" xml:space="preserve">
-    <value>إدارة جميع تسجيلات الدخول وكلمات المرور الخاصة بك من خزنة آمنة</value>
+    <value>إدارة جميع تسجيلات الدخول وكلمات المرور الخاصة بك من خزانة آمنة</value>
   </data>
   <data name="Screenshot2" xml:space="preserve">
     <value>إنشاء كلمات مرور قوية وعشوائية وآمنة تلقائيًا</value>
   </data>
   <data name="Screenshot3" xml:space="preserve">
-    <value>حماية خزنتك باستخدام Touch ID أو رمز تعريف شخصي أو كلمة مرور رئيسية</value>
+    <value>حماية خزانتك باستخدام Touch ID أو رمز تعريف شخصي أو كلمة مرور رئيسية</value>
   </data>
   <data name="Screenshot4" xml:space="preserve">
     <value>التعبئة التلقائية للمعرفات من سفاري، كروم، ومئات التطبيقات الأخرى</value>
   </data>
   <data name="Screenshot5" xml:space="preserve">
-    <value>مزامنة خزنتك والوصول إليها من أجهزة متعددة</value>
+    <value>مزامنة خزانتك والوصول إليها من أجهزة متعددة</value>
   </data>
 </root>
