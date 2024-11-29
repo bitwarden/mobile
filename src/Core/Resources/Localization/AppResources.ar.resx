@@ -446,7 +446,7 @@
     <value>تغيير البريد الإلكتروني</value>
   </data>
   <data name="ChangeEmailConfirmation" xml:space="preserve">
-    <value>يمكنك تغيير عنوان بريدك الإلكتروني من خزنة الويب على bitwarden.com. هل تريد زيارة الموقع الآن؟</value>
+    <value>يمكنك تغيير عنوان بريدك الإلكتروني من خزانة الويب على bitwarden.com. هل تريد زيارة الموقع الآن؟</value>
   </data>
   <data name="ChangeMasterPassword" xml:space="preserve">
     <value>تغيير كلمة المرور الرئيسية</value>
@@ -550,20 +550,20 @@
     <value>فورًا</value>
   </data>
   <data name="VaultTimeout" xml:space="preserve">
-    <value>مهلة الخزنة</value>
+    <value>مهلة الخزانة</value>
   </data>
   <data name="VaultTimeoutAction" xml:space="preserve">
-    <value>إجراء مهلة الخزنة</value>
+    <value>إجراء مهلة الخزانة</value>
   </data>
   <data name="VaultTimeoutLogOutConfirmation" xml:space="preserve">
-    <value>سيؤدي تسجيل الخروج إلى إزالة جميع الوصول إلى الخزنة الخاصة بك ويتطلب المصادقة عبر الإنترنت بعد انتهاء المهلة. هل أنت متأكد من أنك تريد استخدام هذا الإعداد؟</value>
+    <value>سيؤدي تسجيل الخروج إلى إزالة جميع الوصول إلى الخزانة الخاصة بك ويتطلب المصادقة عبر الإنترنت بعد انتهاء المهلة. هل أنت متأكد من أنك تريد استخدام هذا الإعداد؟</value>
   </data>
   <data name="LoggingIn" xml:space="preserve">
     <value>جارِ تسجيل الدخول...</value>
     <comment>Message shown when interacting with the server</comment>
   </data>
   <data name="LoginOrCreateNewAccount" xml:space="preserve">
-    <value>قم بتسجيل الدخول أو إنشاء حساب جديد للوصول إلى خزنتك الآمنة.</value>
+    <value>قم بتسجيل الدخول أو إنشاء حساب جديد للوصول إلى خزانتك الآمنة.</value>
   </data>
   <data name="Manage" xml:space="preserve">
     <value>إدارة</value>
@@ -572,7 +572,7 @@
     <value>تأكيد كلمة المرور غير صحيح.</value>
   </data>
   <data name="MasterPasswordDescription" xml:space="preserve">
-    <value>كلمة المرور الرئيسية هي كلمة المرور المستخدمة للوصول إلى الخزنة الخاصة بك. من المهم جدا ً ألا تنسى ذلك. لا توجد طريقة للعثور عليها إذا نسيت.</value>
+    <value>كلمة المرور الرئيسية هي كلمة المرور المستخدمة للوصول إلى الخزانة الخاصة بك. من المهم جدا ً ألا تنسى ذلك. لا توجد طريقة للعثور عليها إذا نسيت.</value>
   </data>
   <data name="MasterPasswordHint" xml:space="preserve">
     <value>فهرس كلمة المرور الرئيسية (اختياري)</value>
@@ -604,13 +604,13 @@
     <value>تم إنشاء عنصر جديد.</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>لا توجد عناصر مفضلة في خزنتك.</value>
+    <value>لا توجد عناصر مفضلة في خزانتك.</value>
   </data>
   <data name="NoItems" xml:space="preserve">
-    <value>لا توجد عناصر في خزنتك.</value>
+    <value>لا توجد عناصر في خزانتك.</value>
   </data>
   <data name="NoItemsTap" xml:space="preserve">
-    <value>لا توجد في خزنتك عناصر لهذا الموقع/التطبيق. انقر لإضافة واحد.</value>
+    <value>لا توجد في خزانتك عناصر لهذا الموقع/التطبيق. انقر لإضافة واحد.</value>
   </data>
   <data name="NoUsernamePasswordConfigured" xml:space="preserve">
     <value>لا يحتوي هذا المعرّف على اسم مستخدم أو كلمة مرور تم تكوينها.</value>
@@ -644,7 +644,7 @@
     <value>هل أنت متأكد من أنك تريد سحق كلمة المرور الموجودة؟</value>
   </data>
   <data name="PushNotificationAlert" xml:space="preserve">
-    <value>bitwarden تلقائيا يحافظ على خزنتك في المزامنة باستخدام دفع الإخطارات. للحصول على أفضل تجربة ممكنة، يرجى اختيار "موافق" على مربع الحوار التالي (تفعيل دفع الإخطارات ).</value>
+    <value>Bitwarden يحافظ تلقائيا على خزانتك في المزامنة باستخدام دفع الإخطارات. للحصول على أفضل تجربة ممكنة، يرجى اختيار "سماح" على مربع الحوار التالي عند طلب السماح بدفع الإشعارات.</value>
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
@@ -660,7 +660,7 @@
     <value>إعادة إدخال كلمة المرور الرئيسية</value>
   </data>
   <data name="SearchVault" xml:space="preserve">
-    <value>البحث في الخزنة</value>
+    <value>البحث في الخزانة</value>
   </data>
   <data name="Security" xml:space="preserve">
     <value>الأمان</value>
@@ -695,7 +695,7 @@
     <value>فشل المزامنة.</value>
   </data>
   <data name="SyncVaultNow" xml:space="preserve">
-    <value>مزامنة الخزنة الآن</value>
+    <value>مزامنة الخزانة الآن</value>
   </data>
   <data name="TouchID" xml:space="preserve">
     <value>Touch ID معرف اتصال البصمة</value>
@@ -721,7 +721,7 @@
     <value>عرض العنصر</value>
   </data>
   <data name="WebVault" xml:space="preserve">
-    <value>خزنة الويب Bitwarden</value>
+    <value>خزانة الويب Bitwarden</value>
   </data>
   <data name="Lost2FAApp" xml:space="preserve">
     <value>هل تم فقدان تطبيق المصادقة؟</value>
@@ -744,14 +744,14 @@
     <comment>This is used for the autofill service. ex. "Logins for twitter.com"</comment>
   </data>
   <data name="NoItemsForUri" xml:space="preserve">
-    <value>لا توجد عناصر في خزنتك لـ {0}.</value>
+    <value>لا توجد عناصر في خزانتك لـ {0}.</value>
     <comment>This is used for the autofill service. ex. "There are no items in your vault for twitter.com".</comment>
   </data>
   <data name="BitwardenAutofillServiceOverlay" xml:space="preserve">
     <value>عند تحديد حقل الإدخال ومشاهدة تراكب الملء التلقائي لـ Bitwarden ، يمكنك النقر عليه لتشغيل خدمة الملء التلقائي.</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContent" xml:space="preserve">
-    <value>اضغط على هذا الإشعار لملء معلومات تسجيل الدخول تلقائيًا من خزنتك.</value>
+    <value>اضغط على هذا الإشعار لملء معلومات تسجيل الدخول تلقائيًا من خزانتك.</value>
   </data>
   <data name="BitwardenAutofillServiceOpenAccessibilitySettings" xml:space="preserve">
     <value>فتح إعدادات إمكانية الوصول</value>
@@ -778,7 +778,7 @@
     <value>الحالة</value>
   </data>
   <data name="BitwardenAutofillServiceAlert2" xml:space="preserve">
-    <value>أسهل طريقة لإضافة تسجيلات دخول جديدة إلى خزنتك هي من خدمة التعبئة التلقائية Bitwarden تعرف على المزيد حول استخدام خدمة الملء التلقائي لـ Bitwarden عن طريق الانتقال إلى شاشة "إعدادات".</value>
+    <value>أسهل طريقة لإضافة تسجيلات دخول جديدة إلى خزانتك هي من خدمة التعبئة التلقائية Bitwarden تعرف على المزيد حول استخدام خدمة الملء التلقائي لـ Bitwarden عن طريق الانتقال إلى شاشة "إعدادات".</value>
   </data>
   <data name="Autofill" xml:space="preserve">
     <value>التعبئة التلقائية</value>
@@ -949,7 +949,7 @@
     <value>لا يمكنك استخدام هذه الميزة حتى تقوم بتحديث مفتاح التشفير الخاص بك.</value>
   </data>
   <data name="EncryptionKeyMigrationRequiredDescriptionLong" xml:space="preserve">
-    <value>مطلوب ترحيل مفتاح التشفير. الرجاء تسجيل الدخول بواسطة مخزن الويب لتحديث مفتاح التشفير الخاص بك.</value>
+    <value>مطلوب ترحيل مفتاح التشفير. الرجاء تسجيل الدخول بواسطة خزانة الويب لتحديث مفتاح التشفير الخاص بك.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>اعرف المزيد</value>
@@ -984,10 +984,10 @@
     <value>رابط الخادم</value>
   </data>
   <data name="WebVaultUrl" xml:space="preserve">
-    <value>رابط خادم مخزن الويب</value>
+    <value>رابط خادم خزانة الويب</value>
   </data>
   <data name="BitwardenAutofillServiceNotificationContentOld" xml:space="preserve">
-    <value>اضغط على هذا الإشعار لعرض العناصر من الخزنة الخاصة بك.</value>
+    <value>اضغط على هذا الإشعار لعرض العناصر من الخزانة الخاصة بك.</value>
   </data>
   <data name="CustomFields" xml:space="preserve">
     <value>حقول مخصصة</value>
@@ -1149,10 +1149,10 @@
     <value>ملء تلقائي باستخدام Bitwarden</value>
   </data>
   <data name="VaultIsLocked" xml:space="preserve">
-    <value>الخزنة مقفلة</value>
+    <value>الخزانة مقفلة</value>
   </data>
   <data name="GoToMyVault" xml:space="preserve">
-    <value>اذهب لخزنتي</value>
+    <value>اذهب لخزانتي</value>
   </data>
   <data name="Collections" xml:space="preserve">
     <value>المختارات</value>
@@ -1301,7 +1301,7 @@
     <value>نوصي بتعطيل أي تطبيقات أخرى من تطبيقات التعبئة التلقائية تحت الإعدادات إذا كنت لا تخطط لاستخدامها.</value>
   </data>
   <data name="BitwardenAutofillDescription" xml:space="preserve">
-    <value>الوصول إلى الخزن, الخاص, بك مباشرة من لوحة المفاتيح الخاصة بك لملء كلمات المرور تلقائياً بسرعة.</value>
+    <value>الوصول إلى الخزانة الخاصة بك مباشرة من لوحة المفاتيح الخاصة بك لملء كلمات المرور تلقائياً بسرعة.</value>
   </data>
   <data name="AutofillTurnOn" xml:space="preserve">
     <value>لتمكين التعبئة التلقائية لكلمة المرور على جهازك، اتبع هذه التعليمات:</value>
@@ -1325,7 +1325,7 @@
     <value>تعبئة تلقائية لكلمة المرور</value>
   </data>
   <data name="BitwardenAutofillAlert2" xml:space="preserve">
-    <value>أسهل طريقة لإضافة تسجيلات دخول جديدة إلى خزنتك هي من خدمة التعبئة التلقائية Bitwarden. تعرف على المزيد حول استخدام خدمة الملء التلقائي لـ Bitwarden عن طريق الانتقال إلى شاشة "إعدادات".</value>
+    <value>أسهل طريقة لإضافة تسجيلات دخول جديدة إلى خزانتك هي من خدمة التعبئة التلقائية Bitwarden. تعرف على المزيد حول استخدام خدمة الملء التلقائي لـ Bitwarden عن طريق الانتقال إلى شاشة "إعدادات".</value>
   </data>
   <data name="InvalidEmail" xml:space="preserve">
     <value>عنوان البريد الإلكتروني غير صالح.</value>
@@ -1468,10 +1468,10 @@
     <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
   </data>
   <data name="LearnOrgConfirmation" xml:space="preserve">
-    <value>يسمح لك Bitwarden بمشاركة عناصر خزنتك مع الآخرين باستخدام حساب المؤسسة. هل ترغب في زيارة موقع bitwarden.com لمعرفة المزيد؟</value>
+    <value>يسمح لك Bitwarden بمشاركة عناصر خزانتك مع الآخرين باستخدام حساب المؤسسة. هل ترغب في زيارة موقع bitwarden.com لمعرفة المزيد؟</value>
   </data>
   <data name="ExportVault" xml:space="preserve">
-    <value>تصدير الخزنة</value>
+    <value>تصدير الخزانة</value>
   </data>
   <data name="LockNow" xml:space="preserve">
     <value>إقفل الآن</value>
@@ -1496,13 +1496,13 @@
     <comment>ex: Logged in as user@example.com on bitwarden.com.</comment>
   </data>
   <data name="VaultLockedMasterPassword" xml:space="preserve">
-    <value>خزنتك مقفلة. تحقق من كلمة المرور الرئيسية للمتابعة.</value>
+    <value>خزانتك مقفلة. تحقق من كلمة المرور الرئيسية للمتابعة.</value>
   </data>
   <data name="VaultLockedPIN" xml:space="preserve">
-    <value>خزنتك مقفلة. تحقق من رمز PIN الخاص بك للمتابعة.</value>
+    <value>خزانتك مقفلة. تحقق من رمز PIN الخاص بك للمتابعة.</value>
   </data>
   <data name="VaultLockedIdentity" xml:space="preserve">
-    <value>خزنتك مقفلة. تحقق من هويتك للمتابعة.</value>
+    <value>خزانتك مقفلة. تحقق من هويتك للمتابعة.</value>
   </data>
   <data name="Dark" xml:space="preserve">
     <value>داكن</value>
@@ -1586,13 +1586,13 @@
     <value>اطلب إضافة تسجيل الدخول</value>
   </data>
   <data name="AskToAddLoginDescription" xml:space="preserve">
-    <value>اطلب إضافة عنصر إذا لم يتم العثور عليه في خزنتك.</value>
+    <value>اطلب إضافة عنصر إذا لم يتم العثور عليه في خزانتك.</value>
   </data>
   <data name="OnRestart" xml:space="preserve">
     <value>عند إعادة تشغيل التطبيق</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>التعبئة التلقائية تجعل من السهل الوصول بشكل آمن إلى خزنة Bitwarden الخاصة بك من مواقع الويب والتطبيقات الأخرى. يبدو أنك لم تقم بتمكين خدمة التعبئة التلقائية لـ Bitwarden. تمكين التعبئة التلقائية  لـ Bitwarden من شاشة "الإعدادات".</value>
+    <value>التعبئة التلقائية تجعل من السهل الوصول بشكل آمن إلى خزانة Bitwarden الخاصة بك من مواقع الويب والتطبيقات الأخرى. يبدو أنك لم تقم بتمكين خدمة التعبئة التلقائية لـ Bitwarden. تمكين التعبئة التلقائية لـ Bitwarden من شاشة "الإعدادات".</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
     <value>سيتم تطبيق تغييرات السمة الخاصة بك عند إعادة تشغيل التطبيق.</value>
@@ -1650,7 +1650,7 @@
     <value>صيغة الملف</value>
   </data>
   <data name="ExportVaultMasterPasswordDescription" xml:space="preserve">
-    <value>أدخل كلمة المرور الرئيسية لتصدير بيانات خزنتك.</value>
+    <value>أدخل كلمة المرور الرئيسية لتصدير بيانات خزانتك.</value>
   </data>
   <data name="SendVerificationCodeToEmail" xml:space="preserve">
     <value>إرسال رمز التحقق إلى بريدك الإلكتروني</value>
@@ -1662,7 +1662,7 @@
     <value>قم بتأكيد هويتك للمتابعة.</value>
   </data>
   <data name="ExportVaultWarning" xml:space="preserve">
-    <value>يحتوي هذا التصدير على بيانات خزنتك بتنسيق غير مشفر. لا يجب عليك تخزين أو إرسال الملف الذي تم تصديره عبر قنوات غير آمنة (مثل البريد الإلكتروني). احذفه مباشرة بعد انتهائك من استخدامه.</value>
+    <value>يحتوي هذا التصدير على بيانات خزانتك بتنسيق غير مشفر. لا يجب عليك تخزين أو إرسال الملف الذي تم تصديره عبر قنوات غير آمنة (مثل البريد الإلكتروني). احذفه مباشرة بعد انتهائك من استخدامه.</value>
   </data>
   <data name="EncExportKeyWarning" xml:space="preserve">
     <value>يقوم هذا التصدير بتشفير بياناتك باستخدام مفتاح تشفير حسابك. إذا قمت بتدوير مفتاح تشفير حسابك يجب عليك التصدير مرة أخرى لأنك لن تتمكن من فك تشفير ملف التصدير هذا.</value>
@@ -1671,17 +1671,17 @@
     <value>مفاتيح تشفير الحساب فريدة من نوعها لكل حساب مستخدم Bitwarden، لذلك لا يمكنك استيراد تصدير مشفر إلى حساب آخر.</value>
   </data>
   <data name="ExportVaultConfirmationTitle" xml:space="preserve">
-    <value>تأكيد تصدير الخزنة</value>
+    <value>تأكيد تصدير الخزانة</value>
     <comment>Title for the alert to confirm vault exports.</comment>
   </data>
   <data name="Warning" xml:space="preserve">
     <value>تحذير</value>
   </data>
   <data name="ExportVaultFailure" xml:space="preserve">
-    <value>كانت هناك مشكلة في تصدير خزنتك. إذا استمرت المشكلة، ستحتاج إلى التصدير من خزانة الويب.</value>
+    <value>كانت هناك مشكلة في تصدير خزانتك. إذا استمرت المشكلة، ستحتاج إلى التصدير من خزانة الويب.</value>
   </data>
   <data name="ExportVaultSuccess" xml:space="preserve">
-    <value>تم تصدير الخزنة بنجاح</value>
+    <value>تم تصدير الخزانة بنجاح</value>
   </data>
   <data name="Clone" xml:space="preserve">
     <value>استنساخ</value>
@@ -1695,7 +1695,7 @@
     <comment>Button text for an open operation (verb).</comment>
   </data>
   <data name="UnableToSaveAttachment" xml:space="preserve">
-    <value>كانت هناك مشكلة في حفظ هذا المرفق. إذا استمرت المشكلة ، يمكنك حفظها من خزنة الويب.</value>
+    <value>كانت هناك مشكلة في حفظ هذا المرفق. إذا استمرت المشكلة ، يمكنك حفظها من خزانة الويب.</value>
   </data>
   <data name="SaveAttachmentSuccess" xml:space="preserve">
     <value>تم حفظ المرفق بنجاح</value>
@@ -1756,7 +1756,7 @@
     <value>تمكين المزامنة عند التحديث</value>
   </data>
   <data name="EnableSyncOnRefreshDescription" xml:space="preserve">
-    <value>مزامنة الخزنة مع إيماءة السحب لأسفل.</value>
+    <value>مزامنة الخزانة مع إيماءة السحب لأسفل.</value>
   </data>
   <data name="LogInSso" xml:space="preserve">
     <value>تسجيل الدخول الفردي للمؤسسة</value>
@@ -1774,7 +1774,7 @@
     <value>تعيين كلمة المرور الرئيسية</value>
   </data>
   <data name="SetMasterPasswordSummary" xml:space="preserve">
-    <value>من أجل إكمال تسجيل الدخول باستخدام SSO، يرجى تعيين كلمة مرور رئيسية للوصول وحماية خزنتك.</value>
+    <value>من أجل إكمال تسجيل الدخول باستخدام SSO، يرجى تعيين كلمة مرور رئيسية للوصول وحماية خزانتك.</value>
   </data>
   <data name="MasterPasswordPolicyInEffect" xml:space="preserve">
     <value>1 - تتطلب سياسة واحدة أو أكثر من سياسات المؤسسة كلمة مرورك الرئيسية لتلبية المتطلبات التالية:</value>
@@ -2138,16 +2138,16 @@
     <value>هذه المؤسسة لديها سياسة الشركة التي ستقوم تلقائياً بتسجيلك في إعادة تعيين كلمة المرور. التسجيل سيسمح لمسؤولي المؤسسة بتغيير كلمة المرور الرئيسية الخاصة بك.</value>
   </data>
   <data name="VaultTimeoutPolicyInEffect" xml:space="preserve">
-    <value>سياسات مؤسستك تؤثر على مهلة الخزنة الخاص بك. الحد الأقصى المسموح به لمهلة الخزنة هو {0} ساعة و {1} دقيقة</value>
+    <value>سياسات مؤسستك تؤثر على مهلة الخزانة الخاص بك. الحد الأقصى المسموح به لمهلة الخزانة هو {0} ساعة و {1} دقيقة.</value>
   </data>
   <data name="VaultTimeoutPolicyWithActionInEffect" xml:space="preserve">
-    <value>سياسات مؤسستك تؤثر على مهلة خزنتك. الحد الأقصى المسموح به لمهلة الخزنة هو {0} ساعة(ساعات) و {1} دقيقة(دقائق). يتم تعيين إجراء مهلة المخزن الخاص بك إلى {2}.</value>
+    <value>سياسات مؤسستك تؤثر على مهلة خزانتك. الحد الأقصى المسموح به لمهلة الخزنة هو {0} ساعة(ساعات) و {1} دقيقة(دقائق). يتم تعيين إجراء مهلة المخزن الخاص بك إلى {2}.</value>
   </data>
   <data name="VaultTimeoutActionPolicyInEffect" xml:space="preserve">
-    <value>سياسات مؤسستك قامت بتعيين إجراء مهلة خزنتك إلى {0}.</value>
+    <value>سياسات مؤسستك قامت بتعيين إجراء مهلة خزانتك إلى {0}.</value>
   </data>
   <data name="VaultTimeoutToLarge" xml:space="preserve">
-    <value>مهلة خزنتك تتجاوز القيود التي تضعها مؤسستك.</value>
+    <value>مهلة خزانتك تتجاوز القيود التي تضعها مؤسستك.</value>
   </data>
   <data name="DisablePersonalVaultExportPolicyInEffect" xml:space="preserve">
     <value>واحدة أو أكثر من سياسات المؤسسة تمنعك من تصدير خزانتك الشخصية.</value>
@@ -2258,16 +2258,16 @@
     <value>كلمة المرور مخفية، انقر للإظهار.</value>
   </data>
   <data name="FilterByVault" xml:space="preserve">
-    <value>تصفية العناصر حسب الخزنات</value>
+    <value>تصفية العناصر حسب الخزانات</value>
   </data>
   <data name="AllVaults" xml:space="preserve">
-    <value>جميع الخزنات</value>
+    <value>جميع الخزانات</value>
   </data>
   <data name="Vaults" xml:space="preserve">
-    <value>الخزنات</value>
+    <value>الخزانات</value>
   </data>
   <data name="VaultFilterDescription" xml:space="preserve">
-    <value>الخزنة: {0}</value>
+    <value>الخزانة: {0}</value>
   </data>
   <data name="All" xml:space="preserve">
     <value>الكل</value>
@@ -2307,7 +2307,7 @@
 حدد إضافة TOTP لتخزين المفتاح بأمان</value>
   </data>
   <data name="NeverLockWarning" xml:space="preserve">
-    <value>تعيين خيارات قفل الخاص بك إلى "مطلقا" يبقي خزنتك متاحةً لأي شخص لديه حق الوصول إلى جهازك. إذا كنت تستخدم هذا الخيار، يجب أن تتأكد من الحفاظ على حماية جهازك بشكل صحيح.</value>
+    <value>تعيين خيارات قفل الخاص بك إلى "مطلقا" يبقي خزانتك متاحةً لأي شخص لديه حق الوصول إلى جهازك. إذا كنت تستخدم هذا الخيار، يجب أن تتأكد من الحفاظ على حماية جهازك بشكل صحيح.</value>
   </data>
   <data name="EnvironmentPageUrlsError" xml:space="preserve">
     <value>واحد أو أكثر من عناوين URL التي تم إدخالها غير صالحة. الرجاء مراجعتها ومحاولة الحفظ مرة أخرى.</value>
@@ -2516,7 +2516,7 @@
     <value>تم إرسال إشعار إلى جهازك.</value>
   </data>
   <data name="PleaseMakeSureYourVaultIsUnlockedAndTheFingerprintPhraseMatchesOnTheOtherDevice" xml:space="preserve">
-    <value>الرجاء التأكد من أن الخزنة الخاصة بك غير مقفلة وأن عبارة بصمة الإصبع تتطابق على الجهاز الآخر.</value>
+    <value>الرجاء التأكد من أن الخزانة الخاصة بك غير مقفلة وأن عبارة بصمة الإصبع تتطابق على الجهاز الآخر.</value>
   </data>
   <data name="ResendNotification" xml:space="preserve">
     <value>إعادة إرسال الإشعار</value>
@@ -2627,7 +2627,7 @@
     <value>المنطقة</value>
   </data>
   <data name="UpdateWeakMasterPasswordWarning" xml:space="preserve">
-    <value>كلمة المرور الرئيسية الخاصة بك لا تفي بواحدة أو أكثر من سياسات مؤسستك. من أجل الوصول إلى الخزنة، يجب عليك تحديث كلمة المرور الرئيسية الآن. سيتم تسجيل خروجك من الجلسة الحالية، مما يتطلب منك تسجيل الدخول مرة أخرى. وقد تظل الجلسات النشطة على أجهزة أخرى نشطة لمدة تصل إلى ساعة واحدة.</value>
+    <value>كلمة المرور الرئيسية الخاصة بك لا تفي بواحدة أو أكثر من سياسات مؤسستك. من أجل الوصول إلى الخزانة، يجب عليك تحديث كلمة المرور الرئيسية الآن. سيتم تسجيل خروجك من الجلسة الحالية، مما يتطلب منك تسجيل الدخول مرة أخرى. وقد تظل الجلسات النشطة على أجهزة أخرى نشطة لمدة تصل إلى ساعة واحدة.</value>
   </data>
   <data name="CurrentMasterPassword" xml:space="preserve">
     <value>كلمة المرور الرئيسية الحالية</value>
@@ -2702,7 +2702,7 @@
     <value>تسجيل الدخول كـ {0}</value>
   </data>
   <data name="VaultTimeoutActionChangedToLogOut" xml:space="preserve">
-    <value>تَغيير إجراء مهلة المخزن لتسجيل الخروج</value>
+    <value>تَغيير إجراء مهلة خزانتك لتسجيل الخروج</value>
   </data>
   <data name="BlockAutoFill" xml:space="preserve">
     <value>حظر التعبئة التلقائية</value>
@@ -2760,7 +2760,7 @@
     <value>جارٍ تسجيل الدخول</value>
   </data>
   <data name="Vault" xml:space="preserve">
-    <value>الخزنة</value>
+    <value>الخزانة</value>
   </data>
   <data name="Appearance" xml:space="preserve">
     <value>المظهر</value>
@@ -2809,7 +2809,7 @@
     <value>{0} ساعات</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>استخدم Bitwarden لحفظ مفاتيح المرور الجديدة وتسجيل الدخول باستخدام مفاتيح المرور المخزنة في المخزن الخاص بك.</value>
+    <value>استخدم Bitwarden لحفظ مفاتيح المرور الجديدة وتسجيل الدخول باستخدام مفاتيح المرور المخزنة في خزانتك.</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>يتم استخدام إطار التعبئة التلقائية لأندرويد للمساعدة في ملء معلومات تسجيل الدخول في تطبيقات أخرى على جهازك.</value>
@@ -2865,7 +2865,7 @@
     <value>استكشف المزيد من الميزات لحساب Bitwarden الخاص بك على تطبيق الويب.</value>
   </data>
   <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
-    <value>يتيح لك Bitwarden مشاركة عناصر خزنتك مع الآخرين باستخدام حساب المؤسسة. تعرف على المزيد على موقع bitwarden.com على شبكة الإنترنت.</value>
+    <value>يتيح لك Bitwarden مشاركة عناصر خزانتك مع الآخرين باستخدام حساب المؤسسة. تعرف على المزيد على موقع bitwarden.com على شبكة الإنترنت.</value>
   </data>
   <data name="RateAppDescriptionLong" xml:space="preserve">
     <value>ساعد الآخرين في معرفة ما إذا كان Bitwarden مناسبا لهم. قم بزيارة متجر التطبيقات وترك التقييم الآن.</value>

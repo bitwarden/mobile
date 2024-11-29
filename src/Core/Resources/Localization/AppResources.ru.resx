@@ -2632,7 +2632,7 @@
     <value>Текущий мастер-пароль</value>
   </data>
   <data name="LoggedIn" xml:space="preserve">
-    <value>Вход выполнен!</value>
+    <value>Выполнен вход!</value>
   </data>
   <data name="ApproveWithMyOtherDevice" xml:space="preserve">
     <value>Одобрить с другим устройством</value>
