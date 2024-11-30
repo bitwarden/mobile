@@ -86,6 +86,7 @@ namespace Bit.Droid.Accessibility
             new Browser("com.sec.android.app.sbrowser.beta", "location_bar_edit_text"),
             new Browser("com.stoutner.privacybrowser.free", "url_edittext"),
             new Browser("com.stoutner.privacybrowser.standard", "url_edittext"),
+            new Browser("com.tencent.mtt", "url_bar"),
             new Browser("com.vivaldi.browser", "url_bar"),
             new Browser("com.vivaldi.browser.snapshot", "url_bar"),
             new Browser("com.vivaldi.browser.sopranos", "url_bar"),
