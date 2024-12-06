@@ -2808,7 +2808,7 @@
     <value>{0} 小時</value>
   </data>
   <data name="PasskeyManagementExplanationLong" xml:space="preserve">
-    <value>Use Bitwarden to save new passkeys and log in with passkeys stored in your vault.</value>
+    <value>使用 Bitwarden 來保存新的通行密鑰(passkey) 和 使用儲存在密碼庫中的通行密鑰(passkey) 來登入。</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
     <value>Android 自動填入框架能協助在裝置上的其他應用程式當中，填入登入資訊。</value>
@@ -2833,13 +2833,13 @@
     <value>接下來聯絡支援嗎？</value>
   </data>
   <data name="ContinueToPrivacyPolicy" xml:space="preserve">
-    <value>Continue to privacy policy?</value>
+    <value>繼續前往隱私權政策？</value>
   </data>
   <data name="ContinueToAppStore" xml:space="preserve">
     <value>接下來前往 App Store 嗎？</value>
   </data>
   <data name="ContinueToDeviceSettings" xml:space="preserve">
-    <value>Continue to device Settings?</value>
+    <value>繼續前往裝置設定？</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
     <value>在 Bitwarden Web 應用程式中設定兩步驟登入，讓您的帳戶更加安全。</value>
@@ -2858,7 +2858,7 @@
     <value>找不到您想要的資訊？請在 bitwarden.com 上聯絡 Bitwarden 技術支援。</value>
   </data>
   <data name="PrivacyPolicyDescriptionLong" xml:space="preserve">
-    <value>Check out our privacy policy on bitwarden.com.</value>
+    <value>在 bitwarden.com 上查看我們的隱私權政策。</value>
   </data>
   <data name="ExploreMoreFeaturesOfYourBitwardenAccountOnTheWebApp" xml:space="preserve">
     <value>在 Web 應用程式上探索 Bitwarden 帳戶的更多功能。</value>
@@ -2892,7 +2892,7 @@
     <value>設定解鎖選項，變更您密碼庫的逾時動作。</value>
   </data>
   <data name="ChooseALoginToSaveThisPasskeyTo" xml:space="preserve">
-    <value>Choose a login to save this passkey to</value>
+    <value>選擇登入項目以保存這個通行密鑰(passkey) </value>
   </data>
   <data name="SavePasskeyAsNewLogin" xml:space="preserve">
     <value>Save passkey as new login</value>
