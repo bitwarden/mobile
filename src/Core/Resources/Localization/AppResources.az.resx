@@ -1759,10 +1759,10 @@ Skan prosesi avtomatik baş tutacaq.</value>
     <value>Barmağınızla aşağı çəkdikdə seyfi sinxronlaşdır.</value>
   </data>
   <data name="LogInSso" xml:space="preserve">
-    <value>Müəssisə üçün tək daxil olma</value>
+    <value>Müəssisə üçün vahid daxil olma</value>
   </data>
   <data name="LogInSsoSummary" xml:space="preserve">
-    <value>Təşkilatınızın tək daxil olma portalını istifadə edərək daha tez giriş edə bilərsiniz. Başlatmaq üçün lütfən təşkilatınızın identifikatorunu daxil edin.</value>
+    <value>Təşkilatınızın vahid daxil olma portalını istifadə edərək cəld giriş edin. Başlatmaq üçün lütfən təşkilatınızın identifikatorunu daxil edin.</value>
   </data>
   <data name="OrgIdentifier" xml:space="preserve">
     <value>Təşkilat identifikatoru</value>
