@@ -413,10 +413,10 @@
     <value>添加项目</value>
   </data>
   <data name="AppExtension" xml:space="preserve">
-    <value>应用程序扩展</value>
+    <value>App 扩展</value>
   </data>
   <data name="AutofillAccessibilityDescription" xml:space="preserve">
-    <value>使用 Bitwarden 无障碍服务在应用和网站自动填充您的登录项目。</value>
+    <value>使用 Bitwarden 无障碍服务跨 App 和网站自动填充您的登录信息。</value>
   </data>
   <data name="AutofillService" xml:space="preserve">
     <value>自动填充服务</value>
@@ -428,7 +428,7 @@
     <value>避免易混淆的字符</value>
   </data>
   <data name="BitwardenAppExtension" xml:space="preserve">
-    <value>Bitwarden 应用程序扩展</value>
+    <value>Bitwarden App 扩展</value>
   </data>
   <data name="BitwardenAppExtensionAlert2" xml:space="preserve">
     <value>向您的密码库中添加新登录项目的最简单方法，就是通过 Bitwarden 应用程序扩展。转到「设置」界面了解更多有关使用 Bitwarden 应用程序扩展的方法。</value>
@@ -1170,7 +1170,7 @@
     <value>自动填充无障碍服务</value>
   </data>
   <data name="AutofillServiceDescription" xml:space="preserve">
-    <value>Bitwarden 自动填充服务使用 Android 自动填充框架来协助将登录信息填充到你设备上的其他应用程序中。</value>
+    <value>Bitwarden 自动填充服务使用 Android 自动填充框架来协助将登录信息填充到您设备上的其他 App 中。</value>
   </data>
   <data name="BitwardenAutofillServiceDescription" xml:space="preserve">
     <value>使用 Bitwarden 自动填充服务将登录信息填充到其他应用程序中。</value>
@@ -1701,7 +1701,7 @@
     <value>附件保存成功</value>
   </data>
   <data name="AutofillTileAccessibilityRequired" xml:space="preserve">
-    <value>请从 Bitwarden 设置中启用「自动填充无障碍服务」以使用自动填充功能。</value>
+    <value>请从 Bitwarden 设置中启用「自动填充无障碍服务」以使用自动填充磁贴。</value>
   </data>
   <data name="AutofillTileUriNotFound" xml:space="preserve">
     <value>未检测到密码字段</value>
@@ -1837,16 +1837,16 @@
     <value>使用无障碍</value>
   </data>
   <data name="AccessibilityDescription" xml:space="preserve">
-    <value>使用 Bitwarden 无障碍服务来自动填充您在应用和网络中的登录信息。启用后，选中登录字段时将显示弹出窗口。</value>
+    <value>使用 Bitwarden 无障碍服务跨 App 和网站自动填充您的登录信息。设置后，选中登录字段时将显示一个弹出窗口。</value>
   </data>
   <data name="AccessibilityDescription2" xml:space="preserve">
     <value>使用 Bitwarden 无障碍服务来自动填充您在应用和网络上的登录信息。（需同时启用 Draw-Over 功能）</value>
   </data>
   <data name="AccessibilityDescription3" xml:space="preserve">
-    <value>使用 Bitwarden 无障碍服务来使用自动填充快速行动磁贴，和/或使用 Draw-Over（若已启用）来显示弹出窗口。</value>
+    <value>使用 Bitwarden 无障碍服务来使用自动填充快速操作磁贴，和/或使用 Draw-Over（若已启用）来显示弹出窗口。</value>
   </data>
   <data name="AccessibilityDescription4" xml:space="preserve">
-    <value>要求使用自动填充快速行动磁贴，或通过使用 Draw-Over （若已启用）来增强自动填充服务。</value>
+    <value>要求使用自动填充快速操作磁贴，或通过使用 Draw-Over （若已启用）来增强自动填充服务。</value>
   </data>
   <data name="DrawOver" xml:space="preserve">
     <value>使用 Draw-Over</value>
@@ -1855,7 +1855,7 @@
     <value>允许 Bitwarden 无障碍服务在登录字段选中时显示弹出窗口。</value>
   </data>
   <data name="DrawOverDescription2" xml:space="preserve">
-    <value>如果开启，当登录字段选中时，Bitwarden 无障碍服务将显示一个弹出窗口以帮助自动填充您的登录信息。</value>
+    <value>开启后，当登录字段选中时，Bitwarden 无障碍服务将显示一个弹出窗口以协助自动填充您的登录信息。</value>
   </data>
   <data name="DrawOverDescription3" xml:space="preserve">
     <value>如果开启，无障碍将显示一个弹出窗口以增强不支持 Android 自动填充框架的旧应用的自动填充服务。</value>
@@ -2811,7 +2811,7 @@
     <value>使用 Bitwarden 保存新的通行密钥并使用存储在密码库中的通行密钥登录。</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
-    <value>Android 自动填充框架用于帮助将登录信息填充到您设备上的其他应用。</value>
+    <value>Android 自动填充框架用于协助将登录信息填充到您设备上的其他 App 中。</value>
   </data>
   <data name="UseInlineAutofillExplanationLong" xml:space="preserve">
     <value>如果您所选的键盘支持，请使用内联自动填充。否则，请使用默认叠加层。</value>
@@ -2820,7 +2820,7 @@
     <value>附加选项</value>
   </data>
   <data name="ContinueToWebApp" xml:space="preserve">
-    <value>前往网页应用吗？</value>
+    <value>前往网页 App 吗？</value>
   </data>
   <data name="ContinueToX" xml:space="preserve">
     <value>前往 {0} 吗？</value>
@@ -2842,13 +2842,13 @@
     <value>前往设备设置吗？</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
-    <value>通过在 Bitwarden 网页应用中设置两步登录，可以使您的账户更加安全。</value>
+    <value>通过在 Bitwarden 网页 App 中设置两步登录，可以使您的账户更加安全。</value>
   </data>
   <data name="ChangeMasterPasswordDescriptionLong" xml:space="preserve">
-    <value>您可以在 Bitwarden 网页应用上更改您的主密码。</value>
+    <value>您可以在 Bitwarden 网页 App 上更改您的主密码。</value>
   </data>
   <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
-    <value>您可以将数据导入到 {0} 上的密码库。</value>
+    <value>您可以通过 {0} 将数据导入您的密码库。</value>
     <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
   </data>
   <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
@@ -2861,7 +2861,7 @@
     <value>在 bitwarden.com 上查看我们的隐私政策。</value>
   </data>
   <data name="ExploreMoreFeaturesOfYourBitwardenAccountOnTheWebApp" xml:space="preserve">
-    <value>在网页应用上探索您的 Bitwarden 账户的更多功能。</value>
+    <value>在网页 App 上探索您的 Bitwarden 账户的更多功能。</value>
   </data>
   <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
     <value>Bitwarden 允许您使用组织与他人共享您的密码库项目。访问 bitwarden.com 网站了解更多信息。</value>
