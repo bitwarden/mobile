@@ -297,7 +297,7 @@ jobs:
     env:
       _android_folder_path: src\App\Platforms\Android
       _android_folder_path_bash: src/App/Platforms/Android
-      android_manifest_path: src/App/Platforms/Android/AndroidManifest.xml
+      _android_manifest_path: src/App/Platforms/Android/AndroidManifest.xml
     steps:
       - name: Checkout repo
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
@@ -359,14 +359,14 @@ jobs:
           echo "##### Setting F-Droid Version Code to $BUILD_NUMBER" | tee -a $GITHUB_STEP_SUMMARY
 
           sed -i "s/android:versionCode=\"1\"/android:versionCode=\"$BUILD_NUMBER\"/" \
-            ./${{ env.android_manifest_path }}
+            ./${{ env._android_manifest_path }}
         shell: bash
 
       - name: Clean for F-Droid
         run: |
           $directoryBuildProps = $($env:GITHUB_WORKSPACE + "/Directory.Build.props");
 
-          $androidManifest = $($env:GITHUB_WORKSPACE + "/${{ env.android_manifest_path }}");
+          $androidManifest = $($env:GITHUB_WORKSPACE + "/${{ env._android_manifest_path }}");
 
           Write-Output "##### Back up project files"
 
@@ -439,9 +439,9 @@ jobs:
     runs-on: macos-14
     needs: setup
     env:
-      ios_folder_path: src/App/Platforms/iOS
-      app_output_name: App
-      app_ci_output_filename: App_x64_Debug
+      _ios_folder_path: src/App/Platforms/iOS
+      _app_output_name: App
+      _app_ci_output_filename: App_x64_Debug
     steps:
       - name: Checkout repo
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
@@ -521,7 +521,7 @@ jobs:
           BUILD_NUMBER=$((8000 + $GITHUB_RUN_NUMBER))
           echo "##### Setting iOS CFBundleVersion to $BUILD_NUMBER" | tee -a $GITHUB_STEP_SUMMARY
 
-          perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./${{ env.ios_folder_path }}/Info.plist
+          perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./${{ env._ios_folder_path }}/Info.plist
           perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./src/iOS.Extension/Info.plist
           perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./src/iOS.Autofill/Info.plist
           perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./src/iOS.ShareExtension/Info.plist
@@ -531,7 +531,7 @@ jobs:
       - name: Update Entitlements
         run: |
           echo "##### Updating Entitlements"
-          perl -0777 -pi.bak -e 's/<key>aps-environment<\/key>\s*<string>development<\/string>/<key>aps-environment<\/key>\n\t<string>production<\/string>/' ./${{ env.ios_folder_path }}/Entitlements.plist
+          perl -0777 -pi.bak -e 's/<key>aps-environment<\/key>\s*<string>development<\/string>/<key>aps-environment<\/key>\n\t<string>production<\/string>/' ./${{ env._ios_folder_path }}/Entitlements.plist
 
       - name: Get certificates
         run: |
@@ -615,8 +615,8 @@ jobs:
           ARCHIVE_PATH: ./${{ env.main_app_folder_path }}/bin/Debug/${{ env.target-net-version }}-ios/iossimulator-x64
           EXPORT_PATH: ./bitwarden-export
         run: |
-          zip -r -q ${{ env.app_ci_output_filename }}.app.zip $ARCHIVE_PATH
-          mv ${{ env.app_ci_output_filename }}.app.zip $EXPORT_PATH
+          zip -r -q ${{ env._app_ci_output_filename }}.app.zip $ARCHIVE_PATH
+          mv ${{ env._app_ci_output_filename }}.app.zip $EXPORT_PATH
 
       - name: Copy all dSYMs files to upload
         env:
@@ -641,8 +641,8 @@ jobs:
       - name: Upload .app file for Automation CI
         uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
         with:
-          name: ${{ env.app_ci_output_filename }}.app.zip
-          path: ./bitwarden-export/${{ env.app_ci_output_filename }}.app.zip
+          name: ${{ env._app_ci_output_filename }}.app.zip
+          path: ./bitwarden-export/${{ env._app_ci_output_filename }}.app.zip
           if-no-files-found: error
 
       - name: Install AppCenter CLI
