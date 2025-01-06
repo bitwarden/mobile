@@ -147,7 +147,7 @@ Bitwarden omsetjingar finst i 40 mål og veks framleis, takk vere vårt verdsfem
 
 Cross-platform appar
 Verj og del sensitiv data i Bitwarden kvelvet ditt frå kva enn nettlesar, mobile eining, skrivebordsoperativsystem og meir!</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>bitwarden,bit warden,8bit,password,free password manager,password manager,login manager,passord,gratis passordhandsaming, gratispassordbehandling, passordhandsamar, passordbehandling, loginbehandling,loginhandsaming</value>

@@ -151,7 +151,7 @@ Bitwarden-vertalingen bestaan ​​in 40 talen en groeien dankzij onze wereldwi
 
 Platformoverschrijdende toepassingen
 Beveilig en deel gevoelige gegevens binnen uw Bitwarden Vault vanuit elke browser, mobiel apparaat of desktop-besturingssysteem, en meer.</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Een veilige en gratis oplossing voor wachtwoordbeheer voor al je apparaten</value>

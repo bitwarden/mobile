@@ -147,7 +147,7 @@ Překlady Bitwarden existují ve 40 jazycích a díky naší globální komunit�
 
 Aplikace pro více platforem
 Zabezpečte a sdílejte citlivá data v rámci svého trezoru Bitwarden z jakéhokoli prohlížeče, mobilního zařízení nebo operačního systému pro počítač.</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>bitwarden,8bit,heslo,přihlašovací údaje,bezplatný správce hesel,správce hesel,správce přihlášení</value>

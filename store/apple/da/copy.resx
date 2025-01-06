@@ -147,7 +147,7 @@ Bitwarden findes på 40 sprog, og flere kommer til, takket være vores globale f
 
 Applikationer på tværs af platforme
 Beskyt og del følsomme data i din Bitwarden boks fra enhver browser, mobilenhed eller desktop OS og mere.</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>bit warden,8bit,adgangskode,gratis adgangskode manager,adgangskode manager,login manager</value>

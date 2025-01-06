@@ -813,11 +813,11 @@
     <comment>For 2FA</comment>
   </data>
   <data name="EnterVerificationCodeApp" xml:space="preserve">
-    <value>Unesi 6-znamenkasti kontrolni kôd iz autentifikatorske aplikacije.</value>
+    <value>Unesi 6-znamenkasti kôd za provjeru iz autentifikatorske aplikacije.</value>
     <comment>For 2FA</comment>
   </data>
   <data name="EnterVerificationCodeEmail" xml:space="preserve">
-    <value>Unesi 6-znamenkasti kontrolni kôd poslan e-poštom na {0}</value>
+    <value>Unesi 6-znamenkasti kôd za provjeru poslan e-poštom na {0}</value>
     <comment>For 2FA</comment>
   </data>
   <data name="LoginUnavailable" xml:space="preserve">
@@ -909,7 +909,7 @@
     <value>Kopiraj TOTP</value>
   </data>
   <data name="CopyTotpAutomaticallyDescription" xml:space="preserve">
-    <value>Ako se za prijavu koristi dvostruka autentifikacija, TOTP kontrolni kôd se automatski kopira u međuspremnik nakon auto-ispune korisničkog imena i lozinke.</value>
+    <value>Ako se za prijavu koristi dvostruka autentifikacija, TOTP kôd za provjeru se automatski kopira u međuspremnik nakon auto-ispune korisničkog imena i lozinke.</value>
   </data>
   <data name="CopyTotpAutomatically" xml:space="preserve">
     <value>Automatski kopiraj TOTP</value>
@@ -2220,7 +2220,7 @@
     <value>Došlo je do pogreške prilikom slanja verifikacijskog koda. Molimo pokušaj ponovno</value>
   </data>
   <data name="EnterTheVerificationCodeThatWasSentToYourEmail" xml:space="preserve">
-    <value>Unesite kôd za potvrdu primljen e-poštom</value>
+    <value>Unesite kôd za provjeru primljen e-poštom</value>
   </data>
   <data name="SubmitCrashLogs" xml:space="preserve">
     <value>Slanje zapisnika rušenja</value>

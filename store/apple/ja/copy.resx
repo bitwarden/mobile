@@ -147,7 +147,7 @@ Bitwarden の翻訳は 40 の言語に存在し、グローバル コミュニ�
 
 クロスプラットフォーム アプリケーション
 ブラウザ、モバイル デバイス、デスクトップ OS などから Bitwarden Vault 内の機密データを保護して共有します。</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>bitwarden,bit warden,8bit,password,login,free password manager,password manager,login manager,パスワード,ログイン,無料パスワードマネージャー,パスワードマネージャー,無料パスワードマネージャ,パスワードマネージャ,パスワード管理</value>

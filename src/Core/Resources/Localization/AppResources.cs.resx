@@ -2844,7 +2844,7 @@ Chcete se přepnout na tento účet?</value>
     <value>Vytvořte svůj účet bezpečnějším nastavením dvoufázového přihlášení ve webové aplikaci Bitwarden.</value>
   </data>
   <data name="ChangeMasterPasswordDescriptionLong" xml:space="preserve">
-    <value>Hlavní heslo můžete změnit na webové aplikaci Bitwarden.</value>
+    <value>Hlavní heslo můžete změnit ve webové aplikaci Bitwarden.</value>
   </data>
   <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
     <value>Data můžete importovat do Vašeho trezoru na {0}.</value>

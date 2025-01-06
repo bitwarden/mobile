@@ -2899,7 +2899,7 @@
     <value>Save passkey as new login</value>
   </data>
   <data name="SavePasskey" xml:space="preserve">
-    <value>Save passkey</value>
+    <value>ذخیره کلید عبور</value>
   </data>
   <data name="PasskeysForX" xml:space="preserve">
     <value>Passkeys for {0}</value>
@@ -2908,7 +2908,7 @@
     <value>Passwords for {0}</value>
   </data>
   <data name="OverwritePasskey" xml:space="preserve">
-    <value>Overwrite passkey?</value>
+    <value>بازنویسی کلید عبور؟</value>
   </data>
   <data name="ThisItemAlreadyContainsAPasskeyAreYouSureYouWantToOverwriteTheCurrentPasskey" xml:space="preserve">
     <value>This item already contains a passkey. Are you sure you want to overwrite the current passkey?</value>
@@ -2920,7 +2920,7 @@
     <value>Follow the steps from Duo to finish logging in.</value>
   </data>
   <data name="LaunchDuo" xml:space="preserve">
-    <value>Launch Duo</value>
+    <value>اجرای Duo</value>
   </data>
   <data name="VerificationRequiredByX" xml:space="preserve">
     <value>Verification required by {0}</value>

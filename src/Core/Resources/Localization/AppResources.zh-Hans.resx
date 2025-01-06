@@ -182,11 +182,11 @@
     <value>编辑文件夹</value>
   </data>
   <data name="Email" xml:space="preserve">
-    <value>电子邮件</value>
+    <value>电子邮箱</value>
     <comment>Short label for an email address.</comment>
   </data>
   <data name="EmailAddress" xml:space="preserve">
-    <value>电子邮件地址</value>
+    <value>电子邮箱地址</value>
     <comment>Full label for a email address.</comment>
   </data>
   <data name="EmailUs" xml:space="preserve">
@@ -413,10 +413,10 @@
     <value>添加项目</value>
   </data>
   <data name="AppExtension" xml:space="preserve">
-    <value>应用程序扩展</value>
+    <value>App 扩展</value>
   </data>
   <data name="AutofillAccessibilityDescription" xml:space="preserve">
-    <value>使用 Bitwarden 无障碍服务在应用和网站自动填充您的登录项目。</value>
+    <value>使用 Bitwarden 无障碍服务跨 App 和网站自动填充您的登录信息。</value>
   </data>
   <data name="AutofillService" xml:space="preserve">
     <value>自动填充服务</value>
@@ -428,13 +428,13 @@
     <value>避免易混淆的字符</value>
   </data>
   <data name="BitwardenAppExtension" xml:space="preserve">
-    <value>Bitwarden 应用程序扩展</value>
+    <value>Bitwarden App 扩展</value>
   </data>
   <data name="BitwardenAppExtensionAlert2" xml:space="preserve">
-    <value>向您的密码库中添加新登录项目的最简单方法，就是通过 Bitwarden 应用程序扩展。转到「设置」界面了解更多有关使用 Bitwarden 应用程序扩展的方法。</value>
+    <value>向您的密码库中添加新登录项目的最简单方法，就是通过 Bitwarden App 扩展。转到「设置」界面了解更多有关使用 Bitwarden App 扩展的方法。</value>
   </data>
   <data name="BitwardenAppExtensionDescription" xml:space="preserve">
-    <value>在 Safari 和其他应用中使用 Bitwarden 来自动填充登录信息。</value>
+    <value>在 Safari 和其他 App 中使用 Bitwarden 来自动填充登录信息。</value>
   </data>
   <data name="BitwardenAutofillService" xml:space="preserve">
     <value>Bitwarden 自动填充服务</value>
@@ -443,10 +443,10 @@
     <value>使用 Bitwarden 无障碍服务自动填充您的登录信息。</value>
   </data>
   <data name="ChangeEmail" xml:space="preserve">
-    <value>修改电子邮件地址</value>
+    <value>更改电子邮箱</value>
   </data>
   <data name="ChangeEmailConfirmation" xml:space="preserve">
-    <value>您可以在 bitwarden.com 网页版密码库修改电子邮件地址。您现在要访问这个网站吗？</value>
+    <value>您可以在 bitwarden.com 网页版密码库更改您的电子邮箱地址。现在要访问此网站吗？</value>
   </data>
   <data name="ChangeMasterPassword" xml:space="preserve">
     <value>更改主密码</value>
@@ -471,7 +471,7 @@
     <value>开启自动同步</value>
   </data>
   <data name="EnterEmailForHint" xml:space="preserve">
-    <value>请输入您账户的电子邮件地址来接收主密码提示。</value>
+    <value>请输入您的账户电子邮箱地址来接收主密码提示。</value>
   </data>
   <data name="ExntesionReenable" xml:space="preserve">
     <value>重新激活 App 扩展</value>
@@ -493,7 +493,7 @@
     <value>您已经准备好登录了！</value>
   </data>
   <data name="ExtensionSetup" xml:space="preserve">
-    <value>现在可以在 Safari、Chrome 以及其他支持的应用中方便地访问您的登录项目了。</value>
+    <value>您现在可以在 Safari、Chrome 以及其他支持的 App 中方便地访问您的登录信息。</value>
   </data>
   <data name="ExtensionSetup2" xml:space="preserve">
     <value>在 Safari 和 Chrome 中，使用共享图标寻找 Bitwarden（提示：在菜单最下面一行的右边）。</value>
@@ -502,7 +502,7 @@
     <value>在菜单中点击 Bitwarden 图标来启动扩展。</value>
   </data>
   <data name="ExtensionTurnOn" xml:space="preserve">
-    <value>要在 Safari 和其他应用中打开 Bitwarden ，请在菜单底部点击「更多」图标。</value>
+    <value>要在 Safari 和其他 App 中打开 Bitwarden ，请在菜单底部点击「更多」图标。</value>
   </data>
   <data name="Favorite" xml:space="preserve">
     <value>收藏</value>
@@ -523,7 +523,7 @@
     <value>您可以在 bitwarden.com 网页版密码库批量导入项目。您现在要访问这个网站吗？</value>
   </data>
   <data name="ImportItemsDescription" xml:space="preserve">
-    <value>从其他密码管理应用中快速批量导入您的项目。</value>
+    <value>从其他密码管理 App 中快速批量导入您的项目。</value>
   </data>
   <data name="LastSync" xml:space="preserve">
     <value>上次同步：</value>
@@ -581,7 +581,7 @@
     <value>主密码提示可以在您忘记密码时帮您回忆起来。</value>
   </data>
   <data name="MasterPasswordLengthValMessageX" xml:space="preserve">
-    <value>主密码必须至少 $VALUE$ 个字符长度。</value>
+    <value>主密码长度必须至少为 {0} 个字符。</value>
   </data>
   <data name="MinNumbers" xml:space="preserve">
     <value>数字最少个数</value>
@@ -595,7 +595,7 @@
     <value>更多设置</value>
   </data>
   <data name="MustLogInMainApp" xml:space="preserve">
-    <value>您必须先登录 Bitwarden 应用，才能使用扩展。</value>
+    <value>您必须先登录 Bitwarden 主应用程序，才能使用此扩展。</value>
   </data>
   <data name="Never" xml:space="preserve">
     <value>从不</value>
@@ -610,7 +610,7 @@
     <value>您的密码库中没有任何项目。</value>
   </data>
   <data name="NoItemsTap" xml:space="preserve">
-    <value>您的密码库中没有此网站/应用的登录项目。点击添加一个。</value>
+    <value>您的密码库中没有此网站/App 的登录项目。点击添加一个。</value>
   </data>
   <data name="NoUsernamePasswordConfigured" xml:space="preserve">
     <value>此登录没有已配置的用户名或者密码。</value>
@@ -620,7 +620,7 @@
     <comment>Confirmation, like "Ok, I understand it"</comment>
   </data>
   <data name="OptionDefaults" xml:space="preserve">
-    <value>选项默认值是通过 Bitwarden 应用程序的密码生成工具设置的。</value>
+    <value>选项默认值是通过 Bitwarden App 的密码生成工具设置的。</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>选项</value>
@@ -638,7 +638,7 @@
     <value>密码提示</value>
   </data>
   <data name="PasswordHintAlert" xml:space="preserve">
-    <value>我们已经为您发送了包含主密码提示的邮件。</value>
+    <value>我们已经为您发送了包含主密码提示的电子邮件。</value>
   </data>
   <data name="PasswordOverrideAlert" xml:space="preserve">
     <value>确定要覆盖当前密码吗？</value>
@@ -648,7 +648,7 @@
     <comment>Push notifications for apple products</comment>
   </data>
   <data name="RateTheApp" xml:space="preserve">
-    <value>为本应用打分</value>
+    <value>为本 App 打分</value>
   </data>
   <data name="RateTheAppDescription" xml:space="preserve">
     <value>我们期待您的好评！</value>
@@ -672,7 +672,7 @@
     <value>设置 PIN 码</value>
   </data>
   <data name="SetPINDirection" xml:space="preserve">
-    <value>输入一个用于解锁应用的 4 位数 PIN 码。</value>
+    <value>输入一个用于解锁此 App 的 4 位数 PIN 码。</value>
   </data>
   <data name="ItemInformation" xml:space="preserve">
     <value>项目信息</value>
@@ -805,7 +805,7 @@
     <value>了解组织</value>
   </data>
   <data name="CannotOpenApp" xml:space="preserve">
-    <value>无法打开应用程序「{0}」。</value>
+    <value>无法打开 App「{0}」。</value>
     <comment>Message shown when trying to launch an app that does not exist on the user's device.</comment>
   </data>
   <data name="AuthenticatorAppTitle" xml:space="preserve">
@@ -817,7 +817,7 @@
     <comment>For 2FA</comment>
   </data>
   <data name="EnterVerificationCodeEmail" xml:space="preserve">
-    <value>请输入发送给电子邮件 {0} 的 6 位数验证码。</value>
+    <value>请输入发送到 {0} 的 6 位数验证码。</value>
     <comment>For 2FA</comment>
   </data>
   <data name="LoginUnavailable" xml:space="preserve">
@@ -1170,10 +1170,10 @@
     <value>自动填充无障碍服务</value>
   </data>
   <data name="AutofillServiceDescription" xml:space="preserve">
-    <value>Bitwarden 自动填充服务使用 Android 自动填充框架来协助将登录信息填充到你设备上的其他应用程序中。</value>
+    <value>Bitwarden 自动填充服务使用 Android 自动填充框架来协助将登录信息填充到您设备上的其他 App 中。</value>
   </data>
   <data name="BitwardenAutofillServiceDescription" xml:space="preserve">
-    <value>使用 Bitwarden 自动填充服务将登录信息填充到其他应用程序中。</value>
+    <value>使用 Bitwarden 自动填充服务将登录信息填充到其他 App 中。</value>
   </data>
   <data name="BitwardenAutofillServiceOpenAutofillSettings" xml:space="preserve">
     <value>打开自动填充设置</value>
@@ -1278,7 +1278,7 @@
     <value>要继续，请将您的 YubiKey NEO 靠在设备背面。</value>
   </data>
   <data name="BitwardenAutofillAccessibilityServiceDescription2" xml:space="preserve">
-    <value>当应用程序不支持标准的自动填充服务时，无障碍服务可能会很有用。</value>
+    <value>当 App 不支持标准的自动填充服务时，无障碍服务可能会很有用。</value>
   </data>
   <data name="DatePasswordUpdated" xml:space="preserve">
     <value>密码更新于</value>
@@ -1292,13 +1292,13 @@
     <value>自动填充已激活！</value>
   </data>
   <data name="MustLogInMainAppAutofill" xml:space="preserve">
-    <value>您必须先登录 Bitwarden 应用，才可以使用自动填充。</value>
+    <value>您必须先登录 Bitwarden 主应用程序，才可以使用自动填充。</value>
   </data>
   <data name="AutofillSetup" xml:space="preserve">
-    <value>现在，当登录应用程序和网站时，您可以通过键盘轻松访问您的登录信息了。</value>
+    <value>现在，当登录 App 和网站时，您可以通过键盘轻松访问您的登录信息。</value>
   </data>
   <data name="AutofillSetup2" xml:space="preserve">
-    <value>建议您在「设置」里关闭其它您不再使用的自动填充应用程序。</value>
+    <value>我们建议您在「设置」里关闭其它您不再使用的自动填充 App 。</value>
   </data>
   <data name="BitwardenAutofillDescription" xml:space="preserve">
     <value>从键盘直接访问密码库以快速自动填充密码。</value>
@@ -1307,7 +1307,7 @@
     <value>请按照以下步骤在你的设备上开启密码自动填充功能：</value>
   </data>
   <data name="AutofillTurnOn1" xml:space="preserve">
-    <value>1. 前往 iOS 的「设置」应用</value>
+    <value>1. 前往 iOS 的「设置」App</value>
   </data>
   <data name="AutofillTurnOn2" xml:space="preserve">
     <value>2. 点击「密码」</value>
@@ -1328,7 +1328,7 @@
     <value>向您的密码库中添加新登录项目的最简单方法，就是使用 Bitwarden 密码自动填充扩展。转到「设置」界面了解更多有关使用 Bitwarden 密码自动填充扩展的方法。</value>
   </data>
   <data name="InvalidEmail" xml:space="preserve">
-    <value>无效的电子邮件地址。</value>
+    <value>无效的电子邮箱地址。</value>
   </data>
   <data name="Cards" xml:space="preserve">
     <value>支付卡</value>
@@ -1489,7 +1489,7 @@
     <value>30 分钟</value>
   </data>
   <data name="SetPINDescription" xml:space="preserve">
-    <value>设定您用来解锁 Bitwarden 的 PIN 码。您的 PIN 设置将在您完全注销此应用程序时被重置。</value>
+    <value>设置用于解锁 Bitwarden 的 PIN 码。您的 PIN 设置将在您完全注销应用程序时被重置。</value>
   </data>
   <data name="LoggedInAsOn" xml:space="preserve">
     <value>已在 {1} 上以 {0} 身份登录。</value>
@@ -1565,7 +1565,7 @@
     <value>确定要退出 Bitwarden 吗？</value>
   </data>
   <data name="PINRequireMasterPasswordRestart" xml:space="preserve">
-    <value>当应用程序重启时，要求使用主密码解锁吗？</value>
+    <value>您希望当 App 重启时，要求使用主密码解锁吗？</value>
   </data>
   <data name="Black" xml:space="preserve">
     <value>黑色</value>
@@ -1589,13 +1589,13 @@
     <value>在密码库中找不到匹配项目时询问添加一个。</value>
   </data>
   <data name="OnRestart" xml:space="preserve">
-    <value>应用重启时</value>
+    <value>App 重启时</value>
   </data>
   <data name="AutofillServiceNotEnabled" xml:space="preserve">
-    <value>自动填充可以简单安全地从其他网站和应用程序中访问您的 Bitwarden 密码库。看起来您还没有启用 Bitwarden 自动填充服务。请从「设置」界面启用 Bitwarden 自动填充。</value>
+    <value>自动填充可以轻松地从其他网站和 App 中安全地访问您的 Bitwarden 密码库。看起来您还没有启用 Bitwarden 自动填充服务。请从「设置」界面启用 Bitwarden 自动填充。</value>
   </data>
   <data name="ThemeAppliedOnRestart" xml:space="preserve">
-    <value>您的主题将在应用程序重启后生效。</value>
+    <value>您的主题更改将在 App 重启后生效。</value>
   </data>
   <data name="Capitalize" xml:space="preserve">
     <value>首字母大写</value>
@@ -1629,7 +1629,7 @@
     <value>Bitwarden 需要注意 - 请在 Bitwarden 设置中查看「自动填充无障碍服务」</value>
   </data>
   <data name="BitwardenAutofillServiceOverlayPermission" xml:space="preserve">
-    <value>3. 在 Android 应用设置界面找到 Bitwarden，进入「显示在其他应用上方」选项（在「高级」下），然后点击切换开关以启用叠加层支持。</value>
+    <value>3. 在 Android App 设置界面找到 Bitwarden，进入「显示在其他应用上方」选项（在「高级」下），然后点击切换开关以启用叠加层支持。</value>
   </data>
   <data name="OverlayPermission" xml:space="preserve">
     <value>权限</value>
@@ -1638,7 +1638,7 @@
     <value>打开叠加层权限设置</value>
   </data>
   <data name="BitwardenAutofillServiceStep3" xml:space="preserve">
-    <value>3. 在 Android 应用设置界面找到 Bitwarden，选择「显示在其他应用上方」选项（在「高级」下），然后打开切换开关以允许叠加层。</value>
+    <value>3. 在 Android App 设置界面找到 Bitwarden，选择「显示在其他应用上方」选项（在「高级」下），然后打开切换开关以允许叠加层。</value>
   </data>
   <data name="Denied" xml:space="preserve">
     <value>拒绝</value>
@@ -1662,7 +1662,7 @@
     <value>请先确认您的身份后继续。</value>
   </data>
   <data name="ExportVaultWarning" xml:space="preserve">
-    <value>导出的密码库数据包含未加密格式。您不应该通过不安全的渠道（例如电子邮件）来存储或发送导出的文件。用完后请立即将其删除。</value>
+    <value>此导出包含未加密格式的密码库数据。您不应该通过不安全的渠道（例如电子邮件）来存储或发送此导出文件。使用完后请立即将其删除。</value>
   </data>
   <data name="EncExportKeyWarning" xml:space="preserve">
     <value>此导出将使用您账户的加密密钥来加密您的数据。如果您曾经轮换过账户的加密密钥，您应将其重新导出，否则您将无法解密导出的文件。</value>
@@ -1701,7 +1701,7 @@
     <value>附件保存成功</value>
   </data>
   <data name="AutofillTileAccessibilityRequired" xml:space="preserve">
-    <value>请从 Bitwarden 设置中启用「自动填充无障碍服务」以使用自动填充功能。</value>
+    <value>请从 Bitwarden 设置中启用「自动填充无障碍服务」以使用自动填充磁贴。</value>
   </data>
   <data name="AutofillTileUriNotFound" xml:space="preserve">
     <value>未检测到密码字段</value>
@@ -1837,16 +1837,16 @@
     <value>使用无障碍</value>
   </data>
   <data name="AccessibilityDescription" xml:space="preserve">
-    <value>使用 Bitwarden 无障碍服务来自动填充您在应用和网络中的登录信息。启用后，选中登录字段时将显示弹出窗口。</value>
+    <value>使用 Bitwarden 无障碍服务跨 App 和网站自动填充您的登录信息。设置后，选中登录字段时将显示一个弹出窗口。</value>
   </data>
   <data name="AccessibilityDescription2" xml:space="preserve">
     <value>使用 Bitwarden 无障碍服务来自动填充您在应用和网络上的登录信息。（需同时启用 Draw-Over 功能）</value>
   </data>
   <data name="AccessibilityDescription3" xml:space="preserve">
-    <value>使用 Bitwarden 无障碍服务来使用自动填充快速行动磁贴，和/或使用 Draw-Over（若已启用）来显示弹出窗口。</value>
+    <value>使用 Bitwarden 无障碍服务来使用自动填充快速操作磁贴，和/或使用 Draw-Over（若已启用）来显示弹出窗口。</value>
   </data>
   <data name="AccessibilityDescription4" xml:space="preserve">
-    <value>要求使用自动填充快速行动磁贴，或通过使用 Draw-Over （若已启用）来增强自动填充服务。</value>
+    <value>要求使用自动填充快速操作磁贴，或通过使用 Draw-Over （若已启用）来增强自动填充服务。</value>
   </data>
   <data name="DrawOver" xml:space="preserve">
     <value>使用 Draw-Over</value>
@@ -1855,10 +1855,10 @@
     <value>允许 Bitwarden 无障碍服务在登录字段选中时显示弹出窗口。</value>
   </data>
   <data name="DrawOverDescription2" xml:space="preserve">
-    <value>如果开启，当登录字段选中时，Bitwarden 无障碍服务将显示一个弹出窗口以帮助自动填充您的登录信息。</value>
+    <value>开启后，当登录字段选中时，Bitwarden 无障碍服务将显示一个弹出窗口以协助自动填充您的登录信息。</value>
   </data>
   <data name="DrawOverDescription3" xml:space="preserve">
-    <value>如果开启，无障碍将显示一个弹出窗口以增强不支持 Android 自动填充框架的旧应用的自动填充服务。</value>
+    <value>如果开启，无障碍将显示一个弹出窗口以增强不支持 Android 自动填充框架的旧 App 的自动填充服务。</value>
   </data>
   <data name="PersonalOwnershipSubmitError" xml:space="preserve">
     <value>由于某个企业策略，您不能将项目保存到您的个人密码库。将所有权选项更改为组织，并从可用的集合中选择。</value>
@@ -2056,7 +2056,7 @@
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="HideEmail" xml:space="preserve">
-    <value>对收件人隐藏我的电子邮件地址</value>
+    <value>对收件人隐藏我的电子邮箱地址</value>
   </data>
   <data name="SendOptionsPolicyInEffect" xml:space="preserve">
     <value>一个或多个组织策略正在影响您的 Send 设置。</value>
@@ -2067,7 +2067,7 @@
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="SendFileEmailVerificationRequired" xml:space="preserve">
-    <value>您必须验证电子邮件才能使用文件 Send。您可以在网页密码库中验证您的电子邮件。</value>
+    <value>您必须验证电子邮箱以使用文件 Send。您可以在网页版密码库中验证您的电子邮箱。</value>
     <comment>'Send' is a noun and the name of a feature called 'Bitwarden Send'. It should not be translated.</comment>
   </data>
   <data name="PasswordPrompt" xml:space="preserve">
@@ -2128,7 +2128,7 @@
     <value>验证 WebAuthn</value>
   </data>
   <data name="Fido2ReturnToApp" xml:space="preserve">
-    <value>返回应用程序</value>
+    <value>返回 App</value>
   </data>
   <data name="Fido2CheckBrowser" xml:space="preserve">
     <value>请确保您的默认浏览器支持 WebAuthn，然后重试。</value>
@@ -2227,7 +2227,7 @@
     <value>提交崩溃日志</value>
   </data>
   <data name="SubmitCrashLogsDescription" xml:space="preserve">
-    <value>提交崩溃报告以帮助 Bitwarden 改善应用程序的稳定性。</value>
+    <value>提交崩溃报告以帮助 Bitwarden 改善 App 的稳定性。</value>
   </data>
   <data name="OptionsExpanded" xml:space="preserve">
     <value>选项已展开，点击折叠。</value>
@@ -2390,13 +2390,13 @@
     <value>用户名类型</value>
   </data>
   <data name="PlusAddressedEmail" xml:space="preserve">
-    <value>附加地址电子邮件</value>
+    <value>附加地址电子邮箱</value>
   </data>
   <data name="CatchAllEmail" xml:space="preserve">
-    <value>Catch-all 电子邮件</value>
+    <value>Catch-all 电子邮箱</value>
   </data>
   <data name="ForwardedEmailAlias" xml:space="preserve">
-    <value>转发的电子邮件别名</value>
+    <value>转发的电子邮箱别名</value>
   </data>
   <data name="RandomWord" xml:space="preserve">
     <value>随机单词</value>
@@ -2447,7 +2447,7 @@
     <value>生成用户名</value>
   </data>
   <data name="EmailType" xml:space="preserve">
-    <value>电子邮件类型</value>
+    <value>电子邮箱类型</value>
   </data>
   <data name="WebsiteRequired" xml:space="preserve">
     <value>网站（必填）</value>
@@ -2456,13 +2456,13 @@
     <value>发生未知的 {0} 错误。</value>
   </data>
   <data name="PlusAddressedEmailDescription" xml:space="preserve">
-    <value>使用您的电子邮件提供商的子地址功能</value>
+    <value>使用您的电子邮箱提供商的子地址功能</value>
   </data>
   <data name="CatchAllEmailDescription" xml:space="preserve">
     <value>使用您的域名配置的 Catch-all 收件箱。</value>
   </data>
   <data name="ForwardedEmailDescription" xml:space="preserve">
-    <value>使用外部转发服务生成一个电子邮件别名。</value>
+    <value>使用外部转发服务生成一个电子邮箱别名。</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>随机</value>
@@ -2474,7 +2474,7 @@
     <value>无障碍服务声明</value>
   </data>
   <data name="AccessibilityDisclosureText" xml:space="preserve">
-    <value>Bitwarden 使用无障碍服务在应用程序和网站中搜索登录字段，当找到与应用程序或网站相匹配的用户名和密码时，建立适当的字段 ID 以输入它们。我们不会通过此服务存储提供给我们的任何信息，也不会尝试控制除凭据文本输入之外的任何屏幕元素。</value>
+    <value>Bitwarden 使用无障碍服务在 App 和网站中搜索登录字段，当找到与 App 或网站相匹配的用户名和密码时，建立适当的字段 ID 以输入它们。我们不会通过此服务存储提供给我们的任何信息，也不会尝试控制除凭据文本输入之外的任何屏幕元素。</value>
   </data>
   <data name="Accept" xml:space="preserve">
     <value>接受</value>
@@ -2551,10 +2551,10 @@
     <value>语言</value>
   </data>
   <data name="LanguageChangeXDescription" xml:space="preserve">
-    <value>语言已更改为 {0}。请重新启动应用程序以查看更改</value>
+    <value>语言已更改为 {0}。请重新启动 App 以查看更改</value>
   </data>
   <data name="LanguageChangeRequiresAppRestart" xml:space="preserve">
-    <value>更改语言需要重新启动应用程序</value>
+    <value>更改语言需要重新启动 app</value>
   </data>
   <data name="DefaultSystem" xml:space="preserve">
     <value>默认（系统）</value>
@@ -2563,7 +2563,7 @@
     <value>重要：</value>
   </data>
   <data name="YourMasterPasswordCannotBeRecoveredIfYouForgetItXCharactersMinimum" xml:space="preserve">
-    <value>主密码忘记后，将无法恢复！要求不少于 {0} 个字符。</value>
+    <value>主密码忘记后，将无法恢复！至少 {0} 个字符。</value>
   </data>
   <data name="WeakMasterPassword" xml:space="preserve">
     <value>脆弱的主密码</value>
@@ -2774,7 +2774,7 @@
     <value>联系 Bitwarden 支持</value>
   </data>
   <data name="CopyAppInformation" xml:space="preserve">
-    <value>复制应用信息</value>
+    <value>复制 App 信息</value>
   </data>
   <data name="SyncNow" xml:space="preserve">
     <value>立即同步</value>
@@ -2811,7 +2811,7 @@
     <value>使用 Bitwarden 保存新的通行密钥并使用存储在密码库中的通行密钥登录。</value>
   </data>
   <data name="AutofillServicesExplanationLong" xml:space="preserve">
-    <value>Android 自动填充框架用于帮助将登录信息填充到您设备上的其他应用。</value>
+    <value>Android 自动填充框架用于协助将登录信息填充到您设备上的其他 App 中。</value>
   </data>
   <data name="UseInlineAutofillExplanationLong" xml:space="preserve">
     <value>如果您所选的键盘支持，请使用内联自动填充。否则，请使用默认叠加层。</value>
@@ -2820,7 +2820,7 @@
     <value>附加选项</value>
   </data>
   <data name="ContinueToWebApp" xml:space="preserve">
-    <value>前往网页应用吗？</value>
+    <value>前往网页 App 吗？</value>
   </data>
   <data name="ContinueToX" xml:space="preserve">
     <value>前往 {0} 吗？</value>
@@ -2842,13 +2842,13 @@
     <value>前往设备设置吗？</value>
   </data>
   <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
-    <value>通过在 Bitwarden 网页应用中设置两步登录，可以使您的账户更加安全。</value>
+    <value>在 Bitwarden 网页 App 中设置两步登录，让您的账户更加安全。</value>
   </data>
   <data name="ChangeMasterPasswordDescriptionLong" xml:space="preserve">
-    <value>您可以在 Bitwarden 网页应用上更改您的主密码。</value>
+    <value>您可以在 Bitwarden 网页 App 上更改您的主密码。</value>
   </data>
   <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
-    <value>您可以将数据导入到 {0} 上的密码库。</value>
+    <value>您可以通过 {0} 将数据导入您的密码库。</value>
     <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
   </data>
   <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
@@ -2861,7 +2861,7 @@
     <value>在 bitwarden.com 上查看我们的隐私政策。</value>
   </data>
   <data name="ExploreMoreFeaturesOfYourBitwardenAccountOnTheWebApp" xml:space="preserve">
-    <value>在网页应用上探索您的 Bitwarden 账户的更多功能。</value>
+    <value>在网页 App 上探索您的 Bitwarden 账户的更多功能。</value>
   </data>
   <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
     <value>Bitwarden 允许您使用组织与他人共享您的密码库项目。访问 bitwarden.com 网站了解更多信息。</value>
@@ -2975,7 +2975,7 @@
     <value>您的通行密钥将保存在您的 {0} Bitwarden 密码库中</value>
   </data>
   <data name="PasskeysNotSupportedForThisApp" xml:space="preserve">
-    <value>此应用不支持通行密钥</value>
+    <value>此 App 不支持通行密钥</value>
   </data>
   <data name="PasskeyOperationFailedBecauseBrowserIsNotPrivileged" xml:space="preserve">
     <value>由于浏览器没有权限，通行密钥操作失败</value>
@@ -2987,9 +2987,9 @@
     <value>由于资源链接缺失，通行密钥操作失败</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppNotFoundInAssetLinks" xml:space="preserve">
-    <value>由于在资源链接中找不到应用，通行密钥操作失败</value>
+    <value>由于在资源链接中找不到 App，通行密钥操作失败</value>
   </data>
   <data name="PasskeyOperationFailedBecauseAppCouldNotBeVerified" xml:space="preserve">
-    <value>由于无法验证应用，通行密钥操作失败</value>
+    <value>由于无法验证 App ，通行密钥操作失败</value>
   </data>
 </root>

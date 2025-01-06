@@ -122,59 +122,59 @@
     <comment>Max 30 characters</comment>
   </data>
   <data name="ShortDescription" xml:space="preserve">
-    <value>Bitwarden is a login and password manager that helps keep you safe while online.</value>
+    <value>Bitwarden é un xestor de contrasinais que te axuda a permanecer seguro en liña.</value>
     <comment>Max 80 characters</comment>
   </data>
   <data name="FullDesciption" xml:space="preserve">
-    <value>Bitwarden, Inc. is the parent company of 8bit Solutions LLC.
+    <value>Bitwarden, Inc. é a empresa matriz de 8bit Solutions LLC.
 
-NAMED BEST PASSWORD MANAGER BY THE VERGE, U.S. NEWS &amp; WORLD REPORT, CNET, AND MORE.
+NOMEADO MELLOR ADMINISTRADOR DE CONTRASINAIS POR THE VERGE, Ou.S. NEWS &amp; WORLD REPORT, CNET E MÁS.
 
-Manage, store, secure, and share unlimited passwords across unlimited devices from anywhere. Bitwarden delivers open source password management solutions to everyone, whether at  home, at work, or on the go.
+Administre, almacene, protexa e comparta contrasinais ilimitados en dispositivos ilimitados desde calquera lugar. Bitwarden ofrece solucións de xestión de contrasinais de código aberto para todos, xa sexa en casa, no traballo ou en mentres estás de viaxe.
 
-Generate strong, unique, and random passwords based on security requirements for every website you frequent.
+Xere contrasinais seguros, únicas e aleatorias en función dos requisitos de seguridade de cada sitio web que frecuenta.
 
-Bitwarden Send quickly transmits encrypted information --- files and plaintext -- directly to anyone.
+Bitwarden Send transmite rapidamente información cifrada --- arquivos e texto sen formato, directamente a calquera persoa.
 
-Bitwarden offers Teams and Enterprise plans for companies so you can securely share passwords with colleagues.
+Bitwarden ofrece plans Teams e Enterprise para empresas para que poida compartir contrasinais de forma segura con colegas.
 
-Why Choose Bitwarden:
+Por que elixir Bitwarden?
 
-World-Class Encryption
-Passwords are protected with advanced end-to-end encryption (AES-256 bit, salted hashtag, and PBKDF2 SHA-256) so your data stays secure and private.
+Cifrado de clase mundial
+Os contrasinais están protexidas con cifrado avanzado de extremo a extremo (AES-256 bits, salted hashing e PBKDF2 XA-256) para que os seus datos permanezan seguros e privados.
 
-Built-in Password Generator
-Generate strong, unique, and random passwords based on security requirements for every website you frequent.
+Xerador de contrasinais incorporado
+Xere contrasinais fortes, únicas e aleatorias en función dos requisitos de seguridade de cada sitio web que frecuenta.
 
-Global Translations
-Bitwarden translations exist in 40 languages and are growing, thanks to our global community.
+Traducións Globais 
+As traducións de Bitwarden existen en 40 idiomas e están a crecer, grazas á nosa comunidade global.
 
-Cross-Platform Applications
-Secure and share sensitive data within your Bitwarden Vault from any browser, mobile device, or desktop OS, and more.
+Aplicacións multiplataforma 
+Protexa e comparta datos confidenciais dentro da súa Caixa Forte de Bitwarden desde calquera navegador, dispositivo móbil ou sistema operativo de escritorio, e máis.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
-    <value>A secure and free password manager for all of your devices</value>
+    <value>Un xestor de contrasinais seguro e gratuíto para todos os teus dispositivos</value>
   </data>
   <data name="Screenshot1" xml:space="preserve">
-    <value>Manage all your logins and passwords from a secure vault</value>
+    <value>Xestiona todos os teus inicios de sesión e contrasinais desde unha caixa forte segura</value>
   </data>
   <data name="Screenshot2" xml:space="preserve">
-    <value>Automatically generate strong, random, and secure passwords</value>
+    <value>Xera automaticamente contrasinais fortes, aleatorias e seguras</value>
   </data>
   <data name="Screenshot3" xml:space="preserve">
-    <value>Protect your vault with fingerprint, PIN code, or master password</value>
+    <value>Protexe a caixa forte con pegada dactilar, código PIN por contrasinal mestre</value>
   </data>
   <data name="Screenshot4" xml:space="preserve">
-    <value>Quickly auto-fill logins from within your web browser and other apps</value>
+    <value>Autoenche credenciais rapidamente dende dentro do navegador e outras apps</value>
   </data>
   <data name="Screenshot5" xml:space="preserve">
-    <value>Sync and access your vault from multiple devices
+    <value>Sincroniza e accede á túa caixa forte dende varios dispositivos
 
-- Phone
+- Teléfono
 - Tablet
-- Desktop
+- Escritorio
 - Web</value>
   </data>
 </root>

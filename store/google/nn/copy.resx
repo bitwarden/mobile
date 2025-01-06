@@ -151,7 +151,7 @@ Bitwarden omsetjingar finst i 40 mål og veks framleis, takk vere vårt verdsfem
 
 Cross-platform appar
 Verj og del sensitiv data i Bitwarden kvelvet ditt frå kva enn nettlesar, mobile eining, skrivebordsoperativsystem og meir!</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Ein trygg og gratis passordhandsamar til alle einingane dine</value>

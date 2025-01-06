@@ -148,7 +148,7 @@ O Bitwarden está traduzido em 40 idiomas e está a crescer, graças à nossa co
 Aplicações multiplataforma
 Proteja e partilhe dados confidenciais no seu cofre Bitwarden a partir de qualquer navegador, dispositivo móvel ou sistema operativo de computador, e muito mais.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>bit warden,8bit,palavra-passe,gestor de palavras-passe gratuito,gestor de palavras-passe,gestor de credenciais</value>

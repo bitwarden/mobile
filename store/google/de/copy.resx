@@ -152,7 +152,7 @@ Bitwarden gibt es in 40 Sprachen und es werden immer mehr, dank unserer globalen
 Plattformübergreifende Anwendungen
 Sichere und teile sensible Daten innerhalb deines Bitwarden Tresors in jedem Browser, mobilem Gerät, Desktop Betriebssystem und vielen weiteren Anwendungen.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Ein sicherer und kostenloser Passwortmanager für alle Ihre Geräte</value>

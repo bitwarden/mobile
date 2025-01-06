@@ -147,7 +147,7 @@ Bitwarden 40 dilde kullanılabiliyor ve gönüllü topluluğumuz sayesinde çevi
 
 Her platformla uyumlu uygulamalar
 Bitwarden kasanızdaki hassas verilere her tarayıcıdan, mobil cihazdan veya masaüstü işletim sisteminden ulaşabilir ve onları paylaşabilirsiniz.</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>bit warden,8bit,parola,şifre,bedava parola yöneticisi,parola yöneticisi,şifre yöneticisi</value>

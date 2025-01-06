@@ -148,7 +148,7 @@ Bitwarden пропонує командні та корпоративні тар
 Програми для різних платформ 
 Зберігайте і діліться важливими даними, а також користуйтеся іншими можливостями у вашому сховищі Bitwarden в будь-якому браузері, мобільному пристрої, чи комп'ютерній операційній системі.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>Bitwarden,bit warden,8bit,пароль,вхід,менеджер паролів,password,password manager,login,керування паролями</value>

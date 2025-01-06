@@ -152,7 +152,7 @@ Vďaka našej globálnej komunite má Bitwarden neustále rastúcu lokalizáciu 
 Aplikácie pre rôzne platformy
 Zabezpečte a zdieľajte súkromné dáta prostredníctvom Bitwarden trezora z ktoréhokoľvek prehliadača, mobilného zariadenia, alebo stolného počítača a ďalších.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Bezpečný a bezplatný správca hesiel pre všetky vaše zariadenia</value>

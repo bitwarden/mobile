@@ -151,7 +151,7 @@ Bitwarden 的翻译有 40 种语言，而且还在不断增加，感谢我们的
 
 跨平台的应用程序
 从任何浏览器、移动设备或桌面操作系统，以及更多的地方，在您的 Bitwarden 密码库中保护和分享敏感数据。</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>安全免且费的跨平台密码管理器</value>
@@ -166,7 +166,7 @@ Bitwarden 的翻译有 40 种语言，而且还在不断增加，感谢我们的
     <value>使用指纹、PIN 码或者主密码保护您的密码库</value>
   </data>
   <data name="Screenshot4" xml:space="preserve">
-    <value>从您的网页浏览器和其他应用内快速自动填充登录信息</value>
+    <value>从您的网页浏览器和其他 App 内快速自动填充登录信息</value>
   </data>
   <data name="Screenshot5" xml:space="preserve">
     <value>在多个设备间同步和访问您的密码库

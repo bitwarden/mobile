@@ -152,7 +152,7 @@ Bitwarden đã có 40 ngôn ngữ nhờ vào cộng đồng toàn cầu của ch
 Ứng dụng đa nền tảng
 Bảo mật và chia sẻ dữ liệu nhạy cảm trong kho lưu trữ Bitwarden của bạn từ bất kỳ trình duyệt, điện thoại thông minh hoặc hệ điều hành máy tính nào.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Một trình quản lý mật khẩu an toàn và miễn phí cho mọi thiết bị của bạn</value>

@@ -151,7 +151,7 @@ A Bitwarden fordítások 40 nyelven léteznek, és a globális közösségünkne
 Platformokon átívelő alkalmazások
 
 Biztonságos adatok védelme és megosztása a Bitwarden széfen belül bármely böngészőből, mobileszközről vagy asztali operációs rendszerről, stb.</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="Keywords" xml:space="preserve">
     <value>bitwarden,bit warden,8bit,jelszó,bejelentkezés,ingyenes jelszókezelő,jelszókezelő,bejelentkezés kezelő</value>

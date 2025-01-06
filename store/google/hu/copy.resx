@@ -156,7 +156,7 @@ Platformokon átívelő alkalmazások
 
 Biztonságos adatok védelme és megosztása a Bitwarden széfen belül bármely böngészőből, mobileszközről vagy asztali operációs rendszerről, stb.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Egy biztonságos és ingyenes jelszókezelő az összes eszközödre</value>
