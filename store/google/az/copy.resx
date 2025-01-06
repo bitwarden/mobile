@@ -152,7 +152,7 @@ Bitwarden tərcümələri 40 dildə mövcuddur və qlobal cəmiyyətimiz sayəsi
 Çarpaz platform tətbiqləri
 Bitwarden seyfindəki həssas dataları istənilən brauzerdən, mobil cihazdan və ya masaüstü əməliyyat sistemindən və daha çoxundan qoruyub paylaşın.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Bütün cihazlarınız üçün güvənli və ödənişsiz bir parol meneceri</value>

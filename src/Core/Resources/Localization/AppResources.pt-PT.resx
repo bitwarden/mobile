@@ -505,7 +505,7 @@
     <value>Para ativar o Bitwarden no Safari e noutras aplicações, toque no ícone "mais" na linha inferior do menu.</value>
   </data>
   <data name="Favorite" xml:space="preserve">
-    <value>Favorito</value>
+    <value>Adicionar aos favoritos</value>
   </data>
   <data name="Fingerprint" xml:space="preserve">
     <value>Impressão digital</value>

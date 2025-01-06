@@ -151,7 +151,7 @@ Bitwarden предлагает для компаний планы Teams и Enter
 
  Кросс-платформенные приложения
  Защищайте и делитесь конфиденциальными данными в вашем Bitwarden Vault из любого браузера, мобильного устройства, настольной ОС и т. д.</value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Защищенный и бесплатный менеджер паролей для всех ваших устройств</value>

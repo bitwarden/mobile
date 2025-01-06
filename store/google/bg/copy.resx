@@ -152,7 +152,7 @@
 Приложения за всяка система
 Защитете и споделяйте поверителните данни от своя трезор в Битуорден от всеки браузър, мобилно устройство или компютър.
 </value>
-  <comment>Max 4000 characters</comment>
+    <comment>Max 4000 characters</comment>
   </data>
   <data name="FeatureGraphic" xml:space="preserve">
     <value>Сигурен и свободен управител на пароли за всички устройства</value>
