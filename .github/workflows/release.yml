@@ -24,7 +24,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-22.04
     outputs:
-      branch-name: ${{ steps.branch.outputs.branch-name }}
+      branch_name: ${{ steps.branch.outputs.branch-name }}
     steps:
       - name: Branch check
         if: inputs.release_type != 'Dry Run'
@@ -139,7 +139,7 @@ jobs:
         with:
           workflow: build.yml
           workflow_conclusion: success
-          branch: ${{ needs.release.outputs.branch-name }}
+          branch: ${{ needs.release.outputs.branch_name }}
 
       - name: Dry Run - Download F-Droid .apk artifact
         if: ${{ inputs.release_type == 'Dry Run' }}

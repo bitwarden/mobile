@@ -47,9 +47,9 @@ jobs:
     runs-on: macos-14
     needs: setup
     env:
-      ios_folder_path: src/App/Platforms/iOS
-      app_output_name: App
-      app_ci_output_filename: App_x64_Debug
+      _ios_folder_path: src/App/Platforms/iOS
+      _app_output_name: App
+      _app_ci_output_filename: App_x64_Debug
     steps:
       - name: Set XCode version
         uses: maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd # v1.6.0
@@ -135,7 +135,7 @@ jobs:
 
           echo "### CFBundleVersion $BUILD_NUMBER" >> $GITHUB_STEP_SUMMARY
 
-          perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./${{ env.ios_folder_path }}/Info.plist
+          perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./${{ env._ios_folder_path }}/Info.plist
           perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./src/iOS.Extension/Info.plist
           perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./src/iOS.Autofill/Info.plist
           perl -0777 -pi.bak -e 's/<key>CFBundleVersion<\/key>\s*<string>1<\/string>/<key>CFBundleVersion<\/key>\n\t<string>'"$BUILD_NUMBER"'<\/string>/' ./src/iOS.ShareExtension/Info.plist
@@ -145,7 +145,7 @@ jobs:
       - name: Update Entitlements
         run: |
           echo "##### Updating Entitlements"
-          perl -0777 -pi.bak -e 's/<key>aps-environment<\/key>\s*<string>development<\/string>/<key>aps-environment<\/key>\n\t<string>beta<\/string>/' ./${{ env.ios_folder_path }}/Entitlements.plist
+          perl -0777 -pi.bak -e 's/<key>aps-environment<\/key>\s*<string>development<\/string>/<key>aps-environment<\/key>\n\t<string>beta<\/string>/' ./${{ env._ios_folder_path }}/Entitlements.plist
 
       - name: Get certificates
         run: |
@@ -245,8 +245,8 @@ jobs:
           ARCHIVE_PATH: ./${{ env.main_app_folder_path }}/bin/Debug/${{ env.target-net-version }}-ios/iossimulator-x64
           EXPORT_PATH: ./bitwarden-export
         run: |
-          zip -r -q ${{ env.app_ci_output_filename }}.app.zip $ARCHIVE_PATH
-          mv ${{ env.app_ci_output_filename }}.app.zip $EXPORT_PATH
+          zip -r -q ${{ env._app_ci_output_filename }}.app.zip $ARCHIVE_PATH
+          mv ${{ env._app_ci_output_filename }}.app.zip $EXPORT_PATH
 
       - name: Show Bitwarden Export
         shell: bash
@@ -276,8 +276,8 @@ jobs:
       - name: Upload .app file for Automation CI
         uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
         with:
-          name: ${{ env.app_ci_output_filename }}.app.zip
-          path: ./bitwarden-export/${{ env.app_ci_output_filename }}.app.zip
+          name: ${{ env._app_ci_output_filename }}.app.zip
+          path: ./bitwarden-export/${{ env._app_ci_output_filename }}.app.zip
           if-no-files-found: error
 
       - name: Install AppCenter CLI

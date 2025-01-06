@@ -70,8 +70,8 @@ jobs:
       matrix:
         variant: ["prod", "qa"]
     env:
-      android_folder_path: src\App\Platforms\Android
-      android_folder_path_bash: src/App/Platforms/Android
+      _android_folder_path: src\App\Platforms\Android
+      _android_folder_path_bash: src/App/Platforms/Android
     steps:
       - name: Checkout repo
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
@@ -126,9 +126,9 @@ jobs:
           mkdir -p $HOME/secrets
 
           az storage blob download --account-name $ACCOUNT_NAME --container-name $CONTAINER_NAME \
-          --name app_play-keystore.jks --file ./${{ env.android_folder_path_bash }}/app_play-keystore.jks --output none
+          --name app_play-keystore.jks --file ./${{ env._android_folder_path_bash }}/app_play-keystore.jks --output none
           az storage blob download --account-name $ACCOUNT_NAME --container-name $CONTAINER_NAME \
-          --name app_upload-keystore.jks --file ./${{ env.android_folder_path_bash }}/app_upload-keystore.jks --output none
+          --name app_upload-keystore.jks --file ./${{ env._android_folder_path_bash }}/app_upload-keystore.jks --output none
           az storage blob download --account-name $ACCOUNT_NAME --container-name $CONTAINER_NAME \
           --name play_creds.json --file $HOME/secrets/play_creds.json --output none
         shell: bash
@@ -140,7 +140,7 @@ jobs:
           CONTAINER_NAME: mobile
         run: |
           az storage blob download --account-name $ACCOUNT_NAME --container-name $CONTAINER_NAME \
-          --name google-services.json --file ./${{ env.android_folder_path_bash }}/google-services.json --output none
+          --name google-services.json --file ./${{ env._android_folder_path_bash }}/google-services.json --output none
         shell: bash
 
       - name: Increment version
@@ -149,7 +149,7 @@ jobs:
           echo "##### Setting Android Version Code to $BUILD_NUMBER" | tee -a $GITHUB_STEP_SUMMARY
 
           sed -i "s/android:versionCode=\"1\"/android:versionCode=\"$BUILD_NUMBER\"/" \
-            ./${{ env.android_folder_path_bash }}/AndroidManifest.xml
+            ./${{ env._android_folder_path_bash }}/AndroidManifest.xml
         shell: bash
 
       - name: Restore packages
@@ -193,7 +193,7 @@ jobs:
           }
           Write-Output "##### Sign Google Play Bundle Release Configuration"
 
-          $signingUploadKeyStore = "$($env:GITHUB_WORKSPACE)\${{ env.android_folder_path }}\app_upload-keystore.jks"
+          $signingUploadKeyStore = "$($env:GITHUB_WORKSPACE)\${{ env._android_folder_path }}\app_upload-keystore.jks"
           dotnet publish $projToBuild -c Release -f ${{ env.target-net-version }}-android `
             /p:AndroidPackageFormats=aab `
             /p:AndroidKeyStore=true `
@@ -210,7 +210,7 @@ jobs:
 
           Write-Output "##### Sign APK Release Configuration"
 
-          $signingPlayKeyStore = "$($env:GITHUB_WORKSPACE)\${{ env.android_folder_path }}\app_play-keystore.jks"
+          $signingPlayKeyStore = "$($env:GITHUB_WORKSPACE)\${{ env._android_folder_path }}\app_play-keystore.jks"
           dotnet publish $projToBuild -c Release -f ${{ env.target-net-version }}-android `
             /p:AndroidKeyStore=true `
             /p:AndroidSigningKeyStore=$signingPlayKeyStore `
@@ -295,8 +295,8 @@ jobs:
     name: F-Droid Build
     runs-on: windows-2022
     env:
-      android_folder_path: src\App\Platforms\Android
-      android_folder_path_bash: src/App/Platforms/Android
+      _android_folder_path: src\App\Platforms\Android
+      _android_folder_path_bash: src/App/Platforms/Android
       android_manifest_path: src/App/Platforms/Android/AndroidManifest.xml
     steps:
       - name: Checkout repo
@@ -350,7 +350,7 @@ jobs:
           FILE: app_fdroid-keystore.jks
         run: |
           az storage blob download --account-name $ACCOUNT_NAME --container-name $CONTAINER_NAME --name $FILE \
-            --file ${{ env.android_folder_path_bash }}/$FILE --output none
+            --file ${{ env._android_folder_path_bash }}/$FILE --output none
         shell: bash
 
       - name: Increment version
@@ -399,7 +399,7 @@ jobs:
 
           Write-Output "##### Sign FDroid"
 
-          $signingFdroidKeyStore = "$($env:GITHUB_WORKSPACE)\${{ env.android_folder_path }}\app_fdroid-keystore.jks"
+          $signingFdroidKeyStore = "$($env:GITHUB_WORKSPACE)\${{ env._android_folder_path }}\app_fdroid-keystore.jks"
           dotnet build $projToBuild -c Release -f ${{ env.target-net-version }}-android `
             /p:AndroidKeyStore=true `
             /p:AndroidSigningKeyStore=$signingFdroidKeyStore `
