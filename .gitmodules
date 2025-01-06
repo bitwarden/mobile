@@ -1,3 +1,0 @@
-[submodule "lib/MessagePack"]
-	path = lib/MessagePack
-	url = https://github.com/bitwarden/MessagePack.git

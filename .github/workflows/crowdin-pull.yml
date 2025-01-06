@@ -3,8 +3,6 @@ name: Crowdin Sync
 on:
   workflow_dispatch:
     inputs: {}
-  schedule:
-    - cron: '0 0 * * 5'
 
 jobs:
   crowdin-sync:
