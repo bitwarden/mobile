@@ -40,7 +40,7 @@ jobs:
       - name: Download translations
         uses: crowdin/github-action@61ac8b980551f674046220c3e104bddae2916ac5 # v2.0.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           CROWDIN_API_TOKEN: ${{ steps.retrieve-secrets.outputs.crowdin-api-token }}
         with:
           config: crowdin.yml
