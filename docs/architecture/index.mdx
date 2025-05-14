@@ -1,0 +1,79 @@
+---
+sidebar_position: 5
+---
+
+# .NET MAUI (legacy)
+
+:::warning Legacy
+
+This represents the **legacy** mobile app architecture done in .NET MAUI.
+
+:::
+
+The mobile .NET MAUI clients are Android and iOS applications with extensions and watchOS. They are
+all located at https://github.com/bitwarden/mobile.
+
+Principal structure is a follows:
+
+- `App`: Main .NET MAUI project that shares code between both platforms (Android & iOS). One can see
+  specific platform code under the `Platforms` folder.
+- `Core`: Shared code having both logical and UI parts of the app. Several classes are a port from
+  the Web Clients to C#. Here one can find most of the UI and logic since it's shared between App
+  and the iOS extensions.
+- `iOS.Core`: Shared code used by the main iOS app and its extensions
+- `iOS.Autofill`: iOS extension that handles Autofill
+- `iOS.Extensions`: iOS extension that handles Autofill from the bottom sheet extension
+- `iOS.ShareExtension`: iOS extension that handles sharing files through Send
+- `watchOS`: All the code specific to the watchOS platform
+  - `bitwarden`: Stub iOS app so that the watchOS app has a companion app on Xcode
+  - `bitwarden WatchKit App`: Main Watch app where we set assets.
+  - `bitwarden WatchKit Extension`: All the logic and presentation logic for the Watch app is here
+
+## Dependencies diagram
+
+Below is a simplified dependencies diagram of the mobile repository.
+
+```kroki type=plantuml
+@startuml
+skinparam BackgroundColor transparent
+skinparam componentStyle rectangle
+skinparam linetype ortho
+
+title Simplified Dependencies Diagram
+
+component "Core"
+component "App"
+component "iOS.Core"
+component "iOS.Autofill"
+component "iOS.Extension"
+component "iOS.ShareExtension"
+component "watchOS" {
+   component "bitwarden"
+   component "bitwarden WatchKit App"
+   component "bitwarden WatchKit Extension"
+}
+
+[App] --> [Core]
+
+[iOS.Core] --> [App]
+
+[App] --> [iOS.Core]
+[App] --> [iOS.Autofill]
+[App] --> [iOS.Extension]
+[App] --> [iOS.ShareExtension]
+[App] --> [bitwarden WatchKit App]
+
+[iOS.Autofill] --> [Core]
+[iOS.Autofill] --> [iOS.Core]
+
+[iOS.Extension] --> [Core]
+[iOS.Extension] --> [iOS.Core]
+
+[iOS.ShareExtension] --> [Core]
+[iOS.ShareExtension] --> [iOS.Core]
+
+[bitwarden] --> [bitwarden WatchKit App]
+[bitwarden WatchKit App] --> [bitwarden WatchKit Extension]
+
+@enduml
+```
